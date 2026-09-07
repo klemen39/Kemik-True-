@@ -1,0 +1,1134 @@
+[
+  {
+    "id": 181,
+    "name": {
+      "en": "Carbonate with hydrochloric acid",
+      "sl": "Karbonat s klorovodikovo kislino"
+    },
+    "equation": "Na2CO3 + 2 HCl -> 2 NaCl + CO2 + H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "carbon dioxide evolution",
+    "reactants": [
+      {
+        "formula": "Na2CO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Effervescence.",
+    "tags": [
+      "gas_evolution",
+      "carbon_dioxide_evolution"
+    ]
+  },
+  {
+    "id": 182,
+    "name": {
+      "en": "Bicarbonate with hydrochloric acid",
+      "sl": "Hidrogenkarbonat s klorovodikovo kislino"
+    },
+    "equation": "NaHCO3 + HCl -> NaCl + CO2 + H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "carbon dioxide evolution",
+    "reactants": [
+      {
+        "formula": "NaHCO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Effervescence.",
+    "tags": [
+      "gas_evolution",
+      "carbon_dioxide_evolution"
+    ]
+  },
+  {
+    "id": 183,
+    "name": {
+      "en": "Ammonium chloride with sodium hydroxide",
+      "sl": "Amonijev klorid z natrijevim hidroksidom"
+    },
+    "equation": "NH4Cl + NaOH -> NH3 + NaCl + H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "ammonia evolution",
+    "reactants": [
+      {
+        "formula": "NH4Cl",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NH3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Warming releases ammonia.",
+    "tags": [
+      "gas_evolution",
+      "ammonia_evolution"
+    ]
+  },
+  {
+    "id": 184,
+    "name": {
+      "en": "Zinc with hydrochloric acid",
+      "sl": "Cink s klorovodikovo kislino"
+    },
+    "equation": "Zn + 2 HCl -> ZnCl2 + H2",
+    "reaction_type": "gas_evolution",
+    "subcategory": "hydrogen evolution",
+    "reactants": [
+      {
+        "formula": "Zn",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Metal-acid reaction.",
+    "tags": [
+      "gas_evolution",
+      "hydrogen_evolution"
+    ]
+  },
+  {
+    "id": 185,
+    "name": {
+      "en": "Iron(II) sulfide with hydrochloric acid",
+      "sl": "Železov(II) sulfid s klorovodikovo kislino"
+    },
+    "equation": "FeS + 2 HCl -> FeCl2 + H2S",
+    "reaction_type": "gas_evolution",
+    "subcategory": "hydrogen sulfide evolution",
+    "reactants": [
+      {
+        "formula": "FeS",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "FeCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2S",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Toxic gas.",
+    "tags": [
+      "gas_evolution",
+      "hydrogen_sulfide_evolution"
+    ]
+  },
+  {
+    "id": 186,
+    "name": {
+      "en": "Sulfite with hydrochloric acid",
+      "sl": "Sulfit s klorovodikovo kislino"
+    },
+    "equation": "Na2SO3 + 2 HCl -> 2 NaCl + SO2 + H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "sulfur dioxide evolution",
+    "reactants": [
+      {
+        "formula": "Na2SO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      },
+      {
+        "formula": "SO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Pungent gas.",
+    "tags": [
+      "gas_evolution",
+      "sulfur_dioxide_evolution"
+    ]
+  },
+  {
+    "id": 187,
+    "name": {
+      "en": "Calcium carbonate with hydrochloric acid",
+      "sl": "Kalcijev karbonat s klorovodikovo kislino"
+    },
+    "equation": "CaCO3 + 2 HCl -> CaCl2 + CO2 + H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "carbon dioxide evolution",
+    "reactants": [
+      {
+        "formula": "CaCO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Limestone-acid reaction.",
+    "tags": [
+      "gas_evolution",
+      "carbon_dioxide_evolution"
+    ]
+  },
+  {
+    "id": 188,
+    "name": {
+      "en": "Magnesium with sulfuric acid",
+      "sl": "Magnezij z žveplovo kislino"
+    },
+    "equation": "Mg + H2SO4 -> MgSO4 + H2",
+    "reaction_type": "gas_evolution",
+    "subcategory": "hydrogen evolution",
+    "reactants": [
+      {
+        "formula": "Mg",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2SO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Dilute acid.",
+    "tags": [
+      "gas_evolution",
+      "hydrogen_evolution"
+    ]
+  },
+  {
+    "id": 189,
+    "name": {
+      "en": "Aluminium with hydrochloric acid",
+      "sl": "Aluminij s klorovodikovo kislino"
+    },
+    "equation": "2 Al + 6 HCl -> 2 AlCl3 + 3 H2",
+    "reaction_type": "gas_evolution",
+    "subcategory": "hydrogen evolution",
+    "reactants": [
+      {
+        "formula": "Al",
+        "coefficient": 2
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "formula": "AlCl3",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Oxide layer may delay reaction.",
+    "tags": [
+      "gas_evolution",
+      "hydrogen_evolution"
+    ]
+  },
+  {
+    "id": 190,
+    "name": {
+      "en": "Potassium sulfide with hydrochloric acid",
+      "sl": "Kalijev sulfid s klorovodikovo kislino"
+    },
+    "equation": "K2S + 2 HCl -> 2 KCl + H2S",
+    "reaction_type": "gas_evolution",
+    "subcategory": "hydrogen sulfide evolution",
+    "reactants": [
+      {
+        "formula": "K2S",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "KCl",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2S",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Toxic gas.",
+    "tags": [
+      "gas_evolution",
+      "hydrogen_sulfide_evolution"
+    ]
+  },
+  {
+    "id": 191,
+    "name": {
+      "en": "Ammonium sulfate with calcium hydroxide",
+      "sl": "Amonijev sulfat s kalcijevim hidroksidom"
+    },
+    "equation": "(NH4)2SO4 + Ca(OH)2 -> 2 NH3 + CaSO4 + 2 H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "ammonia evolution",
+    "reactants": [
+      {
+        "formula": "(NH4)2SO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Ca(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NH3",
+        "coefficient": 2
+      },
+      {
+        "formula": "CaSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Common ammonium test.",
+    "tags": [
+      "gas_evolution",
+      "ammonia_evolution"
+    ]
+  },
+  {
+    "id": 192,
+    "name": {
+      "en": "Sodium nitrite with ammonium chloride",
+      "sl": "Natrijev nitrit z amonijevim kloridom"
+    },
+    "equation": "NaNO2 + NH4Cl -> N2 + NaCl + 2 H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "nitrogen evolution",
+    "reactants": [
+      {
+        "formula": "NaNO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NH4Cl",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "N2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Via unstable ammonium nitrite.",
+    "tags": [
+      "gas_evolution",
+      "nitrogen_evolution"
+    ]
+  },
+  {
+    "id": 193,
+    "name": {
+      "en": "Nitrite with acid",
+      "sl": "Nitrit s kislino"
+    },
+    "equation": "2 NaNO2 + 2 HCl -> 2 NaCl + NO + NO2 + H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "nitrogen oxide evolution",
+    "reactants": [
+      {
+        "formula": "NaNO2",
+        "coefficient": 2
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      },
+      {
+        "formula": "NO",
+        "coefficient": 1
+      },
+      {
+        "formula": "NO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Produces NO and NO2.",
+    "tags": [
+      "gas_evolution",
+      "nitrogen_oxide_evolution"
+    ]
+  },
+  {
+    "id": 194,
+    "name": {
+      "en": "Bleach with hydrochloric acid",
+      "sl": "Belilo s klorovodikovo kislino"
+    },
+    "equation": "NaClO + 2 HCl -> NaCl + Cl2 + H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "chlorine evolution",
+    "reactants": [
+      {
+        "formula": "NaClO",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Dangerous chlorine gas release.",
+    "tags": [
+      "gas_evolution",
+      "chlorine_evolution"
+    ]
+  },
+  {
+    "id": 195,
+    "name": {
+      "en": "Manganese dioxide with hydrochloric acid",
+      "sl": "Manganov dioksid s klorovodikovo kislino"
+    },
+    "equation": "MnO2 + 4 HCl -> MnCl2 + Cl2 + 2 H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "chlorine evolution",
+    "reactants": [
+      {
+        "formula": "MnO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 4
+      }
+    ],
+    "products": [
+      {
+        "formula": "MnCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Laboratory chlorine preparation.",
+    "tags": [
+      "gas_evolution",
+      "chlorine_evolution"
+    ]
+  },
+  {
+    "id": 196,
+    "name": {
+      "en": "Hydrogen peroxide with manganese dioxide",
+      "sl": "Vodikov peroksid z manganovim dioksidom"
+    },
+    "equation": "2 H2O2 -> 2 H2O + O2",
+    "reaction_type": "gas_evolution",
+    "subcategory": "oxygen evolution",
+    "reactants": [
+      {
+        "formula": "H2O2",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "MnO2 catalyst.",
+    "tags": [
+      "gas_evolution",
+      "oxygen_evolution"
+    ]
+  },
+  {
+    "id": 197,
+    "name": {
+      "en": "Potassium chlorate decomposition",
+      "sl": "Razpad kalijevega klorata"
+    },
+    "equation": "2 KClO3 -> 2 KCl + 3 O2",
+    "reaction_type": "gas_evolution",
+    "subcategory": "oxygen evolution",
+    "reactants": [
+      {
+        "formula": "KClO3",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "KCl",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Heating; often MnO2 catalyst.",
+    "tags": [
+      "gas_evolution",
+      "oxygen_evolution"
+    ]
+  },
+  {
+    "id": 198,
+    "name": {
+      "en": "Sodium azide decomposition",
+      "sl": "Razpad natrijevega azida"
+    },
+    "equation": "2 NaN3 -> 2 Na + 3 N2",
+    "reaction_type": "gas_evolution",
+    "subcategory": "nitrogen evolution",
+    "reactants": [
+      {
+        "formula": "NaN3",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na",
+        "coefficient": 2
+      },
+      {
+        "formula": "N2",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Simplified airbag reaction.",
+    "tags": [
+      "gas_evolution",
+      "nitrogen_evolution"
+    ]
+  },
+  {
+    "id": 199,
+    "name": {
+      "en": "Ammonium dichromate decomposition",
+      "sl": "Razpad amonijevega dikromata"
+    },
+    "equation": "(NH4)2Cr2O7 -> Cr2O3 + N2 + 4 H2O",
+    "reaction_type": "gas_evolution",
+    "subcategory": "nitrogen and steam evolution",
+    "reactants": [
+      {
+        "formula": "(NH4)2Cr2O7",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cr2O3",
+        "coefficient": 1
+      },
+      {
+        "formula": "N2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 4
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Volcano demonstration.",
+    "tags": [
+      "gas_evolution",
+      "nitrogen_and_steam_evolution"
+    ]
+  },
+  {
+    "id": 200,
+    "name": {
+      "en": "Calcium carbide with water",
+      "sl": "Kalcijev karbid z vodo"
+    },
+    "equation": "CaC2 + 2 H2O -> C2H2 + Ca(OH)2",
+    "reaction_type": "gas_evolution",
+    "subcategory": "acetylene evolution",
+    "reactants": [
+      {
+        "formula": "CaC2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Ca(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": true,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Produces ethyne gas.",
+    "tags": [
+      "gas_evolution",
+      "acetylene_evolution"
+    ]
+  }
+]

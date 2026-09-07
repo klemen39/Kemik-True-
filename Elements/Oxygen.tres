@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://brwplbue5dqke"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_d8se1"]
+
+[resource]
+script = ExtResource("1_d8se1")
+SLOelementName = "Kisik"
+ENGelementName = "Oxygen"
+Symbol = "O"
+AtomicNumber = 8
+NeutronCount = 8
+Mass = 16
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 6
+Skupina = 16
+Blok = 1
+Tip = 1
+Subtip = 5
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://bpfvmngy3vq3j"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_b3lye"]
+
+[resource]
+script = ExtResource("1_b3lye")
+SLOelementName = "Darmštatij"
+ENGelementName = "Darmstadtium"
+Symbol = "Ds"
+AtomicNumber = 110
+NeutronCount = 171
+Mass = 281
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 17
+Perioda7 = 1
+Skupina = 10
+Blok = 2
+Subtip = 2
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

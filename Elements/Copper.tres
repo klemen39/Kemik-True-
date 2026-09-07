@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://da6f15rmc8h1q"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_4edr3"]
+
+[resource]
+script = ExtResource("1_4edr3")
+SLOelementName = "Baker"
+ENGelementName = "Copper"
+Symbol = "Cu"
+AtomicNumber = 29
+NeutronCount = 34
+Mass = 63
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 1
+Skupina = 11
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

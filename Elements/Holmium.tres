@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://bdje2sgxdd7p8"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_ebruw"]
+
+[resource]
+script = ExtResource("1_ebruw")
+SLOelementName = "Holmij"
+ENGelementName = "Holmium"
+Symbol = "Ho"
+AtomicNumber = 67
+NeutronCount = 98
+Mass = 165
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 29
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+metadata/_custom_type_script = "uid://3th8onmepgfc"

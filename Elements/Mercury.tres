@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://by6angtasvrim"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_mgr8y"]
+
+[resource]
+script = ExtResource("1_mgr8y")
+SLOelementName = "Živo srebro"
+ENGelementName = "Mercury"
+Symbol = "Hg"
+AtomicNumber = 80
+NeutronCount = 122
+Mass = 202
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 2
+Skupina = 12
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

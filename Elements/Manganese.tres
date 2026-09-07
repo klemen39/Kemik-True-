@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://bveli0fhs7i1k"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_vfyw4"]
+
+[resource]
+script = ExtResource("1_vfyw4")
+SLOelementName = "Mangan"
+ENGelementName = "Manganese"
+Symbol = "Mn"
+AtomicNumber = 25
+NeutronCount = 30
+Mass = 55
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 13
+Perioda4 = 2
+Skupina = 7
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

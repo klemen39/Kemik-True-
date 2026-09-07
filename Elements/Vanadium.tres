@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://baupyxt5o0rpc"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_yblgw"]
+
+[resource]
+script = ExtResource("1_yblgw")
+SLOelementName = "Vanadij"
+ENGelementName = "Vanadium"
+Symbol = "V"
+AtomicNumber = 23
+NeutronCount = 28
+Mass = 51
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 11
+Perioda4 = 2
+Skupina = 5
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,56 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://bj3j3kkv76oxf"]
+
+[ext_resource type="Texture2D" uid="uid://ddo52ffff1q5w" path="res://Sprites/Numbers_Correct/30_True.png" id="1_8wgyd"]
+[ext_resource type="Texture2D" uid="uid://b8lpaqmkl40g1" path="res://Sprites/Numbers_Wrong/30_Wrong.png" id="2_7nvxk"]
+[ext_resource type="Texture2D" uid="uid://4fgb3obpq17" path="res://Sprites/Numbers_Regular/30_Regular.png" id="3_ufxm4"]
+[ext_resource type="Texture2D" uid="uid://dr4s5m8jvi4tr" path="res://Sprites/Quiz_Periodic/12_Periodic.png" id="4_f3hic"]
+[ext_resource type="Texture2D" uid="uid://dr1uhihii1l5a" path="res://Sprites/Numbers_Wrong/12_Wrong.png" id="5_augk8"]
+[ext_resource type="Texture2D" uid="uid://b0kvk6mcwnj1d" path="res://Sprites/Numbers_Regular/12_Regular.png" id="6_yutck"]
+[ext_resource type="Resource" uid="uid://c4inxhjywu53o" path="res://Elements/Zinc.tres" id="7_twi0e"]
+[ext_resource type="Texture2D" uid="uid://b5ppg84020tc6" path="res://Sprites/Quiz_Groups/TransitionMetal_correct.png" id="8_gi2jt"]
+[ext_resource type="Texture2D" uid="uid://wgl4am6knopk" path="res://Sprites/Quiz_Groups/TransitionMetal_wrong.png" id="9_wuu2a"]
+[ext_resource type="Texture2D" uid="uid://bgx2qwrqhe23w" path="res://Sprites/Quiz_Groups/TransitionMetal_regular.png" id="10_pi6t2"]
+[ext_resource type="Texture2D" uid="uid://c02m1namu4etp" path="res://Sprites/Quiz_Names/Zinc_Name.png" id="11_lsk74"]
+[ext_resource type="Texture2D" uid="uid://bd52yiaymxj06" path="res://Sprites/Quiz_Names/Zinc_Wrong.png" id="12_qyw28"]
+[ext_resource type="Texture2D" uid="uid://lhvvefkiaka1" path="res://Sprites/Quiz_Names/Zinc_Neutral.png" id="13_4i8cs"]
+[ext_resource type="Texture2D" uid="uid://dbrqq8nwn173g" path="res://Sprites/Quiz_Periodic/4_Periodic.png" id="14_0qcg4"]
+[ext_resource type="Texture2D" uid="uid://cpmi34qsy0iu6" path="res://Sprites/Numbers_Wrong/4_Wrong.png" id="15_e5fjh"]
+[ext_resource type="Texture2D" uid="uid://dpyqvtdtyyght" path="res://Sprites/Numbers_Regular/4_Regular.png" id="16_h1ftm"]
+[ext_resource type="Texture2D" uid="uid://cgnh1jjf8tpe3" path="res://Sprites/Quiz_Groups/Prehodne kovine_correct.png" id="17_reouj"]
+[ext_resource type="Texture2D" uid="uid://h7gsry5wfoxb" path="res://Sprites/Quiz_Groups/Prehodne kovine_wrong.png" id="18_xmim0"]
+[ext_resource type="Texture2D" uid="uid://1qrv8ohaqqmk" path="res://Sprites/Quiz_Groups/Prehodne kovine_regular.png" id="19_yukyn"]
+[ext_resource type="Texture2D" uid="uid://05laydaww2qk" path="res://Sprites/Quiz_Names/Cink_Name.png" id="20_est2q"]
+[ext_resource type="Texture2D" uid="uid://8tcyfp3v8o5f" path="res://Sprites/Quiz_Names/Cink_Wrong.png" id="21_ba2wj"]
+[ext_resource type="Texture2D" uid="uid://g1ih38ym1ofg" path="res://Sprites/Quiz_Names/Cink_Neutral.png" id="22_3ljxm"]
+[ext_resource type="Texture2D" uid="uid://d3v6d2me43nbv" path="res://Sprites/Quiz_Symbol/Zinc_ShadowNameless.png" id="23_aseso"]
+[ext_resource type="Texture2D" uid="uid://df23h3d2ygn5f" path="res://Sprites/Quiz_Symbol/Zinc_Nameless.png" id="24_8qp1d"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="25_jefig"]
+
+[resource]
+script = ExtResource("25_jefig")
+ElementData = ExtResource("7_twi0e")
+SymbolNormal = ExtResource("24_8qp1d")
+SymbolDisabled = ExtResource("23_aseso")
+SymbolCorrect = ExtResource("23_aseso")
+AtomicNumberNormal = ExtResource("3_ufxm4")
+AtomicNumberDisabled = ExtResource("2_7nvxk")
+AtomicNumberCorrect = ExtResource("1_8wgyd")
+SloveneNameNormal = ExtResource("22_3ljxm")
+SloveneNameDisabled = ExtResource("21_ba2wj")
+SloveneNameCorrect = ExtResource("20_est2q")
+EnglishNameNormal = ExtResource("13_4i8cs")
+EnglishNameDisabled = ExtResource("12_qyw28")
+EnglishNameCorrect = ExtResource("11_lsk74")
+SloveneGroupNormal = ExtResource("19_yukyn")
+SloveneGroupDisabled = ExtResource("18_xmim0")
+SloveneGroupCorrect = ExtResource("17_reouj")
+EnglishGroupNormal = ExtResource("10_pi6t2")
+EnglishGroupDisabled = ExtResource("9_wuu2a")
+EnglishGroupCorrect = ExtResource("8_gi2jt")
+PeriodicGroupNormal = ExtResource("16_h1ftm")
+PeriodicGroupDisabled = ExtResource("15_e5fjh")
+PeriodicGroupCorrect = ExtResource("14_0qcg4")
+ColumnNormal = ExtResource("6_yutck")
+ColumnDisabled = ExtResource("5_augk8")
+ColumnCorrect = ExtResource("4_f3hic")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

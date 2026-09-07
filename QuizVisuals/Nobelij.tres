@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://cvvovssjb1agj"]
+
+[ext_resource type="Texture2D" uid="uid://du4yxryniu1wy" path="res://Sprites/Numbers_Correct/102_True.png" id="1_71nbn"]
+[ext_resource type="Texture2D" uid="uid://6vtp1l7jenqq" path="res://Sprites/Numbers_Wrong/102_Wrong.png" id="2_ip03b"]
+[ext_resource type="Texture2D" uid="uid://ca7elvj2o3lwh" path="res://Sprites/Numbers_Regular/102_Regular.png" id="3_r44a2"]
+[ext_resource type="Resource" uid="uid://dm35yb76g2c6p" path="res://Elements/Nobelium.tres" id="4_2c0do"]
+[ext_resource type="Texture2D" uid="uid://vqbjlq7vdsmc" path="res://Sprites/Quiz_Groups/Actinide.png" id="5_cedkp"]
+[ext_resource type="Texture2D" uid="uid://caqcoohnpbqhq" path="res://Sprites/Quiz_Groups/Actinide_wrong.png" id="6_xfe5w"]
+[ext_resource type="Texture2D" uid="uid://rdktxoe4ulx3" path="res://Sprites/Quiz_Groups/Actinide_regular.png" id="7_82exk"]
+[ext_resource type="Texture2D" uid="uid://bq2rmk27lmd2e" path="res://Sprites/Quiz_Names/Nobelium_Name.png" id="8_y6mht"]
+[ext_resource type="Texture2D" uid="uid://duo8vsnlwvqpi" path="res://Sprites/Quiz_Names/Nobelium_Wrong.png" id="9_nic8i"]
+[ext_resource type="Texture2D" uid="uid://blpddhxls1xwf" path="res://Sprites/Quiz_Names/Nobelium_Neutral.png" id="10_dhwu1"]
+[ext_resource type="Texture2D" uid="uid://dk2o7wfspr2bb" path="res://Sprites/Quiz_Periodic/7_Periodic.png" id="11_82ce0"]
+[ext_resource type="Texture2D" uid="uid://dc82x7ptqy6pk" path="res://Sprites/Numbers_Wrong/7_Wrong.png" id="12_rb65d"]
+[ext_resource type="Texture2D" uid="uid://qwpsmy5c6wmg" path="res://Sprites/Numbers_Regular/7_Regular.png" id="13_30eut"]
+[ext_resource type="Texture2D" uid="uid://csyqhtrjjasgr" path="res://Sprites/Quiz_Groups/Aktinoid_correct.png" id="14_u6713"]
+[ext_resource type="Texture2D" uid="uid://e350qr3n577m" path="res://Sprites/Quiz_Groups/Aktinoid_wrong.png" id="15_0yy5n"]
+[ext_resource type="Texture2D" uid="uid://djcxhxbbo2ie8" path="res://Sprites/Quiz_Groups/Aktinoid_regular.png" id="16_xdwjv"]
+[ext_resource type="Texture2D" uid="uid://ip4yse24v6xc" path="res://Sprites/Quiz_Names/Nobelij_Name.png" id="17_wr4a3"]
+[ext_resource type="Texture2D" uid="uid://m28qyg3cpu0o" path="res://Sprites/Quiz_Names/Nobelij_Wrong.png" id="18_i032r"]
+[ext_resource type="Texture2D" uid="uid://cyjwm2fowokmq" path="res://Sprites/Quiz_Names/Nobelij_Neutral.png" id="19_dhkn5"]
+[ext_resource type="Texture2D" uid="uid://b53gghsc2gynw" path="res://Sprites/Quiz_Symbol/Nobelium_ShadowNameless.png" id="20_3vgvf"]
+[ext_resource type="Texture2D" uid="uid://cwuc7w3j2utwl" path="res://Sprites/Quiz_Symbol/Nobelium_Nameless.png" id="21_7defb"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="22_rfuqr"]
+
+[resource]
+script = ExtResource("22_rfuqr")
+ElementData = ExtResource("4_2c0do")
+SymbolNormal = ExtResource("21_7defb")
+SymbolDisabled = ExtResource("20_3vgvf")
+SymbolCorrect = ExtResource("20_3vgvf")
+AtomicNumberNormal = ExtResource("3_r44a2")
+AtomicNumberDisabled = ExtResource("2_ip03b")
+AtomicNumberCorrect = ExtResource("1_71nbn")
+SloveneNameNormal = ExtResource("19_dhkn5")
+SloveneNameDisabled = ExtResource("18_i032r")
+SloveneNameCorrect = ExtResource("17_wr4a3")
+EnglishNameNormal = ExtResource("10_dhwu1")
+EnglishNameDisabled = ExtResource("9_nic8i")
+EnglishNameCorrect = ExtResource("8_y6mht")
+SloveneGroupNormal = ExtResource("16_xdwjv")
+SloveneGroupDisabled = ExtResource("15_0yy5n")
+SloveneGroupCorrect = ExtResource("14_u6713")
+EnglishGroupNormal = ExtResource("7_82exk")
+EnglishGroupDisabled = ExtResource("6_xfe5w")
+EnglishGroupCorrect = ExtResource("5_cedkp")
+PeriodicGroupNormal = ExtResource("13_30eut")
+PeriodicGroupDisabled = ExtResource("12_rb65d")
+PeriodicGroupCorrect = ExtResource("11_82ce0")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

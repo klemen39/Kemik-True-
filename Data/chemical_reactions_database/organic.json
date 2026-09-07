@@ -1,0 +1,1054 @@
+[
+  {
+    "id": 201,
+    "name": {
+      "en": "Hydrogenation of ethene",
+      "sl": "Hidrogeniranje etena"
+    },
+    "equation": "C2H4 + H2 -> C2H6",
+    "reaction_type": "organic",
+    "subcategory": "addition",
+    "reactants": [
+      {
+        "formula": "C2H4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H6",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Nickel, platinum, or palladium catalyst.",
+    "tags": [
+      "organic",
+      "addition"
+    ]
+  },
+  {
+    "id": 202,
+    "name": {
+      "en": "Bromination of ethene",
+      "sl": "Bromiranje etena"
+    },
+    "equation": "C2H4 + Br2 -> C2H4Br2",
+    "reaction_type": "organic",
+    "subcategory": "halogen addition",
+    "reactants": [
+      {
+        "formula": "C2H4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Br2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H4Br2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Decolorizes bromine solution.",
+    "tags": [
+      "organic",
+      "halogen_addition"
+    ]
+  },
+  {
+    "id": 203,
+    "name": {
+      "en": "Hydration of ethene",
+      "sl": "Hidratacija etena"
+    },
+    "equation": "C2H4 + H2O -> C2H5OH",
+    "reaction_type": "organic",
+    "subcategory": "hydration",
+    "reactants": [
+      {
+        "formula": "C2H4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H5OH",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Acid-catalyzed.",
+    "tags": [
+      "organic",
+      "hydration"
+    ]
+  },
+  {
+    "id": 204,
+    "name": {
+      "en": "Dehydration of ethanol",
+      "sl": "Dehidracija etanola"
+    },
+    "equation": "C2H5OH -> C2H4 + H2O",
+    "reaction_type": "organic",
+    "subcategory": "elimination",
+    "reactants": [
+      {
+        "formula": "C2H5OH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Concentrated acid or hot alumina.",
+    "tags": [
+      "organic",
+      "elimination"
+    ]
+  },
+  {
+    "id": 205,
+    "name": {
+      "en": "Oxidation of ethanol to ethanal",
+      "sl": "Oksidacija etanola v etanal"
+    },
+    "equation": "2 C2H5OH + O2 -> 2 CH3CHO + 2 H2O",
+    "reaction_type": "organic",
+    "subcategory": "partial oxidation",
+    "reactants": [
+      {
+        "formula": "C2H5OH",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3CHO",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Controlled oxidation.",
+    "tags": [
+      "organic",
+      "partial_oxidation"
+    ]
+  },
+  {
+    "id": 206,
+    "name": {
+      "en": "Oxidation of methanol to methanal",
+      "sl": "Oksidacija metanola v metanal"
+    },
+    "equation": "2 CH3OH + O2 -> 2 HCHO + 2 H2O",
+    "reaction_type": "organic",
+    "subcategory": "partial oxidation",
+    "reactants": [
+      {
+        "formula": "CH3OH",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "HCHO",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Controlled oxidation.",
+    "tags": [
+      "organic",
+      "partial_oxidation"
+    ]
+  },
+  {
+    "id": 207,
+    "name": {
+      "en": "Esterification of acetic acid and ethanol",
+      "sl": "Esterifikacija ocetne kisline in etanola"
+    },
+    "equation": "CH3COOH + C2H5OH <-> CH3COOC2H5 + H2O",
+    "reaction_type": "organic",
+    "subcategory": "esterification",
+    "reactants": [
+      {
+        "formula": "CH3COOH",
+        "coefficient": 1
+      },
+      {
+        "formula": "C2H5OH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3COOC2H5",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": true,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": true,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Acid-catalyzed and reversible.",
+    "tags": [
+      "organic",
+      "esterification"
+    ]
+  },
+  {
+    "id": 208,
+    "name": {
+      "en": "Hydrolysis of ethyl acetate",
+      "sl": "Hidroliza etil acetata"
+    },
+    "equation": "CH3COOC2H5 + H2O <-> CH3COOH + C2H5OH",
+    "reaction_type": "organic",
+    "subcategory": "ester hydrolysis",
+    "reactants": [
+      {
+        "formula": "CH3COOC2H5",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3COOH",
+        "coefficient": 1
+      },
+      {
+        "formula": "C2H5OH",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": true,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": true,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Acid-catalyzed and reversible.",
+    "tags": [
+      "organic",
+      "ester_hydrolysis"
+    ]
+  },
+  {
+    "id": 209,
+    "name": {
+      "en": "Alcoholic fermentation of glucose",
+      "sl": "Alkoholno vrenje glukoze"
+    },
+    "equation": "C6H12O6 -> 2 C2H5OH + 2 CO2",
+    "reaction_type": "organic",
+    "subcategory": "fermentation",
+    "reactants": [
+      {
+        "formula": "C6H12O6",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H5OH",
+        "coefficient": 2
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Enzyme-catalyzed anaerobic process.",
+    "tags": [
+      "organic",
+      "fermentation"
+    ]
+  },
+  {
+    "id": 210,
+    "name": {
+      "en": "Aerobic respiration of glucose",
+      "sl": "Aerobno dihanje glukoze"
+    },
+    "equation": "C6H12O6 + 6 O2 -> 6 CO2 + 6 H2O",
+    "reaction_type": "organic",
+    "subcategory": "biochemical oxidation",
+    "reactants": [
+      {
+        "formula": "C6H12O6",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 6
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 6
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Overall cellular respiration equation.",
+    "tags": [
+      "organic",
+      "biochemical_oxidation"
+    ]
+  },
+  {
+    "id": 211,
+    "name": {
+      "en": "Partial hydrogenation of ethyne",
+      "sl": "Delno hidrogeniranje etina"
+    },
+    "equation": "C2H2 + H2 -> C2H4",
+    "reaction_type": "organic",
+    "subcategory": "addition",
+    "reactants": [
+      {
+        "formula": "C2H2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H4",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Catalytic hydrogenation.",
+    "tags": [
+      "organic",
+      "addition"
+    ]
+  },
+  {
+    "id": 212,
+    "name": {
+      "en": "Complete hydrogenation of ethyne",
+      "sl": "Popolno hidrogeniranje etina"
+    },
+    "equation": "C2H2 + 2 H2 -> C2H6",
+    "reaction_type": "organic",
+    "subcategory": "addition",
+    "reactants": [
+      {
+        "formula": "C2H2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H6",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Catalytic hydrogenation.",
+    "tags": [
+      "organic",
+      "addition"
+    ]
+  },
+  {
+    "id": 213,
+    "name": {
+      "en": "Bromination of ethyne",
+      "sl": "Bromiranje etina"
+    },
+    "equation": "C2H2 + 2 Br2 -> C2H2Br4",
+    "reaction_type": "organic",
+    "subcategory": "halogen addition",
+    "reactants": [
+      {
+        "formula": "C2H2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Br2",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H2Br4",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Addition across the triple bond.",
+    "tags": [
+      "organic",
+      "halogen_addition"
+    ]
+  },
+  {
+    "id": 214,
+    "name": {
+      "en": "Bromination of benzene",
+      "sl": "Bromiranje benzena"
+    },
+    "equation": "C6H6 + Br2 -> C6H5Br + HBr",
+    "reaction_type": "organic",
+    "subcategory": "electrophilic substitution",
+    "reactants": [
+      {
+        "formula": "C6H6",
+        "coefficient": 1
+      },
+      {
+        "formula": "Br2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C6H5Br",
+        "coefficient": 1
+      },
+      {
+        "formula": "HBr",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "FeBr3 catalyst.",
+    "tags": [
+      "organic",
+      "electrophilic_substitution"
+    ]
+  },
+  {
+    "id": 215,
+    "name": {
+      "en": "Nitration of benzene",
+      "sl": "Nitriranje benzena"
+    },
+    "equation": "C6H6 + HNO3 -> C6H5NO2 + H2O",
+    "reaction_type": "organic",
+    "subcategory": "electrophilic substitution",
+    "reactants": [
+      {
+        "formula": "C6H6",
+        "coefficient": 1
+      },
+      {
+        "formula": "HNO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C6H5NO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Concentrated H2SO4 catalyst.",
+    "tags": [
+      "organic",
+      "electrophilic_substitution"
+    ]
+  },
+  {
+    "id": 216,
+    "name": {
+      "en": "Addition of HCl to propene",
+      "sl": "Adicija HCl na propen"
+    },
+    "equation": "C3H6 + HCl -> C3H7Cl",
+    "reaction_type": "organic",
+    "subcategory": "hydrohalogenation",
+    "reactants": [
+      {
+        "formula": "C3H6",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C3H7Cl",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Main product follows Markovnikov addition.",
+    "tags": [
+      "organic",
+      "hydrohalogenation"
+    ]
+  },
+  {
+    "id": 217,
+    "name": {
+      "en": "Hydration of propene",
+      "sl": "Hidratacija propena"
+    },
+    "equation": "C3H6 + H2O -> C3H8O",
+    "reaction_type": "organic",
+    "subcategory": "hydration",
+    "reactants": [
+      {
+        "formula": "C3H6",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C3H8O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Main product is propan-2-ol.",
+    "tags": [
+      "organic",
+      "hydration"
+    ]
+  },
+  {
+    "id": 218,
+    "name": {
+      "en": "Ethanol with sodium",
+      "sl": "Etanol z natrijem"
+    },
+    "equation": "2 C2H5OH + 2 Na -> 2 C2H5ONa + H2",
+    "reaction_type": "organic",
+    "subcategory": "alcohol-metal reaction",
+    "reactants": [
+      {
+        "formula": "C2H5OH",
+        "coefficient": 2
+      },
+      {
+        "formula": "Na",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "C2H5ONa",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Produces sodium ethoxide.",
+    "tags": [
+      "organic",
+      "alcohol-metal_reaction"
+    ]
+  },
+  {
+    "id": 219,
+    "name": {
+      "en": "Saponification of ethyl acetate",
+      "sl": "Umiljenje etil acetata"
+    },
+    "equation": "CH3COOC2H5 + NaOH -> CH3COONa + C2H5OH",
+    "reaction_type": "organic",
+    "subcategory": "base hydrolysis",
+    "reactants": [
+      {
+        "formula": "CH3COOC2H5",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3COONa",
+        "coefficient": 1
+      },
+      {
+        "formula": "C2H5OH",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Irreversible ester hydrolysis.",
+    "tags": [
+      "organic",
+      "base_hydrolysis"
+    ]
+  },
+  {
+    "id": 220,
+    "name": {
+      "en": "Polymerization of ethene",
+      "sl": "Polimerizacija etena"
+    },
+    "equation": "n C2H4 -> (C2H4)n",
+    "reaction_type": "organic",
+    "subcategory": "addition polymerization",
+    "reactants": [
+      {
+        "formula": "C2H4",
+        "coefficient": "n"
+      }
+    ],
+    "products": [
+      {
+        "formula": "(C2H4)n",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Produces polyethylene.",
+    "tags": [
+      "organic",
+      "addition_polymerization"
+    ]
+  }
+]

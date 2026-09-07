@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://1njetcbbiapu"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_etjlf"]
+
+[resource]
+script = ExtResource("1_etjlf")
+SLOelementName = "Barij"
+ENGelementName = "Barium"
+Symbol = "Ba"
+AtomicNumber = 56
+NeutronCount = 82
+Mass = 138
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 2
+Subtip = 1
+metadata/_custom_type_script = "uid://3th8onmepgfc"

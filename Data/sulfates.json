@@ -1,0 +1,395 @@
+{
+  "template_group": "sulfates",
+  "template_count": 8,
+  "templates": [
+    {
+      "formula": "SO4^2-",
+      "aliases": [
+        "SO4-2",
+        "SO4--",
+        "[SO4]2-"
+      ],
+      "name": "Sulfate ion",
+      "type": "polyatomic_ion",
+      "overall_charge": -2,
+      "show_brackets": true,
+      "layout": "tetrahedral",
+      "resonance": true,
+      "preferred_resonance_form": 0,
+      "atoms": [
+        {
+          "id": "S1",
+          "element": "S",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": -2.4,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "x": 0,
+          "y": 2.4,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "x": -2.4,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": -1
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "x": 2.4,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": -1
+        }
+      ],
+      "bonds": [
+        {
+          "from": "S1",
+          "to": "O1",
+          "order": 2
+        },
+        {
+          "from": "S1",
+          "to": "O2",
+          "order": 2
+        },
+        {
+          "from": "S1",
+          "to": "O3",
+          "order": 1
+        },
+        {
+          "from": "S1",
+          "to": "O4",
+          "order": 1
+        }
+      ],
+      "resonance_forms": [
+        {
+          "id": 0,
+          "double_bonded_oxygens": [
+            "O1",
+            "O2"
+          ],
+          "single_bonded_oxygens": [
+            "O3",
+            "O4"
+          ]
+        },
+        {
+          "id": 1,
+          "double_bonded_oxygens": [
+            "O1",
+            "O3"
+          ],
+          "single_bonded_oxygens": [
+            "O2",
+            "O4"
+          ]
+        },
+        {
+          "id": 2,
+          "double_bonded_oxygens": [
+            "O1",
+            "O4"
+          ],
+          "single_bonded_oxygens": [
+            "O2",
+            "O3"
+          ]
+        },
+        {
+          "id": 3,
+          "double_bonded_oxygens": [
+            "O2",
+            "O3"
+          ],
+          "single_bonded_oxygens": [
+            "O1",
+            "O4"
+          ]
+        },
+        {
+          "id": 4,
+          "double_bonded_oxygens": [
+            "O2",
+            "O4"
+          ],
+          "single_bonded_oxygens": [
+            "O1",
+            "O3"
+          ]
+        },
+        {
+          "id": 5,
+          "double_bonded_oxygens": [
+            "O3",
+            "O4"
+          ],
+          "single_bonded_oxygens": [
+            "O1",
+            "O2"
+          ]
+        }
+      ],
+      "resonance_render_rule": {
+        "double_bond_order": 2,
+        "single_bond_order": 1,
+        "double_bonded_oxygen": {
+          "formal_charge": 0,
+          "lone_pairs": 2
+        },
+        "single_bonded_oxygen": {
+          "formal_charge": -1,
+          "lone_pairs": 3
+        },
+        "sulfur": {
+          "formal_charge": 0,
+          "lone_pairs": 0
+        }
+      },
+      "notes": [
+        "The displayed Lewis structure uses an expanded octet on sulfur.",
+        "The six resonance forms differ only in which two oxygen atoms have double bonds.",
+        "The overall ion charge is -2."
+      ]
+    },
+    {
+      "formula": "Na2SO4",
+      "name": "Sodium sulfate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Na_group",
+          "formula": "Na",
+          "element": "Na",
+          "charge": 1,
+          "coefficient": 2,
+          "x": -4.5,
+          "y": 0,
+          "instance_spacing": 1.8,
+          "show_brackets": true
+        },
+        {
+          "id": "SO4_1",
+          "formula": "SO4",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "SO4^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "K2SO4",
+      "name": "Potassium sulfate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "K_group",
+          "formula": "K",
+          "element": "K",
+          "charge": 1,
+          "coefficient": 2,
+          "x": -4.5,
+          "y": 0,
+          "instance_spacing": 1.8,
+          "show_brackets": true
+        },
+        {
+          "id": "SO4_1",
+          "formula": "SO4",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "SO4^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "MgSO4",
+      "name": "Magnesium sulfate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Mg1",
+          "formula": "Mg",
+          "element": "Mg",
+          "charge": 2,
+          "coefficient": 1,
+          "x": -3.5,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "SO4_1",
+          "formula": "SO4",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "SO4^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "CaSO4",
+      "name": "Calcium sulfate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Ca1",
+          "formula": "Ca",
+          "element": "Ca",
+          "charge": 2,
+          "coefficient": 1,
+          "x": -3.5,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "SO4_1",
+          "formula": "SO4",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "SO4^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "CuSO4",
+      "name": "Copper(II) sulfate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Cu1",
+          "formula": "Cu",
+          "element": "Cu",
+          "charge": 2,
+          "coefficient": 1,
+          "x": -3.5,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "SO4_1",
+          "formula": "SO4",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "SO4^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "(NH4)2SO4",
+      "name": "Ammonium sulfate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "NH4_group",
+          "formula": "NH4",
+          "charge": 1,
+          "coefficient": 2,
+          "template_reference": "NH4+",
+          "x": -5,
+          "y": 0,
+          "instance_spacing": 3.5
+        },
+        {
+          "id": "SO4_1",
+          "formula": "SO4",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "SO4^2-",
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "Al2(SO4)3",
+      "name": "Aluminium sulfate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Al_group",
+          "formula": "Al",
+          "element": "Al",
+          "charge": 3,
+          "coefficient": 2,
+          "x": -6,
+          "y": 0,
+          "instance_spacing": 2,
+          "show_brackets": true
+        },
+        {
+          "id": "SO4_group",
+          "formula": "SO4",
+          "charge": -2,
+          "coefficient": 3,
+          "template_reference": "SO4^2-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 4.5
+        }
+      ]
+    }
+  ],
+  "generic_rule": {
+    "id": "sulfate_salt_rule",
+    "anion_template": "SO4^2-",
+    "anion_charge": -2,
+    "compound_type": "ionic",
+    "charge_balance": {
+      "method": "least_common_multiple",
+      "cation_count": "lcm(abs(cation_charge), 2) / abs(cation_charge)",
+      "sulfate_count": "lcm(abs(cation_charge), 2) / 2"
+    },
+    "examples": [
+      {
+        "cation": "Na",
+        "cation_charge": 1,
+        "result": "Na2SO4"
+      },
+      {
+        "cation": "Ca",
+        "cation_charge": 2,
+        "result": "CaSO4"
+      },
+      {
+        "cation": "Al",
+        "cation_charge": 3,
+        "result": "Al2(SO4)3"
+      }
+    ]
+  }
+}

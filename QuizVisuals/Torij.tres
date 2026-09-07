@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://4up8pbjilyxl"]
+
+[ext_resource type="Texture2D" uid="uid://yo12kbg880ex" path="res://Sprites/Numbers_Correct/90_True.png" id="1_pd0vr"]
+[ext_resource type="Texture2D" uid="uid://bvreyr8ui51s3" path="res://Sprites/Numbers_Wrong/90_Wrong.png" id="2_js5d3"]
+[ext_resource type="Texture2D" uid="uid://bpie18o5ssmaq" path="res://Sprites/Numbers_Regular/90_Regular.png" id="3_n2ha6"]
+[ext_resource type="Resource" uid="uid://bey2dg3b1n7ev" path="res://Elements/Thorium.tres" id="4_srd82"]
+[ext_resource type="Texture2D" uid="uid://vqbjlq7vdsmc" path="res://Sprites/Quiz_Groups/Actinide.png" id="5_rcl8f"]
+[ext_resource type="Texture2D" uid="uid://caqcoohnpbqhq" path="res://Sprites/Quiz_Groups/Actinide_wrong.png" id="6_8bu6e"]
+[ext_resource type="Texture2D" uid="uid://rdktxoe4ulx3" path="res://Sprites/Quiz_Groups/Actinide_regular.png" id="7_0isns"]
+[ext_resource type="Texture2D" uid="uid://b2lm3sdtf87wr" path="res://Sprites/Quiz_Names/Thorium_Name.png" id="8_r8vdv"]
+[ext_resource type="Texture2D" uid="uid://c1nyumnnxwcho" path="res://Sprites/Quiz_Names/Thorium_Wrong.png" id="9_ba1n5"]
+[ext_resource type="Texture2D" uid="uid://dcq601kggnyy1" path="res://Sprites/Quiz_Names/Thorium_Neutral.png" id="10_qsoty"]
+[ext_resource type="Texture2D" uid="uid://dk2o7wfspr2bb" path="res://Sprites/Quiz_Periodic/7_Periodic.png" id="11_l78sr"]
+[ext_resource type="Texture2D" uid="uid://dc82x7ptqy6pk" path="res://Sprites/Numbers_Wrong/7_Wrong.png" id="12_vibaq"]
+[ext_resource type="Texture2D" uid="uid://qwpsmy5c6wmg" path="res://Sprites/Numbers_Regular/7_Regular.png" id="13_1jsek"]
+[ext_resource type="Texture2D" uid="uid://csyqhtrjjasgr" path="res://Sprites/Quiz_Groups/Aktinoid_correct.png" id="14_v3n4l"]
+[ext_resource type="Texture2D" uid="uid://e350qr3n577m" path="res://Sprites/Quiz_Groups/Aktinoid_wrong.png" id="15_bfof5"]
+[ext_resource type="Texture2D" uid="uid://djcxhxbbo2ie8" path="res://Sprites/Quiz_Groups/Aktinoid_regular.png" id="16_0s7k4"]
+[ext_resource type="Texture2D" uid="uid://dstakyvanpmr8" path="res://Sprites/Quiz_Names/Torij_Name.png" id="17_n3eta"]
+[ext_resource type="Texture2D" uid="uid://b63rrtf3c3yw3" path="res://Sprites/Quiz_Names/Torij_Wrong.png" id="18_0jfkd"]
+[ext_resource type="Texture2D" uid="uid://deavc0pp4q63y" path="res://Sprites/Quiz_Names/Torij_Neutral.png" id="19_j5cbs"]
+[ext_resource type="Texture2D" uid="uid://dkjy2hw72xmab" path="res://Sprites/Quiz_Symbol/Thorium_ShadowNameless.png" id="20_isj18"]
+[ext_resource type="Texture2D" uid="uid://cbyrfo2a7m55w" path="res://Sprites/Quiz_Symbol/Thorium_Nameless.png" id="21_3ghfu"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="22_gkf2c"]
+
+[resource]
+script = ExtResource("22_gkf2c")
+ElementData = ExtResource("4_srd82")
+SymbolNormal = ExtResource("21_3ghfu")
+SymbolDisabled = ExtResource("20_isj18")
+SymbolCorrect = ExtResource("20_isj18")
+AtomicNumberNormal = ExtResource("3_n2ha6")
+AtomicNumberDisabled = ExtResource("2_js5d3")
+AtomicNumberCorrect = ExtResource("1_pd0vr")
+SloveneNameNormal = ExtResource("19_j5cbs")
+SloveneNameDisabled = ExtResource("18_0jfkd")
+SloveneNameCorrect = ExtResource("17_n3eta")
+EnglishNameNormal = ExtResource("10_qsoty")
+EnglishNameDisabled = ExtResource("9_ba1n5")
+EnglishNameCorrect = ExtResource("8_r8vdv")
+SloveneGroupNormal = ExtResource("16_0s7k4")
+SloveneGroupDisabled = ExtResource("15_bfof5")
+SloveneGroupCorrect = ExtResource("14_v3n4l")
+EnglishGroupNormal = ExtResource("7_0isns")
+EnglishGroupDisabled = ExtResource("6_8bu6e")
+EnglishGroupCorrect = ExtResource("5_rcl8f")
+PeriodicGroupNormal = ExtResource("13_1jsek")
+PeriodicGroupDisabled = ExtResource("12_vibaq")
+PeriodicGroupCorrect = ExtResource("11_l78sr")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

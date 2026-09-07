@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://5c5ig0brx2qd"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_ydx18"]
+
+[resource]
+script = ExtResource("1_ydx18")
+SLOelementName = "Radon"
+ENGelementName = "Radon"
+Symbol = "Rn"
+AtomicNumber = 86
+NeutronCount = 136
+Mass = 222
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

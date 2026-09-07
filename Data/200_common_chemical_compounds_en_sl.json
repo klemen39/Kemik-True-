@@ -1,0 +1,1411 @@
+{
+  "dataset": "200 common and simple chemical compounds",
+  "languages": [
+    "en",
+    "sl"
+  ],
+  "formula_notation": "Plain-text chemical formulas; hydrate dots use the Unicode middle dot.",
+  "compound_count": 200,
+  "compounds": [
+    {
+      "id": 1,
+      "formula": "H2O",
+      "english_name": "Water",
+      "slovene_name": "Voda",
+      "category": "oxide"
+    },
+    {
+      "id": 2,
+      "formula": "H2O2",
+      "english_name": "Hydrogen peroxide",
+      "slovene_name": "Vodikov peroksid",
+      "category": "peroxide"
+    },
+    {
+      "id": 3,
+      "formula": "CO",
+      "english_name": "Carbon monoxide",
+      "slovene_name": "Ogljikov monoksid",
+      "category": "oxide"
+    },
+    {
+      "id": 4,
+      "formula": "CO2",
+      "english_name": "Carbon dioxide",
+      "slovene_name": "Ogljikov dioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 5,
+      "formula": "SO2",
+      "english_name": "Sulfur dioxide",
+      "slovene_name": "Žveplov dioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 6,
+      "formula": "SO3",
+      "english_name": "Sulfur trioxide",
+      "slovene_name": "Žveplov trioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 7,
+      "formula": "NO",
+      "english_name": "Nitrogen monoxide",
+      "slovene_name": "Dušikov monoksid",
+      "category": "oxide"
+    },
+    {
+      "id": 8,
+      "formula": "NO2",
+      "english_name": "Nitrogen dioxide",
+      "slovene_name": "Dušikov dioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 9,
+      "formula": "N2O",
+      "english_name": "Dinitrogen monoxide",
+      "slovene_name": "Didušikov monoksid",
+      "category": "oxide"
+    },
+    {
+      "id": 10,
+      "formula": "SiO2",
+      "english_name": "Silicon dioxide",
+      "slovene_name": "Silicijev dioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 11,
+      "formula": "Al2O3",
+      "english_name": "Aluminium oxide",
+      "slovene_name": "Aluminijev oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 12,
+      "formula": "CaO",
+      "english_name": "Calcium oxide",
+      "slovene_name": "Kalcijev oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 13,
+      "formula": "MgO",
+      "english_name": "Magnesium oxide",
+      "slovene_name": "Magnezijev oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 14,
+      "formula": "FeO",
+      "english_name": "Iron(II) oxide",
+      "slovene_name": "Železov(II) oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 15,
+      "formula": "Fe2O3",
+      "english_name": "Iron(III) oxide",
+      "slovene_name": "Železov(III) oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 16,
+      "formula": "Fe3O4",
+      "english_name": "Iron(II,III) oxide",
+      "slovene_name": "Železov(II,III) oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 17,
+      "formula": "Cu2O",
+      "english_name": "Copper(I) oxide",
+      "slovene_name": "Bakrov(I) oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 18,
+      "formula": "CuO",
+      "english_name": "Copper(II) oxide",
+      "slovene_name": "Bakrov(II) oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 19,
+      "formula": "ZnO",
+      "english_name": "Zinc oxide",
+      "slovene_name": "Cinkov oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 20,
+      "formula": "TiO2",
+      "english_name": "Titanium dioxide",
+      "slovene_name": "Titanov dioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 21,
+      "formula": "MnO2",
+      "english_name": "Manganese dioxide",
+      "slovene_name": "Manganov dioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 22,
+      "formula": "PbO",
+      "english_name": "Lead(II) oxide",
+      "slovene_name": "Svinčev(II) oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 23,
+      "formula": "P4O10",
+      "english_name": "Phosphorus pentoxide",
+      "slovene_name": "Fosforjev pentoksid",
+      "category": "oxide"
+    },
+    {
+      "id": 24,
+      "formula": "Cr2O3",
+      "english_name": "Chromium(III) oxide",
+      "slovene_name": "Kromov(III) oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 25,
+      "formula": "HCl",
+      "english_name": "Hydrochloric acid",
+      "slovene_name": "Klorovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 26,
+      "formula": "HF",
+      "english_name": "Hydrofluoric acid",
+      "slovene_name": "Fluorovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 27,
+      "formula": "HBr",
+      "english_name": "Hydrobromic acid",
+      "slovene_name": "Bromovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 28,
+      "formula": "HI",
+      "english_name": "Hydroiodic acid",
+      "slovene_name": "Jodovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 29,
+      "formula": "H2SO4",
+      "english_name": "Sulfuric acid",
+      "slovene_name": "Žveplova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 30,
+      "formula": "H2SO3",
+      "english_name": "Sulfurous acid",
+      "slovene_name": "Žveplasta kislina",
+      "category": "acid"
+    },
+    {
+      "id": 31,
+      "formula": "HNO3",
+      "english_name": "Nitric acid",
+      "slovene_name": "Dušikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 32,
+      "formula": "HNO2",
+      "english_name": "Nitrous acid",
+      "slovene_name": "Dušikasta kislina",
+      "category": "acid"
+    },
+    {
+      "id": 33,
+      "formula": "H3PO4",
+      "english_name": "Phosphoric acid",
+      "slovene_name": "Fosforjeva kislina",
+      "category": "acid"
+    },
+    {
+      "id": 34,
+      "formula": "H2CO3",
+      "english_name": "Carbonic acid",
+      "slovene_name": "Ogljikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 35,
+      "formula": "H2S",
+      "english_name": "Hydrosulfuric acid",
+      "slovene_name": "Žveplovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 36,
+      "formula": "HClO",
+      "english_name": "Hypochlorous acid",
+      "slovene_name": "Hipoklorasta kislina",
+      "category": "acid"
+    },
+    {
+      "id": 37,
+      "formula": "HClO3",
+      "english_name": "Chloric acid",
+      "slovene_name": "Klorova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 38,
+      "formula": "HClO4",
+      "english_name": "Perchloric acid",
+      "slovene_name": "Perklorova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 39,
+      "formula": "H3BO3",
+      "english_name": "Boric acid",
+      "slovene_name": "Borova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 40,
+      "formula": "HCN",
+      "english_name": "Hydrocyanic acid",
+      "slovene_name": "Cianovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 41,
+      "formula": "H2CrO4",
+      "english_name": "Chromic acid",
+      "slovene_name": "Kromova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 42,
+      "formula": "HCOOH",
+      "english_name": "Formic acid",
+      "slovene_name": "Mravljična kislina",
+      "category": "carboxylic acid"
+    },
+    {
+      "id": 43,
+      "formula": "CH3COOH",
+      "english_name": "Acetic acid",
+      "slovene_name": "Ocetna kislina",
+      "category": "carboxylic acid"
+    },
+    {
+      "id": 44,
+      "formula": "C2H5COOH",
+      "english_name": "Propionic acid",
+      "slovene_name": "Propionska kislina",
+      "category": "carboxylic acid"
+    },
+    {
+      "id": 45,
+      "formula": "C3H7COOH",
+      "english_name": "Butyric acid",
+      "slovene_name": "Maslena kislina",
+      "category": "carboxylic acid"
+    },
+    {
+      "id": 46,
+      "formula": "C6H5COOH",
+      "english_name": "Benzoic acid",
+      "slovene_name": "Benzojska kislina",
+      "category": "carboxylic acid"
+    },
+    {
+      "id": 47,
+      "formula": "C2H2O4",
+      "english_name": "Oxalic acid",
+      "slovene_name": "Oksalna kislina",
+      "category": "carboxylic acid"
+    },
+    {
+      "id": 48,
+      "formula": "C3H6O3",
+      "english_name": "Lactic acid",
+      "slovene_name": "Mlečna kislina",
+      "category": "carboxylic acid"
+    },
+    {
+      "id": 49,
+      "formula": "C6H8O7",
+      "english_name": "Citric acid",
+      "slovene_name": "Citronska kislina",
+      "category": "carboxylic acid"
+    },
+    {
+      "id": 50,
+      "formula": "C4H6O6",
+      "english_name": "Tartaric acid",
+      "slovene_name": "Vinska kislina",
+      "category": "carboxylic acid"
+    },
+    {
+      "id": 51,
+      "formula": "NaOH",
+      "english_name": "Sodium hydroxide",
+      "slovene_name": "Natrijev hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 52,
+      "formula": "KOH",
+      "english_name": "Potassium hydroxide",
+      "slovene_name": "Kalijev hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 53,
+      "formula": "Ca(OH)2",
+      "english_name": "Calcium hydroxide",
+      "slovene_name": "Kalcijev hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 54,
+      "formula": "Mg(OH)2",
+      "english_name": "Magnesium hydroxide",
+      "slovene_name": "Magnezijev hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 55,
+      "formula": "Ba(OH)2",
+      "english_name": "Barium hydroxide",
+      "slovene_name": "Barijev hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 56,
+      "formula": "Al(OH)3",
+      "english_name": "Aluminium hydroxide",
+      "slovene_name": "Aluminijev hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 57,
+      "formula": "Fe(OH)2",
+      "english_name": "Iron(II) hydroxide",
+      "slovene_name": "Železov(II) hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 58,
+      "formula": "Fe(OH)3",
+      "english_name": "Iron(III) hydroxide",
+      "slovene_name": "Železov(III) hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 59,
+      "formula": "Cu(OH)2",
+      "english_name": "Copper(II) hydroxide",
+      "slovene_name": "Bakrov(II) hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 60,
+      "formula": "NH3",
+      "english_name": "Ammonia",
+      "slovene_name": "Amoniak",
+      "category": "base"
+    },
+    {
+      "id": 61,
+      "formula": "NH4OH",
+      "english_name": "Ammonium hydroxide",
+      "slovene_name": "Amonijev hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 62,
+      "formula": "NaCl",
+      "english_name": "Sodium chloride",
+      "slovene_name": "Natrijev klorid",
+      "category": "salt"
+    },
+    {
+      "id": 63,
+      "formula": "KCl",
+      "english_name": "Potassium chloride",
+      "slovene_name": "Kalijev klorid",
+      "category": "salt"
+    },
+    {
+      "id": 64,
+      "formula": "CaCl2",
+      "english_name": "Calcium chloride",
+      "slovene_name": "Kalcijev klorid",
+      "category": "salt"
+    },
+    {
+      "id": 65,
+      "formula": "MgCl2",
+      "english_name": "Magnesium chloride",
+      "slovene_name": "Magnezijev klorid",
+      "category": "salt"
+    },
+    {
+      "id": 66,
+      "formula": "AlCl3",
+      "english_name": "Aluminium chloride",
+      "slovene_name": "Aluminijev klorid",
+      "category": "salt"
+    },
+    {
+      "id": 67,
+      "formula": "FeCl2",
+      "english_name": "Iron(II) chloride",
+      "slovene_name": "Železov(II) klorid",
+      "category": "salt"
+    },
+    {
+      "id": 68,
+      "formula": "FeCl3",
+      "english_name": "Iron(III) chloride",
+      "slovene_name": "Železov(III) klorid",
+      "category": "salt"
+    },
+    {
+      "id": 69,
+      "formula": "CuCl2",
+      "english_name": "Copper(II) chloride",
+      "slovene_name": "Bakrov(II) klorid",
+      "category": "salt"
+    },
+    {
+      "id": 70,
+      "formula": "ZnCl2",
+      "english_name": "Zinc chloride",
+      "slovene_name": "Cinkov klorid",
+      "category": "salt"
+    },
+    {
+      "id": 71,
+      "formula": "AgCl",
+      "english_name": "Silver chloride",
+      "slovene_name": "Srebrov klorid",
+      "category": "salt"
+    },
+    {
+      "id": 72,
+      "formula": "NH4Cl",
+      "english_name": "Ammonium chloride",
+      "slovene_name": "Amonijev klorid",
+      "category": "salt"
+    },
+    {
+      "id": 73,
+      "formula": "NaF",
+      "english_name": "Sodium fluoride",
+      "slovene_name": "Natrijev fluorid",
+      "category": "salt"
+    },
+    {
+      "id": 74,
+      "formula": "CaF2",
+      "english_name": "Calcium fluoride",
+      "slovene_name": "Kalcijev fluorid",
+      "category": "salt"
+    },
+    {
+      "id": 75,
+      "formula": "KI",
+      "english_name": "Potassium iodide",
+      "slovene_name": "Kalijev jodid",
+      "category": "salt"
+    },
+    {
+      "id": 76,
+      "formula": "NaI",
+      "english_name": "Sodium iodide",
+      "slovene_name": "Natrijev jodid",
+      "category": "salt"
+    },
+    {
+      "id": 77,
+      "formula": "KBr",
+      "english_name": "Potassium bromide",
+      "slovene_name": "Kalijev bromid",
+      "category": "salt"
+    },
+    {
+      "id": 78,
+      "formula": "NaBr",
+      "english_name": "Sodium bromide",
+      "slovene_name": "Natrijev bromid",
+      "category": "salt"
+    },
+    {
+      "id": 79,
+      "formula": "AgBr",
+      "english_name": "Silver bromide",
+      "slovene_name": "Srebrov bromid",
+      "category": "salt"
+    },
+    {
+      "id": 80,
+      "formula": "Na2CO3",
+      "english_name": "Sodium carbonate",
+      "slovene_name": "Natrijev karbonat",
+      "category": "salt"
+    },
+    {
+      "id": 81,
+      "formula": "NaHCO3",
+      "english_name": "Sodium bicarbonate",
+      "slovene_name": "Natrijev hidrogenkarbonat",
+      "category": "salt"
+    },
+    {
+      "id": 82,
+      "formula": "K2CO3",
+      "english_name": "Potassium carbonate",
+      "slovene_name": "Kalijev karbonat",
+      "category": "salt"
+    },
+    {
+      "id": 83,
+      "formula": "CaCO3",
+      "english_name": "Calcium carbonate",
+      "slovene_name": "Kalcijev karbonat",
+      "category": "salt"
+    },
+    {
+      "id": 84,
+      "formula": "MgCO3",
+      "english_name": "Magnesium carbonate",
+      "slovene_name": "Magnezijev karbonat",
+      "category": "salt"
+    },
+    {
+      "id": 85,
+      "formula": "CuCO3",
+      "english_name": "Copper(II) carbonate",
+      "slovene_name": "Bakrov(II) karbonat",
+      "category": "salt"
+    },
+    {
+      "id": 86,
+      "formula": "Na2SO4",
+      "english_name": "Sodium sulfate",
+      "slovene_name": "Natrijev sulfat",
+      "category": "salt"
+    },
+    {
+      "id": 87,
+      "formula": "K2SO4",
+      "english_name": "Potassium sulfate",
+      "slovene_name": "Kalijev sulfat",
+      "category": "salt"
+    },
+    {
+      "id": 88,
+      "formula": "CaSO4",
+      "english_name": "Calcium sulfate",
+      "slovene_name": "Kalcijev sulfat",
+      "category": "salt"
+    },
+    {
+      "id": 89,
+      "formula": "MgSO4",
+      "english_name": "Magnesium sulfate",
+      "slovene_name": "Magnezijev sulfat",
+      "category": "salt"
+    },
+    {
+      "id": 90,
+      "formula": "BaSO4",
+      "english_name": "Barium sulfate",
+      "slovene_name": "Barijev sulfat",
+      "category": "salt"
+    },
+    {
+      "id": 91,
+      "formula": "CuSO4",
+      "english_name": "Copper(II) sulfate",
+      "slovene_name": "Bakrov(II) sulfat",
+      "category": "salt"
+    },
+    {
+      "id": 92,
+      "formula": "FeSO4",
+      "english_name": "Iron(II) sulfate",
+      "slovene_name": "Železov(II) sulfat",
+      "category": "salt"
+    },
+    {
+      "id": 93,
+      "formula": "Fe2(SO4)3",
+      "english_name": "Iron(III) sulfate",
+      "slovene_name": "Železov(III) sulfat",
+      "category": "salt"
+    },
+    {
+      "id": 94,
+      "formula": "Al2(SO4)3",
+      "english_name": "Aluminium sulfate",
+      "slovene_name": "Aluminijev sulfat",
+      "category": "salt"
+    },
+    {
+      "id": 95,
+      "formula": "(NH4)2SO4",
+      "english_name": "Ammonium sulfate",
+      "slovene_name": "Amonijev sulfat",
+      "category": "salt"
+    },
+    {
+      "id": 96,
+      "formula": "Na2SO3",
+      "english_name": "Sodium sulfite",
+      "slovene_name": "Natrijev sulfit",
+      "category": "salt"
+    },
+    {
+      "id": 97,
+      "formula": "NaHSO3",
+      "english_name": "Sodium bisulfite",
+      "slovene_name": "Natrijev hidrogensulfit",
+      "category": "salt"
+    },
+    {
+      "id": 98,
+      "formula": "NaNO3",
+      "english_name": "Sodium nitrate",
+      "slovene_name": "Natrijev nitrat",
+      "category": "salt"
+    },
+    {
+      "id": 99,
+      "formula": "KNO3",
+      "english_name": "Potassium nitrate",
+      "slovene_name": "Kalijev nitrat",
+      "category": "salt"
+    },
+    {
+      "id": 100,
+      "formula": "Ca(NO3)2",
+      "english_name": "Calcium nitrate",
+      "slovene_name": "Kalcijev nitrat",
+      "category": "salt"
+    },
+    {
+      "id": 101,
+      "formula": "AgNO3",
+      "english_name": "Silver nitrate",
+      "slovene_name": "Srebrov nitrat",
+      "category": "salt"
+    },
+    {
+      "id": 102,
+      "formula": "NH4NO3",
+      "english_name": "Ammonium nitrate",
+      "slovene_name": "Amonijev nitrat",
+      "category": "salt"
+    },
+    {
+      "id": 103,
+      "formula": "Cu(NO3)2",
+      "english_name": "Copper(II) nitrate",
+      "slovene_name": "Bakrov(II) nitrat",
+      "category": "salt"
+    },
+    {
+      "id": 104,
+      "formula": "NaNO2",
+      "english_name": "Sodium nitrite",
+      "slovene_name": "Natrijev nitrit",
+      "category": "salt"
+    },
+    {
+      "id": 105,
+      "formula": "Na3PO4",
+      "english_name": "Trisodium phosphate",
+      "slovene_name": "Trinatrijev fosfat",
+      "category": "salt"
+    },
+    {
+      "id": 106,
+      "formula": "Na2HPO4",
+      "english_name": "Disodium hydrogen phosphate",
+      "slovene_name": "Dinatrijev hidrogenfosfat",
+      "category": "salt"
+    },
+    {
+      "id": 107,
+      "formula": "NaH2PO4",
+      "english_name": "Sodium dihydrogen phosphate",
+      "slovene_name": "Natrijev dihidrogenfosfat",
+      "category": "salt"
+    },
+    {
+      "id": 108,
+      "formula": "Ca3(PO4)2",
+      "english_name": "Calcium phosphate",
+      "slovene_name": "Kalcijev fosfat",
+      "category": "salt"
+    },
+    {
+      "id": 109,
+      "formula": "NH4H2PO4",
+      "english_name": "Ammonium dihydrogen phosphate",
+      "slovene_name": "Amonijev dihidrogenfosfat",
+      "category": "salt"
+    },
+    {
+      "id": 110,
+      "formula": "Na2S",
+      "english_name": "Sodium sulfide",
+      "slovene_name": "Natrijev sulfid",
+      "category": "salt"
+    },
+    {
+      "id": 111,
+      "formula": "FeS",
+      "english_name": "Iron(II) sulfide",
+      "slovene_name": "Železov(II) sulfid",
+      "category": "salt"
+    },
+    {
+      "id": 112,
+      "formula": "FeS2",
+      "english_name": "Iron disulfide",
+      "slovene_name": "Železov disulfid",
+      "category": "sulfide"
+    },
+    {
+      "id": 113,
+      "formula": "ZnS",
+      "english_name": "Zinc sulfide",
+      "slovene_name": "Cinkov sulfid",
+      "category": "salt"
+    },
+    {
+      "id": 114,
+      "formula": "CuS",
+      "english_name": "Copper(II) sulfide",
+      "slovene_name": "Bakrov(II) sulfid",
+      "category": "salt"
+    },
+    {
+      "id": 115,
+      "formula": "PbS",
+      "english_name": "Lead(II) sulfide",
+      "slovene_name": "Svinčev(II) sulfid",
+      "category": "salt"
+    },
+    {
+      "id": 116,
+      "formula": "NaCN",
+      "english_name": "Sodium cyanide",
+      "slovene_name": "Natrijev cianid",
+      "category": "salt"
+    },
+    {
+      "id": 117,
+      "formula": "K2CrO4",
+      "english_name": "Potassium chromate",
+      "slovene_name": "Kalijev kromat",
+      "category": "salt"
+    },
+    {
+      "id": 118,
+      "formula": "K2Cr2O7",
+      "english_name": "Potassium dichromate",
+      "slovene_name": "Kalijev dikromat",
+      "category": "salt"
+    },
+    {
+      "id": 119,
+      "formula": "KMnO4",
+      "english_name": "Potassium permanganate",
+      "slovene_name": "Kalijev permanganat",
+      "category": "salt"
+    },
+    {
+      "id": 120,
+      "formula": "NaClO",
+      "english_name": "Sodium hypochlorite",
+      "slovene_name": "Natrijev hipoklorit",
+      "category": "salt"
+    },
+    {
+      "id": 121,
+      "formula": "Ca(ClO)2",
+      "english_name": "Calcium hypochlorite",
+      "slovene_name": "Kalcijev hipoklorit",
+      "category": "salt"
+    },
+    {
+      "id": 122,
+      "formula": "KClO3",
+      "english_name": "Potassium chlorate",
+      "slovene_name": "Kalijev klorat",
+      "category": "salt"
+    },
+    {
+      "id": 123,
+      "formula": "CH4",
+      "english_name": "Methane",
+      "slovene_name": "Metan",
+      "category": "alkane"
+    },
+    {
+      "id": 124,
+      "formula": "C2H6",
+      "english_name": "Ethane",
+      "slovene_name": "Etan",
+      "category": "alkane"
+    },
+    {
+      "id": 125,
+      "formula": "C3H8",
+      "english_name": "Propane",
+      "slovene_name": "Propan",
+      "category": "alkane"
+    },
+    {
+      "id": 126,
+      "formula": "C4H10",
+      "english_name": "Butane",
+      "slovene_name": "Butan",
+      "category": "alkane"
+    },
+    {
+      "id": 127,
+      "formula": "C5H12",
+      "english_name": "Pentane",
+      "slovene_name": "Pentan",
+      "category": "alkane"
+    },
+    {
+      "id": 128,
+      "formula": "C6H14",
+      "english_name": "Hexane",
+      "slovene_name": "Heksan",
+      "category": "alkane"
+    },
+    {
+      "id": 129,
+      "formula": "C7H16",
+      "english_name": "Heptane",
+      "slovene_name": "Heptan",
+      "category": "alkane"
+    },
+    {
+      "id": 130,
+      "formula": "C8H18",
+      "english_name": "Octane",
+      "slovene_name": "Oktan",
+      "category": "alkane"
+    },
+    {
+      "id": 131,
+      "formula": "C9H20",
+      "english_name": "Nonane",
+      "slovene_name": "Nonan",
+      "category": "alkane"
+    },
+    {
+      "id": 132,
+      "formula": "C10H22",
+      "english_name": "Decane",
+      "slovene_name": "Dekan",
+      "category": "alkane"
+    },
+    {
+      "id": 133,
+      "formula": "C2H4",
+      "english_name": "Ethene",
+      "slovene_name": "Eten",
+      "category": "alkene"
+    },
+    {
+      "id": 134,
+      "formula": "C3H6",
+      "english_name": "Propene",
+      "slovene_name": "Propen",
+      "category": "alkene"
+    },
+    {
+      "id": 135,
+      "formula": "C4H8",
+      "english_name": "Butene",
+      "slovene_name": "Buten",
+      "category": "alkene"
+    },
+    {
+      "id": 136,
+      "formula": "C2H2",
+      "english_name": "Ethyne",
+      "slovene_name": "Etin",
+      "category": "alkyne"
+    },
+    {
+      "id": 137,
+      "formula": "C6H6",
+      "english_name": "Benzene",
+      "slovene_name": "Benzen",
+      "category": "aromatic hydrocarbon"
+    },
+    {
+      "id": 138,
+      "formula": "C7H8",
+      "english_name": "Toluene",
+      "slovene_name": "Toluen",
+      "category": "aromatic hydrocarbon"
+    },
+    {
+      "id": 139,
+      "formula": "C8H10",
+      "english_name": "Xylene",
+      "slovene_name": "Ksilen",
+      "category": "aromatic hydrocarbon"
+    },
+    {
+      "id": 140,
+      "formula": "C10H8",
+      "english_name": "Naphthalene",
+      "slovene_name": "Naftalen",
+      "category": "aromatic hydrocarbon"
+    },
+    {
+      "id": 141,
+      "formula": "CH3OH",
+      "english_name": "Methanol",
+      "slovene_name": "Metanol",
+      "category": "alcohol"
+    },
+    {
+      "id": 142,
+      "formula": "C2H5OH",
+      "english_name": "Ethanol",
+      "slovene_name": "Etanol",
+      "category": "alcohol"
+    },
+    {
+      "id": 143,
+      "formula": "C3H7OH",
+      "english_name": "Propanol",
+      "slovene_name": "Propanol",
+      "category": "alcohol"
+    },
+    {
+      "id": 144,
+      "formula": "C4H9OH",
+      "english_name": "Butanol",
+      "slovene_name": "Butanol",
+      "category": "alcohol"
+    },
+    {
+      "id": 145,
+      "formula": "C3H8O3",
+      "english_name": "Glycerol",
+      "slovene_name": "Glicerol",
+      "category": "alcohol"
+    },
+    {
+      "id": 146,
+      "formula": "C2H6O2",
+      "english_name": "Ethylene glycol",
+      "slovene_name": "Etilen glikol",
+      "category": "alcohol"
+    },
+    {
+      "id": 147,
+      "formula": "C2H5OC2H5",
+      "english_name": "Diethyl ether",
+      "slovene_name": "Dietil eter",
+      "category": "ether"
+    },
+    {
+      "id": 148,
+      "formula": "CH3OCH3",
+      "english_name": "Dimethyl ether",
+      "slovene_name": "Dimetil eter",
+      "category": "ether"
+    },
+    {
+      "id": 149,
+      "formula": "HCHO",
+      "english_name": "Formaldehyde",
+      "slovene_name": "Formaldehid",
+      "category": "aldehyde"
+    },
+    {
+      "id": 150,
+      "formula": "CH3CHO",
+      "english_name": "Acetaldehyde",
+      "slovene_name": "Acetaldehid",
+      "category": "aldehyde"
+    },
+    {
+      "id": 151,
+      "formula": "C3H6O",
+      "english_name": "Acetone",
+      "slovene_name": "Aceton",
+      "category": "ketone"
+    },
+    {
+      "id": 152,
+      "formula": "C4H8O",
+      "english_name": "Butanone",
+      "slovene_name": "Butanon",
+      "category": "ketone"
+    },
+    {
+      "id": 153,
+      "formula": "CH3COOCH3",
+      "english_name": "Methyl acetate",
+      "slovene_name": "Metil acetat",
+      "category": "ester"
+    },
+    {
+      "id": 154,
+      "formula": "CH3COOC2H5",
+      "english_name": "Ethyl acetate",
+      "slovene_name": "Etil acetat",
+      "category": "ester"
+    },
+    {
+      "id": 155,
+      "formula": "CO(NH2)2",
+      "english_name": "Urea",
+      "slovene_name": "Sečnina",
+      "category": "amide"
+    },
+    {
+      "id": 156,
+      "formula": "CH3CONH2",
+      "english_name": "Acetamide",
+      "slovene_name": "Acetamid",
+      "category": "amide"
+    },
+    {
+      "id": 157,
+      "formula": "CH3NH2",
+      "english_name": "Methylamine",
+      "slovene_name": "Metilamin",
+      "category": "amine"
+    },
+    {
+      "id": 158,
+      "formula": "C2H5NH2",
+      "english_name": "Ethylamine",
+      "slovene_name": "Etilamin",
+      "category": "amine"
+    },
+    {
+      "id": 159,
+      "formula": "C6H5NH2",
+      "english_name": "Aniline",
+      "slovene_name": "Anilin",
+      "category": "amine"
+    },
+    {
+      "id": 160,
+      "formula": "C5H5N",
+      "english_name": "Pyridine",
+      "slovene_name": "Piridin",
+      "category": "heterocyclic compound"
+    },
+    {
+      "id": 161,
+      "formula": "C8H9NO2",
+      "english_name": "Paracetamol",
+      "slovene_name": "Paracetamol",
+      "category": "pharmaceutical"
+    },
+    {
+      "id": 162,
+      "formula": "C9H8O4",
+      "english_name": "Aspirin",
+      "slovene_name": "Aspirin",
+      "category": "pharmaceutical"
+    },
+    {
+      "id": 163,
+      "formula": "C8H10N4O2",
+      "english_name": "Caffeine",
+      "slovene_name": "Kofein",
+      "category": "alkaloid"
+    },
+    {
+      "id": 164,
+      "formula": "C6H12O6",
+      "english_name": "Glucose",
+      "slovene_name": "Glukoza",
+      "category": "carbohydrate"
+    },
+    {
+      "id": 165,
+      "formula": "C6H12O6",
+      "english_name": "Fructose",
+      "slovene_name": "Fruktoza",
+      "category": "carbohydrate"
+    },
+    {
+      "id": 166,
+      "formula": "C12H22O11",
+      "english_name": "Sucrose",
+      "slovene_name": "Saharoza",
+      "category": "carbohydrate"
+    },
+    {
+      "id": 167,
+      "formula": "C12H22O11",
+      "english_name": "Lactose",
+      "slovene_name": "Laktoza",
+      "category": "carbohydrate"
+    },
+    {
+      "id": 168,
+      "formula": "C12H22O11",
+      "english_name": "Maltose",
+      "slovene_name": "Maltoza",
+      "category": "carbohydrate"
+    },
+    {
+      "id": 169,
+      "formula": "(C6H10O5)n",
+      "english_name": "Starch",
+      "slovene_name": "Škrob",
+      "category": "polysaccharide"
+    },
+    {
+      "id": 170,
+      "formula": "(C6H10O5)n",
+      "english_name": "Cellulose",
+      "slovene_name": "Celuloza",
+      "category": "polysaccharide"
+    },
+    {
+      "id": 171,
+      "formula": "C3H7NO2",
+      "english_name": "Alanine",
+      "slovene_name": "Alanin",
+      "category": "amino acid"
+    },
+    {
+      "id": 172,
+      "formula": "C2H5NO2",
+      "english_name": "Glycine",
+      "slovene_name": "Glicin",
+      "category": "amino acid"
+    },
+    {
+      "id": 173,
+      "formula": "C3H7NO3",
+      "english_name": "Serine",
+      "slovene_name": "Serin",
+      "category": "amino acid"
+    },
+    {
+      "id": 174,
+      "formula": "C5H9NO4",
+      "english_name": "Glutamic acid",
+      "slovene_name": "Glutaminska kislina",
+      "category": "amino acid"
+    },
+    {
+      "id": 175,
+      "formula": "O3",
+      "english_name": "Ozone",
+      "slovene_name": "Ozon",
+      "category": "elemental molecule"
+    },
+    {
+      "id": 176,
+      "formula": "PH3",
+      "english_name": "Phosphine",
+      "slovene_name": "Fosfin",
+      "category": "hydride"
+    },
+    {
+      "id": 177,
+      "formula": "SiH4",
+      "english_name": "Silane",
+      "slovene_name": "Silan",
+      "category": "hydride"
+    },
+    {
+      "id": 178,
+      "formula": "B2H6",
+      "english_name": "Diborane",
+      "slovene_name": "Diboran",
+      "category": "hydride"
+    },
+    {
+      "id": 179,
+      "formula": "CS2",
+      "english_name": "Carbon disulfide",
+      "slovene_name": "Ogljikov disulfid",
+      "category": "sulfide"
+    },
+    {
+      "id": 180,
+      "formula": "CCl4",
+      "english_name": "Carbon tetrachloride",
+      "slovene_name": "Ogljikov tetraklorid",
+      "category": "halogenated organic compound"
+    },
+    {
+      "id": 181,
+      "formula": "CHCl3",
+      "english_name": "Chloroform",
+      "slovene_name": "Kloroform",
+      "category": "halogenated organic compound"
+    },
+    {
+      "id": 182,
+      "formula": "CH2Cl2",
+      "english_name": "Dichloromethane",
+      "slovene_name": "Diklorometan",
+      "category": "halogenated organic compound"
+    },
+    {
+      "id": 183,
+      "formula": "C2H4Cl2",
+      "english_name": "1,2-Dichloroethane",
+      "slovene_name": "1,2-dikloroetan",
+      "category": "halogenated organic compound"
+    },
+    {
+      "id": 184,
+      "formula": "C2H3Cl",
+      "english_name": "Vinyl chloride",
+      "slovene_name": "Vinil klorid",
+      "category": "halogenated organic compound"
+    },
+    {
+      "id": 185,
+      "formula": "CF2Cl2",
+      "english_name": "Dichlorodifluoromethane",
+      "slovene_name": "Diklorodifluorometan",
+      "category": "halogenated organic compound"
+    },
+    {
+      "id": 186,
+      "formula": "CaSO4·2H2O",
+      "english_name": "Calcium sulfate dihydrate",
+      "slovene_name": "Kalcijev sulfat dihidrat",
+      "category": "hydrate"
+    },
+    {
+      "id": 187,
+      "formula": "CuSO4·5H2O",
+      "english_name": "Copper(II) sulfate pentahydrate",
+      "slovene_name": "Bakrov(II) sulfat pentahidrat",
+      "category": "hydrate"
+    },
+    {
+      "id": 188,
+      "formula": "Na2CO3·10H2O",
+      "english_name": "Sodium carbonate decahydrate",
+      "slovene_name": "Natrijev karbonat dekahidrat",
+      "category": "hydrate"
+    },
+    {
+      "id": 189,
+      "formula": "MgSO4·7H2O",
+      "english_name": "Magnesium sulfate heptahydrate",
+      "slovene_name": "Magnezijev sulfat heptahidrat",
+      "category": "hydrate"
+    },
+    {
+      "id": 190,
+      "formula": "KAl(SO4)2·12H2O",
+      "english_name": "Potassium alum",
+      "slovene_name": "Kalijev galun",
+      "category": "double salt"
+    },
+    {
+      "id": 191,
+      "formula": "CaC2",
+      "english_name": "Calcium carbide",
+      "slovene_name": "Kalcijev karbid",
+      "category": "carbide"
+    },
+    {
+      "id": 192,
+      "formula": "SiC",
+      "english_name": "Silicon carbide",
+      "slovene_name": "Silicijev karbid",
+      "category": "carbide"
+    },
+    {
+      "id": 193,
+      "formula": "Na2B4O7·10H2O",
+      "english_name": "Borax",
+      "slovene_name": "Boraks",
+      "category": "borate"
+    },
+    {
+      "id": 194,
+      "formula": "Na2S2O3",
+      "english_name": "Sodium thiosulfate",
+      "slovene_name": "Natrijev tiosulfat",
+      "category": "salt"
+    },
+    {
+      "id": 195,
+      "formula": "Na2SiO3",
+      "english_name": "Sodium silicate",
+      "slovene_name": "Natrijev silikat",
+      "category": "silicate"
+    },
+    {
+      "id": 196,
+      "formula": "CaSiO3",
+      "english_name": "Calcium silicate",
+      "slovene_name": "Kalcijev silikat",
+      "category": "silicate"
+    },
+    {
+      "id": 197,
+      "formula": "Al2Si2O5(OH)4",
+      "english_name": "Kaolinite",
+      "slovene_name": "Kaolinit",
+      "category": "mineral"
+    },
+    {
+      "id": 198,
+      "formula": "Ca5(PO4)3OH",
+      "english_name": "Hydroxyapatite",
+      "slovene_name": "Hidroksiapatit",
+      "category": "mineral"
+    },
+    {
+      "id": 199,
+      "formula": "Mg3Si4O10(OH)2",
+      "english_name": "Talc",
+      "slovene_name": "Smukec",
+      "category": "mineral"
+    },
+    {
+      "id": 200,
+      "formula": "CaMg(CO3)2",
+      "english_name": "Dolomite",
+      "slovene_name": "Dolomit",
+      "category": "mineral"
+    }
+  ]
+}

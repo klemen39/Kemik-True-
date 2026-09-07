@@ -1,0 +1,112 @@
+[gd_scene format=3 uid="uid://bxx8pjbnm8q6a"]
+
+[ext_resource type="Script" path="res://Scripts/ReactionsMakerController.cs" id="1_reactions_maker"]
+[ext_resource type="Script" uid="uid://c006pe2qt46v7" path="res://Scripts/SafeAreaMarginContainer.cs" id="2_safe"]
+[ext_resource type="Texture2D" uid="uid://clca0bj5f8nak" path="res://Sprites/smoll.png" id="3_bg"]
+[ext_resource type="Texture2D" uid="uid://dnxdsvsu52603" path="res://Sprites/Visual_Tabs/Cross.png" id="4_cross"]
+[ext_resource type="Texture2D" uid="uid://c86djm52541ma" path="res://Sprites/Visual_Tabs/Cross_blue.png" id="5_cross_blue"]
+[ext_resource type="Texture2D" uid="uid://b0v1tsdx85pjf" path="res://Sprites/Visual_Tabs/settings_true.png" id="6_settings"]
+[ext_resource type="Texture2D" uid="uid://xoio7pptherq" path="res://Sprites/Visual_Tabs/settings_true_blue.png" id="7_settings_blue"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_box"]
+bg_color = Color(0.0705882, 0.101961, 0.113725, 1)
+border_width_left = 6
+border_width_top = 6
+border_width_right = 6
+border_width_bottom = 6
+border_color = Color(0.2, 0.27451, 0.301961, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="ReactionsMaker" type="Control" node_paths=PackedStringArray("ReactionInput", "ReactionResultLabel", "ProductsArea")]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_reactions_maker")
+ReactionInput = NodePath("MarginContainer/CanvasLayer2/ReactionInput")
+ReactionResultLabel = NodePath("MarginContainer/CanvasLayer2/ReactionResultLabel")
+ProductsArea = NodePath("MarginContainer/CanvasLayer2/ProductStructuresArea")
+metadata/_edit_horizontal_guides_ = [166.0, 390.0, 560.0, 910.0, 1445.0]
+metadata/_edit_vertical_guides_ = [72.0, 1008.0, 540.0]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+script = ExtResource("2_safe")
+
+[node name="Background" type="Sprite2D" parent="MarginContainer"]
+position = Vector2(540, 1200)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("3_bg")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="MarginContainer"]
+
+[node name="CloseButton" type="TextureButton" parent="MarginContainer/CanvasLayer2"]
+z_index = 100
+offset_left = 94.0
+offset_top = 98.0
+offset_right = 230.0
+offset_bottom = 234.0
+texture_normal = ExtResource("4_cross")
+texture_pressed = ExtResource("5_cross_blue")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="SettingsButton" type="TextureButton" parent="MarginContainer/CanvasLayer2"]
+z_index = 100
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -247.0
+offset_top = 88.0
+offset_right = -89.0
+offset_bottom = 246.0
+grow_horizontal = 0
+texture_normal = ExtResource("6_settings")
+texture_pressed = ExtResource("7_settings_blue")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="ReactionInput" type="LineEdit" parent="MarginContainer/CanvasLayer2"]
+offset_left = 64.0
+offset_top = 392.0
+offset_right = 1016.0
+offset_bottom = 542.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_placeholder_color = Color(0.55, 0.62, 0.66, 1)
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxFlat_box")
+theme_override_styles/focus = SubResource("StyleBoxFlat_box")
+placeholder_text = "H2 + O2"
+alignment = 1
+caret_blink = true
+
+[node name="ReactionResultLabel" type="Label" parent="MarginContainer/CanvasLayer2"]
+offset_left = 64.0
+offset_top = 622.0
+offset_right = 1016.0
+offset_bottom = 962.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 46
+theme_override_styles/normal = SubResource("StyleBoxFlat_box")
+text = ""
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="ProductStructuresFrame" type="Panel" parent="MarginContainer/CanvasLayer2"]
+offset_left = 56.0
+offset_top = 1100.0
+offset_right = 1024.0
+offset_bottom = 2100.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_box")
+
+[node name="ProductStructuresArea" type="Control" parent="MarginContainer/CanvasLayer2"]
+offset_left = 56.0
+offset_top = 1100.0
+offset_right = 1024.0
+offset_bottom = 2100.0
+mouse_filter = 2
+
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/CloseButton" to="." method="OpenStartScreen"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/SettingsButton" to="." method="OpenSettingsScene"]

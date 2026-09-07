@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://00mkr74bmss0"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_0ocsw"]
+
+[resource]
+script = ExtResource("1_0ocsw")
+SLOelementName = "Protaktinij"
+ENGelementName = "Protactinium"
+Symbol = "Pa"
+AtomicNumber = 91
+NeutronCount = 140
+Mass = 231
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 20
+Perioda6 = 9
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

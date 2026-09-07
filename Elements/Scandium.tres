@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://cix4uydmwdqoe"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_kwi02"]
+
+[resource]
+script = ExtResource("1_kwi02")
+SLOelementName = "Skandij"
+ENGelementName = "Scandium"
+Symbol = "Sc"
+AtomicNumber = 21
+NeutronCount = 24
+Mass = 45
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 9
+Perioda4 = 2
+Skupina = 3
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

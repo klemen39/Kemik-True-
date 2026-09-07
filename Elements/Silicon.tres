@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://csc7wk6mgfgnd"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_lw227"]
+
+[resource]
+script = ExtResource("1_lw227")
+SLOelementName = "Silicij"
+ENGelementName = "Silicon"
+Symbol = "Si"
+AtomicNumber = 14
+NeutronCount = 14
+Mass = 28
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 4
+Skupina = 14
+Blok = 1
+Tip = 2
+Subtip = 4
+metadata/_custom_type_script = "uid://3th8onmepgfc"

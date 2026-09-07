@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://b5ljioxg7bqtk"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_yvbl0"]
+
+[resource]
+script = ExtResource("1_yvbl0")
+SLOelementName = "Kalcij"
+ENGelementName = "Calcium"
+Symbol = "Ca"
+AtomicNumber = 20
+NeutronCount = 20
+Mass = 40
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 8
+Perioda4 = 2
+Skupina = 2
+Subtip = 1
+metadata/_custom_type_script = "uid://3th8onmepgfc"

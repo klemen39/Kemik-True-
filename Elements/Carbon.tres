@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://btjrmoq5ednsp"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_5dcun"]
+
+[resource]
+script = ExtResource("1_5dcun")
+SLOelementName = "Ogljik"
+ENGelementName = "Carbon"
+Symbol = "C"
+AtomicNumber = 6
+NeutronCount = 6
+Mass = 12
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 4
+Skupina = 14
+Blok = 1
+Tip = 1
+Subtip = 5
+metadata/_custom_type_script = "uid://3th8onmepgfc"

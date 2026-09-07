@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://hc8nv1pmsqh6"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_vj7tw"]
+
+[resource]
+script = ExtResource("1_vj7tw")
+SLOelementName = "Arzen"
+ENGelementName = "Arsenic"
+Symbol = "As"
+AtomicNumber = 33
+NeutronCount = 42
+Mass = 75
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 5
+Skupina = 15
+Blok = 1
+Tip = 2
+Subtip = 4
+metadata/_custom_type_script = "uid://3th8onmepgfc"

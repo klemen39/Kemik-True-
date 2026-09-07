@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://xu22bfrjllu4"]
+
+[ext_resource type="Texture2D" uid="uid://cx4nnbd8nh1fm" path="res://Sprites/Numbers_Correct/97_True.png" id="1_uj15e"]
+[ext_resource type="Texture2D" uid="uid://dl3j18fd6yhcs" path="res://Sprites/Numbers_Wrong/97_Wrong.png" id="2_krfyg"]
+[ext_resource type="Texture2D" uid="uid://b10qyx2qoym0i" path="res://Sprites/Numbers_Regular/97_Regular.png" id="3_gyhms"]
+[ext_resource type="Resource" uid="uid://0yvv585b4d8t" path="res://Elements/Berkelium.tres" id="4_s5l3p"]
+[ext_resource type="Texture2D" uid="uid://vqbjlq7vdsmc" path="res://Sprites/Quiz_Groups/Actinide.png" id="5_m4aoy"]
+[ext_resource type="Texture2D" uid="uid://caqcoohnpbqhq" path="res://Sprites/Quiz_Groups/Actinide_wrong.png" id="6_uv62e"]
+[ext_resource type="Texture2D" uid="uid://rdktxoe4ulx3" path="res://Sprites/Quiz_Groups/Actinide_regular.png" id="7_ojuxr"]
+[ext_resource type="Texture2D" uid="uid://dtm4vp4xamvc5" path="res://Sprites/Quiz_Names/Berkelium_Name.png" id="8_lxxwi"]
+[ext_resource type="Texture2D" uid="uid://c0fe5ky55u2hx" path="res://Sprites/Quiz_Names/Berkelium_Wrong.png" id="9_y57qm"]
+[ext_resource type="Texture2D" uid="uid://2d4nhtpbnmk7" path="res://Sprites/Quiz_Names/Berkelium_Neutral.png" id="10_aeovx"]
+[ext_resource type="Texture2D" uid="uid://dk2o7wfspr2bb" path="res://Sprites/Quiz_Periodic/7_Periodic.png" id="11_kuaft"]
+[ext_resource type="Texture2D" uid="uid://dc82x7ptqy6pk" path="res://Sprites/Numbers_Wrong/7_Wrong.png" id="12_1gcmh"]
+[ext_resource type="Texture2D" uid="uid://qwpsmy5c6wmg" path="res://Sprites/Numbers_Regular/7_Regular.png" id="13_slx8p"]
+[ext_resource type="Texture2D" uid="uid://csyqhtrjjasgr" path="res://Sprites/Quiz_Groups/Aktinoid_correct.png" id="14_jm67e"]
+[ext_resource type="Texture2D" uid="uid://e350qr3n577m" path="res://Sprites/Quiz_Groups/Aktinoid_wrong.png" id="15_2l35a"]
+[ext_resource type="Texture2D" uid="uid://djcxhxbbo2ie8" path="res://Sprites/Quiz_Groups/Aktinoid_regular.png" id="16_2g46w"]
+[ext_resource type="Texture2D" uid="uid://f7wrqe4wkht" path="res://Sprites/Quiz_Names/Berkelij_Name.png" id="17_v2ebu"]
+[ext_resource type="Texture2D" uid="uid://45x7j7e3fwp3" path="res://Sprites/Quiz_Names/Berkelij_Wrong.png" id="18_ujuoa"]
+[ext_resource type="Texture2D" uid="uid://cwse06meteflr" path="res://Sprites/Quiz_Names/Berkelij_Neutral.png" id="19_cfu4y"]
+[ext_resource type="Texture2D" uid="uid://b6pcntfr626b7" path="res://Sprites/Quiz_Symbol/Berkelium_ShadowNameless.png" id="20_5ypio"]
+[ext_resource type="Texture2D" uid="uid://c26pke7p6j064" path="res://Sprites/Quiz_Symbol/Berkelium_Nameless.png" id="21_5e8ro"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="22_8cug0"]
+
+[resource]
+script = ExtResource("22_8cug0")
+ElementData = ExtResource("4_s5l3p")
+SymbolNormal = ExtResource("21_5e8ro")
+SymbolDisabled = ExtResource("20_5ypio")
+SymbolCorrect = ExtResource("20_5ypio")
+AtomicNumberNormal = ExtResource("3_gyhms")
+AtomicNumberDisabled = ExtResource("2_krfyg")
+AtomicNumberCorrect = ExtResource("1_uj15e")
+SloveneNameNormal = ExtResource("19_cfu4y")
+SloveneNameDisabled = ExtResource("18_ujuoa")
+SloveneNameCorrect = ExtResource("17_v2ebu")
+EnglishNameNormal = ExtResource("10_aeovx")
+EnglishNameDisabled = ExtResource("9_y57qm")
+EnglishNameCorrect = ExtResource("8_lxxwi")
+SloveneGroupNormal = ExtResource("16_2g46w")
+SloveneGroupDisabled = ExtResource("15_2l35a")
+SloveneGroupCorrect = ExtResource("14_jm67e")
+EnglishGroupNormal = ExtResource("7_ojuxr")
+EnglishGroupDisabled = ExtResource("6_uv62e")
+EnglishGroupCorrect = ExtResource("5_m4aoy")
+PeriodicGroupNormal = ExtResource("13_slx8p")
+PeriodicGroupDisabled = ExtResource("12_1gcmh")
+PeriodicGroupCorrect = ExtResource("11_kuaft")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

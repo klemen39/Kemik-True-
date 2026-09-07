@@ -1,0 +1,49 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://cn6qh8ces458k"]
+
+[ext_resource type="Texture2D" uid="uid://dr64ipynxtwmd" path="res://Sprites/Numbers_Correct/59_True.png" id="1_74vye"]
+[ext_resource type="Texture2D" uid="uid://b3ilccviffe5q" path="res://Sprites/Numbers_Wrong/59_Wrong.png" id="2_rxwhw"]
+[ext_resource type="Texture2D" uid="uid://bn8ka14fomlot" path="res://Sprites/Numbers_Regular/59_Regular.png" id="3_mnrwv"]
+[ext_resource type="Resource" uid="uid://b20mk5dj112oh" path="res://Elements/Praseodymium.tres" id="4_cco8d"]
+[ext_resource type="Texture2D" uid="uid://c1t842q5mgjsf" path="res://Sprites/Quiz_Groups/Lanthanide_correct.png" id="5_mg5bb"]
+[ext_resource type="Texture2D" uid="uid://bh1oac0hdoe63" path="res://Sprites/Quiz_Groups/Lanthanide_wrong.png" id="6_upiu2"]
+[ext_resource type="Texture2D" uid="uid://p1bn1k6vxwso" path="res://Sprites/Quiz_Groups/Lanthanide_regular.png" id="7_oytos"]
+[ext_resource type="Texture2D" uid="uid://dprsjyllna486" path="res://Sprites/Quiz_Names/Praseodymium_Name.png" id="8_uo66o"]
+[ext_resource type="Texture2D" uid="uid://bsbxxuyjoi4jw" path="res://Sprites/Quiz_Names/Praseodymium_Wrong.png" id="9_8dqrw"]
+[ext_resource type="Texture2D" uid="uid://baf4w31s4fhr1" path="res://Sprites/Quiz_Names/Praseodymium_Neutral.png" id="10_q60s4"]
+[ext_resource type="Texture2D" uid="uid://b10kkuxavs3yv" path="res://Sprites/Quiz_Periodic/6_Periodic.png" id="11_vjfgq"]
+[ext_resource type="Texture2D" uid="uid://d30tye3m6nmtk" path="res://Sprites/Numbers_Wrong/6_Wrong.png" id="12_h3s2c"]
+[ext_resource type="Texture2D" uid="uid://b77a7knvxj08c" path="res://Sprites/Numbers_Regular/6_Regular.png" id="13_v1bw0"]
+[ext_resource type="Texture2D" uid="uid://bnxy0hvnlj2qd" path="res://Sprites/Quiz_Groups/Lantanoid_wrong.png" id="14_hwjau"]
+[ext_resource type="Texture2D" uid="uid://skyhpicpgpl7" path="res://Sprites/Quiz_Groups/Lantanoid_regular.png" id="15_h3t02"]
+[ext_resource type="Texture2D" uid="uid://cqr3nw6hth17o" path="res://Sprites/Quiz_Names/Prazeodim_Name.png" id="16_2msp5"]
+[ext_resource type="Texture2D" uid="uid://buymijoabi3rx" path="res://Sprites/Quiz_Names/Prazeodim_Wrong.png" id="17_cehnd"]
+[ext_resource type="Texture2D" uid="uid://cuxgpg3rwnpb6" path="res://Sprites/Quiz_Names/Prazeodim_Neutral.png" id="18_r7q1r"]
+[ext_resource type="Texture2D" uid="uid://psewhv3lga2x" path="res://Sprites/Quiz_Symbol/Praseodymium_ShadowNameless.png" id="19_rtgsg"]
+[ext_resource type="Texture2D" uid="uid://cauhvpbe1ms5u" path="res://Sprites/Quiz_Symbol/Praseodymium_Nameless.png" id="20_w1po8"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="21_y4f8m"]
+
+[resource]
+script = ExtResource("21_y4f8m")
+ElementData = ExtResource("4_cco8d")
+SymbolNormal = ExtResource("20_w1po8")
+SymbolDisabled = ExtResource("19_rtgsg")
+SymbolCorrect = ExtResource("19_rtgsg")
+AtomicNumberNormal = ExtResource("3_mnrwv")
+AtomicNumberDisabled = ExtResource("2_rxwhw")
+AtomicNumberCorrect = ExtResource("1_74vye")
+SloveneNameNormal = ExtResource("18_r7q1r")
+SloveneNameDisabled = ExtResource("17_cehnd")
+SloveneNameCorrect = ExtResource("16_2msp5")
+EnglishNameNormal = ExtResource("10_q60s4")
+EnglishNameDisabled = ExtResource("9_8dqrw")
+EnglishNameCorrect = ExtResource("8_uo66o")
+SloveneGroupNormal = ExtResource("15_h3t02")
+SloveneGroupDisabled = ExtResource("14_hwjau")
+SloveneGroupCorrect = ExtResource("14_hwjau")
+EnglishGroupNormal = ExtResource("7_oytos")
+EnglishGroupDisabled = ExtResource("6_upiu2")
+EnglishGroupCorrect = ExtResource("5_mg5bb")
+PeriodicGroupNormal = ExtResource("13_v1bw0")
+PeriodicGroupDisabled = ExtResource("12_h3s2c")
+PeriodicGroupCorrect = ExtResource("11_vjfgq")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

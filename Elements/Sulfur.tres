@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://66wlobuo0q34"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_f5tmk"]
+
+[resource]
+script = ExtResource("1_f5tmk")
+SLOelementName = "Žveplo"
+ENGelementName = "Sulfur"
+Symbol = "S"
+AtomicNumber = 16
+NeutronCount = 16
+Mass = 32
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 6
+Skupina = 16
+Blok = 1
+Tip = 1
+Subtip = 5
+metadata/_custom_type_script = "uid://3th8onmepgfc"

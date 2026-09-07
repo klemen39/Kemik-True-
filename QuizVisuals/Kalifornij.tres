@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://cjm5hxywpn31f"]
+
+[ext_resource type="Texture2D" uid="uid://bpgux7m66byyv" path="res://Sprites/Numbers_Correct/98_True.png" id="1_bh71m"]
+[ext_resource type="Texture2D" uid="uid://lp5q57a3t67l" path="res://Sprites/Numbers_Wrong/98_Wrong.png" id="2_ron82"]
+[ext_resource type="Texture2D" uid="uid://ljvsfn83mob8" path="res://Sprites/Numbers_Regular/98_Regular.png" id="3_l4h01"]
+[ext_resource type="Resource" uid="uid://rxq72q8iatto" path="res://Elements/Californium.tres" id="4_68p8v"]
+[ext_resource type="Texture2D" uid="uid://vqbjlq7vdsmc" path="res://Sprites/Quiz_Groups/Actinide.png" id="5_00sh8"]
+[ext_resource type="Texture2D" uid="uid://caqcoohnpbqhq" path="res://Sprites/Quiz_Groups/Actinide_wrong.png" id="6_u3nrp"]
+[ext_resource type="Texture2D" uid="uid://rdktxoe4ulx3" path="res://Sprites/Quiz_Groups/Actinide_regular.png" id="7_rms4i"]
+[ext_resource type="Texture2D" uid="uid://bhlb1ilvtum2n" path="res://Sprites/Quiz_Names/Californium_Name.png" id="8_6xios"]
+[ext_resource type="Texture2D" uid="uid://cl0t8dgf53l1r" path="res://Sprites/Quiz_Names/Californium_Wrong.png" id="9_hi3ms"]
+[ext_resource type="Texture2D" uid="uid://bcv5norwq7b25" path="res://Sprites/Quiz_Names/Californium_Neutral.png" id="10_2cp7r"]
+[ext_resource type="Texture2D" uid="uid://dk2o7wfspr2bb" path="res://Sprites/Quiz_Periodic/7_Periodic.png" id="11_i7ecs"]
+[ext_resource type="Texture2D" uid="uid://dc82x7ptqy6pk" path="res://Sprites/Numbers_Wrong/7_Wrong.png" id="12_kjdli"]
+[ext_resource type="Texture2D" uid="uid://qwpsmy5c6wmg" path="res://Sprites/Numbers_Regular/7_Regular.png" id="13_jax8t"]
+[ext_resource type="Texture2D" uid="uid://csyqhtrjjasgr" path="res://Sprites/Quiz_Groups/Aktinoid_correct.png" id="14_505pl"]
+[ext_resource type="Texture2D" uid="uid://e350qr3n577m" path="res://Sprites/Quiz_Groups/Aktinoid_wrong.png" id="15_h16ma"]
+[ext_resource type="Texture2D" uid="uid://djcxhxbbo2ie8" path="res://Sprites/Quiz_Groups/Aktinoid_regular.png" id="16_jtkly"]
+[ext_resource type="Texture2D" uid="uid://ptbic40i6x4t" path="res://Sprites/Quiz_Names/Kalifornij_Name.png" id="17_2t5bm"]
+[ext_resource type="Texture2D" uid="uid://qhgnirgxjsst" path="res://Sprites/Quiz_Names/Kalifornij_Wrong.png" id="18_ycq1r"]
+[ext_resource type="Texture2D" uid="uid://b4stb21gy2o51" path="res://Sprites/Quiz_Names/Kalifornij_Neutral.png" id="19_mct55"]
+[ext_resource type="Texture2D" uid="uid://di6ecr0jffk3k" path="res://Sprites/Quiz_Symbol/Californium_ShadowNameless.png" id="20_4iqdx"]
+[ext_resource type="Texture2D" uid="uid://ljap40hiy1ra" path="res://Sprites/Quiz_Symbol/Californium_Nameless.png" id="21_0i0bw"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="22_er5yt"]
+
+[resource]
+script = ExtResource("22_er5yt")
+ElementData = ExtResource("4_68p8v")
+SymbolNormal = ExtResource("21_0i0bw")
+SymbolDisabled = ExtResource("20_4iqdx")
+SymbolCorrect = ExtResource("20_4iqdx")
+AtomicNumberNormal = ExtResource("3_l4h01")
+AtomicNumberDisabled = ExtResource("2_ron82")
+AtomicNumberCorrect = ExtResource("1_bh71m")
+SloveneNameNormal = ExtResource("19_mct55")
+SloveneNameDisabled = ExtResource("18_ycq1r")
+SloveneNameCorrect = ExtResource("17_2t5bm")
+EnglishNameNormal = ExtResource("10_2cp7r")
+EnglishNameDisabled = ExtResource("9_hi3ms")
+EnglishNameCorrect = ExtResource("8_6xios")
+SloveneGroupNormal = ExtResource("16_jtkly")
+SloveneGroupDisabled = ExtResource("15_h16ma")
+SloveneGroupCorrect = ExtResource("14_505pl")
+EnglishGroupNormal = ExtResource("7_rms4i")
+EnglishGroupDisabled = ExtResource("6_u3nrp")
+EnglishGroupCorrect = ExtResource("5_00sh8")
+PeriodicGroupNormal = ExtResource("13_jax8t")
+PeriodicGroupDisabled = ExtResource("12_kjdli")
+PeriodicGroupCorrect = ExtResource("11_i7ecs")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://uqf31jbdsj4c"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_2npfl"]
+
+[resource]
+script = ExtResource("1_2npfl")
+SLOelementName = "Hasij"
+ENGelementName = "Hassium"
+Symbol = "Hs"
+AtomicNumber = 108
+NeutronCount = 169
+Mass = 277
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 14
+Perioda7 = 2
+Skupina = 8
+Blok = 2
+Subtip = 2
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

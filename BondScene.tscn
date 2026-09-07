@@ -1,0 +1,137 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://Scripts/BondSimulationController.cs" id="1_bond"]
+[ext_resource type="Script" path="res://Scripts/SafeAreaMarginContainer.cs" id="2_safe"]
+[ext_resource type="Texture2D" path="res://Sprites/smoll.png" id="3_bg"]
+[ext_resource type="Texture2D" path="res://Sprites/Visual_Tabs/Cross.png" id="4_cross"]
+[ext_resource type="Texture2D" path="res://Sprites/Visual_Tabs/settings_default.png" id="5_settings"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+bg_color = Color(0.0705882, 0.101961, 0.113725, 1)
+border_width_left = 7
+border_width_top = 7
+border_width_right = 7
+border_width_bottom = 7
+border_color = Color(0.2, 0.27451, 0.301961, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_button"]
+bg_color = Color(0.0705882, 0.101961, 0.113725, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.2, 0.27451, 0.301961, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="BondScene" type="Control" node_paths=PackedStringArray("TitleLabel", "DetailLabel", "StrengthLabel", "VisualArea", "ButtonArea")]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_bond")
+TitleLabel = NodePath("MarginContainer/CanvasLayer2/TitleLabel")
+DetailLabel = NodePath("MarginContainer/CanvasLayer2/DetailLabel")
+StrengthLabel = NodePath("MarginContainer/CanvasLayer2/StrengthLabel")
+VisualArea = NodePath("MarginContainer/CanvasLayer2/VisualArea")
+ButtonArea = NodePath("MarginContainer/CanvasLayer2/ButtonArea")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+script = ExtResource("2_safe")
+
+[node name="Background" type="Sprite2D" parent="MarginContainer"]
+position = Vector2(540, 1200)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("3_bg")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="MarginContainer"]
+
+[node name="CloseButton" type="TextureButton" parent="MarginContainer/CanvasLayer2"]
+z_index = 100
+offset_left = 80.0
+offset_top = 115.0
+offset_right = 220.0
+offset_bottom = 255.0
+texture_normal = ExtResource("4_cross")
+texture_pressed = ExtResource("4_cross")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="SettingsButton" type="TextureButton" parent="MarginContainer/CanvasLayer2"]
+z_index = 100
+offset_left = 840.0
+offset_top = 85.0
+offset_right = 1030.0
+offset_bottom = 275.0
+texture_normal = ExtResource("5_settings")
+texture_pressed = ExtResource("5_settings")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TitleLabel" type="Label" parent="MarginContainer/CanvasLayer2"]
+offset_left = 70.0
+offset_top = 340.0
+offset_right = 1010.0
+offset_bottom = 470.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 56
+theme_override_styles/normal = SubResource("StyleBoxFlat_panel")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="DetailLabel" type="Label" parent="MarginContainer/CanvasLayer2"]
+offset_left = 70.0
+offset_top = 520.0
+offset_right = 1010.0
+offset_bottom = 720.0
+theme_override_colors/font_color = Color(0.88, 0.93, 0.96, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_panel")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="VisualFrame" type="Panel" parent="MarginContainer/CanvasLayer2"]
+offset_left = 70.0
+offset_top = 775.0
+offset_right = 1010.0
+offset_bottom = 1335.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="VisualArea" type="Control" parent="MarginContainer/CanvasLayer2"]
+offset_left = 70.0
+offset_top = 775.0
+offset_right = 1010.0
+offset_bottom = 1335.0
+clip_contents = true
+mouse_filter = 2
+
+[node name="StrengthLabel" type="Label" parent="MarginContainer/CanvasLayer2"]
+offset_left = 70.0
+offset_top = 1390.0
+offset_right = 1010.0
+offset_bottom = 1575.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_panel")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="ButtonArea" type="GridContainer" parent="MarginContainer/CanvasLayer2"]
+offset_left = 70.0
+offset_top = 1640.0
+offset_right = 1010.0
+offset_bottom = 1995.0
+theme_override_constants/h_separation = 18
+theme_override_constants/v_separation = 16
+columns = 3
+
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/CloseButton" to="." method="OpenStartScreen"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/SettingsButton" to="." method="OpenSettingsScene"]

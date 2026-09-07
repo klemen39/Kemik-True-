@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://bjlsahe3ptud"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_ws00r"]
+
+[resource]
+script = ExtResource("1_ws00r")
+SLOelementName = "Germanij"
+ENGelementName = "Germanium"
+Symbol = "Ge"
+AtomicNumber = 32
+NeutronCount = 42
+Mass = 74
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 4
+Skupina = 14
+Blok = 1
+Tip = 2
+Subtip = 4
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://4m831y1t3x0t"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_2kowm"]
+
+[resource]
+script = ExtResource("1_2kowm")
+SLOelementName = "Rentgenij"
+ENGelementName = "Roentgenium"
+Symbol = "Rg"
+AtomicNumber = 111
+NeutronCount = 171
+Mass = 282
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 1
+Skupina = 11
+Blok = 2
+Subtip = 2
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

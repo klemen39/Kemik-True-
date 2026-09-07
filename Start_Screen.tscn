@@ -1,0 +1,324 @@
+[gd_scene format=3 uid="uid://cer3g7e3l7mmd"]
+
+[ext_resource type="Script" uid="uid://b6tybpv7k0kg8" path="res://Scripts/StartScreenController.cs" id="1_start"]
+[ext_resource type="Script" uid="uid://c006pe2qt46v7" path="res://Scripts/SafeAreaMarginContainer.cs" id="2_safe"]
+[ext_resource type="Texture2D" uid="uid://clca0bj5f8nak" path="res://Sprites/smoll.png" id="3_bg"]
+[ext_resource type="Script" uid="uid://b3rxk4p2677jb" path="res://Scripts/LocalizedStartButton.cs" id="4_localized"]
+[ext_resource type="Texture2D" uid="uid://c0f27ynkkywqb" path="res://Sprites/Visual_Tabs/Kemik_logo.png" id="5_2cl7o"]
+[ext_resource type="Texture2D" uid="uid://gn0vybvliocd" path="res://icon.svg" id="5_placeholder"]
+[ext_resource type="Texture2D" uid="uid://b7skdeqp02hwf" path="res://Sprites/Visual_Tabs/start_quiz_random_eng.png" id="6_nd81f"]
+[ext_resource type="Texture2D" uid="uid://c8qu3mshhej00" path="res://Sprites/Visual_Tabs/Random_slo.png" id="7_ku3ob"]
+[ext_resource type="Texture2D" uid="uid://d22qhnggqtdhd" path="res://Sprites/Visual_Tabs/Random_eng.png" id="8_lf6m7"]
+[ext_resource type="Texture2D" uid="uid://dvhqkoo8merh3" path="res://Sprites/Visual_Tabs/theme_slo.png" id="9_1rp86"]
+[ext_resource type="Texture2D" uid="uid://di66i3756ru60" path="res://Sprites/Visual_Tabs/theme_english.png" id="10_lu8lo"]
+[ext_resource type="Texture2D" uid="uid://cucrgncsf5yoc" path="res://Sprites/Visual_Tabs/Home_grey_slo.png" id="11_lr4wb"]
+[ext_resource type="Texture2D" uid="uid://b1va4mb4sbnsx" path="res://Sprites/Visual_Tabs/Home_blue_slo.png" id="12_3dqfx"]
+[ext_resource type="Texture2D" uid="uid://b8vrc2lyeffel" path="res://Sprites/Visual_Tabs/quiz_label_eng.png" id="12_l3lkp"]
+[ext_resource type="Texture2D" uid="uid://dbtsg0rk76fge" path="res://Sprites/Visual_Tabs/Home_grey_eng.png" id="13_qwat5"]
+[ext_resource type="Texture2D" uid="uid://0t5e1lpiagyh" path="res://Sprites/Visual_Tabs/info_button_slo.png" id="13_u4v24"]
+[ext_resource type="Texture2D" uid="uid://behl64cnm5gi7" path="res://Sprites/Visual_Tabs/Home_blue_eng.png" id="14_h04l0"]
+[ext_resource type="Texture2D" uid="uid://c42rl6r7l5pni" path="res://Sprites/Visual_Tabs/Questions_grey_slo.png" id="15_mlupp"]
+[ext_resource type="Texture2D" uid="uid://c8fxkkrnc1tc7" path="res://Sprites/Visual_Tabs/Questions_blue_slo.png" id="16_ct0ab"]
+[ext_resource type="Texture2D" uid="uid://h3ovunln224h" path="res://Sprites/Visual_Tabs/Questions_grey_eng.png" id="17_bjujw"]
+[ext_resource type="Texture2D" uid="uid://dmue6wtyqrv25" path="res://Sprites/Visual_Tabs/Questions_blue_eng.png" id="18_nd81f"]
+[ext_resource type="Texture2D" uid="uid://df68ix888ylg3" path="res://Sprites/Visual_Tabs/Periodic_grey_slo.png" id="19_l3lkp"]
+[ext_resource type="Texture2D" uid="uid://cfvlob1f1kj47" path="res://Sprites/Visual_Tabs/Periodic_blue_slo.png" id="20_u4v24"]
+[ext_resource type="Texture2D" uid="uid://dcb38j5qiyd3f" path="res://Sprites/Visual_Tabs/Periodic_grey_eng.png" id="21_ypre1"]
+[ext_resource type="Texture2D" uid="uid://loerx3ybcj2s" path="res://Sprites/Visual_Tabs/Periodic_blue_eng.png" id="22_srsg6"]
+[ext_resource type="Texture2D" uid="uid://j43vh8ptx7j4" path="res://Sprites/Visual_Tabs/Unlocked_grey_slo.png" id="23_bxj1p"]
+[ext_resource type="Texture2D" uid="uid://2imarlkmxoe1" path="res://Sprites/Visual_Tabs/Unlocked_blue_slo.png" id="24_jfb4h"]
+[ext_resource type="Texture2D" uid="uid://b5myv7smfo864" path="res://Sprites/Visual_Tabs/Unlocked_grey_eng.png" id="25_n8okw"]
+[ext_resource type="Texture2D" uid="uid://binh1quhdrah5" path="res://Sprites/Visual_Tabs/Unlocked_blue_eng.png" id="26_ptfpu"]
+[ext_resource type="Texture2D" uid="uid://ia0p7ri81gr2" path="res://Sprites/Visual_Tabs/Settings_grey_slo.png" id="27_mfxxm"]
+[ext_resource type="Texture2D" uid="uid://qjau4iifh4bq" path="res://Sprites/Visual_Tabs/Settings_blue_slo.png" id="28_1k34n"]
+[ext_resource type="Texture2D" uid="uid://pwx2h6sfuarq" path="res://Sprites/Visual_Tabs/Settings_grey_eng.png" id="29_a07k7"]
+[ext_resource type="Texture2D" uid="uid://bonfm80g56cd3" path="res://Sprites/Visual_Tabs/Settings_blue_eng.png" id="30_2m6jk"]
+[ext_resource type="Texture2D" uid="uid://blev768kkkp40" path="res://Sprites/Visual_Tabs/Line.png" id="31_line"]
+[ext_resource type="Texture2D" uid="uid://crqep0tdqmhat" path="res://Sprites/Visual_Tabs/label_difficulty_slo.png" id="32_diff_label_slo"]
+[ext_resource type="Texture2D" uid="uid://d1o4i6xvfnrel" path="res://Sprites/Visual_Tabs/label_difficulty_eng.png" id="33_diff_label_eng"]
+[ext_resource type="Texture2D" uid="uid://bnb2l3aqid2y7" path="res://Sprites/Visual_Tabs/easy_slo.png" id="34_easy_slo"]
+[ext_resource type="Texture2D" uid="uid://c05l0sc051nb8" path="res://Sprites/Visual_Tabs/easy_eng.png" id="35_easy_eng"]
+[ext_resource type="Texture2D" uid="uid://bkay074hi6oks" path="res://Sprites/Visual_Tabs/medium_slo.png" id="36_medium_slo"]
+[ext_resource type="Texture2D" uid="uid://cl3r3uvlp1ypl" path="res://Sprites/Visual_Tabs/medium_eng.png" id="37_medium_eng"]
+[ext_resource type="Texture2D" uid="uid://cvt714d1h6o3k" path="res://Sprites/Visual_Tabs/hard_slo.png" id="38_hard_slo"]
+[ext_resource type="Texture2D" uid="uid://62figgq7rpal" path="res://Sprites/Visual_Tabs/hard_eng.png" id="39_hard_eng"]
+[ext_resource type="Texture2D" uid="uid://bl0vp2ujx8w1y" path="res://Sprites/Visual_Tabs/extreme_slo.png" id="40_extreme_slo"]
+[ext_resource type="Texture2D" uid="uid://d3rlk4eqqyg1n" path="res://Sprites/Visual_Tabs/extreme_eng.png" id="41_extreme_eng"]
+[ext_resource type="Texture2D" uid="uid://dnxdsvsu52603" path="res://Sprites/Visual_Tabs/Cross.png" id="42_cross"]
+[ext_resource type="Texture2D" uid="uid://c86djm52541ma" path="res://Sprites/Visual_Tabs/Cross_blue.png" id="43_cross_blue"]
+
+[node name="StartScreen" type="Control" unique_id=858060142]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_start")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=834139511]
+layout_mode = 0
+script = ExtResource("2_safe")
+
+[node name="Background" type="Sprite2D" parent="MarginContainer" unique_id=419642038]
+position = Vector2(540, 1200)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("3_bg")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="MarginContainer" unique_id=215762141]
+
+[node name="TopBar" type="Control" parent="MarginContainer/CanvasLayer" unique_id=1687289444]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 72.0
+offset_top = 72.0
+offset_right = 1008.0
+offset_bottom = 156.0
+
+[node name="Profile" type="TextureButton" parent="MarginContainer/CanvasLayer/TopBar" unique_id=1465844006]
+layout_mode = 0
+offset_right = 72.0
+offset_bottom = 72.0
+texture_normal = ExtResource("42_cross")
+texture_pressed = ExtResource("43_cross_blue")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Logo" type="TextureRect" parent="MarginContainer/CanvasLayer" unique_id=1457297131]
+offset_left = 180.0
+offset_top = 324.0
+offset_right = 900.0
+offset_bottom = 677.0
+texture = ExtResource("5_2cl7o")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="StartQuizButton" type="TextureButton" parent="MarginContainer/CanvasLayer" unique_id=485927392 groups=["start_localized_buttons"]]
+offset_left = 174.0
+offset_top = 1081.0
+offset_right = 894.0
+offset_bottom = 1329.0
+texture_normal = ExtResource("6_nd81f")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_localized")
+Language = 1
+SloveneOff = ExtResource("7_ku3ob")
+SloveneOn = ExtResource("7_ku3ob")
+EnglishOff = ExtResource("8_lf6m7")
+EnglishOn = ExtResource("8_lf6m7")
+
+[node name="TopicsButton" type="TextureButton" parent="MarginContainer/CanvasLayer" unique_id=2074016930 groups=["start_localized_buttons"]]
+offset_left = 174.0
+offset_top = 1380.0
+offset_right = 894.0
+offset_bottom = 1628.0
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_localized")
+Language = 1
+SloveneOff = ExtResource("9_1rp86")
+SloveneOn = ExtResource("9_1rp86")
+EnglishOff = ExtResource("10_lu8lo")
+EnglishOn = ExtResource("10_lu8lo")
+
+[node name="LabelButton" type="TextureButton" parent="MarginContainer/CanvasLayer" unique_id=145080640]
+offset_left = 176.0
+offset_top = 805.0
+offset_right = 900.0
+offset_bottom = 1000.0
+texture_normal = ExtResource("12_l3lkp")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="LabelButton2" type="TextureButton" parent="MarginContainer/CanvasLayer" unique_id=991737492]
+offset_left = 756.0
+offset_top = 820.0
+offset_right = 887.0
+offset_bottom = 998.0
+texture_normal = ExtResource("13_u4v24")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="DifficultyLabel" type="TextureButton" parent="MarginContainer/CanvasLayer" unique_id=708426925 groups=["start_localized_buttons"]]
+offset_left = 90.0
+offset_top = 1734.0
+offset_right = 443.0
+offset_bottom = 1793.0
+mouse_filter = 2
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("4_localized")
+Language = 1
+SloveneOff = ExtResource("32_diff_label_slo")
+SloveneOn = ExtResource("32_diff_label_slo")
+EnglishOff = ExtResource("33_diff_label_eng")
+EnglishOn = ExtResource("33_diff_label_eng")
+
+[node name="EasyDifficultyButton" type="TextureButton" parent="MarginContainer/CanvasLayer" unique_id=1093144522 groups=["start_localized_buttons"]]
+offset_left = 72.0
+offset_top = 1827.0
+offset_right = 292.0
+offset_bottom = 2067.0
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("4_localized")
+Language = 1
+IsOn = true
+SloveneOff = ExtResource("34_easy_slo")
+SloveneOn = ExtResource("34_easy_slo")
+EnglishOff = ExtResource("35_easy_eng")
+EnglishOn = ExtResource("35_easy_eng")
+
+[node name="MediumDifficultyButton" type="TextureButton" parent="MarginContainer/CanvasLayer" unique_id=1211017646 groups=["start_localized_buttons"]]
+offset_left = 320.0
+offset_top = 1827.0
+offset_right = 540.0
+offset_bottom = 2067.0
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("4_localized")
+Language = 1
+SloveneOff = ExtResource("36_medium_slo")
+SloveneOn = ExtResource("36_medium_slo")
+EnglishOff = ExtResource("37_medium_eng")
+EnglishOn = ExtResource("37_medium_eng")
+
+[node name="HardDifficultyButton" type="TextureButton" parent="MarginContainer/CanvasLayer" unique_id=871914005 groups=["start_localized_buttons"]]
+offset_left = 568.0
+offset_top = 1827.0
+offset_right = 788.0
+offset_bottom = 2067.0
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("4_localized")
+Language = 1
+SloveneOff = ExtResource("38_hard_slo")
+SloveneOn = ExtResource("38_hard_slo")
+EnglishOff = ExtResource("39_hard_eng")
+EnglishOn = ExtResource("39_hard_eng")
+
+[node name="ExtremeDifficultyButton" type="TextureButton" parent="MarginContainer/CanvasLayer" unique_id=1046744802 groups=["start_localized_buttons"]]
+offset_left = 816.0
+offset_top = 1827.0
+offset_right = 1036.0
+offset_bottom = 2067.0
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("4_localized")
+Language = 1
+SloveneOff = ExtResource("40_extreme_slo")
+SloveneOn = ExtResource("40_extreme_slo")
+EnglishOff = ExtResource("41_extreme_eng")
+EnglishOn = ExtResource("41_extreme_eng")
+
+[node name="BottomNav" type="Control" parent="MarginContainer/CanvasLayer" unique_id=320885901]
+layout_mode = 3
+anchors_preset = 0
+offset_top = 2174.0
+offset_right = 1080.0
+offset_bottom = 2400.0
+
+[node name="HomeButton" type="TextureButton" parent="MarginContainer/CanvasLayer/BottomNav" unique_id=746504662 groups=["start_localized_buttons"]]
+layout_mode = 0
+offset_right = 216.0
+offset_bottom = 226.0
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_localized")
+Language = 1
+IsOn = true
+KeepAspect = true
+SloveneOff = ExtResource("11_lr4wb")
+SloveneOn = ExtResource("12_3dqfx")
+EnglishOff = ExtResource("13_qwat5")
+EnglishOn = ExtResource("14_h04l0")
+
+[node name="QuestionsButton" type="TextureButton" parent="MarginContainer/CanvasLayer/BottomNav" unique_id=1075353574 groups=["start_localized_buttons"]]
+layout_mode = 0
+offset_left = 216.0
+offset_right = 432.0
+offset_bottom = 226.0
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_localized")
+Language = 1
+KeepAspect = true
+SloveneOff = ExtResource("15_mlupp")
+SloveneOn = ExtResource("16_ct0ab")
+EnglishOff = ExtResource("17_bjujw")
+EnglishOn = ExtResource("18_nd81f")
+
+[node name="PeriodicButton" type="TextureButton" parent="MarginContainer/CanvasLayer/BottomNav" unique_id=32944363 groups=["start_localized_buttons"]]
+layout_mode = 0
+offset_left = 432.0
+offset_right = 648.0
+offset_bottom = 226.0
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_localized")
+Language = 1
+KeepAspect = true
+SloveneOff = ExtResource("19_l3lkp")
+SloveneOn = ExtResource("20_u4v24")
+EnglishOff = ExtResource("21_ypre1")
+EnglishOn = ExtResource("22_srsg6")
+
+[node name="UnlockedButton" type="TextureButton" parent="MarginContainer/CanvasLayer/BottomNav" unique_id=1050675295 groups=["start_localized_buttons"]]
+layout_mode = 0
+offset_left = 648.0
+offset_right = 864.0
+offset_bottom = 226.0
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_localized")
+Language = 1
+KeepAspect = true
+SloveneOff = ExtResource("23_bxj1p")
+SloveneOn = ExtResource("24_jfb4h")
+EnglishOff = ExtResource("25_n8okw")
+EnglishOn = ExtResource("26_ptfpu")
+
+[node name="SettingsButton" type="TextureButton" parent="MarginContainer/CanvasLayer/BottomNav" unique_id=1343082845 groups=["start_localized_buttons"]]
+layout_mode = 0
+offset_left = 864.0
+offset_right = 1080.0
+offset_bottom = 226.0
+texture_normal = ExtResource("5_placeholder")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_localized")
+Language = 1
+KeepAspect = true
+SloveneOff = ExtResource("27_mfxxm")
+SloveneOn = ExtResource("28_1k34n")
+EnglishOff = ExtResource("29_a07k7")
+EnglishOn = ExtResource("30_2m6jk")
+
+[node name="TopLine" type="TextureRect" parent="MarginContainer/CanvasLayer/BottomNav" unique_id=396091788]
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 6.0
+texture = ExtResource("31_line")
+expand_mode = 1
+stretch_mode = 1
+
+[connection signal="pressed" from="MarginContainer/CanvasLayer/StartQuizButton" to="." method="StartQuiz"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/TopicsButton" to="." method="OpenTopics"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/LabelButton" to="." method="Placeholder"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/LabelButton2" to="." method="Placeholder"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/EasyDifficultyButton" to="." method="SetDifficultyEasy"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/MediumDifficultyButton" to="." method="SetDifficultyMedium"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/HardDifficultyButton" to="." method="SetDifficultyHard"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/ExtremeDifficultyButton" to="." method="SetDifficultyExtreme"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/BottomNav/HomeButton" to="." method="Placeholder"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/BottomNav/QuestionsButton" to="." method="OpenSavedCompounds"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/BottomNav/PeriodicButton" to="." method="OpenPeriodic"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/BottomNav/UnlockedButton" to="." method="OpenUnlocked"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer/BottomNav/SettingsButton" to="." method="OpenSettings"]

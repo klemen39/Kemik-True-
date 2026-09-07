@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://dgfktnjsu8vnp"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_ij7fh"]
+
+[resource]
+script = ExtResource("1_ij7fh")
+SLOelementName = "Železo"
+ENGelementName = "Iron"
+Symbol = "Fe"
+AtomicNumber = 26
+NeutronCount = 30
+Mass = 56
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 14
+Perioda4 = 2
+Skupina = 8
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

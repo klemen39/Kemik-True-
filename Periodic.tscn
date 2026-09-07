@@ -1,0 +1,4487 @@
+[gd_scene format=3 uid="uid://ykmtgtvekiew"]
+
+[ext_resource type="Script" uid="uid://eksivkib8phf" path="res://Scripts/PeriodicTableManager.cs" id="1_hfx7a"]
+[ext_resource type="Script" uid="uid://c006pe2qt46v7" path="res://Scripts/SafeAreaMarginContainer.cs" id="2_n4qgu"]
+[ext_resource type="Texture2D" uid="uid://c0qm0dj2j8qrv" path="res://Sprites/Nickel_Normal.png" id="2_ppgxx"]
+[ext_resource type="Script" uid="uid://qaeg1tsalbb1" path="res://Scripts/FilterButtonPeriodic.cs" id="3_filter"]
+[ext_resource type="Texture2D" uid="uid://c1tmwv6cldgn" path="res://Sprites/Nickel_Chosen.png" id="3_n4qgu"]
+[ext_resource type="Texture2D" uid="uid://blk3js4jsvygl" path="res://Sprites/Nickel_Shadow.png" id="4_l05fx"]
+[ext_resource type="Script" uid="uid://bydk6kg83rae" path="res://Scripts/ElementButtonPeriodic.cs" id="5_gjsue"]
+[ext_resource type="Texture2D" uid="uid://dn8k1g1qq6g3b" path="res://Sprites/Palladium_Normal.png" id="6_dm3uk"]
+[ext_resource type="Texture2D" uid="uid://dpn02fh4btnho" path="res://Sprites/Palladium_Chosen.png" id="7_u7qlo"]
+[ext_resource type="Texture2D" uid="uid://paymlo41pt5e" path="res://Sprites/Palladium_Shadow.png" id="8_hiiri"]
+[ext_resource type="Texture2D" uid="uid://dkrvl82v0q0bh" path="res://Sprites/Platinum_Normal.png" id="9_k46jy"]
+[ext_resource type="Texture2D" uid="uid://b1uvbxeqyqipd" path="res://Sprites/Platinum_Chosen.png" id="10_g8n5x"]
+[ext_resource type="Texture2D" uid="uid://bv7hb53c8kukr" path="res://Sprites/Platinum_Shadow.png" id="11_mvjev"]
+[ext_resource type="Texture2D" uid="uid://cgtnw3xsb5kh0" path="res://Sprites/Darmstadtium_Normal.png" id="12_81enu"]
+[ext_resource type="Texture2D" uid="uid://gqhone8inipu" path="res://Sprites/Darmstadtium_Chosen.png" id="13_t0c4a"]
+[ext_resource type="Texture2D" uid="uid://ce6axedxn28q1" path="res://Sprites/Darmstadtium_Shadow.png" id="14_in1kq"]
+[ext_resource type="Texture2D" uid="uid://dmq65eg605i3l" path="res://Sprites/Hydrogen_Normal.png" id="15_i6kmk"]
+[ext_resource type="Texture2D" uid="uid://chfsbkbp26bb7" path="res://Sprites/Hydrogen_Chosen.png" id="16_4bl68"]
+[ext_resource type="Texture2D" uid="uid://cskjyh5d3p4r1" path="res://Sprites/Hydrogen_Shadow.png" id="17_wj0sd"]
+[ext_resource type="Texture2D" uid="uid://bahh1hhhmvcy5" path="res://Sprites/Lithium_Normal.png" id="18_clcel"]
+[ext_resource type="Resource" uid="uid://ceidxhqs43l0p" path="res://Elements/Hydrogen.tres" id="19_l05fx"]
+[ext_resource type="Texture2D" uid="uid://b7ldxjxfg3ajs" path="res://Sprites/Lithium_Chosen.png" id="19_oa1jv"]
+[ext_resource type="Texture2D" uid="uid://oxd5p4ya68hd" path="res://Sprites/Lithium_Shadow.png" id="20_f338s"]
+[ext_resource type="Texture2D" uid="uid://yo3gd1eo4hgi" path="res://Sprites/Sodium_Normal.png" id="21_crdb2"]
+[ext_resource type="Texture2D" uid="uid://c73i1ur8wg6tc" path="res://Sprites/Sodium_Chosen.png" id="22_x60my"]
+[ext_resource type="Texture2D" uid="uid://digxfl2v4n7gn" path="res://Sprites/Sodium_Shadow.png" id="23_ormwu"]
+[ext_resource type="Resource" uid="uid://drkcbhvo1visb" path="res://Elements/Lithium.tres" id="23_rt1wj"]
+[ext_resource type="Texture2D" uid="uid://bhv0m50fdnmxj" path="res://Sprites/Potassium_Normal.png" id="24_nlwrn"]
+[ext_resource type="Texture2D" uid="uid://dymyet61w7pti" path="res://Sprites/Potassium_Correct.png" id="25_t3gem"]
+[ext_resource type="Texture2D" uid="uid://c1271xl4yt741" path="res://Sprites/Potassium_Shadow.png" id="26_2a0dc"]
+[ext_resource type="Texture2D" uid="uid://cpcnbv8v38hex" path="res://Sprites/Rubidium_Normal.png" id="27_4nmx7"]
+[ext_resource type="Resource" uid="uid://du4puicoon0if" path="res://Elements/Sodium.tres" id="27_m12jm"]
+[ext_resource type="Texture2D" uid="uid://d0edqpf1si2ge" path="res://Sprites/Rubidium_Chosen.png" id="28_s3p6v"]
+[ext_resource type="Texture2D" uid="uid://dcaf8kgt0nxeq" path="res://Sprites/Rubidium_Shadow.png" id="29_fqfwr"]
+[ext_resource type="Texture2D" uid="uid://c31rbc3v4ge14" path="res://Sprites/Caesium_Normal.png" id="30_b74xj"]
+[ext_resource type="Resource" uid="uid://bhnw8j75rswbk" path="res://Elements/Potassium.tres" id="31_ftdoo"]
+[ext_resource type="Texture2D" uid="uid://boo0ockacoupq" path="res://Sprites/Caesium_Chosen.png" id="31_j7xid"]
+[ext_resource type="Texture2D" uid="uid://bieujy7i0vse" path="res://Sprites/Caesium_Shadow.png" id="32_tjk7c"]
+[ext_resource type="Texture2D" uid="uid://d0gxrawij3bfm" path="res://Sprites/Francium_Normal.png" id="33_5biw0"]
+[ext_resource type="Texture2D" uid="uid://b8ghkjhmswpkb" path="res://Sprites/Francium_Chosen.png" id="34_grrfi"]
+[ext_resource type="Texture2D" uid="uid://bq323bhim20px" path="res://Sprites/Francium_Shadow.png" id="35_jc1so"]
+[ext_resource type="Resource" uid="uid://cb03s1jnamm0j" path="res://Elements/Rubidium.tres" id="35_smr7e"]
+[ext_resource type="Texture2D" uid="uid://dq7mrq7i2dywk" path="res://Sprites/Beryllium_Normal.png" id="36_u5jkc"]
+[ext_resource type="Texture2D" uid="uid://da3nlejopm7fk" path="res://Sprites/Beryllium_Chosen.png" id="37_rrb3u"]
+[ext_resource type="Texture2D" uid="uid://baywegtt8e4eq" path="res://Sprites/Beryllium_Shadow.png" id="38_8ri60"]
+[ext_resource type="Texture2D" uid="uid://cj0nuai8jfqep" path="res://Sprites/Magnesium_Normal.png" id="39_3etxj"]
+[ext_resource type="Resource" uid="uid://c1ncxhhpd1apg" path="res://Elements/Caesium.tres" id="39_rq1y0"]
+[ext_resource type="Texture2D" uid="uid://c0m7pfwp11urt" path="res://Sprites/Magnesium_Chosen.png" id="40_cyuev"]
+[ext_resource type="Texture2D" uid="uid://dprt151kaao5m" path="res://Sprites/Magnesium_Shadow.png" id="41_poiry"]
+[ext_resource type="Texture2D" uid="uid://buuey7rmqiox5" path="res://Sprites/Calcium_Normal.png" id="42_qprcg"]
+[ext_resource type="Texture2D" uid="uid://digr3dgj3xyam" path="res://Sprites/Calcium_Chosen.png" id="43_lc3sy"]
+[ext_resource type="Resource" uid="uid://cvbopo32p5vt3" path="res://Elements/Francium.tres" id="43_xebmy"]
+[ext_resource type="Texture2D" uid="uid://d1p858gfoh17f" path="res://Sprites/Calcium_Shadow.png" id="44_118dl"]
+[ext_resource type="Texture2D" uid="uid://c45nxuqxclpqc" path="res://Sprites/Strontium_Normal.png" id="45_kc5vm"]
+[ext_resource type="Texture2D" uid="uid://cni155g7xbvjb" path="res://Sprites/Strontium_Chosen.png" id="46_onfn0"]
+[ext_resource type="Texture2D" uid="uid://4bqmvqcmuhns" path="res://Sprites/Strontium_Shadow.png" id="47_gy4xn"]
+[ext_resource type="Resource" uid="uid://d0iojg162dc0g" path="res://Elements/Beryllium.tres" id="47_mvhb8"]
+[ext_resource type="Texture2D" uid="uid://bsmda3wt4hxvl" path="res://Sprites/Barium_Normal.png" id="48_cvmty"]
+[ext_resource type="Texture2D" uid="uid://d1su655sri3a7" path="res://Sprites/Barium_Chosen.png" id="49_vfo8q"]
+[ext_resource type="Texture2D" uid="uid://co4efd7bi83to" path="res://Sprites/Barium_Shadow.png" id="50_0oji7"]
+[ext_resource type="Resource" uid="uid://31vj5po48wt7" path="res://Elements/Magnesium.tres" id="51_5v2kd"]
+[ext_resource type="Texture2D" uid="uid://ck1r1fbm5c802" path="res://Sprites/Radium_Normal.png" id="51_h5mu1"]
+[ext_resource type="Texture2D" uid="uid://bfxtin758iyff" path="res://Sprites/Radium_Chosen.png" id="52_elnx0"]
+[ext_resource type="Texture2D" uid="uid://bayap2eep7ibl" path="res://Sprites/Radium_Shadow.png" id="53_k0nqg"]
+[ext_resource type="Texture2D" uid="uid://c0w86c4v3inas" path="res://Sprites/Scandium_Normal.png" id="54_lda44"]
+[ext_resource type="Texture2D" uid="uid://cx8j0s0omnken" path="res://Sprites/Scandium_Chosen.png" id="55_7r018"]
+[ext_resource type="Resource" uid="uid://b5ljioxg7bqtk" path="res://Elements/Calcium.tres" id="55_f037j"]
+[ext_resource type="Texture2D" uid="uid://l4e7yobs8q7w" path="res://Sprites/Scandium_Shadow.png" id="56_lmxer"]
+[ext_resource type="Texture2D" uid="uid://drhs7oqu2ygm7" path="res://Sprites/Yttrium_Normal.png" id="57_bf1l7"]
+[ext_resource type="Texture2D" uid="uid://cajlepe3eebve" path="res://Sprites/Yttrium_Chosen.png" id="58_eimoi"]
+[ext_resource type="Resource" uid="uid://dymhn42h2v2sq" path="res://Elements/Strontium.tres" id="59_ln81n"]
+[ext_resource type="Texture2D" uid="uid://caspssrl0qp8j" path="res://Sprites/Yttrium_Shadow.png" id="59_shfi1"]
+[ext_resource type="Texture2D" uid="uid://b5v3xglvcqqj2" path="res://Sprites/Lanthanoids_Normal.png" id="60_kdvjb"]
+[ext_resource type="Texture2D" uid="uid://crm342tlx3sx3" path="res://Sprites/Lanthanoids_Chosen.png" id="61_5fflv"]
+[ext_resource type="Texture2D" uid="uid://dy4mhtl3pwccd" path="res://Sprites/Lanthanoids_Shadow.png" id="62_ttnw2"]
+[ext_resource type="Texture2D" uid="uid://dyladkhymwbmt" path="res://Sprites/Actinoids_Normal.png" id="63_6iuxi"]
+[ext_resource type="Resource" uid="uid://1njetcbbiapu" path="res://Elements/Barium.tres" id="63_gor8c"]
+[ext_resource type="Texture2D" uid="uid://bee6gkaqkat6n" path="res://Sprites/Actinoids_Chosen.png" id="64_jj2de"]
+[ext_resource type="Texture2D" uid="uid://de8hxvc6p0udr" path="res://Sprites/Actinoids_Shadow.png" id="65_0vlmg"]
+[ext_resource type="Texture2D" uid="uid://c0vk5r5jk02gp" path="res://Sprites/Titanium_Normal.png" id="66_30bfr"]
+[ext_resource type="Resource" uid="uid://y8t3svoqeugv" path="res://Elements/Radium.tres" id="67_b7dfv"]
+[ext_resource type="Texture2D" uid="uid://ddb33tx43jdf1" path="res://Sprites/Titanium_Chosen.png" id="67_wook8"]
+[ext_resource type="Texture2D" uid="uid://cxhq5d4umubbf" path="res://Sprites/Titanium_Shadow.png" id="68_s2ogk"]
+[ext_resource type="Texture2D" uid="uid://c51nxjjkolx8u" path="res://Sprites/Zirconium_Normal.png" id="69_4jsbq"]
+[ext_resource type="Texture2D" uid="uid://cisvvxgmwywfq" path="res://Sprites/Zirconium_Chosen.png" id="70_hsx5f"]
+[ext_resource type="Texture2D" uid="uid://0ytvjsr6h4t0" path="res://Sprites/Zirconium_Shadow.png" id="71_kd7ds"]
+[ext_resource type="Resource" uid="uid://cix4uydmwdqoe" path="res://Elements/Scandium.tres" id="71_ta04b"]
+[ext_resource type="Texture2D" uid="uid://dpe5nu2fr2gkf" path="res://Sprites/Hafnium_Normal.png" id="72_ulspv"]
+[ext_resource type="Texture2D" uid="uid://d2jw661ge31e3" path="res://Sprites/Hafnium_Chosen.png" id="73_kwli0"]
+[ext_resource type="Texture2D" uid="uid://bmq4y1w20vksn" path="res://Sprites/Hafnium_Shadow.png" id="74_jc2du"]
+[ext_resource type="Texture2D" uid="uid://b5v05ierghd7g" path="res://Sprites/Rutherfordium_Normal.png" id="75_me0la"]
+[ext_resource type="Resource" uid="uid://dceslmyxd7e43" path="res://Elements/Yttrium.tres" id="75_yluhc"]
+[ext_resource type="Texture2D" uid="uid://d4ng7clusukfl" path="res://Sprites/Rutherfordium_Chosen.png" id="76_dssqb"]
+[ext_resource type="Texture2D" uid="uid://cklekipyes1b2" path="res://Sprites/Rutherfordium_Shadow.png" id="77_umfym"]
+[ext_resource type="Texture2D" uid="uid://bvdkrdpjhsjrw" path="res://Sprites/Vanadium_Normal.png" id="78_uys5m"]
+[ext_resource type="Texture2D" uid="uid://65f7l1u56o5m" path="res://Sprites/Vanadium_Chosen.png" id="79_j8hk2"]
+[ext_resource type="Texture2D" uid="uid://bejhw3cacsgpe" path="res://Sprites/Vanadium_Shadow.png" id="80_rofpk"]
+[ext_resource type="Texture2D" uid="uid://beu4uc6gn8yet" path="res://Sprites/Niobium_Normal.png" id="81_s2oqm"]
+[ext_resource type="Texture2D" uid="uid://bc6q46pe60kyd" path="res://Sprites/Niobium_Chosen.png" id="82_24hj7"]
+[ext_resource type="Texture2D" uid="uid://co4xjounyrpx3" path="res://Sprites/Niobium_Shadow.png" id="83_d6mid"]
+[ext_resource type="Texture2D" uid="uid://cyo764qt2ruf" path="res://Sprites/Tantalum_Normal.png" id="84_2a7jp"]
+[ext_resource type="Resource" uid="uid://occ7qki4ewal" path="res://Elements/Titanium.tres" id="85_r47i1"]
+[ext_resource type="Texture2D" uid="uid://bwjc0rourg8qq" path="res://Sprites/Tantalum_Chosen.png" id="85_uutlf"]
+[ext_resource type="Texture2D" uid="uid://cbj40glldmc3n" path="res://Sprites/Tantalum_Shadow.png" id="86_coqxg"]
+[ext_resource type="Texture2D" uid="uid://b6shs5yvmpd7h" path="res://Sprites/Dubnium_Normal.png" id="87_11k4r"]
+[ext_resource type="Texture2D" uid="uid://cycr27pplek2y" path="res://Sprites/Dubnium_Chosen.png" id="88_sb5n5"]
+[ext_resource type="Texture2D" uid="uid://d2gtjmc6t3i4l" path="res://Sprites/Dubnium_Shadow.png" id="89_0fyjo"]
+[ext_resource type="Resource" uid="uid://b7qadrf1ostx0" path="res://Elements/Zirconium.tres" id="89_42vp2"]
+[ext_resource type="Texture2D" uid="uid://hce5mk6em74q" path="res://Sprites/Chromium_Normal.png" id="90_7e21o"]
+[ext_resource type="Texture2D" uid="uid://nla6t5e0in57" path="res://Sprites/Chromium_Chosen.png" id="91_c75sl"]
+[ext_resource type="Texture2D" uid="uid://rxfjtrii20sf" path="res://Sprites/Chromium_Shadow.png" id="92_on233"]
+[ext_resource type="Texture2D" uid="uid://n663vdx1317m" path="res://Sprites/Molybdenum_Normal.png" id="93_1heok"]
+[ext_resource type="Resource" uid="uid://tgju487pfx24" path="res://Elements/Hafnium.tres" id="93_xbny0"]
+[ext_resource type="Texture2D" uid="uid://dvwxgll70dn2l" path="res://Sprites/Molybdenum_Chosen.png" id="94_8bpst"]
+[ext_resource type="Texture2D" uid="uid://cg2676kltnnlw" path="res://Sprites/Molybdenum_Shadow.png" id="95_oylvi"]
+[ext_resource type="Texture2D" uid="uid://d1sjcomb7wh63" path="res://Sprites/Tungsten_Normal.png" id="96_pd1f4"]
+[ext_resource type="Resource" uid="uid://bxtvwy7mwdtu" path="res://Elements/Rutherfordium.tres" id="97_mgvhl"]
+[ext_resource type="Texture2D" uid="uid://dy0ikkr86iv34" path="res://Sprites/Tungsten_Chosen.png" id="97_t2l00"]
+[ext_resource type="Texture2D" uid="uid://be2j7r1pjk21" path="res://Sprites/Tungsten_Shadow.png" id="98_cvgdx"]
+[ext_resource type="Texture2D" uid="uid://dy135geu0jy7o" path="res://Sprites/Seaborgium_Normal.png" id="99_4cjfx"]
+[ext_resource type="Texture2D" uid="uid://7nmog4w3i632" path="res://Sprites/Seaborgium_Chosen.png" id="100_6hukj"]
+[ext_resource type="Resource" uid="uid://baupyxt5o0rpc" path="res://Elements/Vanadium.tres" id="101_81p4u"]
+[ext_resource type="Texture2D" uid="uid://6m8ybsdjyqvj" path="res://Sprites/Seaborgium_Shadow.png" id="101_l7ey0"]
+[ext_resource type="Texture2D" uid="uid://bxwm75mb6i8ul" path="res://Sprites/Manganese_Normal.png" id="102_meig0"]
+[ext_resource type="Texture2D" uid="uid://cka4ns40wlor4" path="res://Sprites/Manganese_Chosen.png" id="103_1tlto"]
+[ext_resource type="Texture2D" uid="uid://cd38xh84ct5sa" path="res://Sprites/Manganese_Shadow.png" id="104_ksbv1"]
+[ext_resource type="Resource" uid="uid://dcgiq0n5nnawi" path="res://Elements/Niobium.tres" id="105_aarad"]
+[ext_resource type="Texture2D" uid="uid://dwvlg0o83161g" path="res://Sprites/Technetium_Normal.png" id="105_id7in"]
+[ext_resource type="Texture2D" uid="uid://c4t2hjix6glvi" path="res://Sprites/Technetium_Chosen.png" id="106_1avmc"]
+[ext_resource type="Texture2D" uid="uid://dkvjf8am88exg" path="res://Sprites/Technetium_Shadow.png" id="107_mi7ci"]
+[ext_resource type="Texture2D" uid="uid://bt7trfxu6oyki" path="res://Sprites/Rhenium_Normal.png" id="108_ftsyl"]
+[ext_resource type="Resource" uid="uid://cns7ggqrtho8k" path="res://Elements/Tantalum.tres" id="109_effmq"]
+[ext_resource type="Texture2D" uid="uid://4jl7f51l7s2h" path="res://Sprites/Rhenium_Chosen.png" id="109_ejido"]
+[ext_resource type="Texture2D" uid="uid://723yvgsj261i" path="res://Sprites/Rhenium_Shadow.png" id="110_ojytl"]
+[ext_resource type="Texture2D" uid="uid://cpwp8ytsu1kjm" path="res://Sprites/Bohrium_Normal.png" id="111_ci4wq"]
+[ext_resource type="Texture2D" uid="uid://chgu3x3rniji5" path="res://Sprites/Bohrium_Chosen.png" id="112_ejy7f"]
+[ext_resource type="Texture2D" uid="uid://b7wj7edcwepvt" path="res://Sprites/Bohrium_Shadow.png" id="113_7w10c"]
+[ext_resource type="Resource" uid="uid://bxgnpkwqfdexh" path="res://Elements/Dubnium.tres" id="113_kd8t7"]
+[ext_resource type="Texture2D" uid="uid://20cqqdb2gtpx" path="res://Sprites/Iron_Normal.png" id="114_ve1l2"]
+[ext_resource type="Texture2D" uid="uid://r1wltg3yhsjy" path="res://Sprites/Iron_Chosen.png" id="115_bb0pu"]
+[ext_resource type="Texture2D" uid="uid://b4li2er0erg4r" path="res://Sprites/Iron_Shadow.png" id="116_qg53c"]
+[ext_resource type="Texture2D" uid="uid://dugqnhch4ngx" path="res://Sprites/Ruthenium_Normal.png" id="117_rt1wj"]
+[ext_resource type="Resource" uid="uid://qls645eh6ecs" path="res://Elements/Chromium.tres" id="117_ylnng"]
+[ext_resource type="Texture2D" uid="uid://dqlxhfjsvopxv" path="res://Sprites/Ruthenium_Chosen.png" id="118_m12jm"]
+[ext_resource type="Texture2D" uid="uid://bbtot681o5j8u" path="res://Sprites/Ruthenium_Shadow.png" id="119_ftdoo"]
+[ext_resource type="Texture2D" uid="uid://cary7tm2vmp84" path="res://Sprites/Osmium_Normal.png" id="120_smr7e"]
+[ext_resource type="Resource" uid="uid://dha6d1fed61li" path="res://Elements/Molybdenum.tres" id="121_f2uki"]
+[ext_resource type="Texture2D" uid="uid://c6bskknx12an2" path="res://Sprites/Osmium_Chosen.png" id="121_rq1y0"]
+[ext_resource type="Texture2D" uid="uid://06rgdj4k48de" path="res://Sprites/Osmium_Shadow.png" id="122_xebmy"]
+[ext_resource type="Texture2D" uid="uid://df024ge2l0y1p" path="res://Sprites/Hassium_Normal.png" id="123_mvhb8"]
+[ext_resource type="Texture2D" uid="uid://dceoalrxnv05j" path="res://Sprites/Hassium_Chosen.png" id="124_5v2kd"]
+[ext_resource type="Resource" uid="uid://cbdoj7b8gfkm" path="res://Elements/Tungsten.tres" id="125_830h4"]
+[ext_resource type="Texture2D" uid="uid://c35mi6fdfsfn7" path="res://Sprites/Hassium_Shadow.png" id="125_f037j"]
+[ext_resource type="Texture2D" uid="uid://c5nloxms04jti" path="res://Sprites/Cobalt_Normal.png" id="126_ln81n"]
+[ext_resource type="Texture2D" uid="uid://eqhw4apvynxv" path="res://Sprites/Cobalt_Chosen.png" id="127_gor8c"]
+[ext_resource type="Texture2D" uid="uid://b73qqu5f2tc2o" path="res://Sprites/Cobalt_Shadow.png" id="128_b7dfv"]
+[ext_resource type="Resource" uid="uid://wk7eqs0u7ky3" path="res://Elements/Seaborgium.tres" id="129_3i5cx"]
+[ext_resource type="Texture2D" uid="uid://t6ae47ep7pua" path="res://Sprites/Rhodium_Normal.png" id="129_ta04b"]
+[ext_resource type="Texture2D" uid="uid://b5nha5xmgghsl" path="res://Sprites/Rhodium_Chosen.png" id="130_yluhc"]
+[ext_resource type="Texture2D" uid="uid://dix145xn8msjh" path="res://Sprites/Rhodium_Shadow.png" id="131_r47i1"]
+[ext_resource type="Texture2D" uid="uid://cnnsfyit7sjr0" path="res://Sprites/Iridium_Normal.png" id="132_42vp2"]
+[ext_resource type="Resource" uid="uid://bveli0fhs7i1k" path="res://Elements/Manganese.tres" id="133_3cyya"]
+[ext_resource type="Texture2D" uid="uid://en80hwkhbnsc" path="res://Sprites/Iridium_Chosen.png" id="133_xbny0"]
+[ext_resource type="Texture2D" uid="uid://chsj5s5nyxf61" path="res://Sprites/Iridium_Shadow.png" id="134_mgvhl"]
+[ext_resource type="Texture2D" uid="uid://bpeu8q42dp6q8" path="res://Sprites/Meitnerium_Normal.png" id="135_81p4u"]
+[ext_resource type="Texture2D" uid="uid://3eka71ejhwa6" path="res://Sprites/Meitnerium_Chosen.png" id="136_aarad"]
+[ext_resource type="Resource" uid="uid://cpuidsxv1u5bb" path="res://Elements/Technetium.tres" id="137_1cn7t"]
+[ext_resource type="Texture2D" uid="uid://d3ac4y008kxeb" path="res://Sprites/Meitnerium_Shadow.png" id="137_effmq"]
+[ext_resource type="Texture2D" uid="uid://c1ey7m8cdjniu" path="res://Sprites/Copper_Normal.png" id="138_kd8t7"]
+[ext_resource type="Texture2D" uid="uid://cpcs3lapqe4tc" path="res://Sprites/Copper_Chosen.png" id="139_ylnng"]
+[ext_resource type="Texture2D" uid="uid://bofagn7flibn" path="res://Sprites/Copper_Shadow.png" id="140_f2uki"]
+[ext_resource type="Texture2D" uid="uid://bcei1owicrl27" path="res://Sprites/Silver_Normal.png" id="141_830h4"]
+[ext_resource type="Resource" uid="uid://dqbuwnknfp1u8" path="res://Elements/Rhenium.tres" id="141_inved"]
+[ext_resource type="Texture2D" uid="uid://cgfpb3xtcgfl8" path="res://Sprites/Silver_Chosen.png" id="142_3i5cx"]
+[ext_resource type="Texture2D" uid="uid://dpwv6el56fuw3" path="res://Sprites/Silver_Shadow.png" id="143_3cyya"]
+[ext_resource type="Texture2D" uid="uid://cmxo6jcuttt" path="res://Sprites/Gold_Normal.png" id="144_1cn7t"]
+[ext_resource type="Resource" uid="uid://cwm8xlxktqrdc" path="res://Elements/Bohrium.tres" id="145_hm7ll"]
+[ext_resource type="Texture2D" uid="uid://c2nkowt038whp" path="res://Sprites/Gold_Chosen.png" id="145_inved"]
+[ext_resource type="Texture2D" uid="uid://8icdptuhtxmg" path="res://Sprites/Gold_Shadow.png" id="146_hm7ll"]
+[ext_resource type="Texture2D" uid="uid://j5wr6ayd2k3a" path="res://Sprites/Roentgenium_Normal.png" id="147_v1jgc"]
+[ext_resource type="Texture2D" uid="uid://be0pya8rf0iud" path="res://Sprites/Roentgenium_Chosen.png" id="148_eefqw"]
+[ext_resource type="Texture2D" uid="uid://st6kfrboq56x" path="res://Sprites/Roentgenium_Shadow.png" id="149_lyg35"]
+[ext_resource type="Resource" uid="uid://dgfktnjsu8vnp" path="res://Elements/Iron.tres" id="149_v1jgc"]
+[ext_resource type="Texture2D" uid="uid://da5rd1m5sp2ei" path="res://Sprites/Zinc_Normal.png" id="150_7x6c5"]
+[ext_resource type="Texture2D" uid="uid://cld2lrxao84ij" path="res://Sprites/Zinc_Chosen.png" id="151_jrfnv"]
+[ext_resource type="Texture2D" uid="uid://ipf2lm7n1fvs" path="res://Sprites/Zinc_Shadow.png" id="152_x2q1n"]
+[ext_resource type="Texture2D" uid="uid://cljq5qwo1skey" path="res://Sprites/Cadmium_Normal.png" id="153_b37kh"]
+[ext_resource type="Resource" uid="uid://cffeesy5l3ibf" path="res://Elements/Ruthenium.tres" id="153_eefqw"]
+[ext_resource type="Texture2D" uid="uid://bks7oqsbdxwom" path="res://Sprites/Cadmium_Chosen.png" id="154_8knai"]
+[ext_resource type="Texture2D" uid="uid://cus4n1jqf2u7j" path="res://Sprites/Cadmium_Shadow.png" id="155_fyyn7"]
+[ext_resource type="Texture2D" uid="uid://cbobrlevvn5th" path="res://Sprites/Mercury_Normal.png" id="156_34q5s"]
+[ext_resource type="Texture2D" uid="uid://cmkd335rqqwak" path="res://Sprites/Mercury_Chosen.png" id="157_1k062"]
+[ext_resource type="Resource" uid="uid://bug603l7tm4cp" path="res://Elements/Osmium.tres" id="157_lyg35"]
+[ext_resource type="Texture2D" uid="uid://cjp1r47r57m1x" path="res://Sprites/Mercury_Shadow.png" id="158_x3a2p"]
+[ext_resource type="Texture2D" uid="uid://d3g4ax7ivpbd3" path="res://Sprites/Copernicium_Normal.png" id="159_hxtfo"]
+[ext_resource type="Texture2D" uid="uid://c1silb43keea1" path="res://Sprites/Copernicium_Chosen.png" id="160_rweay"]
+[ext_resource type="Resource" uid="uid://uqf31jbdsj4c" path="res://Elements/Hassium.tres" id="161_7x6c5"]
+[ext_resource type="Texture2D" uid="uid://dr3koi38scnlj" path="res://Sprites/Copernicium_Shadow.png" id="161_xn5pc"]
+[ext_resource type="Texture2D" uid="uid://bcwhxqu2etc7s" path="res://Sprites/Boron_Normal.png" id="162_4bky1"]
+[ext_resource type="Texture2D" uid="uid://cu4h6y0hcn3dn" path="res://Sprites/Boron_Chosen.png" id="163_qorw3"]
+[ext_resource type="Texture2D" uid="uid://c74mosn65ttjd" path="res://Sprites/Boron_Shadow.png" id="164_hivep"]
+[ext_resource type="Resource" uid="uid://bqiifc88e06pf" path="res://Elements/Cobalt.tres" id="165_jrfnv"]
+[ext_resource type="Texture2D" uid="uid://cnrrwhq7rn4ff" path="res://Sprites/Aluminium_Normal.png" id="165_p4c8y"]
+[ext_resource type="Texture2D" uid="uid://b3j4xy5xio7os" path="res://Sprites/Aluminium_Chosen.png" id="166_0n0e3"]
+[ext_resource type="Texture2D" uid="uid://c32gayjvveyay" path="res://Sprites/Aluminium_Shadow.png" id="167_nnmld"]
+[ext_resource type="Texture2D" uid="uid://m2los7ftuw3k" path="res://Sprites/Gallium_Normal.png" id="168_2pjv3"]
+[ext_resource type="Texture2D" uid="uid://cjfaav0tjawr" path="res://Sprites/Gallium_Chosen.png" id="169_utju1"]
+[ext_resource type="Resource" uid="uid://bj6a155joc8gc" path="res://Elements/Rhodium.tres" id="169_x2q1n"]
+[ext_resource type="Texture2D" uid="uid://ppm411sfm6ct" path="res://Sprites/Gallium_Shadow.png" id="170_25gwu"]
+[ext_resource type="Texture2D" uid="uid://b2yml683hkxu2" path="res://Sprites/Indium_Normal.png" id="171_uoyi4"]
+[ext_resource type="Texture2D" uid="uid://1sq06j0cvav4" path="res://Sprites/Indium_Chosen.png" id="172_05ke0"]
+[ext_resource type="Resource" uid="uid://ddx3i2r2ihfv3" path="res://Elements/Iridium.tres" id="173_b37kh"]
+[ext_resource type="Texture2D" uid="uid://bn6wa1t7fx23i" path="res://Sprites/Indium_Shadow.png" id="173_pjap1"]
+[ext_resource type="Texture2D" uid="uid://c7st487r5ce2p" path="res://Sprites/Thallium_Normal.png" id="174_b48bv"]
+[ext_resource type="Texture2D" uid="uid://dh1oudkvpv6eu" path="res://Sprites/Thallium_Chosen.png" id="175_vdtvt"]
+[ext_resource type="Texture2D" uid="uid://bxghd2l2ekknl" path="res://Sprites/Thallium_Shadow.png" id="176_ykgbl"]
+[ext_resource type="Resource" uid="uid://cgxev6n2ajvrv" path="res://Elements/Meitnerium.tres" id="177_8knai"]
+[ext_resource type="Texture2D" uid="uid://0w6i7yygtxa3" path="res://Sprites/Nihonium_Normal.png" id="177_nkvdi"]
+[ext_resource type="Texture2D" uid="uid://g6pp0i2ga1rj" path="res://Sprites/Nihonium_Chosen.png" id="178_uxtyy"]
+[ext_resource type="Texture2D" uid="uid://bycw6iytwu623" path="res://Sprites/Nihonium_Shadow.png" id="179_dofej"]
+[ext_resource type="Texture2D" uid="uid://djxus1eeccmh8" path="res://Sprites/Carbon_Normal.png" id="180_uhcx5"]
+[ext_resource type="Texture2D" uid="uid://iibllsdxefow" path="res://Sprites/Carbon_Chosen.png" id="181_1cm1b"]
+[ext_resource type="Resource" uid="uid://da6f15rmc8h1q" path="res://Elements/Copper.tres" id="181_fyyn7"]
+[ext_resource type="Texture2D" uid="uid://uii8x40cmyr6" path="res://Sprites/Carbon_Shadow.png" id="182_1t223"]
+[ext_resource type="Texture2D" uid="uid://dcnmtp57s8hhh" path="res://Sprites/Silicon_Normal.png" id="183_xwxbk"]
+[ext_resource type="Texture2D" uid="uid://b6uswgypjhcy5" path="res://Sprites/Silicon_Chosen.png" id="184_sosec"]
+[ext_resource type="Resource" uid="uid://d4cf5bf0nkx8b" path="res://Elements/Silver.tres" id="185_34q5s"]
+[ext_resource type="Texture2D" uid="uid://bky407olrjkll" path="res://Sprites/Silicon_Shadow.png" id="185_i0smi"]
+[ext_resource type="Texture2D" uid="uid://b2qifa6r10fye" path="res://Sprites/Germanium_Normal.png" id="186_yhesf"]
+[ext_resource type="Texture2D" uid="uid://cg1pbcthakfxb" path="res://Sprites/Germanium_Chosen.png" id="187_pqe4g"]
+[ext_resource type="Texture2D" uid="uid://d0vwyu38lmj03" path="res://Sprites/Germanium_Shadow.png" id="188_3n4ax"]
+[ext_resource type="Texture2D" uid="uid://cpku4r7bvdg5a" path="res://Sprites/Tin_Normal.png" id="189_0p6p1"]
+[ext_resource type="Resource" uid="uid://bsv3nm2mwh1eu" path="res://Elements/Gold.tres" id="189_1k062"]
+[ext_resource type="Texture2D" uid="uid://cgnkeoigwlb83" path="res://Sprites/Tin_Chosen.png" id="190_mlwx5"]
+[ext_resource type="Texture2D" uid="uid://bty1rijp5ygk8" path="res://Sprites/Tin_Shadow.png" id="191_2baef"]
+[ext_resource type="Texture2D" uid="uid://cmnqmp6j5hbrm" path="res://Sprites/Lead_Normal.png" id="192_q2fv5"]
+[ext_resource type="Texture2D" uid="uid://0ms5m5rgyw7q" path="res://Sprites/Lead_Chosen.png" id="193_pr1wl"]
+[ext_resource type="Resource" uid="uid://4m831y1t3x0t" path="res://Elements/Roentgenium.tres" id="193_x3a2p"]
+[ext_resource type="Texture2D" uid="uid://bbn7lg2t6wqi4" path="res://Sprites/Lead_Shadow.png" id="194_phc4j"]
+[ext_resource type="Texture2D" uid="uid://deo38v3c11twa" path="res://Sprites/Flerovium_Normal.png" id="195_dfa0x"]
+[ext_resource type="Texture2D" uid="uid://ryd86xuh5vr4" path="res://Sprites/Flerovium_Chosen.png" id="196_ythjg"]
+[ext_resource type="Resource" uid="uid://c4inxhjywu53o" path="res://Elements/Zinc.tres" id="197_hxtfo"]
+[ext_resource type="Texture2D" uid="uid://dlyd256kggpat" path="res://Sprites/Flerovium_Shadow.png" id="197_rnnlu"]
+[ext_resource type="Texture2D" uid="uid://c27xr2c14kc3m" path="res://Sprites/Nitrogen_Normal.png" id="198_ahi6e"]
+[ext_resource type="Texture2D" uid="uid://dl5y6eoeobktp" path="res://Sprites/Nitrogen_Chosen.png" id="199_8xh23"]
+[ext_resource type="Texture2D" uid="uid://wrtvcvm5em26" path="res://Sprites/Nitrogen_Shadow.png" id="200_3r3ci"]
+[ext_resource type="Resource" uid="uid://po7bne6a5q55" path="res://Elements/Cadmium.tres" id="201_rweay"]
+[ext_resource type="Texture2D" uid="uid://c5s4v1dribipp" path="res://Sprites/Phosphorus_Normal.png" id="201_v8noc"]
+[ext_resource type="Texture2D" uid="uid://dcmwxu80aijj2" path="res://Sprites/Phosphorus_Chosen.png" id="202_rsugp"]
+[ext_resource type="Texture2D" uid="uid://c7yafxvhvlv03" path="res://Sprites/Phosphorus_Shadow.png" id="203_rgr5i"]
+[ext_resource type="Texture2D" uid="uid://dmuvrtbapn8vp" path="res://Sprites/Arsenic_Normal.png" id="204_gsqbe"]
+[ext_resource type="Texture2D" uid="uid://dr6g8wgs7ry1x" path="res://Sprites/Arsenic_Chosen.png" id="205_euqrj"]
+[ext_resource type="Resource" uid="uid://by6angtasvrim" path="res://Elements/Mercury.tres" id="205_xn5pc"]
+[ext_resource type="Texture2D" uid="uid://40te1v6m0tit" path="res://Sprites/Arsenic_Shadow.png" id="206_n5m70"]
+[ext_resource type="Texture2D" uid="uid://5j2dqisqn1mr" path="res://Sprites/Antimony_Normal.png" id="207_nhknr"]
+[ext_resource type="Texture2D" uid="uid://t37bitkklhwr" path="res://Sprites/Antimony_Chosen.png" id="208_wkv7p"]
+[ext_resource type="Resource" uid="uid://wdob4ph1pcg4" path="res://Elements/Copernicium.tres" id="209_4bky1"]
+[ext_resource type="Texture2D" uid="uid://cna3k575naqre" path="res://Sprites/Antimony_Shadow.png" id="209_xl3ia"]
+[ext_resource type="Texture2D" uid="uid://cwwh0os0toc2t" path="res://Sprites/Bismuth_Normal.png" id="210_tcg11"]
+[ext_resource type="Texture2D" uid="uid://dbbc38k8ih5en" path="res://Sprites/Bismuth_Chosen.png" id="211_35nul"]
+[ext_resource type="Texture2D" uid="uid://bm3gl38v8k73x" path="res://Sprites/Bismuth_Shadow.png" id="212_xljtd"]
+[ext_resource type="Resource" uid="uid://jxynl4vcf2r" path="res://Elements/Boron.tres" id="213_qorw3"]
+[ext_resource type="Texture2D" uid="uid://bxqwscp7a78fq" path="res://Sprites/Moscovium_Normal.png" id="213_vev2x"]
+[ext_resource type="Texture2D" uid="uid://ckqulng7dvvr7" path="res://Sprites/Moscovium_Chosen.png" id="214_jq2p4"]
+[ext_resource type="Texture2D" uid="uid://bgmmi5s1wfl5k" path="res://Sprites/Moscovium_Shadow.png" id="215_xv5d0"]
+[ext_resource type="Texture2D" uid="uid://dipnokrme6ym5" path="res://Sprites/Oxygen_Normal.png" id="216_6xt57"]
+[ext_resource type="Resource" uid="uid://dxdeq8gtqphbm" path="res://Elements/Aluminium.tres" id="217_hivep"]
+[ext_resource type="Texture2D" uid="uid://qwk0gh0pi4tp" path="res://Sprites/Oxygen_Chosen.png" id="217_oitb4"]
+[ext_resource type="Texture2D" uid="uid://dkall45i61iol" path="res://Sprites/Oxygen_Shadow.png" id="218_12yiy"]
+[ext_resource type="Texture2D" uid="uid://doti5uifg0sjq" path="res://Sprites/Sulfur_Normal.png" id="219_msqg3"]
+[ext_resource type="Texture2D" uid="uid://bqpatl4nc57ra" path="res://Sprites/Sulfur_Chosen.png" id="220_ik1sx"]
+[ext_resource type="Texture2D" uid="uid://cxd2then18g3c" path="res://Sprites/Sulfur_Shadow.png" id="221_3ym7b"]
+[ext_resource type="Resource" uid="uid://wlra1e1cu56i" path="res://Elements/Gallium.tres" id="221_p4c8y"]
+[ext_resource type="Texture2D" uid="uid://wlvlg2pf4nvd" path="res://Sprites/Selenium_Normal.png" id="222_1sard"]
+[ext_resource type="Texture2D" uid="uid://4tatvc86c6sh" path="res://Sprites/Selenium_Chosen.png" id="223_ruqpt"]
+[ext_resource type="Texture2D" uid="uid://b5hhqeqbcp7ci" path="res://Sprites/Selenium_Shadow.png" id="224_nxsq0"]
+[ext_resource type="Resource" uid="uid://c8db7y5kljlyw" path="res://Elements/Indium.tres" id="225_0n0e3"]
+[ext_resource type="Texture2D" uid="uid://bfsarqlp12xdr" path="res://Sprites/Tellurium_Normal.png" id="225_tspe2"]
+[ext_resource type="Texture2D" uid="uid://bsu0b1jpwwq1o" path="res://Sprites/Tellurium_Chosen.png" id="226_hsxc3"]
+[ext_resource type="Texture2D" uid="uid://cb2epe6x8ng0v" path="res://Sprites/Tellurium_Shadow.png" id="227_aga3y"]
+[ext_resource type="Texture2D" uid="uid://bdy1hfigl4cgr" path="res://Sprites/Polonium_Normal.png" id="228_vk3v5"]
+[ext_resource type="Texture2D" uid="uid://1wpndppmyqrj" path="res://Sprites/Polonium_Chosen.png" id="229_i43ph"]
+[ext_resource type="Resource" uid="uid://cxoeuef5nbcg3" path="res://Elements/Thallium.tres" id="229_nnmld"]
+[ext_resource type="Texture2D" uid="uid://crk32ysodyvi5" path="res://Sprites/Polonium_Shadow.png" id="230_u1cox"]
+[ext_resource type="Texture2D" uid="uid://cjyhdcfli0uqp" path="res://Sprites/Livermorium_Normal.png" id="231_ulr6x"]
+[ext_resource type="Texture2D" uid="uid://sqxwjq620onc" path="res://Sprites/Livermorium_Chosen.png" id="232_0vxmi"]
+[ext_resource type="Texture2D" uid="uid://bw25e1x2y78a0" path="res://Sprites/Livermorium_Shadow.png" id="233_0wjvx"]
+[ext_resource type="Resource" uid="uid://sfg34gk4pumj" path="res://Elements/Nihonium.tres" id="233_2pjv3"]
+[ext_resource type="Texture2D" uid="uid://dcql8x855jdnm" path="res://Sprites/Fluorine_Normal.png" id="234_v3u2c"]
+[ext_resource type="Texture2D" uid="uid://uuov1kcwlxku" path="res://Sprites/Fluorine_Chosen.png" id="235_2tffi"]
+[ext_resource type="Texture2D" uid="uid://5h04ptfqa6to" path="res://Sprites/Fluorine_Shadow.png" id="236_yhi2j"]
+[ext_resource type="Texture2D" uid="uid://bo8w31wbe8pr7" path="res://Sprites/Chlorine_Normal.png" id="237_u7r2i"]
+[ext_resource type="Resource" uid="uid://btjrmoq5ednsp" path="res://Elements/Carbon.tres" id="237_utju1"]
+[ext_resource type="Texture2D" uid="uid://cmy7o0ajacwl5" path="res://Sprites/Chlorine_Chosen.png" id="238_lxpna"]
+[ext_resource type="Texture2D" uid="uid://d0wtk6x0nvw05" path="res://Sprites/Chlorine_Shadow.png" id="239_ffohr"]
+[ext_resource type="Texture2D" uid="uid://bvfqxu4y3q42n" path="res://Sprites/Bromine_Normal.png" id="240_gnmq1"]
+[ext_resource type="Resource" uid="uid://csc7wk6mgfgnd" path="res://Elements/Silicon.tres" id="241_25gwu"]
+[ext_resource type="Texture2D" uid="uid://cfo0106nrucgo" path="res://Sprites/Bromine_Chosen.png" id="241_lhbe6"]
+[ext_resource type="Texture2D" uid="uid://3dxamrk1ngvh" path="res://Sprites/Bromine_Shadow.png" id="242_kfus2"]
+[ext_resource type="Texture2D" uid="uid://d1iw1oytfoyj1" path="res://Sprites/Iodine_Normal.png" id="243_4iq6t"]
+[ext_resource type="Texture2D" uid="uid://bpvad57kibubs" path="res://Sprites/Iodine_Chosen.png" id="244_hoiec"]
+[ext_resource type="Texture2D" uid="uid://h53bnd54e88g" path="res://Sprites/Iodine_Shadow.png" id="245_hwve6"]
+[ext_resource type="Resource" uid="uid://bjlsahe3ptud" path="res://Elements/Germanium.tres" id="245_uoyi4"]
+[ext_resource type="Texture2D" uid="uid://dwi2cj4gh6w8s" path="res://Sprites/Astatine_Normal.png" id="246_uhb8l"]
+[ext_resource type="Texture2D" uid="uid://bquasi66aq7hw" path="res://Sprites/Astatine_Chosen.png" id="247_6u86q"]
+[ext_resource type="Texture2D" uid="uid://ctsonpg7dofa1" path="res://Sprites/Astatine_Shadow.png" id="248_fkx5f"]
+[ext_resource type="Resource" uid="uid://bhqsk6dr0om5r" path="res://Elements/Tin.tres" id="249_05ke0"]
+[ext_resource type="Texture2D" uid="uid://cthb2pxxv4t8u" path="res://Sprites/Tennessine_Normal.png" id="249_swduw"]
+[ext_resource type="Texture2D" uid="uid://b5hyw2epdaw0a" path="res://Sprites/Tennessine_Chosen.png" id="250_fsugv"]
+[ext_resource type="Texture2D" uid="uid://bwpom6rjoqv21" path="res://Sprites/Tennessine_Shadow.png" id="251_qp0qp"]
+[ext_resource type="Texture2D" uid="uid://b4daanwujvafc" path="res://Sprites/Helium_Normal.png" id="252_i2fta"]
+[ext_resource type="Texture2D" uid="uid://dvceb8pax8fp" path="res://Sprites/Helium_Chosen.png" id="253_5rl0g"]
+[ext_resource type="Resource" uid="uid://bi21pmpd45hir" path="res://Elements/Lead.tres" id="253_pjap1"]
+[ext_resource type="Texture2D" uid="uid://bkfcv146bwvko" path="res://Sprites/Helium_Shadow.png" id="254_4brsf"]
+[ext_resource type="Texture2D" uid="uid://vhoi4178eej3" path="res://Sprites/Neon_Normal.png" id="255_jwb4t"]
+[ext_resource type="Texture2D" uid="uid://daqctf3sig8o8" path="res://Sprites/Neon_Chosen.png" id="256_5e36n"]
+[ext_resource type="Resource" uid="uid://bodb1hmm5lrek" path="res://Elements/Flerovium.tres" id="257_b48bv"]
+[ext_resource type="Texture2D" uid="uid://biq6w56r2s4b8" path="res://Sprites/Neon_Shadow.png" id="257_k8acx"]
+[ext_resource type="Texture2D" uid="uid://bx15y4xidbbgw" path="res://Sprites/Argon_Normal.png" id="258_0brlm"]
+[ext_resource type="Texture2D" uid="uid://ci70co8ccdur8" path="res://Sprites/Argon_Chosen.png" id="259_jt8lk"]
+[ext_resource type="Texture2D" uid="uid://bumopjyrwgt0j" path="res://Sprites/Argon_Shadow.png" id="260_tnvwq"]
+[ext_resource type="Texture2D" uid="uid://0r6c7e1hqq6d" path="res://Sprites/Krypton_Normal.png" id="261_a4d2o"]
+[ext_resource type="Resource" uid="uid://djg0hcwnepxqb" path="res://Elements/Nitrogen.tres" id="261_vdtvt"]
+[ext_resource type="Texture2D" uid="uid://dhuawmtpny00h" path="res://Sprites/Krypton_Chosen.png" id="262_grcbh"]
+[ext_resource type="Texture2D" uid="uid://cbbdqoqkb327s" path="res://Sprites/Krypton_Shadow.png" id="263_g5cr5"]
+[ext_resource type="Texture2D" uid="uid://bdcyo2kwonqgk" path="res://Sprites/Xenon_Normal.png" id="264_kiwxv"]
+[ext_resource type="Texture2D" uid="uid://duu5axfj87dqh" path="res://Sprites/Xenon_Chosen.png" id="265_3cd5d"]
+[ext_resource type="Resource" uid="uid://bkrtab7cjpdtc" path="res://Elements/Phosphorus.tres" id="265_ykgbl"]
+[ext_resource type="Texture2D" uid="uid://b62mhjhh7ooa8" path="res://Sprites/Xenon_Shadow.png" id="266_pnaaa"]
+[ext_resource type="Texture2D" uid="uid://x2vumj2ntv2n" path="res://Sprites/Radon_Normal.png" id="267_3ipsy"]
+[ext_resource type="Texture2D" uid="uid://ds6wo7vpdaova" path="res://Sprites/Radon_Chosen.png" id="268_f663a"]
+[ext_resource type="Resource" uid="uid://hc8nv1pmsqh6" path="res://Elements/Arsenic.tres" id="269_nkvdi"]
+[ext_resource type="Texture2D" uid="uid://bpneeyomuucfb" path="res://Sprites/Radon_Shadow.png" id="269_opvur"]
+[ext_resource type="Texture2D" uid="uid://b25v1x0rhu2fh" path="res://Sprites/Oganesson_Normal.png" id="270_7etx3"]
+[ext_resource type="Texture2D" uid="uid://du21iu8n4qe4a" path="res://Sprites/Oganesson_Chosen.png" id="271_3iuch"]
+[ext_resource type="Texture2D" uid="uid://cgutu0rp0sfxd" path="res://Sprites/Oganesson_Shadow.png" id="272_fg8i0"]
+[ext_resource type="Texture2D" uid="uid://dqvivrcib0x38" path="res://Sprites/Lanthanum_Normal.png" id="273_38anm"]
+[ext_resource type="Resource" uid="uid://dt7ilsdfeyc8f" path="res://Elements/Antimony.tres" id="273_uxtyy"]
+[ext_resource type="Texture2D" uid="uid://7e4o1ktb5qoi" path="res://Sprites/Lanthanum_Chosen.png" id="274_mqqhi"]
+[ext_resource type="Texture2D" uid="uid://du7kitmsbiagx" path="res://Sprites/Lanthanum_Shadow.png" id="275_gvref"]
+[ext_resource type="Texture2D" uid="uid://b6dwyyx53a85j" path="res://Sprites/Cerium_Normal.png" id="276_pplpt"]
+[ext_resource type="Texture2D" uid="uid://cg0pxhnngg5wd" path="res://Sprites/Cerium_Chosen.png" id="277_31v8p"]
+[ext_resource type="Resource" uid="uid://t1blkvmj6rae" path="res://Elements/Bismuth.tres" id="277_dofej"]
+[ext_resource type="Texture2D" uid="uid://dgxtcfvmc2e7i" path="res://Sprites/Cerium_Shadow.png" id="278_a832j"]
+[ext_resource type="Texture2D" uid="uid://djeoxgvmiuiqo" path="res://Sprites/Praseodymium_Normal.png" id="279_vsy58"]
+[ext_resource type="Texture2D" uid="uid://c1ypci5y7n18y" path="res://Sprites/Praseodymium_Chosen.png" id="280_og2pg"]
+[ext_resource type="Texture2D" uid="uid://cm70dycuilpin" path="res://Sprites/Praseodymium_Shadow.png" id="281_3ctbp"]
+[ext_resource type="Resource" uid="uid://b513lffm67mtt" path="res://Elements/Moscovium.tres" id="281_uhcx5"]
+[ext_resource type="Texture2D" uid="uid://b18iaa8ax7swl" path="res://Sprites/Neodymium_Normal.png" id="282_fusyf"]
+[ext_resource type="Texture2D" uid="uid://brju7aiu4xab8" path="res://Sprites/Neodymium_Chosen.png" id="283_77pd8"]
+[ext_resource type="Texture2D" uid="uid://bmshh2bjkmaxc" path="res://Sprites/Neodymium_Shadow.png" id="284_rg25a"]
+[ext_resource type="Resource" uid="uid://brwplbue5dqke" path="res://Elements/Oxygen.tres" id="285_1cm1b"]
+[ext_resource type="Texture2D" uid="uid://0mcti3wtmapn" path="res://Sprites/Promethium_Normal.png" id="285_44vak"]
+[ext_resource type="Texture2D" uid="uid://bp48plbtd3udw" path="res://Sprites/Promethium_Chosen.png" id="286_6t471"]
+[ext_resource type="Texture2D" uid="uid://co2tsjcmoulov" path="res://Sprites/Promethium_Shadow.png" id="287_iygt6"]
+[ext_resource type="Texture2D" uid="uid://caxd2abcasoir" path="res://Sprites/Samarium_Normal.png" id="288_mjm7r"]
+[ext_resource type="Resource" uid="uid://66wlobuo0q34" path="res://Elements/Sulfur.tres" id="289_1t223"]
+[ext_resource type="Texture2D" uid="uid://c58hfjgblle3b" path="res://Sprites/Samarium_Chosen.png" id="289_51jug"]
+[ext_resource type="Texture2D" uid="uid://de77fcsr8usln" path="res://Sprites/Samarium_Shadow.png" id="290_gm50w"]
+[ext_resource type="Texture2D" uid="uid://dtcnm0lt6hpww" path="res://Sprites/Europium_Normal.png" id="291_twhjn"]
+[ext_resource type="Texture2D" uid="uid://daje5wjuaxy6q" path="res://Sprites/Europium_Chosen.png" id="292_ac3r4"]
+[ext_resource type="Texture2D" uid="uid://bss16lpqsh2sr" path="res://Sprites/Europiumj_Shadow.png" id="293_sir7m"]
+[ext_resource type="Resource" uid="uid://c7nn7d7p47k7n" path="res://Elements/Selenium.tres" id="293_xwxbk"]
+[ext_resource type="Texture2D" uid="uid://bhgtvqn51c82h" path="res://Sprites/Gadolinium_Normal.png" id="294_6ek8u"]
+[ext_resource type="Texture2D" uid="uid://37py0opnuytd" path="res://Sprites/Gadolinium_Chosen.png" id="295_byoql"]
+[ext_resource type="Texture2D" uid="uid://db0ysglk53kla" path="res://Sprites/Gadolinium_Shadow.png" id="296_weqgc"]
+[ext_resource type="Texture2D" uid="uid://cqba40rrotqkb" path="res://Sprites/Terbium_Normal.png" id="297_ihv6y"]
+[ext_resource type="Resource" uid="uid://cqbuwgrv2552n" path="res://Elements/Tellurium.tres" id="297_sosec"]
+[ext_resource type="Texture2D" uid="uid://dsxmjsny7xblh" path="res://Sprites/Terbium_Chosen.png" id="298_r8pdo"]
+[ext_resource type="Texture2D" uid="uid://dajhyl6wfu4a4" path="res://Sprites/Terbium_Shadow.png" id="299_11cc3"]
+[ext_resource type="Texture2D" uid="uid://daquo472c1dss" path="res://Sprites/Dysprosium_Normal.png" id="300_a8mjs"]
+[ext_resource type="Texture2D" uid="uid://dujn0rkxp0cp0" path="res://Sprites/Dysprosium_Chosen.png" id="301_ce1gh"]
+[ext_resource type="Resource" uid="uid://dss6xawiq6q4t" path="res://Elements/Polonium.tres" id="301_i0smi"]
+[ext_resource type="Texture2D" uid="uid://cx2rkauyi0uta" path="res://Sprites/Dysprosium_Shadow.png" id="302_cjk3t"]
+[ext_resource type="Texture2D" uid="uid://cx5slx5eriw0s" path="res://Sprites/Holmium_Normal.png" id="303_gvxdd"]
+[ext_resource type="Texture2D" uid="uid://cw2bm24oanp3v" path="res://Sprites/Holmium_Chosen.png" id="304_7srwy"]
+[ext_resource type="Texture2D" uid="uid://ehye75glo84m" path="res://Sprites/Holmium_Shadow.png" id="305_3d5jw"]
+[ext_resource type="Resource" uid="uid://10mfn2xrully" path="res://Elements/Livermorium.tres" id="305_yhesf"]
+[ext_resource type="Texture2D" uid="uid://dih6v4ifkbru2" path="res://Sprites/Erbium_Normal.png" id="306_egjan"]
+[ext_resource type="Texture2D" uid="uid://enkfvl3dsv22" path="res://Sprites/Erbium_Chosen.png" id="307_b64du"]
+[ext_resource type="Texture2D" uid="uid://c5k6wii4vc4il" path="res://Sprites/Erbium_Shadow.png" id="308_bxaie"]
+[ext_resource type="Texture2D" uid="uid://hft7btelm5mx" path="res://Sprites/Thulium_Normal.png" id="309_amuvy"]
+[ext_resource type="Resource" uid="uid://c0y4wnvlodeya" path="res://Elements/Flourine.tres" id="309_pqe4g"]
+[ext_resource type="Texture2D" uid="uid://cwdd646dv0j0u" path="res://Sprites/Thulium_Chosen.png" id="310_rkpgl"]
+[ext_resource type="Texture2D" uid="uid://dikyk0rk152q6" path="res://Sprites/Thulium_Shadow.png" id="311_cmjwc"]
+[ext_resource type="Texture2D" uid="uid://44cj311dh8ya" path="res://Sprites/Ytterbium_Normal.png" id="312_kjisj"]
+[ext_resource type="Resource" uid="uid://gjgcikhs5j5q" path="res://Elements/Chlorine.tres" id="313_3n4ax"]
+[ext_resource type="Texture2D" uid="uid://0x42oknqydwg" path="res://Sprites/Ytterbium_Chosen.png" id="313_r0a2s"]
+[ext_resource type="Texture2D" uid="uid://c55a7atatr8r" path="res://Sprites/Ytterbium_Shadow.png" id="314_4i4nu"]
+[ext_resource type="Texture2D" uid="uid://dtujuwwhkgo58" path="res://Sprites/Lutetium_Normal.png" id="315_elubj"]
+[ext_resource type="Texture2D" uid="uid://dun1sn3mrgkh7" path="res://Sprites/Lutetium_Chosen.png" id="316_yric6"]
+[ext_resource type="Resource" uid="uid://bghafp1x07k73" path="res://Elements/Bromine.tres" id="317_0p6p1"]
+[ext_resource type="Texture2D" uid="uid://bqe7fb5etlvpw" path="res://Sprites/Lutetium_Shadow.png" id="317_7sxww"]
+[ext_resource type="Texture2D" uid="uid://bpoe6p6kx2fyl" path="res://Sprites/Actinium_Normal.png" id="318_mkvil"]
+[ext_resource type="Texture2D" uid="uid://c8fvi62g2ltex" path="res://Sprites/Actinium_Chosen.png" id="319_ky0tw"]
+[ext_resource type="Texture2D" uid="uid://c4h0p7iffeqla" path="res://Sprites/Actinium_Shadow.png" id="320_x3pfw"]
+[ext_resource type="Texture2D" uid="uid://gltun48ivggu" path="res://Sprites/Thorium_Normal.png" id="321_2wbnm"]
+[ext_resource type="Resource" uid="uid://d1oftmkfum3fa" path="res://Elements/Iodine.tres" id="321_mlwx5"]
+[ext_resource type="Texture2D" uid="uid://bfh3u1yelgrx2" path="res://Sprites/Thorium_Chosen.png" id="322_3bwt8"]
+[ext_resource type="Texture2D" uid="uid://ca7gjsgt75u4q" path="res://Sprites/Thorium_Shadow.png" id="323_oivq0"]
+[ext_resource type="Texture2D" uid="uid://d02jthib778q6" path="res://Sprites/Protactinium_Normal.png" id="324_njyfo"]
+[ext_resource type="Resource" uid="uid://ckw45bqcqtfvl" path="res://Elements/Astatine.tres" id="325_2baef"]
+[ext_resource type="Texture2D" uid="uid://bufy1ntij78et" path="res://Sprites/Protactinium_Chosen.png" id="325_r2fqy"]
+[ext_resource type="Texture2D" uid="uid://c26bk7pwkvoxw" path="res://Sprites/Protactinium_Shadow.png" id="326_pmwkp"]
+[ext_resource type="Texture2D" uid="uid://7ygrabk0igmm" path="res://Sprites/Uranium_Normal.png" id="327_2kjlx"]
+[ext_resource type="Texture2D" uid="uid://cv1h6a1wsfyek" path="res://Sprites/Uranium_Chosen.png" id="328_hb3ah"]
+[ext_resource type="Texture2D" uid="uid://618nltyuax8u" path="res://Sprites/Uranium_Shadow.png" id="329_2r5ka"]
+[ext_resource type="Resource" uid="uid://il3uk6bg1yyn" path="res://Elements/Tennessine.tres" id="329_q2fv5"]
+[ext_resource type="Texture2D" uid="uid://ccjnokislgfv" path="res://Sprites/Neptunium_Normal.png" id="330_tfw0v"]
+[ext_resource type="Texture2D" uid="uid://ddaoit4wsylck" path="res://Sprites/Neptunium_Chosen.png" id="331_1c5ut"]
+[ext_resource type="Texture2D" uid="uid://d0jm6yivpnfms" path="res://Sprites/Neptunium_Shadow.png" id="332_2dqyo"]
+[ext_resource type="Resource" uid="uid://cy1mtgjmmqcfw" path="res://Elements/Helium.tres" id="333_pr1wl"]
+[ext_resource type="Texture2D" uid="uid://cbfm6mpacdp4c" path="res://Sprites/Plutonium_Normal.png" id="333_svmwe"]
+[ext_resource type="Texture2D" uid="uid://dqaxlxxcntacc" path="res://Sprites/Plutonium_Chosen.png" id="334_wbxpb"]
+[ext_resource type="Texture2D" uid="uid://soynt7eu2v2l" path="res://Sprites/Plutonium_Shadow.png" id="335_aa7cf"]
+[ext_resource type="Texture2D" uid="uid://bx0iu6810roi0" path="res://Sprites/Americium_Normal.png" id="336_3x1j6"]
+[ext_resource type="Resource" uid="uid://c6ybt3cicq1uk" path="res://Elements/Neon.tres" id="337_phc4j"]
+[ext_resource type="Texture2D" uid="uid://ekaqmt6rejbr" path="res://Sprites/Americium_Chosen.png" id="337_v3ewy"]
+[ext_resource type="Texture2D" uid="uid://do2kfyaw0gipg" path="res://Sprites/Americium_Shadow.png" id="338_7t87l"]
+[ext_resource type="Texture2D" uid="uid://ckqdhqb11b1sr" path="res://Sprites/Curium_Normal.png" id="339_6c1i5"]
+[ext_resource type="Texture2D" uid="uid://ckx6qjn4b54i" path="res://Sprites/Curium_Chosen.png" id="340_r5d3n"]
+[ext_resource type="Texture2D" uid="uid://cc5g0xt2lk2ic" path="res://Sprites/Curium_Shadow.png" id="341_axdem"]
+[ext_resource type="Resource" uid="uid://bm53yqnas0d5r" path="res://Elements/Argon.tres" id="341_dfa0x"]
+[ext_resource type="Texture2D" uid="uid://ctm315ebuqeqo" path="res://Sprites/Berkelium_Normal.png" id="342_f60iv"]
+[ext_resource type="Texture2D" uid="uid://cpcdxpalfji6l" path="res://Sprites/Berkelium_Chosen.png" id="343_w0flh"]
+[ext_resource type="Texture2D" uid="uid://25n1c8f871mp" path="res://Sprites/Berkelium_Shadow.png" id="344_nqkmd"]
+[ext_resource type="Texture2D" uid="uid://bpc486gewgyp7" path="res://Sprites/Californium_Normal.png" id="345_d17e8"]
+[ext_resource type="Resource" uid="uid://d0qcogeko4kij" path="res://Elements/Krypton.tres" id="345_ythjg"]
+[ext_resource type="Texture2D" uid="uid://dag7c720dsymb" path="res://Sprites/Californium_Chosen.png" id="346_651w6"]
+[ext_resource type="Texture2D" uid="uid://3hxb0bj1dhdp" path="res://Sprites/Californium_Shadow.png" id="347_y7w81"]
+[ext_resource type="Texture2D" uid="uid://l208x8kycsun" path="res://Sprites/Einsteinium_Normal.png" id="348_eta32"]
+[ext_resource type="Texture2D" uid="uid://dwdcspoyxeg4w" path="res://Sprites/Einsteinium_Chosen.png" id="349_05lui"]
+[ext_resource type="Resource" uid="uid://cn126yeaicnhb" path="res://Elements/Xenon.tres" id="349_rnnlu"]
+[ext_resource type="Texture2D" uid="uid://bno0fs4uhf40" path="res://Sprites/Einsteinium_Shadow.png" id="350_nv8hq"]
+[ext_resource type="Texture2D" uid="uid://dhgughf2hotcc" path="res://Sprites/Fermium_Normal.png" id="351_yhrta"]
+[ext_resource type="Texture2D" uid="uid://b8c3unyu2latv" path="res://Sprites/Fermium_Chosen.png" id="352_b4dqo"]
+[ext_resource type="Resource" uid="uid://5c5ig0brx2qd" path="res://Elements/Radon.tres" id="353_ahi6e"]
+[ext_resource type="Texture2D" uid="uid://bbtr261l6wbi2" path="res://Sprites/Fermium_Shadow.png" id="353_n0krn"]
+[ext_resource type="Texture2D" uid="uid://ptxust8siiy4" path="res://Sprites/Mendelevium_Normal.png" id="354_d026f"]
+[ext_resource type="Texture2D" uid="uid://bucm08lp3emjo" path="res://Sprites/Mendelevium_Chosen.png" id="355_3qtpw"]
+[ext_resource type="Texture2D" uid="uid://unf58i1yi4uv" path="res://Sprites/Mendelevium_Shadow.png" id="356_1qomj"]
+[ext_resource type="Resource" uid="uid://mavtyr0ygq5d" path="res://Elements/Oganesson.tres" id="357_8xh23"]
+[ext_resource type="Texture2D" uid="uid://b0vv63rp22j27" path="res://Sprites/Nobelium_Normal.png" id="357_g85qr"]
+[ext_resource type="Texture2D" uid="uid://3vykit2qu1ve" path="res://Sprites/Nobelium_Chosen.png" id="358_sl21t"]
+[ext_resource type="Texture2D" uid="uid://b8xdesgw3woq5" path="res://Sprites/Nobelium_Shadow.png" id="359_ojipb"]
+[ext_resource type="Texture2D" uid="uid://cwtko5mt5hnlt" path="res://Sprites/Lawrencium_Normal.png" id="360_b0yiy"]
+[ext_resource type="Resource" uid="uid://div0guh60yqky" path="res://Elements/Lanthanum.tres" id="361_3r3ci"]
+[ext_resource type="Texture2D" uid="uid://bda4riamlbh6j" path="res://Sprites/Lawrencium_Chosen.png" id="361_5h3kr"]
+[ext_resource type="Texture2D" uid="uid://df4feptrlki7v" path="res://Sprites/Lawrencium_Shadow.png" id="362_86uvw"]
+[ext_resource type="Texture2D" uid="uid://gn0vybvliocd" path="res://icon.svg" id="363_cgk2v"]
+[ext_resource type="Texture2D" uid="uid://clca0bj5f8nak" path="res://Sprites/smoll.png" id="364_ppgxx"]
+[ext_resource type="Resource" uid="uid://l8xxwn4w1rxm" path="res://Elements/Cerium.tres" id="365_v8noc"]
+[ext_resource type="Resource" uid="uid://b20mk5dj112oh" path="res://Elements/Praseodymium.tres" id="369_rsugp"]
+[ext_resource type="Resource" uid="uid://c4bjdqkbrvbk0" path="res://Elements/Neodymium.tres" id="373_rgr5i"]
+[ext_resource type="Resource" uid="uid://drstwkhv5kf4k" path="res://Elements/Promethium.tres" id="377_gsqbe"]
+[ext_resource type="Resource" uid="uid://2o2juhgqo87t" path="res://Elements/Samarium.tres" id="381_euqrj"]
+[ext_resource type="Resource" uid="uid://cj7wett0gsykb" path="res://Elements/Europium.tres" id="385_n5m70"]
+[ext_resource type="Resource" uid="uid://ccajm2otr8iae" path="res://Elements/Gadolinium.tres" id="389_nhknr"]
+[ext_resource type="Resource" uid="uid://osg8rvelrgbx" path="res://Elements/Terbium.tres" id="393_wkv7p"]
+[ext_resource type="Resource" uid="uid://byfxxygw2vp7e" path="res://Elements/Dysprosium.tres" id="397_xl3ia"]
+[ext_resource type="Resource" uid="uid://bdje2sgxdd7p8" path="res://Elements/Holmium.tres" id="401_tcg11"]
+[ext_resource type="Resource" uid="uid://bsiiunh5j7qwa" path="res://Elements/Erbium.tres" id="405_35nul"]
+[ext_resource type="Resource" uid="uid://do7neeqk0dx5e" path="res://Elements/Thulium.tres" id="409_xljtd"]
+[ext_resource type="Resource" uid="uid://cut3qsn6d14d7" path="res://Elements/Ytterbium.tres" id="413_vev2x"]
+[ext_resource type="Resource" uid="uid://10g1um3r5517" path="res://Elements/Lutetium.tres" id="417_jq2p4"]
+[ext_resource type="Resource" uid="uid://brk4rv1jllrqw" path="res://Elements/Actinium.tres" id="421_xv5d0"]
+[ext_resource type="Resource" uid="uid://bey2dg3b1n7ev" path="res://Elements/Thorium.tres" id="425_6xt57"]
+[ext_resource type="Resource" uid="uid://00mkr74bmss0" path="res://Elements/Protactinium.tres" id="429_oitb4"]
+[ext_resource type="Resource" uid="uid://dx4d2rclcg6te" path="res://Elements/Uranium.tres" id="433_12yiy"]
+[ext_resource type="Resource" uid="uid://xd5pc0wrg6ty" path="res://Elements/Neptunium.tres" id="437_msqg3"]
+[ext_resource type="Resource" uid="uid://i22utie1k52f" path="res://Elements/Plutonium.tres" id="441_ik1sx"]
+[ext_resource type="Resource" uid="uid://brhosrqx06kcb" path="res://Elements/Americium.tres" id="445_3ym7b"]
+[ext_resource type="Resource" uid="uid://dvmsywup240l" path="res://Elements/Curium.tres" id="449_1sard"]
+[ext_resource type="Resource" uid="uid://0yvv585b4d8t" path="res://Elements/Berkelium.tres" id="453_ruqpt"]
+[ext_resource type="Resource" uid="uid://rxq72q8iatto" path="res://Elements/Californium.tres" id="457_nxsq0"]
+[ext_resource type="Resource" uid="uid://damkkjb8fis5w" path="res://Elements/Einsteinium.tres" id="461_tspe2"]
+[ext_resource type="Resource" uid="uid://jsm6ibcecs0h" path="res://Elements/Fermium.tres" id="465_hsxc3"]
+[ext_resource type="Resource" uid="uid://bu2sm6hy61rui" path="res://Elements/Mendelevium.tres" id="469_aga3y"]
+[ext_resource type="Resource" uid="uid://dm35yb76g2c6p" path="res://Elements/Nobelium.tres" id="473_vk3v5"]
+[ext_resource type="Resource" uid="uid://c60161rxgykbt" path="res://Elements/Lawrencium.tres" id="477_i43ph"]
+[ext_resource type="Texture2D" uid="uid://c5x2xuu3p4eu1" path="res://Sprites/Quiz_Groups/kovine_greyed.png" id="480_b48bv"]
+[ext_resource type="Texture2D" uid="uid://by0j0shcu1qjc" path="res://Sprites/Visual_Tabs/kovine_slo.png" id="481_1t223"]
+[ext_resource type="Texture2D" uid="uid://c3inma58offh7" path="res://Sprites/Quiz_Groups/metal_grey.png" id="482_ykgbl"]
+[ext_resource type="Texture2D" uid="uid://bdybjqwev0bbp" path="res://Sprites/Visual_Tabs/metal_englash.png" id="483_xwxbk"]
+[ext_resource type="Texture2D" uid="uid://dlplg83bu8hsx" path="res://Sprites/Quiz_Groups/plin.png" id="484_uxtyy"]
+[ext_resource type="Texture2D" uid="uid://crh6itqiiert" path="res://Sprites/Quiz_Groups/Žlahtni plin_correct.png" id="485_dofej"]
+[ext_resource type="Texture2D" uid="uid://1apud1we51tk" path="res://Sprites/Quiz_Groups/noblegas_greyeds.png" id="486_uhcx5"]
+[ext_resource type="Texture2D" uid="uid://dwdn7makrhlyt" path="res://Sprites/Quiz_Groups/Noble gas_correct.png" id="487_1cm1b"]
+[ext_resource type="Texture2D" uid="uid://nipuyuw2t0ua" path="res://Sprites/Quiz_Groups/polkovine_greyed.png" id="488_1t223"]
+[ext_resource type="Texture2D" uid="uid://dfc0esmib66m8" path="res://Sprites/Quiz_Groups/polkovine_correct.png" id="489_xwxbk"]
+[ext_resource type="Texture2D" uid="uid://2pailvg6ig1l" path="res://Sprites/Quiz_Groups/metalloid_greyed.png" id="490_sosec"]
+[ext_resource type="Texture2D" uid="uid://tcpc5rq548i7" path="res://Sprites/Quiz_Groups/Metalloid_correct.png" id="491_i0smi"]
+[ext_resource type="Texture2D" uid="uid://dd1ys2ivsvqpq" path="res://Sprites/Quiz_Groups/ZA_grey.png" id="492_yhesf"]
+[ext_resource type="Texture2D" uid="uid://dyu86xxwnfw82" path="res://Sprites/Quiz_Groups/ZK_correct.png" id="493_pqe4g"]
+[ext_resource type="Texture2D" uid="uid://bujch480dqjf3" path="res://Sprites/Visual_Tabs/nekovine_slovenian.png" id="493_sosec"]
+[ext_resource type="Texture2D" uid="uid://baelv8ys3wfyg" path="res://Sprites/Quiz_Groups/AE_grey.png" id="494_3n4ax"]
+[ext_resource type="Texture2D" uid="uid://bcaujxwsy2gky" path="res://Sprites/Visual_Tabs/nonmetal_english.png" id="494_i0smi"]
+[ext_resource type="Texture2D" uid="uid://b26wroa8b8qec" path="res://Sprites/Quiz_Groups/AE_correct.png" id="495_0p6p1"]
+[ext_resource type="Texture2D" uid="uid://cegpvdhc1o5j2" path="res://Sprites/Quiz_Groups/alkalijske_greyeds.png" id="496_mlwx5"]
+[ext_resource type="Texture2D" uid="uid://bu5nrvrwsdiup" path="res://Sprites/Quiz_Groups/AK_correct.png" id="497_2baef"]
+[ext_resource type="Texture2D" uid="uid://c8oknuatokfl7" path="res://Sprites/Quiz_Groups/alkali_greyeds.png" id="498_q2fv5"]
+[ext_resource type="Texture2D" uid="uid://xoatcfp0meyj" path="res://Sprites/Quiz_Groups/AM_correct.png" id="499_pr1wl"]
+[ext_resource type="Texture2D" uid="uid://lwnqv3gimv62" path="res://Sprites/Quiz_Groups/prehodne_greyeds.png" id="500_phc4j"]
+[ext_resource type="Texture2D" uid="uid://cgnh1jjf8tpe3" path="res://Sprites/Quiz_Groups/Prehodne kovine_correct.png" id="501_dfa0x"]
+[ext_resource type="Texture2D" uid="uid://b2me1tdtdwaf3" path="res://Sprites/Quiz_Groups/trans_greyed.png" id="502_ythjg"]
+[ext_resource type="Texture2D" uid="uid://b5ppg84020tc6" path="res://Sprites/Quiz_Groups/TransitionMetal_correct.png" id="503_rnnlu"]
+[ext_resource type="Texture2D" uid="uid://81v62j2ciubq" path="res://Sprites/Quiz_Groups/sibka_greyeds.png" id="504_ahi6e"]
+[ext_resource type="Texture2D" uid="uid://snimtv1ftgjy" path="res://Sprites/Quiz_Groups/šibka_correct.png" id="505_8xh23"]
+[ext_resource type="Texture2D" uid="uid://d3b8ga4t6r8qy" path="res://Sprites/Quiz_Groups/pt_grey.png" id="506_3r3ci"]
+[ext_resource type="Texture2D" uid="uid://cv6dr6vhrf6fi" path="res://Sprites/Quiz_Groups/pt_correct.png" id="507_v8noc"]
+[ext_resource type="Texture2D" uid="uid://c8xkyp0v18nxi" path="res://Sprites/Quiz_Groups/lantanoid_greyeds.png" id="508_rsugp"]
+[ext_resource type="Texture2D" uid="uid://tyat8np5m833" path="res://Sprites/Quiz_Groups/Lantanoid_correct.png" id="509_rgr5i"]
+[ext_resource type="Texture2D" uid="uid://ber6q0n3hf2we" path="res://Sprites/Quiz_Groups/lanthanide_greyeds.png" id="510_gsqbe"]
+[ext_resource type="Texture2D" uid="uid://c1t842q5mgjsf" path="res://Sprites/Quiz_Groups/Lanthanide_correct.png" id="511_euqrj"]
+[ext_resource type="Texture2D" uid="uid://boso488705e0x" path="res://Sprites/Quiz_Groups/aktinoid_greyeds.png" id="512_n5m70"]
+[ext_resource type="Texture2D" uid="uid://csyqhtrjjasgr" path="res://Sprites/Quiz_Groups/Aktinoid_correct.png" id="513_nhknr"]
+[ext_resource type="Texture2D" uid="uid://c1eabynytbkqc" path="res://Sprites/Quiz_Groups/actinide_greyeds.png" id="514_wkv7p"]
+[ext_resource type="Texture2D" uid="uid://vqbjlq7vdsmc" path="res://Sprites/Quiz_Groups/Actinide.png" id="515_xl3ia"]
+[ext_resource type="Texture2D" uid="uid://bnr82wfgkc5fu" path="res://Sprites/Quiz_Groups/blok_grey.png" id="516_tcg11"]
+[ext_resource type="Texture2D" uid="uid://cdl2h5a5nieym" path="res://Sprites/Quiz_Groups/block_grey.png" id="518_xljtd"]
+[ext_resource type="Texture2D" uid="uid://b4u7jqbaiqf57" path="res://Sprites/Quiz_Groups/nekovine_correct.png" id="519_yhesf"]
+[ext_resource type="Texture2D" uid="uid://dqgonttbrgf2" path="res://Sprites/Quiz_Groups/halogeni_greyed.png" id="520_jq2p4"]
+[ext_resource type="Texture2D" uid="uid://drj1od14nub81" path="res://Sprites/Quiz_Groups/Nonmetal_correct.png" id="521_pqe4g"]
+[ext_resource type="Texture2D" uid="uid://rt0xcuckvkxa" path="res://Sprites/Quiz_Groups/Halogeni_correct.png" id="521_xv5d0"]
+[ext_resource type="Texture2D" uid="uid://behbdo7xa6ode" path="res://Sprites/Quiz_Groups/halogen_greyed.png" id="522_6xt57"]
+[ext_resource type="Texture2D" uid="uid://cdh5raj6usk2j" path="res://Sprites/Quiz_Groups/Halogen_correct.png" id="523_oitb4"]
+[ext_resource type="Texture2D" uid="uid://6vx1l6uuihhk" path="res://Sprites/Quiz_Groups/S_greyed.png" id="524_12yiy"]
+[ext_resource type="Texture2D" uid="uid://bvbfnpwpv0um3" path="res://Sprites/Quiz_Groups/S_gradient.png" id="525_msqg3"]
+[ext_resource type="Texture2D" uid="uid://yiuevnum5cwo" path="res://Sprites/Quiz_Groups/D_greyed.png" id="526_ik1sx"]
+[ext_resource type="Texture2D" uid="uid://cffcsy4mum6x5" path="res://Sprites/Visual_Tabs/blok_slo.png" id="527_3n4ax"]
+[ext_resource type="Texture2D" uid="uid://cf3g7lqs62se3" path="res://Sprites/Quiz_Groups/D_gOLDEN.png" id="527_3ym7b"]
+[ext_resource type="Texture2D" uid="uid://c4llqb54pg2nx" path="res://Sprites/Quiz_Groups/F_greyed.png" id="528_1sard"]
+[ext_resource type="Texture2D" uid="uid://c4ey3jdhigfly" path="res://Sprites/Visual_Tabs/block_english.png" id="529_0p6p1"]
+[ext_resource type="Texture2D" uid="uid://bhkfvmksybgok" path="res://Sprites/Quiz_Groups/F_gradient.png" id="529_ruqpt"]
+[ext_resource type="Texture2D" uid="uid://cieg7gx1f4esr" path="res://Sprites/Quiz_Groups/P_greyed.png" id="530_nxsq0"]
+[ext_resource type="Texture2D" uid="uid://bj0dpcs4qdhxe" path="res://Sprites/Quiz_Groups/P_gradient.png" id="531_tspe2"]
+[ext_resource type="Texture2D" uid="uid://cycstg0laxddm" path="res://Sprites/Quiz_Groups/radioaktiven_greyed.png" id="532_hsxc3"]
+[ext_resource type="Texture2D" uid="uid://clgfvyf2uy0er" path="res://Sprites/Quiz_Groups/radioactive_greyed.png" id="534_vk3v5"]
+[ext_resource type="Texture2D" uid="uid://c85541nrqaxvw" path="res://Sprites/Quiz_Groups/nekovine_greyed.png" id="536_nekovg"]
+[ext_resource type="Texture2D" uid="uid://b00x8ahmy5heu" path="res://Sprites/Quiz_Groups/nonmetal_greyed.png" id="538_nonmetg"]
+[ext_resource type="Texture2D" uid="uid://bi5r0ydlxg25x" path="res://Sprites/Visual_Tabs/radioactive_slo.png" id="539_mlwx5"]
+[ext_resource type="Texture2D" uid="uid://c3mu2ek0boq7a" path="res://Sprites/Visual_Tabs/home button.png" id="540_uhcx5"]
+[ext_resource type="Texture2D" uid="uid://c7xo8abx5oilv" path="res://Sprites/Visual_Tabs/settings button.png" id="541_1cm1b"]
+[ext_resource type="Texture2D" uid="uid://bgxr6dktnqf6c" path="res://Sprites/Visual_Tabs/radioactive_eng.png" id="541_2baef"]
+
+[node name="Control" type="Control" unique_id=1662873414]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_hfx7a")
+metadata/_edit_horizontal_guides_ = [1080.0]
+metadata/_edit_vertical_guides_ = [2400.0, 320.0]
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=971432446]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_n4qgu")
+
+[node name="ElementsContainer" type="CanvasLayer" parent="MarginContainer" unique_id=1426665023]
+offset = Vector2(1080, 0)
+rotation = 1.5707964
+transform = Transform2D(-4.371139e-08, 1, -1, -4.371139e-08, 1080, 0)
+
+[node name="CanvasGroup10" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=752342183]
+position = Vector2(855, 0)
+
+[node name="Nickel" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup10" unique_id=31140023 groups=["elements"]]
+offset_left = 340.0
+offset_top = 386.0
+offset_right = 438.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("2_ppgxx")
+texture_pressed = ExtResource("3_n4qgu")
+texture_disabled = ExtResource("4_l05fx")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+SLOelementName = "Nikelj"
+ENGelementName = "Nickel"
+AtomicNumber = 28
+NeutronCount = 30
+Mass = 58
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 16
+Perioda4 = 2
+Skupina = 10
+Blok = 2
+Subtip = 2
+
+[node name="Palladium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup10" unique_id=421053656 groups=["elements"]]
+offset_left = 340.0
+offset_top = 475.0
+offset_right = 438.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("6_dm3uk")
+texture_pressed = ExtResource("7_u7qlo")
+texture_disabled = ExtResource("8_hiiri")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+SLOelementName = "Paladij"
+ENGelementName = "Palladium"
+AtomicNumber = 46
+NeutronCount = 60
+Mass = 106
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Skupina = 10
+Blok = 2
+Subtip = 2
+
+[node name="Platinum" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup10" unique_id=237739514 groups=["elements"]]
+offset_left = 340.0
+offset_top = 564.0
+offset_right = 438.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("9_k46jy")
+texture_pressed = ExtResource("10_g8n5x")
+texture_disabled = ExtResource("11_mvjev")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+SLOelementName = "Platina"
+ENGelementName = "Platinum"
+AtomicNumber = 78
+NeutronCount = 117
+Mass = 195
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 17
+Perioda6 = 1
+Skupina = 10
+Blok = 2
+Subtip = 2
+
+[node name="Darmstadtium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup10" unique_id=1411954502 groups=["elements"]]
+offset_left = 340.0
+offset_top = 653.0
+offset_right = 438.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("12_81enu")
+texture_pressed = ExtResource("13_t0c4a")
+texture_disabled = ExtResource("14_in1kq")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+SLOelementName = "Darmštatij"
+ENGelementName = "Darmstadtium"
+AtomicNumber = 110
+NeutronCount = 171
+Mass = 281
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 17
+Perioda7 = 1
+Skupina = 10
+Blok = 2
+Subtip = 2
+Radioactivity = true
+
+[node name="CanvasGroup" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1217821156]
+position = Vector2(85, 0)
+
+[node name="Hydrogen" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup" unique_id=891933979 groups=["elements"]]
+offset_left = 318.0
+offset_top = 119.0
+offset_right = 416.0
+offset_bottom = 217.0
+toggle_mode = true
+texture_normal = ExtResource("15_i6kmk")
+texture_pressed = ExtResource("16_4bl68")
+texture_disabled = ExtResource("17_wj0sd")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("19_l05fx")
+SLOelementName = "Vodik"
+ENGelementName = "Hydrogen"
+AtomicNumber = 1
+NeutronCount = 0
+Mass = 1
+Perioda = 1
+Perioda1 = 1
+Skupina = 1
+
+[node name="Lithium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup" unique_id=2072920811 groups=["elements"]]
+offset_left = 318.0
+offset_top = 208.0
+offset_right = 416.0
+offset_bottom = 306.0
+toggle_mode = true
+texture_normal = ExtResource("18_clcel")
+texture_pressed = ExtResource("19_oa1jv")
+texture_disabled = ExtResource("20_f338s")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("23_rt1wj")
+SLOelementName = "Litij"
+ENGelementName = "Lithium"
+AtomicNumber = 3
+NeutronCount = 4
+Mass = 7
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 1
+Skupina = 1
+
+[node name="Sodium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup" unique_id=1544384572 groups=["elements"]]
+offset_left = 318.0
+offset_top = 297.0
+offset_right = 416.0
+offset_bottom = 395.0
+toggle_mode = true
+texture_normal = ExtResource("21_crdb2")
+texture_pressed = ExtResource("22_x60my")
+texture_disabled = ExtResource("23_ormwu")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("27_m12jm")
+SLOelementName = "Natrij"
+ENGelementName = "Sodium"
+AtomicNumber = 11
+NeutronCount = 12
+Mass = 23
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 1
+Skupina = 1
+
+[node name="Potassium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup" unique_id=959693952 groups=["elements"]]
+offset_left = 318.0
+offset_top = 386.0
+offset_right = 416.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("24_nlwrn")
+texture_pressed = ExtResource("25_t3gem")
+texture_disabled = ExtResource("26_2a0dc")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("31_ftdoo")
+SLOelementName = "Kalij"
+ENGelementName = "Potassium"
+AtomicNumber = 19
+NeutronCount = 20
+Mass = 39
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 8
+Perioda4 = 1
+Skupina = 1
+
+[node name="Rubidium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup" unique_id=1298589999 groups=["elements"]]
+offset_left = 318.0
+offset_top = 475.0
+offset_right = 416.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("27_4nmx7")
+texture_pressed = ExtResource("28_s3p6v")
+texture_disabled = ExtResource("29_fqfwr")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("35_smr7e")
+SLOelementName = "Rubidij"
+ENGelementName = "Rubidium"
+AtomicNumber = 37
+NeutronCount = 48
+Mass = 85
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 8
+Perioda5 = 1
+Skupina = 1
+
+[node name="Caesium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup" unique_id=137022759 groups=["elements"]]
+offset_left = 318.0
+offset_top = 564.0
+offset_right = 416.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("30_b74xj")
+texture_pressed = ExtResource("31_j7xid")
+texture_disabled = ExtResource("32_tjk7c")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("39_rq1y0")
+SLOelementName = "Cezij"
+ENGelementName = "Caesium"
+AtomicNumber = 55
+NeutronCount = 78
+Mass = 133
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 8
+Perioda6 = 1
+Skupina = 1
+
+[node name="Francium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup" unique_id=353427436 groups=["elements"]]
+offset_left = 318.0
+offset_top = 653.0
+offset_right = 416.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("33_5biw0")
+texture_pressed = ExtResource("34_grrfi")
+texture_disabled = ExtResource("35_jc1so")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("43_xebmy")
+SLOelementName = "Francij"
+ENGelementName = "Francium"
+AtomicNumber = 87
+NeutronCount = 136
+Mass = 223
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 8
+Perioda7 = 1
+Skupina = 1
+Radioactivity = true
+
+[node name="CanvasGroup2" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=2121494780]
+position = Vector2(175, 0)
+
+[node name="Beryllium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup2" unique_id=2038772584 groups=["elements"]]
+offset_left = 316.0
+offset_top = 208.0
+offset_right = 414.0
+offset_bottom = 306.0
+toggle_mode = true
+texture_normal = ExtResource("36_u5jkc")
+texture_pressed = ExtResource("37_rrb3u")
+texture_disabled = ExtResource("38_8ri60")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("47_mvhb8")
+SLOelementName = "Berilij"
+ENGelementName = "Beryllium"
+AtomicNumber = 4
+NeutronCount = 5
+Mass = 9
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 2
+Skupina = 2
+Subtip = 1
+
+[node name="Magnesium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup2" unique_id=263022040 groups=["elements"]]
+offset_left = 316.0
+offset_top = 297.0
+offset_right = 414.0
+offset_bottom = 395.0
+toggle_mode = true
+texture_normal = ExtResource("39_3etxj")
+texture_pressed = ExtResource("40_cyuev")
+texture_disabled = ExtResource("41_poiry")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("51_5v2kd")
+SLOelementName = "Magnezij"
+ENGelementName = "Magnesium"
+AtomicNumber = 12
+NeutronCount = 12
+Mass = 24
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 2
+Skupina = 2
+Subtip = 1
+
+[node name="Calcium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup2" unique_id=731455739 groups=["elements"]]
+offset_left = 316.0
+offset_top = 386.0
+offset_right = 414.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("42_qprcg")
+texture_pressed = ExtResource("43_lc3sy")
+texture_disabled = ExtResource("44_118dl")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("55_f037j")
+SLOelementName = "Kalcij"
+ENGelementName = "Calcium"
+AtomicNumber = 20
+NeutronCount = 20
+Mass = 40
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 8
+Perioda4 = 2
+Skupina = 2
+Subtip = 1
+
+[node name="Strontium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup2" unique_id=1010926274 groups=["elements"]]
+offset_left = 316.0
+offset_top = 475.0
+offset_right = 414.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("45_kc5vm")
+texture_pressed = ExtResource("46_onfn0")
+texture_disabled = ExtResource("47_gy4xn")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("59_ln81n")
+SLOelementName = "Stroncij"
+ENGelementName = "Strontium"
+AtomicNumber = 38
+NeutronCount = 50
+Mass = 88
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 8
+Perioda5 = 2
+Skupina = 2
+Subtip = 1
+
+[node name="Barium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup2" unique_id=75210614 groups=["elements"]]
+offset_left = 316.0
+offset_top = 564.0
+offset_right = 414.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("48_cvmty")
+texture_pressed = ExtResource("49_vfo8q")
+texture_disabled = ExtResource("50_0oji7")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("63_gor8c")
+SLOelementName = "Barij"
+ENGelementName = "Barium"
+AtomicNumber = 56
+NeutronCount = 82
+Mass = 138
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 2
+Subtip = 1
+
+[node name="Radium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup2" unique_id=1363073113 groups=["elements"]]
+offset_left = 316.0
+offset_top = 653.0
+offset_right = 414.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("51_h5mu1")
+texture_pressed = ExtResource("52_elnx0")
+texture_disabled = ExtResource("53_k0nqg")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("67_b7dfv")
+SLOelementName = "Radij"
+ENGelementName = "Radium"
+AtomicNumber = 88
+NeutronCount = 138
+Mass = 226
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 2
+Subtip = 1
+Radioactivity = true
+
+[node name="CanvasGroup3" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=511701847]
+position = Vector2(260, 0)
+
+[node name="Scandium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup3" unique_id=1809867616 groups=["elements"]]
+offset_left = 319.0
+offset_top = 386.0
+offset_right = 417.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("54_lda44")
+texture_pressed = ExtResource("55_7r018")
+texture_disabled = ExtResource("56_lmxer")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("71_ta04b")
+SLOelementName = "Skandij"
+ENGelementName = "Scandium"
+AtomicNumber = 21
+NeutronCount = 24
+Mass = 45
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 9
+Perioda4 = 2
+Skupina = 3
+Blok = 2
+Subtip = 2
+
+[node name="Yttrium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup3" unique_id=1717661198 groups=["elements"]]
+offset_left = 319.0
+offset_top = 475.0
+offset_right = 417.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("57_bf1l7")
+texture_pressed = ExtResource("58_eimoi")
+texture_disabled = ExtResource("59_shfi1")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("75_yluhc")
+SLOelementName = "Itrij"
+ENGelementName = "Yttrium"
+AtomicNumber = 39
+NeutronCount = 50
+Mass = 89
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 9
+Perioda5 = 2
+Skupina = 3
+Blok = 2
+Subtip = 2
+
+[node name="Lanthanoids" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup3" unique_id=991410519 groups=["elements"]]
+offset_left = 319.0
+offset_top = 564.0
+offset_right = 417.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("60_kdvjb")
+texture_pressed = ExtResource("61_5fflv")
+texture_disabled = ExtResource("62_ttnw2")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+SLOelementName = "Lantanoidi"
+ENGelementName = "Lanthanoids"
+Perioda = 6
+Skupina = 3
+Blok = 3
+Subtip = 8
+
+[node name="Actinoids" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup3" unique_id=1374599730 groups=["elements"]]
+offset_left = 319.0
+offset_top = 653.0
+offset_right = 417.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("63_6iuxi")
+texture_pressed = ExtResource("64_jj2de")
+texture_disabled = ExtResource("65_0vlmg")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+SLOelementName = "Aktinoidi"
+ENGelementName = "Actinoids"
+Perioda = 7
+Skupina = 3
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="CanvasGroup4" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1750772614]
+position = Vector2(345, 0)
+
+[node name="Titanium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup4" unique_id=1359508996 groups=["elements"]]
+offset_left = 322.0
+offset_top = 386.0
+offset_right = 420.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("66_30bfr")
+texture_pressed = ExtResource("67_wook8")
+texture_disabled = ExtResource("68_s2ogk")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("85_r47i1")
+SLOelementName = "Titan"
+ENGelementName = "Titanium"
+AtomicNumber = 22
+NeutronCount = 26
+Mass = 48
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 10
+Perioda4 = 2
+Skupina = 4
+Blok = 2
+Subtip = 2
+
+[node name="Zirconium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup4" unique_id=824231937 groups=["elements"]]
+offset_left = 322.0
+offset_top = 475.0
+offset_right = 420.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("69_4jsbq")
+texture_pressed = ExtResource("70_hsx5f")
+texture_disabled = ExtResource("71_kd7ds")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("89_42vp2")
+SLOelementName = "Cirkonij"
+ENGelementName = "Zirconium"
+AtomicNumber = 40
+NeutronCount = 50
+Mass = 90
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 10
+Perioda5 = 2
+Skupina = 4
+Blok = 2
+Subtip = 2
+
+[node name="Hafnium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup4" unique_id=1974415307 groups=["elements"]]
+offset_left = 322.0
+offset_top = 564.0
+offset_right = 420.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("72_ulspv")
+texture_pressed = ExtResource("73_kwli0")
+texture_disabled = ExtResource("74_jc2du")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("93_xbny0")
+SLOelementName = "Hafnij"
+ENGelementName = "Hafnium"
+AtomicNumber = 72
+NeutronCount = 108
+Mass = 180
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 10
+Perioda6 = 2
+Skupina = 4
+Blok = 2
+Subtip = 2
+
+[node name="Rutherfordium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup4" unique_id=574500513 groups=["elements"]]
+offset_left = 322.0
+offset_top = 653.0
+offset_right = 420.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("75_me0la")
+texture_pressed = ExtResource("76_dssqb")
+texture_disabled = ExtResource("77_umfym")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("97_mgvhl")
+SLOelementName = "Raderfordij"
+ENGelementName = "Rutherfordium"
+AtomicNumber = 104
+NeutronCount = 163
+Mass = 267
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 10
+Perioda7 = 2
+Skupina = 4
+Blok = 2
+Subtip = 2
+Radioactivity = true
+
+[node name="CanvasGroup5" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=2069981329]
+position = Vector2(430, 0)
+
+[node name="Vanadium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup5" unique_id=384166563 groups=["elements"]]
+offset_left = 325.0
+offset_top = 386.0
+offset_right = 423.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("78_uys5m")
+texture_pressed = ExtResource("79_j8hk2")
+texture_disabled = ExtResource("80_rofpk")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("101_81p4u")
+SLOelementName = "Vanadij"
+ENGelementName = "Vanadium"
+AtomicNumber = 23
+NeutronCount = 28
+Mass = 51
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 11
+Perioda4 = 2
+Skupina = 5
+Blok = 2
+Subtip = 2
+
+[node name="Niobium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup5" unique_id=981590442 groups=["elements"]]
+offset_left = 325.0
+offset_top = 475.0
+offset_right = 423.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("81_s2oqm")
+texture_pressed = ExtResource("82_24hj7")
+texture_disabled = ExtResource("83_d6mid")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("105_aarad")
+SLOelementName = "Niobij"
+ENGelementName = "Niobium"
+AtomicNumber = 51
+NeutronCount = 52
+Mass = 93
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 12
+Perioda5 = 1
+Skupina = 5
+Blok = 2
+Subtip = 2
+
+[node name="Tantalum" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup5" unique_id=681765536 groups=["elements"]]
+offset_left = 325.0
+offset_top = 564.0
+offset_right = 423.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("84_2a7jp")
+texture_pressed = ExtResource("85_uutlf")
+texture_disabled = ExtResource("86_coqxg")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("109_effmq")
+SLOelementName = "Tantal"
+ENGelementName = "Tantalum"
+AtomicNumber = 73
+NeutronCount = 108
+Mass = 181
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 11
+Perioda6 = 2
+Skupina = 5
+Blok = 2
+Subtip = 2
+
+[node name="Dubnium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup5" unique_id=135762660 groups=["elements"]]
+offset_left = 325.0
+offset_top = 653.0
+offset_right = 423.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("87_11k4r")
+texture_pressed = ExtResource("88_sb5n5")
+texture_disabled = ExtResource("89_0fyjo")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("113_kd8t7")
+SLOelementName = "Dubnij"
+ENGelementName = "Dubnium"
+AtomicNumber = 105
+NeutronCount = 163
+Mass = 268
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 11
+Perioda7 = 2
+Skupina = 5
+Blok = 2
+Subtip = 2
+Radioactivity = true
+
+[node name="CanvasGroup6" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1524889994]
+position = Vector2(515, 0)
+
+[node name="Chromium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup6" unique_id=696344650 groups=["elements"]]
+offset_left = 328.0
+offset_top = 386.0
+offset_right = 426.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("90_7e21o")
+texture_pressed = ExtResource("91_c75sl")
+texture_disabled = ExtResource("92_on233")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("117_ylnng")
+SLOelementName = "Krom"
+ENGelementName = "Chromium"
+AtomicNumber = 24
+NeutronCount = 28
+Mass = 52
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 13
+Perioda4 = 1
+Skupina = 6
+Blok = 2
+Subtip = 2
+
+[node name="Molybdenum" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup6" unique_id=2097606914 groups=["elements"]]
+offset_left = 328.0
+offset_top = 475.0
+offset_right = 426.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("93_1heok")
+texture_pressed = ExtResource("94_8bpst")
+texture_disabled = ExtResource("95_oylvi")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("121_f2uki")
+SLOelementName = "Molibden"
+ENGelementName = "Molybdenum"
+AtomicNumber = 42
+NeutronCount = 56
+Mass = 98
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 13
+Perioda5 = 1
+Skupina = 6
+Blok = 2
+Subtip = 2
+
+[node name="Tungsten" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup6" unique_id=522435037 groups=["elements"]]
+offset_left = 328.0
+offset_top = 564.0
+offset_right = 426.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("96_pd1f4")
+texture_pressed = ExtResource("97_t2l00")
+texture_disabled = ExtResource("98_cvgdx")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("125_830h4")
+SLOelementName = "Volfram"
+ENGelementName = "Tungsten"
+AtomicNumber = 74
+NeutronCount = 110
+Mass = 184
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 12
+Perioda6 = 2
+Skupina = 6
+Blok = 2
+Subtip = 2
+
+[node name="Seaborgium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup6" unique_id=388881496 groups=["elements"]]
+offset_left = 328.0
+offset_top = 653.0
+offset_right = 426.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("99_4cjfx")
+texture_pressed = ExtResource("100_6hukj")
+texture_disabled = ExtResource("101_l7ey0")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("129_3i5cx")
+SLOelementName = "Siborgij"
+ENGelementName = "Seaborgium"
+AtomicNumber = 106
+NeutronCount = 163
+Mass = 269
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 12
+Perioda7 = 2
+Skupina = 6
+Blok = 2
+Subtip = 2
+Radioactivity = true
+
+[node name="CanvasGroup7" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=961008491]
+position = Vector2(600, 0)
+
+[node name="Manganese" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup7" unique_id=1964385735 groups=["elements"]]
+offset_left = 331.0
+offset_top = 386.0
+offset_right = 429.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("102_meig0")
+texture_pressed = ExtResource("103_1tlto")
+texture_disabled = ExtResource("104_ksbv1")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("133_3cyya")
+SLOelementName = "Mangan"
+ENGelementName = "Manganese"
+AtomicNumber = 25
+NeutronCount = 30
+Mass = 55
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 13
+Perioda4 = 2
+Skupina = 7
+Blok = 2
+Subtip = 2
+
+[node name="Technetium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup7" unique_id=561007998 groups=["elements"]]
+offset_left = 331.0
+offset_top = 475.0
+offset_right = 429.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("105_id7in")
+texture_pressed = ExtResource("106_1avmc")
+texture_disabled = ExtResource("107_mi7ci")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("137_1cn7t")
+SLOelementName = "Tehnecij"
+ENGelementName = "Technetium"
+AtomicNumber = 43
+NeutronCount = 55
+Mass = 98
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 13
+Perioda5 = 2
+Skupina = 7
+Blok = 2
+Subtip = 2
+Radioactivity = true
+
+[node name="Rhenium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup7" unique_id=1150329615 groups=["elements"]]
+offset_left = 331.0
+offset_top = 564.0
+offset_right = 429.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("108_ftsyl")
+texture_pressed = ExtResource("109_ejido")
+texture_disabled = ExtResource("110_ojytl")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("141_inved")
+SLOelementName = "Renij"
+ENGelementName = "Rhenium"
+AtomicNumber = 75
+NeutronCount = 112
+Mass = 187
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 13
+Perioda6 = 2
+Skupina = 7
+Blok = 2
+Subtip = 2
+
+[node name="Bohrium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup7" unique_id=658760538 groups=["elements"]]
+offset_left = 331.0
+offset_top = 653.0
+offset_right = 429.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("111_ci4wq")
+texture_pressed = ExtResource("112_ejy7f")
+texture_disabled = ExtResource("113_7w10c")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("145_hm7ll")
+SLOelementName = "Borij"
+ENGelementName = "Bohrium"
+AtomicNumber = 107
+NeutronCount = 163
+Mass = 270
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 13
+Perioda7 = 2
+Skupina = 7
+Blok = 2
+Subtip = 2
+Radioactivity = true
+
+[node name="CanvasGroup8" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1994543904]
+position = Vector2(685, 0)
+
+[node name="Iron" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup8" unique_id=1814684728 groups=["elements"]]
+offset_left = 334.0
+offset_top = 386.0
+offset_right = 432.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("114_ve1l2")
+texture_pressed = ExtResource("115_bb0pu")
+texture_disabled = ExtResource("116_qg53c")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("149_v1jgc")
+SLOelementName = "Železo"
+ENGelementName = "Iron"
+AtomicNumber = 26
+NeutronCount = 30
+Mass = 56
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 14
+Perioda4 = 2
+Skupina = 8
+Blok = 2
+Subtip = 2
+
+[node name="Ruthenium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup8" unique_id=812682480 groups=["elements"]]
+offset_left = 334.0
+offset_top = 475.0
+offset_right = 432.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("117_rt1wj")
+texture_pressed = ExtResource("118_m12jm")
+texture_disabled = ExtResource("119_ftdoo")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("153_eefqw")
+SLOelementName = "Rutenij"
+ENGelementName = "Ruthenium"
+AtomicNumber = 44
+NeutronCount = 58
+Mass = 102
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 15
+Perioda5 = 1
+Skupina = 8
+Blok = 2
+Subtip = 2
+
+[node name="Osmium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup8" unique_id=1981568533 groups=["elements"]]
+offset_left = 334.0
+offset_top = 564.0
+offset_right = 432.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("120_smr7e")
+texture_pressed = ExtResource("121_rq1y0")
+texture_disabled = ExtResource("122_xebmy")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("157_lyg35")
+SLOelementName = "Osmij"
+ENGelementName = "Osmium"
+AtomicNumber = 76
+NeutronCount = 116
+Mass = 192
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 14
+Perioda6 = 2
+Skupina = 8
+Blok = 2
+Subtip = 2
+
+[node name="Hassium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup8" unique_id=1747818940 groups=["elements"]]
+offset_left = 334.0
+offset_top = 653.0
+offset_right = 432.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("123_mvhb8")
+texture_pressed = ExtResource("124_5v2kd")
+texture_disabled = ExtResource("125_f037j")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("161_7x6c5")
+SLOelementName = "Hasij"
+ENGelementName = "Hassium"
+AtomicNumber = 108
+NeutronCount = 169
+Mass = 277
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 14
+Perioda7 = 2
+Skupina = 8
+Blok = 2
+Subtip = 2
+Radioactivity = true
+
+[node name="CanvasGroup9" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=286770145]
+position = Vector2(770, 0)
+
+[node name="Cobalt" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup9" unique_id=1214170418 groups=["elements"]]
+offset_left = 337.0
+offset_top = 386.0
+offset_right = 435.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("126_ln81n")
+texture_pressed = ExtResource("127_gor8c")
+texture_disabled = ExtResource("128_b7dfv")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("165_jrfnv")
+SLOelementName = "Kobalt"
+ENGelementName = "Cobalt"
+AtomicNumber = 27
+NeutronCount = 32
+Mass = 59
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 15
+Perioda4 = 2
+Skupina = 9
+Blok = 2
+Subtip = 2
+
+[node name="Rhodium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup9" unique_id=2050293650 groups=["elements"]]
+offset_left = 337.0
+offset_top = 475.0
+offset_right = 435.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("129_ta04b")
+texture_pressed = ExtResource("130_yluhc")
+texture_disabled = ExtResource("131_r47i1")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("169_x2q1n")
+SLOelementName = "Rodij"
+ENGelementName = "Rhodium"
+AtomicNumber = 45
+NeutronCount = 58
+Mass = 103
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 16
+Perioda5 = 1
+Skupina = 9
+Blok = 2
+Subtip = 2
+
+[node name="Iridium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup9" unique_id=10227428 groups=["elements"]]
+offset_left = 337.0
+offset_top = 564.0
+offset_right = 435.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("132_42vp2")
+texture_pressed = ExtResource("133_xbny0")
+texture_disabled = ExtResource("134_mgvhl")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("173_b37kh")
+SLOelementName = "Iridij"
+ENGelementName = "Iridium"
+AtomicNumber = 77
+NeutronCount = 116
+Mass = 193
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 15
+Perioda6 = 2
+Skupina = 9
+Blok = 2
+Subtip = 2
+
+[node name="Meitnerium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup9" unique_id=784441921 groups=["elements"]]
+offset_left = 337.0
+offset_top = 653.0
+offset_right = 435.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("135_81p4u")
+texture_pressed = ExtResource("136_aarad")
+texture_disabled = ExtResource("137_effmq")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("177_8knai")
+SLOelementName = "Majtnerij"
+ENGelementName = "Meitnerium"
+AtomicNumber = 109
+NeutronCount = 169
+Mass = 278
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 15
+Perioda7 = 2
+Skupina = 9
+Blok = 2
+Subtip = 2
+Radioactivity = true
+
+[node name="CanvasGroup11" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1644377455]
+position = Vector2(940, 0)
+
+[node name="Copper" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup11" unique_id=1406681090 groups=["elements"]]
+offset_left = 343.0
+offset_top = 386.0
+offset_right = 441.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("138_kd8t7")
+texture_pressed = ExtResource("139_ylnng")
+texture_disabled = ExtResource("140_f2uki")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("181_fyyn7")
+SLOelementName = "Baker"
+ENGelementName = "Copper"
+AtomicNumber = 29
+NeutronCount = 34
+Mass = 63
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 1
+Skupina = 11
+Blok = 2
+Subtip = 2
+
+[node name="Silver" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup11" unique_id=1636260021 groups=["elements"]]
+offset_left = 343.0
+offset_top = 475.0
+offset_right = 441.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("141_830h4")
+texture_pressed = ExtResource("142_3i5cx")
+texture_disabled = ExtResource("143_3cyya")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("185_34q5s")
+SLOelementName = "Srebro"
+ENGelementName = "Silver"
+AtomicNumber = 47
+NeutronCount = 60
+Mass = 107
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 1
+Skupina = 11
+Blok = 2
+Subtip = 2
+
+[node name="Gold" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup11" unique_id=438897136 groups=["elements"]]
+offset_left = 343.0
+offset_top = 564.0
+offset_right = 441.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("144_1cn7t")
+texture_pressed = ExtResource("145_inved")
+texture_disabled = ExtResource("146_hm7ll")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("189_1k062")
+SLOelementName = "Zlato"
+ENGelementName = "Gold"
+AtomicNumber = 79
+NeutronCount = 118
+Mass = 197
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 1
+Skupina = 11
+Blok = 2
+Subtip = 2
+
+[node name="Roentgenium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup11" unique_id=119336339 groups=["elements"]]
+offset_left = 343.0
+offset_top = 653.0
+offset_right = 441.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("147_v1jgc")
+texture_pressed = ExtResource("148_eefqw")
+texture_disabled = ExtResource("149_lyg35")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("193_x3a2p")
+SLOelementName = "Rentgenij"
+ENGelementName = "Roentgenium"
+AtomicNumber = 111
+NeutronCount = 171
+Mass = 282
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 1
+Skupina = 11
+Blok = 2
+Subtip = 2
+Radioactivity = true
+
+[node name="CanvasGroup12" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1351210317]
+position = Vector2(1025, 0)
+
+[node name="Zinc" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup12" unique_id=94540129 groups=["elements"]]
+offset_left = 346.0
+offset_top = 386.0
+offset_right = 444.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("150_7x6c5")
+texture_pressed = ExtResource("151_jrfnv")
+texture_disabled = ExtResource("152_x2q1n")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("197_hxtfo")
+SLOelementName = "Cink"
+ENGelementName = "Zinc"
+AtomicNumber = 30
+NeutronCount = 34
+Mass = 64
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 2
+Skupina = 12
+Blok = 2
+Subtip = 2
+
+[node name="Cadmium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup12" unique_id=1401533315 groups=["elements"]]
+offset_left = 346.0
+offset_top = 475.0
+offset_right = 444.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("153_b37kh")
+texture_pressed = ExtResource("154_8knai")
+texture_disabled = ExtResource("155_fyyn7")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("201_rweay")
+SLOelementName = "Kadmij"
+ENGelementName = "Cadmium"
+AtomicNumber = 35
+NeutronCount = 66
+Mass = 114
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 2
+Skupina = 12
+Blok = 2
+Subtip = 2
+
+[node name="Mercury" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup12" unique_id=413940397 groups=["elements"]]
+offset_left = 346.0
+offset_top = 564.0
+offset_right = 444.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("156_34q5s")
+texture_pressed = ExtResource("157_1k062")
+texture_disabled = ExtResource("158_x3a2p")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("205_xn5pc")
+SLOelementName = "Živo srebro"
+ENGelementName = "Mercury"
+AtomicNumber = 80
+NeutronCount = 122
+Mass = 202
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 2
+Skupina = 12
+Blok = 2
+Subtip = 2
+
+[node name="Copernicium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup12" unique_id=1764753603 groups=["elements"]]
+offset_left = 346.0
+offset_top = 653.0
+offset_right = 444.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("159_hxtfo")
+texture_pressed = ExtResource("160_rweay")
+texture_disabled = ExtResource("161_xn5pc")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("209_4bky1")
+SLOelementName = "Kopernicij"
+ENGelementName = "Copernicium"
+AtomicNumber = 112
+NeutronCount = 173
+Mass = 285
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 2
+Skupina = 12
+Blok = 2
+Subtip = 2
+Radioactivity = true
+
+[node name="CanvasGroup13" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=257960869]
+position = Vector2(1110, 0)
+
+[node name="Boron" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup13" unique_id=2088937789 groups=["elements"]]
+offset_left = 349.0
+offset_top = 208.0
+offset_right = 447.0
+offset_bottom = 306.0
+toggle_mode = true
+texture_normal = ExtResource("162_4bky1")
+texture_pressed = ExtResource("163_qorw3")
+texture_disabled = ExtResource("164_hivep")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("213_qorw3")
+SLOelementName = "Bor"
+ENGelementName = "Boron"
+AtomicNumber = 5
+NeutronCount = 6
+Mass = 11
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 3
+Skupina = 13
+Blok = 1
+Tip = 2
+Subtip = 4
+
+[node name="Aluminium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup13" unique_id=800681211 groups=["elements"]]
+offset_left = 349.0
+offset_top = 297.0
+offset_right = 447.0
+offset_bottom = 395.0
+toggle_mode = true
+texture_normal = ExtResource("165_p4c8y")
+texture_pressed = ExtResource("166_0n0e3")
+texture_disabled = ExtResource("167_nnmld")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("217_hivep")
+SLOelementName = "Aluminij"
+ENGelementName = "Aluminium"
+AtomicNumber = 13
+NeutronCount = 14
+Mass = 27
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 3
+Skupina = 13
+Blok = 1
+Subtip = 3
+
+[node name="Gallium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup13" unique_id=808584134 groups=["elements"]]
+offset_left = 349.0
+offset_top = 386.0
+offset_right = 447.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("168_2pjv3")
+texture_pressed = ExtResource("169_utju1")
+texture_disabled = ExtResource("170_25gwu")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("221_p4c8y")
+SLOelementName = "Galij"
+ENGelementName = "Gallium"
+AtomicNumber = 31
+NeutronCount = 38
+Mass = 69
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 3
+Skupina = 13
+Blok = 1
+Subtip = 3
+
+[node name="Indium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup13" unique_id=609888015 groups=["elements"]]
+offset_left = 349.0
+offset_top = 475.0
+offset_right = 447.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("171_uoyi4")
+texture_pressed = ExtResource("172_05ke0")
+texture_disabled = ExtResource("173_pjap1")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("225_0n0e3")
+SLOelementName = "Indij"
+ENGelementName = "Indium"
+AtomicNumber = 49
+NeutronCount = 66
+Mass = 115
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 3
+Skupina = 13
+Blok = 1
+Subtip = 3
+
+[node name="Thallium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup13" unique_id=1374899814 groups=["elements"]]
+offset_left = 349.0
+offset_top = 564.0
+offset_right = 447.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("174_b48bv")
+texture_pressed = ExtResource("175_vdtvt")
+texture_disabled = ExtResource("176_ykgbl")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("229_nnmld")
+SLOelementName = "Talij"
+ENGelementName = "Thallium"
+AtomicNumber = 81
+NeutronCount = 124
+Mass = 205
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 3
+Skupina = 13
+Blok = 1
+Subtip = 3
+
+[node name="Nihonium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup13" unique_id=437712348 groups=["elements"]]
+offset_left = 349.0
+offset_top = 653.0
+offset_right = 447.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("177_nkvdi")
+texture_pressed = ExtResource("178_uxtyy")
+texture_disabled = ExtResource("179_dofej")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("233_2pjv3")
+SLOelementName = "Nihonij"
+ENGelementName = "Nihonium"
+AtomicNumber = 113
+NeutronCount = 173
+Mass = 286
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 3
+Skupina = 13
+Blok = 1
+Subtip = 3
+Radioactivity = true
+
+[node name="CanvasGroup14" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1039913134]
+position = Vector2(1195, 0)
+
+[node name="Carbon" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup14" unique_id=1968274317 groups=["elements"]]
+offset_left = 352.0
+offset_top = 208.0
+offset_right = 450.0
+offset_bottom = 306.0
+toggle_mode = true
+texture_normal = ExtResource("180_uhcx5")
+texture_pressed = ExtResource("181_1cm1b")
+texture_disabled = ExtResource("182_1t223")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("237_utju1")
+SLOelementName = "Ogljik"
+ENGelementName = "Carbon"
+AtomicNumber = 6
+NeutronCount = 6
+Mass = 12
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 4
+Skupina = 14
+Blok = 1
+Tip = 1
+Subtip = 5
+
+[node name="Silicon" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup14" unique_id=20230011 groups=["elements"]]
+offset_left = 352.0
+offset_top = 297.0
+offset_right = 450.0
+offset_bottom = 395.0
+toggle_mode = true
+texture_normal = ExtResource("183_xwxbk")
+texture_pressed = ExtResource("184_sosec")
+texture_disabled = ExtResource("185_i0smi")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("241_25gwu")
+SLOelementName = "Silicij"
+ENGelementName = "Silicon"
+AtomicNumber = 14
+NeutronCount = 14
+Mass = 28
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 4
+Skupina = 14
+Blok = 1
+Tip = 2
+Subtip = 4
+
+[node name="Germanium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup14" unique_id=720277298 groups=["elements"]]
+offset_left = 352.0
+offset_top = 386.0
+offset_right = 450.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("186_yhesf")
+texture_pressed = ExtResource("187_pqe4g")
+texture_disabled = ExtResource("188_3n4ax")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("245_uoyi4")
+SLOelementName = "Germanij"
+ENGelementName = "Germanium"
+AtomicNumber = 32
+NeutronCount = 42
+Mass = 74
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 4
+Skupina = 14
+Blok = 1
+Tip = 2
+Subtip = 4
+
+[node name="Tin" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup14" unique_id=731522290 groups=["elements"]]
+offset_left = 352.0
+offset_top = 475.0
+offset_right = 451.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("189_0p6p1")
+texture_pressed = ExtResource("190_mlwx5")
+texture_disabled = ExtResource("191_2baef")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("249_05ke0")
+SLOelementName = "Kositer"
+ENGelementName = "Tin"
+AtomicNumber = 50
+NeutronCount = 70
+Mass = 120
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 4
+Skupina = 14
+Blok = 1
+Subtip = 3
+
+[node name="Lead" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup14" unique_id=2088944823 groups=["elements"]]
+offset_left = 352.0
+offset_top = 564.0
+offset_right = 450.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("192_q2fv5")
+texture_pressed = ExtResource("193_pr1wl")
+texture_disabled = ExtResource("194_phc4j")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("253_pjap1")
+SLOelementName = "Svinec"
+ENGelementName = "Lead"
+AtomicNumber = 82
+NeutronCount = 126
+Mass = 208
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 4
+Skupina = 14
+Blok = 1
+Subtip = 3
+
+[node name="Flerovium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup14" unique_id=1973333828 groups=["elements"]]
+offset_left = 352.0
+offset_top = 653.0
+offset_right = 450.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("195_dfa0x")
+texture_pressed = ExtResource("196_ythjg")
+texture_disabled = ExtResource("197_rnnlu")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("257_b48bv")
+SLOelementName = "Flerovij"
+ENGelementName = "Flerovium"
+AtomicNumber = 114
+NeutronCount = 175
+Mass = 289
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 4
+Skupina = 14
+Blok = 1
+Subtip = 3
+Radioactivity = true
+
+[node name="CanvasGroup15" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1463131573]
+position = Vector2(1280, 0)
+
+[node name="Nitrogen" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup15" unique_id=618541049 groups=["elements"]]
+offset_left = 355.0
+offset_top = 208.0
+offset_right = 453.0
+offset_bottom = 306.0
+toggle_mode = true
+texture_normal = ExtResource("198_ahi6e")
+texture_pressed = ExtResource("199_8xh23")
+texture_disabled = ExtResource("200_3r3ci")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("261_vdtvt")
+SLOelementName = "Dušik"
+ENGelementName = "Nitrogen"
+AtomicNumber = 7
+NeutronCount = 7
+Mass = 14
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 5
+Skupina = 15
+Blok = 1
+Tip = 1
+Subtip = 5
+
+[node name="Phosphorus" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup15" unique_id=977411691 groups=["elements"]]
+offset_left = 355.0
+offset_top = 297.0
+offset_right = 453.0
+offset_bottom = 395.0
+toggle_mode = true
+texture_normal = ExtResource("201_v8noc")
+texture_pressed = ExtResource("202_rsugp")
+texture_disabled = ExtResource("203_rgr5i")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("265_ykgbl")
+SLOelementName = "Fosfor"
+ENGelementName = "Phosphorus"
+AtomicNumber = 15
+NeutronCount = 16
+Mass = 31
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 5
+Skupina = 15
+Blok = 1
+Tip = 1
+Subtip = 5
+
+[node name="Arsenic" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup15" unique_id=1428159056 groups=["elements"]]
+offset_left = 355.0
+offset_top = 386.0
+offset_right = 453.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("204_gsqbe")
+texture_pressed = ExtResource("205_euqrj")
+texture_disabled = ExtResource("206_n5m70")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("269_nkvdi")
+SLOelementName = "Arzen"
+ENGelementName = "Arsenic"
+AtomicNumber = 33
+NeutronCount = 42
+Mass = 75
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 5
+Skupina = 15
+Blok = 1
+Tip = 2
+Subtip = 4
+
+[node name="Antimony" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup15" unique_id=309818020 groups=["elements"]]
+offset_left = 355.0
+offset_top = 475.0
+offset_right = 453.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("207_nhknr")
+texture_pressed = ExtResource("208_wkv7p")
+texture_disabled = ExtResource("209_xl3ia")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("273_uxtyy")
+SLOelementName = "Antimon"
+ENGelementName = "Antimony"
+AtomicNumber = 51
+NeutronCount = 70
+Mass = 121
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 5
+Skupina = 15
+Blok = 1
+Tip = 2
+Subtip = 4
+
+[node name="Bismuth" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup15" unique_id=1695811315 groups=["elements"]]
+offset_left = 355.0
+offset_top = 564.0
+offset_right = 453.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("210_tcg11")
+texture_pressed = ExtResource("211_35nul")
+texture_disabled = ExtResource("212_xljtd")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("277_dofej")
+SLOelementName = "Bizmut"
+ENGelementName = "Bismuth"
+AtomicNumber = 83
+NeutronCount = 126
+Mass = 209
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 5
+Skupina = 15
+Blok = 1
+Subtip = 3
+
+[node name="Moscovium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup15" unique_id=2071064502 groups=["elements"]]
+offset_left = 355.0
+offset_top = 653.0
+offset_right = 453.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("213_vev2x")
+texture_pressed = ExtResource("214_jq2p4")
+texture_disabled = ExtResource("215_xv5d0")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("281_uhcx5")
+SLOelementName = "Moskovij"
+ENGelementName = "Moscovium"
+AtomicNumber = 115
+NeutronCount = 175
+Mass = 290
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 5
+Skupina = 15
+Blok = 1
+Subtip = 3
+Radioactivity = true
+
+[node name="CanvasGroup16" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=843628203]
+position = Vector2(1365, 0)
+
+[node name="Oxygen" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup16" unique_id=937477006 groups=["elements"]]
+offset_left = 358.0
+offset_top = 208.0
+offset_right = 456.0
+offset_bottom = 306.0
+toggle_mode = true
+texture_normal = ExtResource("216_6xt57")
+texture_pressed = ExtResource("217_oitb4")
+texture_disabled = ExtResource("218_12yiy")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("285_1cm1b")
+SLOelementName = "Kisik"
+ENGelementName = "Oxygen"
+AtomicNumber = 8
+NeutronCount = 8
+Mass = 16
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 6
+Skupina = 16
+Blok = 1
+Tip = 1
+Subtip = 5
+
+[node name="Sulfur" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup16" unique_id=1431055224 groups=["elements"]]
+offset_left = 358.0
+offset_top = 297.0
+offset_right = 456.0
+offset_bottom = 395.0
+toggle_mode = true
+texture_normal = ExtResource("219_msqg3")
+texture_pressed = ExtResource("220_ik1sx")
+texture_disabled = ExtResource("221_3ym7b")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("289_1t223")
+SLOelementName = "Žveplo"
+ENGelementName = "Sulfur"
+AtomicNumber = 16
+NeutronCount = 16
+Mass = 32
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 6
+Skupina = 16
+Blok = 1
+Tip = 1
+Subtip = 5
+
+[node name="Selenium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup16" unique_id=24777240 groups=["elements"]]
+offset_left = 358.0
+offset_top = 386.0
+offset_right = 456.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("222_1sard")
+texture_pressed = ExtResource("223_ruqpt")
+texture_disabled = ExtResource("224_nxsq0")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("293_xwxbk")
+SLOelementName = "Selen"
+ENGelementName = "Selenium"
+AtomicNumber = 34
+NeutronCount = 46
+Mass = 80
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 6
+Skupina = 16
+Blok = 1
+Tip = 1
+Subtip = 5
+
+[node name="Tellurium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup16" unique_id=630592377 groups=["elements"]]
+offset_left = 358.0
+offset_top = 475.0
+offset_right = 456.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("225_tspe2")
+texture_pressed = ExtResource("226_hsxc3")
+texture_disabled = ExtResource("227_aga3y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("297_sosec")
+SLOelementName = "Telur"
+ENGelementName = "Tellurium"
+AtomicNumber = 52
+NeutronCount = 78
+Mass = 130
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 6
+Skupina = 16
+Blok = 1
+Tip = 2
+Subtip = 4
+
+[node name="Polonium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup16" unique_id=1723388567 groups=["elements"]]
+offset_left = 358.0
+offset_top = 564.0
+offset_right = 456.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("228_vk3v5")
+texture_pressed = ExtResource("229_i43ph")
+texture_disabled = ExtResource("230_u1cox")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("301_i0smi")
+SLOelementName = "Polonij"
+ENGelementName = "Polonium"
+AtomicNumber = 84
+NeutronCount = 125
+Mass = 209
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 6
+Skupina = 16
+Blok = 1
+Tip = 2
+Subtip = 4
+Radioactivity = true
+
+[node name="Livermorium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup16" unique_id=214836982 groups=["elements"]]
+offset_left = 358.0
+offset_top = 653.0
+offset_right = 456.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("231_ulr6x")
+texture_pressed = ExtResource("232_0vxmi")
+texture_disabled = ExtResource("233_0wjvx")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("305_yhesf")
+SLOelementName = "Livermorij"
+ENGelementName = "Livermorium"
+AtomicNumber = 116
+NeutronCount = 177
+Mass = 293
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 6
+Skupina = 16
+Blok = 1
+Subtip = 3
+Radioactivity = true
+
+[node name="CanvasGroup17" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1032385089]
+position = Vector2(1450, 0)
+
+[node name="Flourine" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup17" unique_id=1484642711 groups=["elements"]]
+offset_left = 361.0
+offset_top = 208.0
+offset_right = 459.0
+offset_bottom = 306.0
+toggle_mode = true
+texture_normal = ExtResource("234_v3u2c")
+texture_pressed = ExtResource("235_2tffi")
+texture_disabled = ExtResource("236_yhi2j")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("309_pqe4g")
+SLOelementName = "Fluor"
+ENGelementName = "Fluorine"
+AtomicNumber = 9
+NeutronCount = 10
+Mass = 19
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 7
+Skupina = 17
+Blok = 1
+Tip = 1
+Subtip = 6
+
+[node name="Chlorine" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup17" unique_id=244568839 groups=["elements"]]
+offset_left = 361.0
+offset_top = 297.0
+offset_right = 459.0
+offset_bottom = 395.0
+toggle_mode = true
+texture_normal = ExtResource("237_u7r2i")
+texture_pressed = ExtResource("238_lxpna")
+texture_disabled = ExtResource("239_ffohr")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("313_3n4ax")
+SLOelementName = "Klor"
+ENGelementName = "Chlorine"
+AtomicNumber = 17
+NeutronCount = 18
+Mass = 35
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 7
+Skupina = 17
+Blok = 1
+Tip = 1
+Subtip = 6
+
+[node name="Bromine" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup17" unique_id=2128424011 groups=["elements"]]
+offset_left = 361.0
+offset_top = 386.0
+offset_right = 459.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("240_gnmq1")
+texture_pressed = ExtResource("241_lhbe6")
+texture_disabled = ExtResource("242_kfus2")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("317_0p6p1")
+SLOelementName = "Brom"
+ENGelementName = "Bromine"
+AtomicNumber = 35
+NeutronCount = 44
+Mass = 79
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 7
+Skupina = 17
+Blok = 1
+Tip = 1
+Subtip = 6
+
+[node name="Iodine" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup17" unique_id=1933903158 groups=["elements"]]
+offset_left = 361.0
+offset_top = 475.0
+offset_right = 459.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("243_4iq6t")
+texture_pressed = ExtResource("244_hoiec")
+texture_disabled = ExtResource("245_hwve6")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("321_mlwx5")
+SLOelementName = "Jod"
+ENGelementName = "Iodine"
+AtomicNumber = 53
+NeutronCount = 74
+Mass = 127
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 7
+Skupina = 17
+Blok = 1
+Tip = 1
+Subtip = 6
+
+[node name="Astatine" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup17" unique_id=911036308 groups=["elements"]]
+offset_left = 361.0
+offset_top = 564.0
+offset_right = 459.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("246_uhb8l")
+texture_pressed = ExtResource("247_6u86q")
+texture_disabled = ExtResource("248_fkx5f")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("325_2baef")
+SLOelementName = "Astat"
+ENGelementName = "Astatine"
+AtomicNumber = 85
+NeutronCount = 125
+Mass = 210
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 7
+Skupina = 17
+Blok = 1
+Tip = 1
+Subtip = 6
+Radioactivity = true
+
+[node name="Tennessine" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup17" unique_id=399259490 groups=["elements"]]
+offset_left = 361.0
+offset_top = 653.0
+offset_right = 459.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("249_swduw")
+texture_pressed = ExtResource("250_fsugv")
+texture_disabled = ExtResource("251_qp0qp")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("329_q2fv5")
+SLOelementName = "Tenes"
+ENGelementName = "Tennessine"
+AtomicNumber = 117
+NeutronCount = 177
+Mass = 294
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 7
+Skupina = 17
+Blok = 1
+Tip = 1
+Subtip = 6
+Radioactivity = true
+
+[node name="CanvasGroup18" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1875659752]
+position = Vector2(1535, 0)
+
+[node name="Helium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup18" unique_id=922591100 groups=["elements"]]
+offset_left = 364.0
+offset_top = 119.0
+offset_right = 462.0
+offset_bottom = 217.0
+toggle_mode = true
+texture_normal = ExtResource("252_i2fta")
+texture_pressed = ExtResource("253_5rl0g")
+texture_disabled = ExtResource("254_4brsf")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("333_pr1wl")
+SLOelementName = "Helij"
+ENGelementName = "Helium"
+AtomicNumber = 2
+NeutronCount = 2
+Mass = 4
+Perioda = 1
+Perioda1 = 2
+Skupina = 18
+Tip = 1
+Subtip = 7
+
+[node name="Neon" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup18" unique_id=2008197752 groups=["elements"]]
+offset_left = 364.0
+offset_top = 208.0
+offset_right = 462.0
+offset_bottom = 306.0
+toggle_mode = true
+texture_normal = ExtResource("255_jwb4t")
+texture_pressed = ExtResource("256_5e36n")
+texture_disabled = ExtResource("257_k8acx")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("337_phc4j")
+SLOelementName = "Neon"
+ENGelementName = "Neon"
+AtomicNumber = 10
+NeutronCount = 10
+Mass = 20
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+
+[node name="Argon" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup18" unique_id=1952819045 groups=["elements"]]
+offset_left = 364.0
+offset_top = 297.0
+offset_right = 462.0
+offset_bottom = 395.0
+toggle_mode = true
+texture_normal = ExtResource("258_0brlm")
+texture_pressed = ExtResource("259_jt8lk")
+texture_disabled = ExtResource("260_tnvwq")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("341_dfa0x")
+SLOelementName = "Argon"
+ENGelementName = "Argon"
+AtomicNumber = 18
+NeutronCount = 22
+Mass = 40
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+
+[node name="Krypton" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup18" unique_id=1693776007 groups=["elements"]]
+offset_left = 364.0
+offset_top = 386.0
+offset_right = 462.0
+offset_bottom = 484.0
+toggle_mode = true
+texture_normal = ExtResource("261_a4d2o")
+texture_pressed = ExtResource("262_grcbh")
+texture_disabled = ExtResource("263_g5cr5")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("345_ythjg")
+SLOelementName = "Kripton"
+ENGelementName = "Krypton"
+AtomicNumber = 36
+NeutronCount = 48
+Mass = 84
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+
+[node name="Xenon" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup18" unique_id=1850386626 groups=["elements"]]
+offset_left = 364.0
+offset_top = 475.0
+offset_right = 462.0
+offset_bottom = 573.0
+toggle_mode = true
+texture_normal = ExtResource("264_kiwxv")
+texture_pressed = ExtResource("265_3cd5d")
+texture_disabled = ExtResource("266_pnaaa")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("349_rnnlu")
+SLOelementName = "Ksenon"
+ENGelementName = "Xenon"
+AtomicNumber = 54
+NeutronCount = 78
+Mass = 132
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+
+[node name="Radon" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup18" unique_id=459437455 groups=["elements"]]
+offset_left = 364.0
+offset_top = 564.0
+offset_right = 462.0
+offset_bottom = 662.0
+toggle_mode = true
+texture_normal = ExtResource("267_3ipsy")
+texture_pressed = ExtResource("268_f663a")
+texture_disabled = ExtResource("269_opvur")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("353_ahi6e")
+SLOelementName = "Radon"
+ENGelementName = "Radon"
+AtomicNumber = 86
+NeutronCount = 136
+Mass = 222
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+Radioactivity = true
+
+[node name="Oganesson" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup18" unique_id=712438098 groups=["elements"]]
+offset_left = 364.0
+offset_top = 653.0
+offset_right = 462.0
+offset_bottom = 751.0
+toggle_mode = true
+texture_normal = ExtResource("270_7etx3")
+texture_pressed = ExtResource("271_3iuch")
+texture_disabled = ExtResource("272_fg8i0")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("357_8xh23")
+SLOelementName = "Oganeson"
+ENGelementName = "Oganesson"
+AtomicNumber = 118
+NeutronCount = 176
+Mass = 294
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+Radioactivity = true
+
+[node name="CanvasGroup19" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1957250884]
+position = Vector2(85, 0)
+
+[node name="Lanthanum" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=302920143 groups=["elements"]]
+offset_left = 488.0
+offset_top = 785.0
+offset_right = 586.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("273_38anm")
+texture_pressed = ExtResource("274_mqqhi")
+texture_disabled = ExtResource("275_gvref")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("361_3r3ci")
+SLOelementName = "Lantan"
+ENGelementName = "Lanthanum"
+AtomicNumber = 57
+NeutronCount = 82
+Mass = 139
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 9
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Cerium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=1902924021 groups=["elements"]]
+offset_left = 576.0
+offset_top = 785.0
+offset_right = 674.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("276_pplpt")
+texture_pressed = ExtResource("277_31v8p")
+texture_disabled = ExtResource("278_a832j")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("365_v8noc")
+SLOelementName = "Cerij"
+ENGelementName = "Cerium"
+AtomicNumber = 58
+NeutronCount = 82
+Mass = 140
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 19
+Perioda5 = 9
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Praseodymium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=110398150 groups=["elements"]]
+offset_left = 664.0
+offset_top = 785.0
+offset_right = 762.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("279_vsy58")
+texture_pressed = ExtResource("280_og2pg")
+texture_disabled = ExtResource("281_3ctbp")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("369_rsugp")
+SLOelementName = "Prazeodim"
+ENGelementName = "Praseodymium"
+AtomicNumber = 59
+NeutronCount = 82
+Mass = 141
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 21
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Neodymium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=95991755 groups=["elements"]]
+offset_left = 752.0
+offset_top = 785.0
+offset_right = 850.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("282_fusyf")
+texture_pressed = ExtResource("283_77pd8")
+texture_disabled = ExtResource("284_rg25a")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("373_rgr5i")
+SLOelementName = "Neodim"
+ENGelementName = "Neodymium"
+AtomicNumber = 60
+NeutronCount = 84
+Mass = 144
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 22
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Promethium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=1131846852 groups=["elements"]]
+offset_left = 840.0
+offset_top = 785.0
+offset_right = 938.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("285_44vak")
+texture_pressed = ExtResource("286_6t471")
+texture_disabled = ExtResource("287_iygt6")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("377_gsqbe")
+SLOelementName = "Prometij"
+ENGelementName = "Promethium"
+AtomicNumber = 61
+NeutronCount = 84
+Mass = 145
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 23
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+Radioactivity = true
+
+[node name="Samarium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=471763142 groups=["elements"]]
+offset_left = 928.0
+offset_top = 785.0
+offset_right = 1026.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("288_mjm7r")
+texture_pressed = ExtResource("289_51jug")
+texture_disabled = ExtResource("290_gm50w")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("381_euqrj")
+SLOelementName = "Samarij"
+ENGelementName = "Samarium"
+AtomicNumber = 62
+NeutronCount = 90
+Mass = 152
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 24
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Europium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=1445589134 groups=["elements"]]
+offset_left = 1016.0
+offset_top = 785.0
+offset_right = 1114.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("291_twhjn")
+texture_pressed = ExtResource("292_ac3r4")
+texture_disabled = ExtResource("293_sir7m")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("385_n5m70")
+SLOelementName = "Evropij"
+ENGelementName = "Europium"
+AtomicNumber = 63
+NeutronCount = 90
+Mass = 153
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 25
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Gadolinium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=1310401891 groups=["elements"]]
+offset_left = 1104.0
+offset_top = 785.0
+offset_right = 1202.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("294_6ek8u")
+texture_pressed = ExtResource("295_byoql")
+texture_disabled = ExtResource("296_weqgc")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("389_nhknr")
+SLOelementName = "Gadolinij"
+ENGelementName = "Gadolinium"
+AtomicNumber = 64
+NeutronCount = 94
+Mass = 158
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 25
+Perioda5 = 9
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Terbium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=655663734 groups=["elements"]]
+offset_left = 1192.0
+offset_top = 785.0
+offset_right = 1290.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("297_ihv6y")
+texture_pressed = ExtResource("298_r8pdo")
+texture_disabled = ExtResource("299_11cc3")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("393_wkv7p")
+SLOelementName = "Terbij"
+ENGelementName = "Terbium"
+AtomicNumber = 65
+NeutronCount = 94
+Mass = 159
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 27
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Dysprosium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=1912923165 groups=["elements"]]
+offset_left = 1280.0
+offset_top = 786.0
+offset_right = 1378.0
+offset_bottom = 884.0
+toggle_mode = true
+texture_normal = ExtResource("300_a8mjs")
+texture_pressed = ExtResource("301_ce1gh")
+texture_disabled = ExtResource("302_cjk3t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("397_xl3ia")
+SLOelementName = "Disprozij"
+ENGelementName = "Dysprosium"
+AtomicNumber = 66
+NeutronCount = 98
+Mass = 164
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 28
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Holmium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=1595047109 groups=["elements"]]
+offset_left = 1368.0
+offset_top = 786.0
+offset_right = 1466.0
+offset_bottom = 884.0
+toggle_mode = true
+texture_normal = ExtResource("303_gvxdd")
+texture_pressed = ExtResource("304_7srwy")
+texture_disabled = ExtResource("305_3d5jw")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("401_tcg11")
+SLOelementName = "Holmij"
+ENGelementName = "Holmium"
+AtomicNumber = 67
+NeutronCount = 98
+Mass = 165
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 29
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Erbium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=1971171989 groups=["elements"]]
+offset_left = 1456.0
+offset_top = 785.0
+offset_right = 1554.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("306_egjan")
+texture_pressed = ExtResource("307_b64du")
+texture_disabled = ExtResource("308_bxaie")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("405_35nul")
+SLOelementName = "Erbij"
+ENGelementName = "Erbium"
+AtomicNumber = 68
+NeutronCount = 98
+Mass = 166
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 30
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Thulium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=1666629855 groups=["elements"]]
+offset_left = 1544.0
+offset_top = 785.0
+offset_right = 1642.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("309_amuvy")
+texture_pressed = ExtResource("310_rkpgl")
+texture_disabled = ExtResource("311_cmjwc")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("409_xljtd")
+SLOelementName = "Tulij"
+ENGelementName = "Thulium"
+AtomicNumber = 69
+NeutronCount = 100
+Mass = 169
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 31
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Ytterbium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=1376061496 groups=["elements"]]
+offset_left = 1632.0
+offset_top = 785.0
+offset_right = 1730.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("312_kjisj")
+texture_pressed = ExtResource("313_r0a2s")
+texture_disabled = ExtResource("314_4i4nu")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("413_vev2x")
+SLOelementName = "Iterbij"
+ENGelementName = "Ytterbium"
+AtomicNumber = 70
+NeutronCount = 104
+Mass = 174
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+
+[node name="Lutetium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup19" unique_id=353111396 groups=["elements"]]
+offset_left = 1720.0
+offset_top = 785.0
+offset_right = 1818.0
+offset_bottom = 883.0
+toggle_mode = true
+texture_normal = ExtResource("315_elubj")
+texture_pressed = ExtResource("316_yric6")
+texture_disabled = ExtResource("317_7sxww")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("417_jq2p4")
+SLOelementName = "Lutecij"
+ENGelementName = "Lutetium"
+AtomicNumber = 71
+NeutronCount = 104
+Mass = 175
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 9
+Perioda6 = 2
+Skupina = 3
+Blok = 2
+Subtip = 8
+
+[node name="CanvasGroup20" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=1374669903]
+position = Vector2(85, 86)
+
+[node name="Actinium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=1529940361 groups=["elements"]]
+offset_left = 488.0
+offset_top = 788.0
+offset_right = 586.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("318_mkvil")
+texture_pressed = ExtResource("319_ky0tw")
+texture_disabled = ExtResource("320_x3pfw")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("421_xv5d0")
+SLOelementName = "Aktinij"
+ENGelementName = "Actinium"
+AtomicNumber = 89
+NeutronCount = 138
+Mass = 227
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 9
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Thorium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=123555127 groups=["elements"]]
+offset_left = 576.0
+offset_top = 788.0
+offset_right = 674.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("321_2wbnm")
+texture_pressed = ExtResource("322_3bwt8")
+texture_disabled = ExtResource("323_oivq0")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("425_6xt57")
+SLOelementName = "Torij"
+ENGelementName = "Thorium"
+AtomicNumber = 90
+NeutronCount = 142
+Mass = 232
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 10
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Protactinium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=922842137 groups=["elements"]]
+offset_left = 664.0
+offset_top = 788.0
+offset_right = 762.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("324_njyfo")
+texture_pressed = ExtResource("325_r2fqy")
+texture_disabled = ExtResource("326_pmwkp")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("429_oitb4")
+SLOelementName = "Protaktinij"
+ENGelementName = "Protactinium"
+AtomicNumber = 91
+NeutronCount = 140
+Mass = 231
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 20
+Perioda6 = 9
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Uranium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=102244615 groups=["elements"]]
+offset_left = 752.0
+offset_top = 788.0
+offset_right = 850.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("327_2kjlx")
+texture_pressed = ExtResource("328_hb3ah")
+texture_disabled = ExtResource("329_2r5ka")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("433_12yiy")
+SLOelementName = "Uran"
+ENGelementName = "Uranium"
+AtomicNumber = 92
+NeutronCount = 146
+Mass = 238
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 21
+Perioda6 = 9
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Neptunium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=2103231981 groups=["elements"]]
+offset_left = 840.0
+offset_top = 788.0
+offset_right = 938.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("330_tfw0v")
+texture_pressed = ExtResource("331_1c5ut")
+texture_disabled = ExtResource("332_2dqyo")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("437_msqg3")
+SLOelementName = "Neptunij"
+ENGelementName = "Neptunium"
+AtomicNumber = 93
+NeutronCount = 144
+Mass = 237
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 22
+Perioda6 = 9
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Plutonium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=819149642 groups=["elements"]]
+offset_left = 928.0
+offset_top = 788.0
+offset_right = 1026.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("333_svmwe")
+texture_pressed = ExtResource("334_wbxpb")
+texture_disabled = ExtResource("335_aa7cf")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("441_ik1sx")
+SLOelementName = "Plutonij"
+ENGelementName = "Plutonium"
+AtomicNumber = 94
+NeutronCount = 150
+Mass = 244
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 24
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Americium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=2034295416 groups=["elements"]]
+offset_left = 1016.0
+offset_top = 788.0
+offset_right = 1114.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("336_3x1j6")
+texture_pressed = ExtResource("337_v3ewy")
+texture_disabled = ExtResource("338_7t87l")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("445_3ym7b")
+SLOelementName = "Americij"
+ENGelementName = "Americium"
+AtomicNumber = 95
+NeutronCount = 148
+Mass = 243
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 25
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Curium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=1648207877 groups=["elements"]]
+offset_left = 1104.0
+offset_top = 788.0
+offset_right = 1202.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("339_6c1i5")
+texture_pressed = ExtResource("340_r5d3n")
+texture_disabled = ExtResource("341_axdem")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("449_1sard")
+SLOelementName = "Kirij"
+ENGelementName = "Curium"
+AtomicNumber = 96
+NeutronCount = 151
+Mass = 247
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 25
+Perioda6 = 9
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Berkelium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=347102055 groups=["elements"]]
+offset_left = 1192.0
+offset_top = 788.0
+offset_right = 1290.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("342_f60iv")
+texture_pressed = ExtResource("343_w0flh")
+texture_disabled = ExtResource("344_nqkmd")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("453_ruqpt")
+SLOelementName = "Berkelij"
+ENGelementName = "Berkelium"
+AtomicNumber = 97
+NeutronCount = 150
+Mass = 247
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 27
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Californium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=456115727 groups=["elements"]]
+offset_left = 1280.0
+offset_top = 788.0
+offset_right = 1378.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("345_d17e8")
+texture_pressed = ExtResource("346_651w6")
+texture_disabled = ExtResource("347_y7w81")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("457_nxsq0")
+SLOelementName = "Kalifornij"
+ENGelementName = "Californium"
+AtomicNumber = 98
+NeutronCount = 153
+Mass = 251
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 28
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Einsteinium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=1721279527 groups=["elements"]]
+offset_left = 1368.0
+offset_top = 788.0
+offset_right = 1466.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("348_eta32")
+texture_pressed = ExtResource("349_05lui")
+texture_disabled = ExtResource("350_nv8hq")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("461_tspe2")
+SLOelementName = "Ajnštajnij"
+ENGelementName = "Einsteinium"
+AtomicNumber = 99
+NeutronCount = 153
+Mass = 252
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 29
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Fermium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=1911593991 groups=["elements"]]
+offset_left = 1456.0
+offset_top = 788.0
+offset_right = 1554.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("351_yhrta")
+texture_pressed = ExtResource("352_b4dqo")
+texture_disabled = ExtResource("353_n0krn")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("465_hsxc3")
+SLOelementName = "Fermij"
+ENGelementName = "Fermium"
+AtomicNumber = 100
+NeutronCount = 157
+Mass = 257
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 30
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Mendelevium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=1428095719 groups=["elements"]]
+offset_left = 1544.0
+offset_top = 788.0
+offset_right = 1642.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("354_d026f")
+texture_pressed = ExtResource("355_3qtpw")
+texture_disabled = ExtResource("356_1qomj")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("469_aga3y")
+SLOelementName = "Mendelevij"
+ENGelementName = "Mendelevium"
+AtomicNumber = 101
+NeutronCount = 157
+Mass = 258
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 31
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Nobelium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=7696420 groups=["elements"]]
+offset_left = 1632.0
+offset_top = 788.0
+offset_right = 1730.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("357_g85qr")
+texture_pressed = ExtResource("358_sl21t")
+texture_disabled = ExtResource("359_ojipb")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("473_vk3v5")
+SLOelementName = "Nobelij"
+ENGelementName = "Nobelium"
+AtomicNumber = 102
+NeutronCount = 157
+Mass = 259
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+
+[node name="Lawrencium" type="TextureButton" parent="MarginContainer/ElementsContainer/CanvasGroup20" unique_id=1198830072 groups=["elements"]]
+offset_left = 1720.0
+offset_top = 788.0
+offset_right = 1818.0
+offset_bottom = 886.0
+toggle_mode = true
+texture_normal = ExtResource("360_b0yiy")
+texture_pressed = ExtResource("361_5h3kr")
+texture_disabled = ExtResource("362_86uvw")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_gjsue")
+ElementData = ExtResource("477_i43ph")
+SLOelementName = "Lavrencij"
+ENGelementName = "Lawrencium"
+AtomicNumber = 103
+NeutronCount = 163
+Mass = 266
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 9
+Perioda7 = 2
+Skupina = 3
+Blok = 2
+Subtip = 9
+Radioactivity = true
+
+[node name="Gumbi" type="CanvasGroup" parent="MarginContainer/ElementsContainer" unique_id=533591999]
+
+[node name="MetalsButton" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=149958321 groups=["periodic_filter_buttons"]]
+offset_left = 52.0
+offset_top = 40.0
+offset_right = 352.0
+offset_bottom = 140.0
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("480_b48bv")
+SloveneOn = ExtResource("481_1t223")
+SloveneDisabled = ExtResource("480_b48bv")
+EnglishOff = ExtResource("482_ykgbl")
+EnglishOn = ExtResource("483_xwxbk")
+EnglishDisabled = ExtResource("482_ykgbl")
+
+[node name="noble" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=1258282931 groups=["periodic_filter_buttons"]]
+offset_left = 129.0
+offset_top = 660.0
+offset_right = 274.0
+offset_bottom = 708.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("484_uxtyy")
+SloveneOn = ExtResource("485_dofej")
+SloveneDisabled = ExtResource("484_uxtyy")
+EnglishOff = ExtResource("486_uhcx5")
+EnglishOn = ExtResource("487_1cm1b")
+EnglishDisabled = ExtResource("486_uhcx5")
+
+[node name="Metalloids" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=338373340 groups=["periodic_filter_buttons"]]
+offset_left = 52.0
+offset_top = 380.0
+offset_right = 352.0
+offset_bottom = 480.0
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("488_1t223")
+SloveneOn = ExtResource("489_xwxbk")
+SloveneDisabled = ExtResource("488_1t223")
+EnglishOff = ExtResource("490_sosec")
+EnglishOn = ExtResource("491_i0smi")
+EnglishDisabled = ExtResource("490_sosec")
+
+[node name="NonmetalsGroup" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=1309994452 groups=["periodic_filter_buttons"]]
+offset_left = 52.0
+offset_top = 500.0
+offset_right = 352.0
+offset_bottom = 580.0
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("536_nekovg")
+SloveneOn = ExtResource("493_sosec")
+SloveneDisabled = ExtResource("536_nekovg")
+EnglishOff = ExtResource("536_nekovg")
+EnglishOn = ExtResource("494_i0smi")
+EnglishDisabled = ExtResource("536_nekovg")
+
+[node name="Posttrans" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=607362276 groups=["periodic_filter_buttons"]]
+offset_left = 222.0
+offset_top = 165.0
+offset_right = 367.0
+offset_bottom = 213.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("492_yhesf")
+SloveneOn = ExtResource("493_pqe4g")
+SloveneDisabled = ExtResource("492_yhesf")
+EnglishOff = ExtResource("494_3n4ax")
+EnglishOn = ExtResource("495_0p6p1")
+EnglishDisabled = ExtResource("494_3n4ax")
+
+[node name="Alkali" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=1382757070 groups=["periodic_filter_buttons"]]
+offset_left = 36.0
+offset_top = 165.0
+offset_right = 181.0
+offset_bottom = 213.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("496_mlwx5")
+SloveneOn = ExtResource("497_2baef")
+SloveneDisabled = ExtResource("496_mlwx5")
+EnglishOff = ExtResource("498_q2fv5")
+EnglishOn = ExtResource("499_pr1wl")
+EnglishDisabled = ExtResource("498_q2fv5")
+
+[node name="Transation Metals" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=321384155 groups=["periodic_filter_buttons"]]
+offset_left = 36.0
+offset_top = 230.0
+offset_right = 181.0
+offset_bottom = 278.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("500_phc4j")
+SloveneOn = ExtResource("501_dfa0x")
+SloveneDisabled = ExtResource("500_phc4j")
+EnglishOff = ExtResource("502_ythjg")
+EnglishOn = ExtResource("503_rnnlu")
+EnglishDisabled = ExtResource("502_ythjg")
+
+[node name="post_trans_metals" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=1017201015 groups=["periodic_filter_buttons"]]
+offset_left = 222.0
+offset_top = 230.0
+offset_right = 367.0
+offset_bottom = 278.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("504_ahi6e")
+SloveneOn = ExtResource("505_8xh23")
+SloveneDisabled = ExtResource("504_ahi6e")
+EnglishOff = ExtResource("506_3r3ci")
+EnglishOn = ExtResource("507_v8noc")
+EnglishDisabled = ExtResource("506_3r3ci")
+
+[node name="lanthnoids" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=549309208 groups=["periodic_filter_buttons"]]
+offset_left = 36.0
+offset_top = 295.0
+offset_right = 181.0
+offset_bottom = 343.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("508_rsugp")
+SloveneOn = ExtResource("509_rgr5i")
+SloveneDisabled = ExtResource("508_rsugp")
+EnglishOff = ExtResource("510_gsqbe")
+EnglishOn = ExtResource("511_euqrj")
+EnglishDisabled = ExtResource("510_gsqbe")
+
+[node name="actinoids" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=519680603 groups=["periodic_filter_buttons"]]
+offset_left = 222.0
+offset_top = 295.0
+offset_right = 367.0
+offset_bottom = 343.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("512_n5m70")
+SloveneOn = ExtResource("513_nhknr")
+SloveneDisabled = ExtResource("512_n5m70")
+EnglishOff = ExtResource("514_wkv7p")
+EnglishOn = ExtResource("515_xl3ia")
+EnglishDisabled = ExtResource("514_wkv7p")
+
+[node name="Nonmetal" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=1478033554 groups=["periodic_filter_buttons"]]
+offset_left = 36.0
+offset_top = 600.0
+offset_right = 181.0
+offset_bottom = 648.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("536_nekovg")
+SloveneOn = ExtResource("519_yhesf")
+SloveneDisabled = ExtResource("536_nekovg")
+EnglishOff = ExtResource("538_nonmetg")
+EnglishOn = ExtResource("521_pqe4g")
+EnglishDisabled = ExtResource("538_nonmetg")
+
+[node name="halogens" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=347875259 groups=["periodic_filter_buttons"]]
+offset_left = 222.0
+offset_top = 600.0
+offset_right = 367.0
+offset_bottom = 648.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("520_jq2p4")
+SloveneOn = ExtResource("521_xv5d0")
+SloveneDisabled = ExtResource("520_jq2p4")
+EnglishOff = ExtResource("522_6xt57")
+EnglishOn = ExtResource("523_oitb4")
+EnglishDisabled = ExtResource("522_6xt57")
+
+[node name="BlocksGroup" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=720814007 groups=["periodic_filter_buttons"]]
+offset_left = 52.0
+offset_top = 735.0
+offset_right = 352.0
+offset_bottom = 815.0
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("516_tcg11")
+SloveneOn = ExtResource("527_3n4ax")
+SloveneDisabled = ExtResource("516_tcg11")
+EnglishOff = ExtResource("518_xljtd")
+EnglishOn = ExtResource("529_0p6p1")
+EnglishDisabled = ExtResource("518_xljtd")
+
+[node name="s" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=2017761093 groups=["periodic_filter_buttons"]]
+offset_left = 36.0
+offset_top = 835.0
+offset_right = 181.0
+offset_bottom = 883.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("524_12yiy")
+SloveneOn = ExtResource("525_msqg3")
+SloveneDisabled = ExtResource("524_12yiy")
+EnglishOff = ExtResource("524_12yiy")
+EnglishOn = ExtResource("525_msqg3")
+EnglishDisabled = ExtResource("524_12yiy")
+
+[node name="d" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=1735576245 groups=["periodic_filter_buttons"]]
+offset_left = 36.0
+offset_top = 895.0
+offset_right = 181.0
+offset_bottom = 943.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("526_ik1sx")
+SloveneOn = ExtResource("527_3ym7b")
+SloveneDisabled = ExtResource("526_ik1sx")
+EnglishOff = ExtResource("526_ik1sx")
+EnglishOn = ExtResource("527_3ym7b")
+EnglishDisabled = ExtResource("526_ik1sx")
+
+[node name="f" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=1663822478 groups=["periodic_filter_buttons"]]
+offset_left = 222.0
+offset_top = 835.0
+offset_right = 367.0
+offset_bottom = 883.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("528_1sard")
+SloveneOn = ExtResource("529_ruqpt")
+SloveneDisabled = ExtResource("528_1sard")
+EnglishOff = ExtResource("528_1sard")
+EnglishOn = ExtResource("529_ruqpt")
+EnglishDisabled = ExtResource("528_1sard")
+
+[node name="p" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=914738671 groups=["periodic_filter_buttons"]]
+offset_left = 222.0
+offset_top = 895.0
+offset_right = 367.0
+offset_bottom = 943.3333
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("530_nxsq0")
+SloveneOn = ExtResource("531_tspe2")
+SloveneDisabled = ExtResource("530_nxsq0")
+EnglishOff = ExtResource("530_nxsq0")
+EnglishOn = ExtResource("531_tspe2")
+EnglishDisabled = ExtResource("530_nxsq0")
+
+[node name="Radioactive" type="TextureButton" parent="MarginContainer/ElementsContainer/Gumbi" unique_id=2027482644 groups=["periodic_filter_buttons"]]
+offset_left = 52.0
+offset_top = 965.0
+offset_right = 352.0
+offset_bottom = 1045.0
+toggle_mode = true
+texture_normal = ExtResource("363_cgk2v")
+texture_pressed = ExtResource("65_0vlmg")
+texture_disabled = ExtResource("358_sl21t")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_filter")
+Language = 1
+SloveneOff = ExtResource("532_hsxc3")
+SloveneOn = ExtResource("539_mlwx5")
+SloveneDisabled = ExtResource("532_hsxc3")
+EnglishOff = ExtResource("534_vk3v5")
+EnglishOn = ExtResource("541_2baef")
+EnglishDisabled = ExtResource("534_vk3v5")
+
+[node name="ElementInfoPanel" type="Control" parent="MarginContainer/ElementsContainer" unique_id=2035842111]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1995.0
+offset_top = 220.0
+offset_right = 2395.0
+offset_bottom = 710.0
+
+[node name="ElementSymbol" type="TextureRect" parent="MarginContainer/ElementsContainer/ElementInfoPanel" unique_id=2119924571]
+layout_mode = 0
+offset_left = 80.0
+offset_right = 320.0
+offset_bottom = 240.0
+expand_mode = 1
+stretch_mode = 4
+
+[node name="ElementName" type="TextureRect" parent="MarginContainer/ElementsContainer/ElementInfoPanel" unique_id=1287561798]
+layout_mode = 0
+offset_top = 275.0
+offset_right = 400.0
+offset_bottom = 345.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ElementGroup" type="TextureRect" parent="MarginContainer/ElementsContainer/ElementInfoPanel" unique_id=188183537]
+layout_mode = 0
+offset_top = 360.0
+offset_right = 400.0
+offset_bottom = 430.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ElementAtomicNumber" type="TextureRect" parent="MarginContainer/ElementsContainer/ElementInfoPanel" unique_id=1192027102]
+layout_mode = 0
+offset_top = 445.0
+offset_right = 400.0
+offset_bottom = 515.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="HomeButton" type="TextureButton" parent="MarginContainer/ElementsContainer" unique_id=362779801]
+offset_left = 2146.0
+offset_top = 70.0
+offset_right = 2244.0
+offset_bottom = 168.0
+texture_normal = ExtResource("540_uhcx5")
+texture_pressed = ExtResource("540_uhcx5")
+texture_hover = ExtResource("540_uhcx5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="SettingsButton" type="TextureButton" parent="MarginContainer/ElementsContainer" unique_id=2077140048]
+offset_left = 2244.0
+offset_top = 70.0
+offset_right = 2342.0
+offset_bottom = 168.0
+texture_normal = ExtResource("541_1cm1b")
+texture_pressed = ExtResource("541_1cm1b")
+texture_hover = ExtResource("541_1cm1b")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer" unique_id=1639522240]
+position = Vector2(1229, 642)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("364_ppgxx")
+
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/MetalsButton" to="." method="OnMetalsButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/noble" to="." method="OnNobleGasButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/Metalloids" to="." method="OnMetalloidsButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/NonmetalsGroup" to="." method="OnNonmetalsGroupButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/Posttrans" to="." method="OnAlkalineEarthButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/Alkali" to="." method="OnAlkaliMetalButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/Transation Metals" to="." method="OnTransitionMetalButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/post_trans_metals" to="." method="OnPostTransitionButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/lanthnoids" to="." method="OnLanthanideButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/actinoids" to="." method="OnActinideButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/Nonmetal" to="." method="OnNonmetalsButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/halogens" to="." method="OnHalogenButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/BlocksGroup" to="." method="OnBlocksGroupButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/s" to="." method="OnSBlockButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/d" to="." method="OnDBlockButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/f" to="." method="OnFBlockButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/p" to="." method="OnPBlockButtonPressed"]
+[connection signal="toggled" from="MarginContainer/ElementsContainer/Gumbi/Radioactive" to="." method="OnRadioactiveButtonPressed"]
+[connection signal="pressed" from="MarginContainer/ElementsContainer/HomeButton" to="." method="OpenStartScreen"]
+[connection signal="pressed" from="MarginContainer/ElementsContainer/SettingsButton" to="." method="OpenSettingsScene"]

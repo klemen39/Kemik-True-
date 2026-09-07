@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://dha6d1fed61li"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_t331y"]
+
+[resource]
+script = ExtResource("1_t331y")
+SLOelementName = "Molibden"
+ENGelementName = "Molybdenum"
+Symbol = "Mo"
+AtomicNumber = 42
+NeutronCount = 56
+Mass = 98
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 13
+Perioda5 = 1
+Skupina = 6
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

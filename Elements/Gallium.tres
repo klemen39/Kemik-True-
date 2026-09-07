@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://wlra1e1cu56i"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_5h7n2"]
+
+[resource]
+script = ExtResource("1_5h7n2")
+SLOelementName = "Galij"
+ENGelementName = "Gallium"
+Symbol = "Ga"
+AtomicNumber = 31
+NeutronCount = 38
+Mass = 69
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 3
+Skupina = 13
+Blok = 1
+Subtip = 3
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,1453 @@
+
+{
+  "template_group": "functional_group_compounds",
+  "template_count": 20,
+  "description": "Reusable Lewis-structure templates and detection rules for common organic functional groups.",
+  "functional_group_templates": [
+    {
+      "id": "alcohol_group",
+      "name": "Alcohol",
+      "symbol": "-OH",
+      "general_formula": "R-OH",
+      "attachment_atom": "O1",
+      "atoms": [
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 2,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R"
+          ]
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 1.8,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "O1",
+          "to": "H1",
+          "order": 1
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R",
+          "to_internal": "O1",
+          "order": 1
+        }
+      ],
+      "detection_patterns": [
+        "C-O-H",
+        "R-OH"
+      ]
+    },
+    {
+      "id": "ether_group",
+      "name": "Ether",
+      "symbol": "-O-",
+      "general_formula": "R-O-R'",
+      "atoms": [
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 2,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R1",
+            "R2"
+          ]
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R1",
+          "to_internal": "O1",
+          "order": 1
+        },
+        {
+          "from_external": "R2",
+          "to_internal": "O1",
+          "order": 1
+        }
+      ],
+      "detection_patterns": [
+        "C-O-C",
+        "R-O-R"
+      ]
+    },
+    {
+      "id": "aldehyde_group",
+      "name": "Aldehyde",
+      "symbol": "-CHO",
+      "general_formula": "R-CHO",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R"
+          ]
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": -2,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 1.8,
+          "y": 0.8,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "O1",
+          "order": 2
+        },
+        {
+          "from": "C1",
+          "to": "H1",
+          "order": 1
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R",
+          "to_internal": "C1",
+          "order": 1
+        }
+      ],
+      "detection_patterns": [
+        "R-C(=O)-H",
+        "-CHO"
+      ]
+    },
+    {
+      "id": "ketone_group",
+      "name": "Ketone",
+      "symbol": ">C=O",
+      "general_formula": "R-C(=O)-R'",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R1",
+            "R2"
+          ]
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": -2,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "O1",
+          "order": 2
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R1",
+          "to_internal": "C1",
+          "order": 1
+        },
+        {
+          "from_external": "R2",
+          "to_internal": "C1",
+          "order": 1
+        }
+      ],
+      "detection_patterns": [
+        "R-C(=O)-R",
+        "C-C(=O)-C"
+      ]
+    },
+    {
+      "id": "carboxylic_acid_group",
+      "name": "Carboxylic acid",
+      "symbol": "-COOH",
+      "general_formula": "R-C(=O)-OH",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R"
+          ]
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": -2,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "x": 2,
+          "y": 0.5,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 3.6,
+          "y": 0.5,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "O1",
+          "order": 2
+        },
+        {
+          "from": "C1",
+          "to": "O2",
+          "order": 1
+        },
+        {
+          "from": "O2",
+          "to": "H1",
+          "order": 1
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R",
+          "to_internal": "C1",
+          "order": 1
+        }
+      ],
+      "detection_patterns": [
+        "R-C(=O)-OH",
+        "-COOH"
+      ]
+    },
+    {
+      "id": "ester_group",
+      "name": "Ester",
+      "symbol": "-COO-",
+      "general_formula": "R-C(=O)-O-R'",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R1"
+          ]
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": -2,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "x": 2,
+          "y": 0,
+          "lone_pairs": 2,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R2"
+          ]
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "O1",
+          "order": 2
+        },
+        {
+          "from": "C1",
+          "to": "O2",
+          "order": 1
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R1",
+          "to_internal": "C1",
+          "order": 1
+        },
+        {
+          "from_external": "R2",
+          "to_internal": "O2",
+          "order": 1
+        }
+      ],
+      "detection_patterns": [
+        "R-C(=O)-O-R",
+        "-COOR"
+      ]
+    },
+    {
+      "id": "primary_amine_group",
+      "name": "Primary amine",
+      "symbol": "-NH2",
+      "general_formula": "R-NH2",
+      "atoms": [
+        {
+          "id": "N1",
+          "element": "N",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 1,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R"
+          ]
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 1.6,
+          "y": -1,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": 1.6,
+          "y": 1,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "N1",
+          "to": "H1",
+          "order": 1
+        },
+        {
+          "from": "N1",
+          "to": "H2",
+          "order": 1
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R",
+          "to_internal": "N1",
+          "order": 1
+        }
+      ],
+      "detection_patterns": [
+        "R-NH2"
+      ]
+    },
+    {
+      "id": "secondary_amine_group",
+      "name": "Secondary amine",
+      "symbol": "-NH-",
+      "general_formula": "R-NH-R'",
+      "atoms": [
+        {
+          "id": "N1",
+          "element": "N",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 1,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R1",
+            "R2"
+          ]
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 0,
+          "y": -1.8,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "N1",
+          "to": "H1",
+          "order": 1
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R1",
+          "to_internal": "N1",
+          "order": 1
+        },
+        {
+          "from_external": "R2",
+          "to_internal": "N1",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "tertiary_amine_group",
+      "name": "Tertiary amine",
+      "symbol": ">N-",
+      "general_formula": "R3N",
+      "atoms": [
+        {
+          "id": "N1",
+          "element": "N",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 1,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R1",
+            "R2",
+            "R3"
+          ]
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R1",
+          "to_internal": "N1",
+          "order": 1
+        },
+        {
+          "from_external": "R2",
+          "to_internal": "N1",
+          "order": 1
+        },
+        {
+          "from_external": "R3",
+          "to_internal": "N1",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "amide_group",
+      "name": "Primary amide",
+      "symbol": "-CONH2",
+      "general_formula": "R-C(=O)-NH2",
+      "resonance": true,
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R"
+          ]
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": -2,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "N1",
+          "element": "N",
+          "x": 2,
+          "y": 0,
+          "lone_pairs": 1,
+          "formal_charge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 3.4,
+          "y": -1,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": 3.4,
+          "y": 1,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "O1",
+          "order": 2
+        },
+        {
+          "from": "C1",
+          "to": "N1",
+          "order": 1
+        },
+        {
+          "from": "N1",
+          "to": "H1",
+          "order": 1
+        },
+        {
+          "from": "N1",
+          "to": "H2",
+          "order": 1
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R",
+          "to_internal": "C1",
+          "order": 1
+        }
+      ],
+      "resonance_forms": [
+        {
+          "id": 0,
+          "bonds": [
+            {
+              "from": "C1",
+              "to": "O1",
+              "order": 2
+            },
+            {
+              "from": "C1",
+              "to": "N1",
+              "order": 1
+            }
+          ],
+          "formal_charges": {
+            "O1": 0,
+            "N1": 0
+          }
+        },
+        {
+          "id": 1,
+          "bonds": [
+            {
+              "from": "C1",
+              "to": "O1",
+              "order": 1
+            },
+            {
+              "from": "C1",
+              "to": "N1",
+              "order": 2
+            }
+          ],
+          "formal_charges": {
+            "O1": -1,
+            "N1": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "nitrile_group",
+      "name": "Nitrile",
+      "symbol": "-C≡N",
+      "general_formula": "R-CN",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R"
+          ]
+        },
+        {
+          "id": "N1",
+          "element": "N",
+          "x": 2.2,
+          "y": 0,
+          "lone_pairs": 1,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "N1",
+          "order": 3
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R",
+          "to_internal": "C1",
+          "order": 1
+        }
+      ],
+      "detection_patterns": [
+        "R-C#N",
+        "-CN"
+      ]
+    },
+    {
+      "id": "thiol_group",
+      "name": "Thiol",
+      "symbol": "-SH",
+      "general_formula": "R-SH",
+      "atoms": [
+        {
+          "id": "S1",
+          "element": "S",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 2,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R"
+          ]
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 1.8,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "S1",
+          "to": "H1",
+          "order": 1
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R",
+          "to_internal": "S1",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "haloalkane_group",
+      "name": "Haloalkane",
+      "symbol": "-X",
+      "general_formula": "R-X",
+      "variable_atom": {
+        "id": "X1",
+        "allowed_elements": [
+          "F",
+          "Cl",
+          "Br",
+          "I"
+        ],
+        "default_element": "Cl"
+      },
+      "atoms": [
+        {
+          "id": "X1",
+          "element": "$halogen",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R"
+          ]
+        }
+      ],
+      "connection_rules": [
+        {
+          "from_external": "R",
+          "to_internal": "X1",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "alkene_group",
+      "name": "Alkene",
+      "symbol": "C=C",
+      "general_formula": "R2C=CR2",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": -1.2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R1",
+            "R2"
+          ]
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "x": 1.2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R3",
+            "R4"
+          ]
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "C2",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "alkyne_group",
+      "name": "Alkyne",
+      "symbol": "C≡C",
+      "general_formula": "R-C≡C-R'",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": -1.3,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R1"
+          ]
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "x": 1.3,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0,
+          "attachment_points": [
+            "R2"
+          ]
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "C2",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "compound_templates": [
+    {
+      "formula": "CH3OH",
+      "name": "Methanol",
+      "type": "organic_covalent",
+      "functional_groups": [
+        "alcohol_group"
+      ],
+      "layout": "chain",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": -1.8,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0.6,
+          "y": 0,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "H_O",
+          "element": "H",
+          "x": 2.3,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": -3,
+          "y": -1.2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": -3,
+          "y": 1.2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H3",
+          "element": "H",
+          "x": -1.8,
+          "y": 1.8,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "O1",
+          "order": 1
+        },
+        {
+          "from": "O1",
+          "to": "H_O",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "H1",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "H2",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "H3",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "formula": "C2H5OH",
+      "name": "Ethanol",
+      "type": "organic_covalent",
+      "functional_groups": [
+        "alcohol_group"
+      ],
+      "layout": "zigzag_chain",
+      "condensed_structure": "CH3-CH2-OH",
+      "group_instances": [
+        {
+          "template_reference": "alcohol_group",
+          "attach_to_atom": "C2"
+        }
+      ],
+      "carbon_skeleton": {
+        "type": "linear",
+        "carbon_count": 2,
+        "single_bonds": [
+          [
+            "C1",
+            "C2"
+          ]
+        ]
+      }
+    },
+    {
+      "formula": "CH3OCH3",
+      "name": "Dimethyl ether",
+      "type": "organic_covalent",
+      "functional_groups": [
+        "ether_group"
+      ],
+      "layout": "bent_chain",
+      "condensed_structure": "CH3-O-CH3",
+      "group_instances": [
+        {
+          "template_reference": "ether_group",
+          "attachments": {
+            "R1": "CH3_left",
+            "R2": "CH3_right"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "CH2O",
+      "name": "Methanal",
+      "aliases": [
+        "Formaldehyde"
+      ],
+      "type": "organic_covalent",
+      "functional_groups": [
+        "aldehyde_group"
+      ],
+      "layout": "trigonal_planar",
+      "condensed_structure": "H-C(=O)-H",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": -2.2,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": -1.8,
+          "y": 1,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": 1.8,
+          "y": 1,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "O1",
+          "order": 2
+        },
+        {
+          "from": "C1",
+          "to": "H1",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "H2",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "formula": "C2H4O",
+      "name": "Ethanal",
+      "aliases": [
+        "Acetaldehyde"
+      ],
+      "type": "organic_covalent",
+      "functional_groups": [
+        "aldehyde_group"
+      ],
+      "layout": "chain",
+      "condensed_structure": "CH3-CHO",
+      "group_instances": [
+        {
+          "template_reference": "aldehyde_group",
+          "attachments": {
+            "R": "CH3"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "C3H6O",
+      "name": "Propanone",
+      "aliases": [
+        "Acetone"
+      ],
+      "type": "organic_covalent",
+      "functional_groups": [
+        "ketone_group"
+      ],
+      "layout": "chain",
+      "condensed_structure": "CH3-C(=O)-CH3",
+      "group_instances": [
+        {
+          "template_reference": "ketone_group",
+          "attachments": {
+            "R1": "CH3_left",
+            "R2": "CH3_right"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "CH3COOH",
+      "name": "Ethanoic acid",
+      "aliases": [
+        "Acetic acid"
+      ],
+      "type": "organic_covalent",
+      "functional_groups": [
+        "carboxylic_acid_group"
+      ],
+      "layout": "chain",
+      "condensed_structure": "CH3-C(=O)-OH",
+      "group_instances": [
+        {
+          "template_reference": "carboxylic_acid_group",
+          "attachments": {
+            "R": "CH3"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "HCOOH",
+      "name": "Methanoic acid",
+      "aliases": [
+        "Formic acid"
+      ],
+      "type": "organic_covalent",
+      "functional_groups": [
+        "carboxylic_acid_group"
+      ],
+      "layout": "planar",
+      "condensed_structure": "H-C(=O)-OH",
+      "group_instances": [
+        {
+          "template_reference": "carboxylic_acid_group",
+          "attachments": {
+            "R": "H"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "CH3COOCH3",
+      "name": "Methyl ethanoate",
+      "aliases": [
+        "Methyl acetate"
+      ],
+      "type": "organic_covalent",
+      "functional_groups": [
+        "ester_group"
+      ],
+      "layout": "chain",
+      "condensed_structure": "CH3-C(=O)-O-CH3",
+      "group_instances": [
+        {
+          "template_reference": "ester_group",
+          "attachments": {
+            "R1": "CH3_acyl",
+            "R2": "CH3_alkoxy"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "CH3NH2",
+      "name": "Methylamine",
+      "type": "organic_covalent",
+      "functional_groups": [
+        "primary_amine_group"
+      ],
+      "layout": "chain",
+      "condensed_structure": "CH3-NH2",
+      "group_instances": [
+        {
+          "template_reference": "primary_amine_group",
+          "attachments": {
+            "R": "CH3"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "CH3CONH2",
+      "name": "Ethanamide",
+      "aliases": [
+        "Acetamide"
+      ],
+      "type": "organic_covalent",
+      "functional_groups": [
+        "amide_group"
+      ],
+      "layout": "planar_chain",
+      "condensed_structure": "CH3-C(=O)-NH2",
+      "group_instances": [
+        {
+          "template_reference": "amide_group",
+          "attachments": {
+            "R": "CH3"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "CH3CN",
+      "name": "Ethanenitrile",
+      "aliases": [
+        "Acetonitrile"
+      ],
+      "type": "organic_covalent",
+      "functional_groups": [
+        "nitrile_group"
+      ],
+      "layout": "linear_end_group",
+      "condensed_structure": "CH3-C≡N",
+      "group_instances": [
+        {
+          "template_reference": "nitrile_group",
+          "attachments": {
+            "R": "CH3"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "C2H5SH",
+      "name": "Ethanethiol",
+      "type": "organic_covalent",
+      "functional_groups": [
+        "thiol_group"
+      ],
+      "layout": "chain",
+      "condensed_structure": "CH3-CH2-SH",
+      "group_instances": [
+        {
+          "template_reference": "thiol_group",
+          "attach_to_atom": "C2"
+        }
+      ]
+    },
+    {
+      "formula": "CH3Cl",
+      "name": "Chloromethane",
+      "type": "organic_covalent",
+      "functional_groups": [
+        "haloalkane_group"
+      ],
+      "layout": "tetrahedral",
+      "condensed_structure": "CH3-Cl",
+      "group_instances": [
+        {
+          "template_reference": "haloalkane_group",
+          "variables": {
+            "halogen": "Cl"
+          },
+          "attachments": {
+            "R": "CH3"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "C2H4",
+      "name": "Ethene",
+      "type": "organic_covalent",
+      "functional_groups": [
+        "alkene_group"
+      ],
+      "layout": "planar",
+      "condensed_structure": "CH2=CH2",
+      "group_instances": [
+        {
+          "template_reference": "alkene_group",
+          "attachments": {
+            "R1": "H",
+            "R2": "H",
+            "R3": "H",
+            "R4": "H"
+          }
+        }
+      ]
+    },
+    {
+      "formula": "C2H2",
+      "name": "Ethyne",
+      "aliases": [
+        "Acetylene"
+      ],
+      "type": "organic_covalent",
+      "functional_groups": [
+        "alkyne_group"
+      ],
+      "layout": "linear",
+      "condensed_structure": "H-C≡C-H",
+      "group_instances": [
+        {
+          "template_reference": "alkyne_group",
+          "attachments": {
+            "R1": "H",
+            "R2": "H"
+          }
+        }
+      ]
+    }
+  ],
+  "functional_group_priority": [
+    {
+      "group": "carboxylic_acid_group",
+      "priority": 1
+    },
+    {
+      "group": "ester_group",
+      "priority": 2
+    },
+    {
+      "group": "amide_group",
+      "priority": 3
+    },
+    {
+      "group": "nitrile_group",
+      "priority": 4
+    },
+    {
+      "group": "aldehyde_group",
+      "priority": 5
+    },
+    {
+      "group": "ketone_group",
+      "priority": 6
+    },
+    {
+      "group": "alcohol_group",
+      "priority": 7
+    },
+    {
+      "group": "amine_group",
+      "priority": 8
+    },
+    {
+      "group": "alkene_group",
+      "priority": 9
+    },
+    {
+      "group": "alkyne_group",
+      "priority": 10
+    },
+    {
+      "group": "ether_group",
+      "priority": 11
+    },
+    {
+      "group": "thiol_group",
+      "priority": 12
+    },
+    {
+      "group": "haloalkane_group",
+      "priority": 13
+    }
+  ],
+  "detection_rules": {
+    "order": [
+      "carboxylic_acid_group",
+      "ester_group",
+      "amide_group",
+      "aldehyde_group",
+      "ketone_group",
+      "nitrile_group",
+      "alcohol_group",
+      "ether_group",
+      "amine_groups",
+      "thiol_group",
+      "haloalkane_group",
+      "alkene_group",
+      "alkyne_group"
+    ],
+    "rules": [
+      {
+        "id": "detect_carboxylic_acid",
+        "required_subgraph": {
+          "central_atom": "C",
+          "double_bonded_to": "O",
+          "single_bonded_to": "O",
+          "second_oxygen_bonded_to": "H"
+        },
+        "result": "carboxylic_acid_group"
+      },
+      {
+        "id": "detect_ester",
+        "required_subgraph": {
+          "central_atom": "C",
+          "double_bonded_to": "O",
+          "single_bonded_to": "O",
+          "second_oxygen_bonded_to": "C"
+        },
+        "result": "ester_group"
+      },
+      {
+        "id": "detect_amide",
+        "required_subgraph": {
+          "central_atom": "C",
+          "double_bonded_to": "O",
+          "single_bonded_to": "N"
+        },
+        "result": "amide_group"
+      },
+      {
+        "id": "detect_aldehyde",
+        "required_subgraph": {
+          "central_atom": "C",
+          "double_bonded_to": "O",
+          "single_bonded_to": "H"
+        },
+        "result": "aldehyde_group"
+      },
+      {
+        "id": "detect_ketone",
+        "required_subgraph": {
+          "central_atom": "C",
+          "double_bonded_to": "O",
+          "single_bonded_carbon_neighbors": 2
+        },
+        "result": "ketone_group"
+      },
+      {
+        "id": "detect_alcohol",
+        "required_subgraph": {
+          "oxygen_single_bonded_to": [
+            "C",
+            "H"
+          ]
+        },
+        "exclude_if_adjacent_to_carbonyl": true,
+        "result": "alcohol_group"
+      },
+      {
+        "id": "detect_ether",
+        "required_subgraph": {
+          "oxygen_single_bonded_to_two_carbons": true
+        },
+        "exclude_if_adjacent_to_carbonyl": true,
+        "result": "ether_group"
+      },
+      {
+        "id": "detect_nitrile",
+        "required_subgraph": {
+          "bond": "C#N"
+        },
+        "result": "nitrile_group"
+      },
+      {
+        "id": "detect_alkene",
+        "required_subgraph": {
+          "bond": "C=C"
+        },
+        "result": "alkene_group"
+      },
+      {
+        "id": "detect_alkyne",
+        "required_subgraph": {
+          "bond": "C#C"
+        },
+        "result": "alkyne_group"
+      }
+    ]
+  },
+  "renderer_rules": {
+    "functional_groups": {
+      "use_reusable_group_templates": true,
+      "preserve_group_connectivity": true,
+      "render_all_nonbonding_electrons": true,
+      "render_formal_charges": true,
+      "render_multiple_bonds": true,
+      "expand_condensed_groups": true,
+      "allow_multiple_functional_groups": true
+    },
+    "carbon_skeleton": {
+      "generate_implicit_hydrogens": true,
+      "carbon_target_valence": 4,
+      "default_bond_order": 1,
+      "layout_linear_chains_as_zigzag": true,
+      "layout_double_bonds_as_planar": true,
+      "layout_triple_bonds_as_linear": true
+    },
+    "heteroatoms": {
+      "oxygen_default_valence": 2,
+      "oxygen_default_lone_pairs": 2,
+      "nitrogen_default_valence": 3,
+      "nitrogen_default_lone_pairs": 1,
+      "sulfur_default_valence": 2,
+      "sulfur_default_lone_pairs": 2,
+      "halogen_default_valence": 1,
+      "halogen_default_lone_pairs": 3
+    },
+    "layout": {
+      "minimum_atom_spacing": 1.5,
+      "functional_group_spacing": 2,
+      "center_structure": true,
+      "rotate_to_best_fit": true,
+      "avoid_overlapping_lone_pairs": true,
+      "prefer_longest_carbon_chain_horizontal": true
+    }
+  },
+  "validation_rules": {
+    "validate_atom_valence": true,
+    "validate_total_valence_electrons": true,
+    "validate_formal_charges": true,
+    "require_complete_bond_graph": true,
+    "carbon_default_valence": 4,
+    "hydrogen_default_valence": 1,
+    "oxygen_default_valence": 2,
+    "nitrogen_default_valence": 3,
+    "halogen_default_valence": 1,
+    "allow_resonance": true,
+    "allow_charged_functional_groups": true,
+    "allow_multiple_functional_groups_per_compound": true
+  }
+}
+

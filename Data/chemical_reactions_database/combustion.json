@@ -1,0 +1,1373 @@
+[
+  {
+    "id": 136,
+    "name": {
+      "en": "Combustion of methane",
+      "sl": "Gorenje metana"
+    },
+    "equation": "CH4 + 2 O2 -> CO2 + 2 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "CH4",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Natural gas combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 137,
+    "name": {
+      "en": "Combustion of propane",
+      "sl": "Gorenje propana"
+    },
+    "equation": "C3H8 + 5 O2 -> 3 CO2 + 4 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C3H8",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 5
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 3
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 4
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "LPG fuel.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 138,
+    "name": {
+      "en": "Combustion of butane",
+      "sl": "Gorenje butana"
+    },
+    "equation": "2 C4H10 + 13 O2 -> 8 CO2 + 10 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C4H10",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 13
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 8
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 10
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Lighter fuel.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 139,
+    "name": {
+      "en": "Combustion of ethane",
+      "sl": "Gorenje etana"
+    },
+    "equation": "2 C2H6 + 7 O2 -> 4 CO2 + 6 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C2H6",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 7
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 4
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 6
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alkane combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 140,
+    "name": {
+      "en": "Combustion of ethene",
+      "sl": "Gorenje etena"
+    },
+    "equation": "C2H4 + 3 O2 -> 2 CO2 + 2 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C2H4",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alkene combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 141,
+    "name": {
+      "en": "Combustion of ethyne",
+      "sl": "Gorenje etina"
+    },
+    "equation": "2 C2H2 + 5 O2 -> 4 CO2 + 2 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C2H2",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 5
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 4
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Acetylene flame.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 142,
+    "name": {
+      "en": "Combustion of ethanol",
+      "sl": "Gorenje etanola"
+    },
+    "equation": "C2H5OH + 3 O2 -> 2 CO2 + 3 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C2H5OH",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Bioethanol fuel.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 143,
+    "name": {
+      "en": "Combustion of methanol",
+      "sl": "Gorenje metanola"
+    },
+    "equation": "2 CH3OH + 3 O2 -> 2 CO2 + 4 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "CH3OH",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 4
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alcohol fuel.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 144,
+    "name": {
+      "en": "Combustion of benzene",
+      "sl": "Gorenje benzena"
+    },
+    "equation": "2 C6H6 + 15 O2 -> 12 CO2 + 6 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C6H6",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 15
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 12
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 6
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Aromatic hydrocarbon combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 145,
+    "name": {
+      "en": "Combustion of octane",
+      "sl": "Gorenje oktana"
+    },
+    "equation": "2 C8H18 + 25 O2 -> 16 CO2 + 18 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C8H18",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 25
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 16
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 18
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Gasoline model reaction.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 146,
+    "name": {
+      "en": "Combustion of glucose",
+      "sl": "Gorenje glukoze"
+    },
+    "equation": "C6H12O6 + 6 O2 -> 6 CO2 + 6 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete oxidation",
+    "reactants": [
+      {
+        "formula": "C6H12O6",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 6
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 6
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Same overall equation as aerobic respiration.",
+    "tags": [
+      "combustion",
+      "complete_oxidation"
+    ]
+  },
+  {
+    "id": 147,
+    "name": {
+      "en": "Combustion of pentane",
+      "sl": "Gorenje pentana"
+    },
+    "equation": "C5H12 + 8 O2 -> 5 CO2 + 6 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C5H12",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 8
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 5
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 6
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alkane combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 148,
+    "name": {
+      "en": "Combustion of hexane",
+      "sl": "Gorenje heksana"
+    },
+    "equation": "2 C6H14 + 19 O2 -> 12 CO2 + 14 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C6H14",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 19
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 12
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 14
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alkane combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 149,
+    "name": {
+      "en": "Combustion of heptane",
+      "sl": "Gorenje heptana"
+    },
+    "equation": "C7H16 + 11 O2 -> 7 CO2 + 8 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C7H16",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 11
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 7
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 8
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alkane combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 150,
+    "name": {
+      "en": "Combustion of nonane",
+      "sl": "Gorenje nonana"
+    },
+    "equation": "2 C9H20 + 29 O2 -> 18 CO2 + 20 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C9H20",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 29
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 18
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 20
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alkane combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 151,
+    "name": {
+      "en": "Combustion of decane",
+      "sl": "Gorenje dekana"
+    },
+    "equation": "2 C10H22 + 31 O2 -> 20 CO2 + 22 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C10H22",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 31
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 20
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 22
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alkane combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 152,
+    "name": {
+      "en": "Combustion of propene",
+      "sl": "Gorenje propena"
+    },
+    "equation": "2 C3H6 + 9 O2 -> 6 CO2 + 6 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C3H6",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 9
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 6
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 6
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alkene combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 153,
+    "name": {
+      "en": "Combustion of 1-butanol",
+      "sl": "Gorenje 1-butanola"
+    },
+    "equation": "C4H9OH + 6 O2 -> 4 CO2 + 5 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C4H9OH",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 4
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 5
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alcohol combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 154,
+    "name": {
+      "en": "Combustion of propanol",
+      "sl": "Gorenje propanola"
+    },
+    "equation": "2 C3H7OH + 9 O2 -> 6 CO2 + 8 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C3H7OH",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 9
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 6
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 8
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Alcohol combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 155,
+    "name": {
+      "en": "Combustion of acetic acid",
+      "sl": "Gorenje ocetne kisline"
+    },
+    "equation": "CH3COOH + 2 O2 -> 2 CO2 + 2 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "CH3COOH",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Carboxylic acid combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 156,
+    "name": {
+      "en": "Combustion of formaldehyde",
+      "sl": "Gorenje formaldehida"
+    },
+    "equation": "CH2O + O2 -> CO2 + H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "CH2O",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Aldehyde oxidation.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 157,
+    "name": {
+      "en": "Combustion of acetone",
+      "sl": "Gorenje acetona"
+    },
+    "equation": "C3H6O + 4 O2 -> 3 CO2 + 3 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "complete combustion",
+    "reactants": [
+      {
+        "formula": "C3H6O",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 4
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 3
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Ketone combustion.",
+    "tags": [
+      "combustion",
+      "complete_combustion"
+    ]
+  },
+  {
+    "id": 158,
+    "name": {
+      "en": "Incomplete combustion of methane to carbon monoxide",
+      "sl": "Nepopolno gorenje metana do ogljikovega monoksida"
+    },
+    "equation": "2 CH4 + 3 O2 -> 2 CO + 4 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "incomplete combustion",
+    "reactants": [
+      {
+        "formula": "CH4",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 4
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Occurs with insufficient oxygen.",
+    "tags": [
+      "combustion",
+      "incomplete_combustion"
+    ]
+  },
+  {
+    "id": 159,
+    "name": {
+      "en": "Incomplete combustion of methane to carbon",
+      "sl": "Nepopolno gorenje metana do ogljika"
+    },
+    "equation": "CH4 + O2 -> C + 2 H2O",
+    "reaction_type": "combustion",
+    "subcategory": "incomplete combustion",
+    "reactants": [
+      {
+        "formula": "CH4",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "C",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Produces soot.",
+    "tags": [
+      "combustion",
+      "incomplete_combustion"
+    ]
+  },
+  {
+    "id": 160,
+    "name": {
+      "en": "Combustion of carbon monoxide",
+      "sl": "Gorenje ogljikovega monoksida"
+    },
+    "equation": "2 CO + O2 -> 2 CO2",
+    "reaction_type": "combustion",
+    "subcategory": "oxidation combustion",
+    "reactants": [
+      {
+        "formula": "CO",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": true,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Highly exothermic oxidation.",
+    "tags": [
+      "combustion",
+      "oxidation_combustion"
+    ]
+  }
+]

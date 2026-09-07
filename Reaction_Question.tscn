@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://cw7uus3chqdwe"]
+
+[ext_resource type="Script" path="res://Scripts/ReactionQuestionController.cs" id="1_reaction"]
+[ext_resource type="Script" uid="uid://c006pe2qt46v7" path="res://Scripts/SafeAreaMarginContainer.cs" id="3_5sws8"]
+[ext_resource type="Texture2D" uid="uid://clca0bj5f8nak" path="res://Sprites/smoll.png" id="4_bed2w"]
+[ext_resource type="Texture2D" uid="uid://dnxdsvsu52603" path="res://Sprites/Visual_Tabs/Cross.png" id="5_xpe5d"]
+[ext_resource type="Texture2D" uid="uid://c86djm52541ma" path="res://Sprites/Visual_Tabs/Cross_blue.png" id="6_dl2ne"]
+[ext_resource type="Texture2D" uid="uid://b0v1tsdx85pjf" path="res://Sprites/Visual_Tabs/settings_true.png" id="7_p2c5j"]
+[ext_resource type="Texture2D" uid="uid://xoio7pptherq" path="res://Sprites/Visual_Tabs/settings_true_blue.png" id="8_y8gm2"]
+
+[node name="ReactionQuestion" type="Control" unique_id=157415527]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_reaction")
+metadata/_edit_horizontal_guides_ = [1200.0, 2100.0, 1450.0, 1700.0, 1950.0, 540.0, 167.0]
+metadata/_edit_vertical_guides_ = [540.0, 92.0, 988.0]
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1287046145]
+layout_mode = 0
+script = ExtResource("3_5sws8")
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer" unique_id=315696593]
+position = Vector2(655.00006, 684)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("4_bed2w")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="MarginContainer" unique_id=127060482]
+
+[node name="CloseButton" type="TextureButton" parent="MarginContainer/CanvasLayer2" unique_id=1294016182]
+z_index = 100
+offset_left = 94.0
+offset_top = 98.0
+offset_right = 230.0
+offset_bottom = 234.0
+texture_normal = ExtResource("5_xpe5d")
+texture_pressed = ExtResource("6_dl2ne")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="SettingsButton" type="TextureButton" parent="MarginContainer/CanvasLayer2" unique_id=409465731]
+z_index = 100
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -247.0
+offset_top = 88.0
+offset_right = -89.0
+offset_bottom = 246.0
+grow_horizontal = 0
+texture_normal = ExtResource("7_p2c5j")
+texture_pressed = ExtResource("8_y8gm2")
+ignore_texture_size = true
+stretch_mode = 5
+
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/CloseButton" to="." method="OpenPreparedScene"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/SettingsButton" to="." method="OpenSettingsScene"]

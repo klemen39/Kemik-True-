@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://dqbuwnknfp1u8"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_csywv"]
+
+[resource]
+script = ExtResource("1_csywv")
+SLOelementName = "Renij"
+ENGelementName = "Rhenium"
+Symbol = "Re"
+AtomicNumber = 75
+NeutronCount = 112
+Mass = 187
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 13
+Perioda6 = 2
+Skupina = 7
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

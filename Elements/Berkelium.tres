@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://0yvv585b4d8t"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_nctco"]
+
+[resource]
+script = ExtResource("1_nctco")
+SLOelementName = "Berkelij"
+ENGelementName = "Berkelium"
+Symbol = "Bk"
+AtomicNumber = 97
+NeutronCount = 150
+Mass = 247
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 27
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

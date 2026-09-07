@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://il3uk6bg1yyn"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_utmka"]
+
+[resource]
+script = ExtResource("1_utmka")
+SLOelementName = "Tenes"
+ENGelementName = "Tennessine"
+Symbol = "Ts"
+AtomicNumber = 117
+NeutronCount = 177
+Mass = 294
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 7
+Skupina = 17
+Blok = 1
+Tip = 1
+Subtip = 6
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

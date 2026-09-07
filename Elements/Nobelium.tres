@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://dm35yb76g2c6p"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_6i2xi"]
+
+[resource]
+script = ExtResource("1_6i2xi")
+SLOelementName = "Nobelij"
+ENGelementName = "Nobelium"
+Symbol = "No"
+AtomicNumber = 102
+NeutronCount = 157
+Mass = 259
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

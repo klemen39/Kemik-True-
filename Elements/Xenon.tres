@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://cn126yeaicnhb"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_su22k"]
+
+[resource]
+script = ExtResource("1_su22k")
+SLOelementName = "Ksenon"
+ENGelementName = "Xenon"
+Symbol = "Xe"
+AtomicNumber = 54
+NeutronCount = 78
+Mass = 132
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+metadata/_custom_type_script = "uid://3th8onmepgfc"

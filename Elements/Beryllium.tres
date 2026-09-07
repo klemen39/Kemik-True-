@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://d0iojg162dc0g"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_3c271"]
+
+[resource]
+script = ExtResource("1_3c271")
+SLOelementName = "Berilij"
+ENGelementName = "Beryllium"
+Symbol = "Be"
+AtomicNumber = 4
+NeutronCount = 5
+Mass = 9
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 2
+Skupina = 2
+Subtip = 1
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://bhqsk6dr0om5r"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_nkxb4"]
+
+[resource]
+script = ExtResource("1_nkxb4")
+SLOelementName = "Kositer"
+ENGelementName = "Tin"
+Symbol = "Sn"
+AtomicNumber = 50
+NeutronCount = 70
+Mass = 120
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 4
+Skupina = 14
+Blok = 1
+Subtip = 3
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://d4cf5bf0nkx8b"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_b5o1x"]
+
+[resource]
+script = ExtResource("1_b5o1x")
+SLOelementName = "Srebro"
+ENGelementName = "Silver"
+Symbol = "Ag"
+AtomicNumber = 47
+NeutronCount = 60
+Mass = 107
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 1
+Skupina = 11
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://10g1um3r5517"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_2ci7b"]
+
+[resource]
+script = ExtResource("1_2ci7b")
+SLOelementName = "Lutecij"
+ENGelementName = "Lutetium"
+Symbol = "Lu"
+AtomicNumber = 71
+NeutronCount = 104
+Mass = 175
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 9
+Perioda6 = 2
+Skupina = 3
+Blok = 2
+Subtip = 8
+metadata/_custom_type_script = "uid://3th8onmepgfc"

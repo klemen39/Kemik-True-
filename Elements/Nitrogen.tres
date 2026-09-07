@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://djg0hcwnepxqb"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_wi60j"]
+
+[resource]
+script = ExtResource("1_wi60j")
+SLOelementName = "Dušik"
+ENGelementName = "Nitrogen"
+Symbol = "N"
+AtomicNumber = 7
+NeutronCount = 7
+Mass = 14
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 5
+Skupina = 15
+Blok = 1
+Tip = 1
+Subtip = 5
+metadata/_custom_type_script = "uid://3th8onmepgfc"

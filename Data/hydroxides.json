@@ -1,0 +1,372 @@
+{
+  "template_group": "hydroxides",
+  "template_count": 10,
+  "templates": [
+    {
+      "formula": "OH^-",
+      "aliases": [
+        "OH-",
+        "[OH]-"
+      ],
+      "name": "Hydroxide ion",
+      "type": "polyatomic_ion",
+      "overall_charge": -1,
+      "show_brackets": true,
+      "layout": "linear",
+      "geometry": {
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "resonance": false,
+      "atoms": [
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": -1
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "O1",
+          "to": "H1",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 8,
+        "calculation": "6 + 1 + 1"
+      },
+      "notes": [
+        "The oxygen atom has three lone pairs.",
+        "The oxygen atom carries a formal charge of -1.",
+        "Hydrogen follows the duet rule and has one single bond.",
+        "The hydroxide ion has an overall charge of -1."
+      ]
+    },
+    {
+      "formula": "NaOH",
+      "name": "Sodium hydroxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Na1",
+          "formula": "Na",
+          "element": "Na",
+          "charge": 1,
+          "coefficient": 1,
+          "x": -3,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "OH_1",
+          "formula": "OH",
+          "charge": -1,
+          "coefficient": 1,
+          "template_reference": "OH^-",
+          "x": 1,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "KOH",
+      "name": "Potassium hydroxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "K1",
+          "formula": "K",
+          "element": "K",
+          "charge": 1,
+          "coefficient": 1,
+          "x": -3,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "OH_1",
+          "formula": "OH",
+          "charge": -1,
+          "coefficient": 1,
+          "template_reference": "OH^-",
+          "x": 1,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "LiOH",
+      "name": "Lithium hydroxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Li1",
+          "formula": "Li",
+          "element": "Li",
+          "charge": 1,
+          "coefficient": 1,
+          "x": -3,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "OH_1",
+          "formula": "OH",
+          "charge": -1,
+          "coefficient": 1,
+          "template_reference": "OH^-",
+          "x": 1,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "Ca(OH)2",
+      "name": "Calcium hydroxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Ca1",
+          "formula": "Ca",
+          "element": "Ca",
+          "charge": 2,
+          "coefficient": 1,
+          "x": -4,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "OH_group",
+          "formula": "OH",
+          "charge": -1,
+          "coefficient": 2,
+          "template_reference": "OH^-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 3
+        }
+      ]
+    },
+    {
+      "formula": "Mg(OH)2",
+      "name": "Magnesium hydroxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Mg1",
+          "formula": "Mg",
+          "element": "Mg",
+          "charge": 2,
+          "coefficient": 1,
+          "x": -4,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "OH_group",
+          "formula": "OH",
+          "charge": -1,
+          "coefficient": 2,
+          "template_reference": "OH^-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 3
+        }
+      ]
+    },
+    {
+      "formula": "Ba(OH)2",
+      "name": "Barium hydroxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Ba1",
+          "formula": "Ba",
+          "element": "Ba",
+          "charge": 2,
+          "coefficient": 1,
+          "x": -4,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "OH_group",
+          "formula": "OH",
+          "charge": -1,
+          "coefficient": 2,
+          "template_reference": "OH^-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 3
+        }
+      ]
+    },
+    {
+      "formula": "Al(OH)3",
+      "name": "Aluminium hydroxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Al1",
+          "formula": "Al",
+          "element": "Al",
+          "charge": 3,
+          "coefficient": 1,
+          "x": -5,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "OH_group",
+          "formula": "OH",
+          "charge": -1,
+          "coefficient": 3,
+          "template_reference": "OH^-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 3
+        }
+      ]
+    },
+    {
+      "formula": "Fe(OH)2",
+      "name": "Iron(II) hydroxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Fe1",
+          "formula": "Fe",
+          "element": "Fe",
+          "charge": 2,
+          "oxidation_state": 2,
+          "coefficient": 1,
+          "x": -4,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "OH_group",
+          "formula": "OH",
+          "charge": -1,
+          "coefficient": 2,
+          "template_reference": "OH^-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 3
+        }
+      ]
+    },
+    {
+      "formula": "Fe(OH)3",
+      "name": "Iron(III) hydroxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Fe1",
+          "formula": "Fe",
+          "element": "Fe",
+          "charge": 3,
+          "oxidation_state": 3,
+          "coefficient": 1,
+          "x": -5,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "OH_group",
+          "formula": "OH",
+          "charge": -1,
+          "coefficient": 3,
+          "template_reference": "OH^-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 3
+        }
+      ]
+    }
+  ],
+  "generic_rule": {
+    "id": "hydroxide_compound_rule",
+    "group_name": "hydroxide",
+    "anion_template": "OH^-",
+    "anion_formula": "OH",
+    "anion_charge": -1,
+    "compound_type": "ionic",
+    "charge_balance": {
+      "method": "absolute_cation_charge",
+      "cation_count": 1,
+      "hydroxide_count": "abs(cation_charge)"
+    },
+    "formula_formatting": {
+      "use_parentheses_when_hydroxide_count_above_one": true,
+      "omit_subscript_one": true,
+      "examples": [
+        {
+          "cation": "Na",
+          "cation_charge": 1,
+          "cation_count": 1,
+          "hydroxide_count": 1,
+          "result": "NaOH"
+        },
+        {
+          "cation": "Ca",
+          "cation_charge": 2,
+          "cation_count": 1,
+          "hydroxide_count": 2,
+          "result": "Ca(OH)2"
+        },
+        {
+          "cation": "Al",
+          "cation_charge": 3,
+          "cation_count": 1,
+          "hydroxide_count": 3,
+          "result": "Al(OH)3"
+        }
+      ]
+    }
+  },
+  "renderer_rules": {
+    "polyatomic_ion": {
+      "render_atoms_inside_brackets": true,
+      "render_overall_charge_outside_brackets": true,
+      "charge_position": "top_right",
+      "render_formal_charges": true,
+      "render_lone_pairs": true
+    },
+    "ionic_compound": {
+      "draw_bonds_between_ions": false,
+      "render_each_ion_separately": true,
+      "repeat_ions_using_coefficient": true,
+      "preserve_polyatomic_group_structure": true,
+      "show_cation_charge": true,
+      "show_anion_charge": true
+    },
+    "layout": {
+      "maximum_ions_per_row": 4,
+      "wrap_large_ionic_compounds": true,
+      "center_polyatomic_groups": true,
+      "hydroxide_orientation": "horizontal"
+    }
+  }
+}

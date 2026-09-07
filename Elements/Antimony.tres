@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://dt7ilsdfeyc8f"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_wtpta"]
+
+[resource]
+script = ExtResource("1_wtpta")
+SLOelementName = "Antimon"
+ENGelementName = "Antimony"
+Symbol = "Sb"
+AtomicNumber = 51
+NeutronCount = 70
+Mass = 121
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 5
+Skupina = 15
+Blok = 1
+Tip = 2
+Subtip = 4
+metadata/_custom_type_script = "uid://3th8onmepgfc"

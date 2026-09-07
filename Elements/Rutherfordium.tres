@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://bxtvwy7mwdtu"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_yrogi"]
+
+[resource]
+script = ExtResource("1_yrogi")
+SLOelementName = "Raderfordij"
+ENGelementName = "Rutherfordium"
+Symbol = "Rf"
+AtomicNumber = 104
+NeutronCount = 163
+Mass = 267
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 10
+Perioda7 = 2
+Skupina = 4
+Blok = 2
+Subtip = 2
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

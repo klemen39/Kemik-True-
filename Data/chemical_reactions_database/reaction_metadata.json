@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Structured bilingual database of 220 common chemical reactions.",
+  "reaction_count": 220,
+  "languages": [
+    "en",
+    "sl"
+  ],
+  "categories": {
+    "synthesis": 25,
+    "decomposition": 25,
+    "single_displacement": 30,
+    "double_displacement": 30,
+    "neutralization": 25,
+    "combustion": 25,
+    "redox": 20,
+    "gas_evolution": 20,
+    "organic": 20
+  },
+  "field_notes": {
+    "equation": "Balanced molecular or ionic equation using -> or <->.",
+    "reactants_products": "Species with stoichiometric coefficients.",
+    "balanced": "True for every included reaction.",
+    "conditions": "Null where a precise condition was not encoded.",
+    "energy": "Unknown unless confidently classified.",
+    "ionic_equation": "Reserved for later expansion.",
+    "oxidation_numbers": "Reserved for later expansion."
+  }
+}

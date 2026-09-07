@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://b513lffm67mtt"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_w3fhe"]
+
+[resource]
+script = ExtResource("1_w3fhe")
+SLOelementName = "Moskovij"
+ENGelementName = "Moscovium"
+Symbol = "Mc"
+AtomicNumber = 115
+NeutronCount = 175
+Mass = 290
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 5
+Skupina = 15
+Blok = 1
+Subtip = 3
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

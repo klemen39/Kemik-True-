@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://dg3ruqj0xf02b"]
+
+[ext_resource type="Texture2D" uid="uid://yt3cyruxpnpw" path="res://Sprites/Numbers_Correct/62_True.png" id="1_77sqn"]
+[ext_resource type="Texture2D" uid="uid://db2ggtwmnjfda" path="res://Sprites/Numbers_Wrong/62_Wrong.png" id="2_7neto"]
+[ext_resource type="Texture2D" uid="uid://cs8xlcgraiguo" path="res://Sprites/Numbers_Regular/62_Regular.png" id="3_kpwse"]
+[ext_resource type="Resource" uid="uid://2o2juhgqo87t" path="res://Elements/Samarium.tres" id="4_5ohoq"]
+[ext_resource type="Texture2D" uid="uid://c1t842q5mgjsf" path="res://Sprites/Quiz_Groups/Lanthanide_correct.png" id="5_e7a4g"]
+[ext_resource type="Texture2D" uid="uid://bh1oac0hdoe63" path="res://Sprites/Quiz_Groups/Lanthanide_wrong.png" id="6_n0v07"]
+[ext_resource type="Texture2D" uid="uid://p1bn1k6vxwso" path="res://Sprites/Quiz_Groups/Lanthanide_regular.png" id="7_fm5o1"]
+[ext_resource type="Texture2D" uid="uid://dxda5gb3i2rio" path="res://Sprites/Quiz_Names/Samarium_Name.png" id="8_wlr7n"]
+[ext_resource type="Texture2D" uid="uid://crsefbf1mdjhr" path="res://Sprites/Quiz_Names/Samarium_Wrong.png" id="9_wxd4t"]
+[ext_resource type="Texture2D" uid="uid://rt880ix1gykh" path="res://Sprites/Quiz_Names/Samarium_Neutral.png" id="10_p310c"]
+[ext_resource type="Texture2D" uid="uid://b10kkuxavs3yv" path="res://Sprites/Quiz_Periodic/6_Periodic.png" id="11_8sj1l"]
+[ext_resource type="Texture2D" uid="uid://d30tye3m6nmtk" path="res://Sprites/Numbers_Wrong/6_Wrong.png" id="12_wbe5a"]
+[ext_resource type="Texture2D" uid="uid://b77a7knvxj08c" path="res://Sprites/Numbers_Regular/6_Regular.png" id="13_igcfo"]
+[ext_resource type="Texture2D" uid="uid://tyat8np5m833" path="res://Sprites/Quiz_Groups/Lantanoid_correct.png" id="14_fv8g1"]
+[ext_resource type="Texture2D" uid="uid://bnxy0hvnlj2qd" path="res://Sprites/Quiz_Groups/Lantanoid_wrong.png" id="15_fnv21"]
+[ext_resource type="Texture2D" uid="uid://skyhpicpgpl7" path="res://Sprites/Quiz_Groups/Lantanoid_regular.png" id="16_0hwmu"]
+[ext_resource type="Texture2D" uid="uid://cdoqfnepy7kk3" path="res://Sprites/Quiz_Names/Samarij_Name.png" id="17_sdm8g"]
+[ext_resource type="Texture2D" uid="uid://cvbo3huneurfx" path="res://Sprites/Quiz_Names/Samarij_Wrong.png" id="18_a7hlf"]
+[ext_resource type="Texture2D" uid="uid://bpo556mdgbq6q" path="res://Sprites/Quiz_Names/Samarij_Neutral.png" id="19_ggsjr"]
+[ext_resource type="Texture2D" uid="uid://cmqektigxdwp4" path="res://Sprites/Quiz_Symbol/Samarium_ShadowNameless.png" id="20_gsixb"]
+[ext_resource type="Texture2D" uid="uid://dksgygc706ika" path="res://Sprites/Quiz_Symbol/Samarium_Nameless.png" id="21_tprjw"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="22_vuy11"]
+
+[resource]
+script = ExtResource("22_vuy11")
+ElementData = ExtResource("4_5ohoq")
+SymbolNormal = ExtResource("21_tprjw")
+SymbolDisabled = ExtResource("20_gsixb")
+SymbolCorrect = ExtResource("20_gsixb")
+AtomicNumberNormal = ExtResource("3_kpwse")
+AtomicNumberDisabled = ExtResource("2_7neto")
+AtomicNumberCorrect = ExtResource("1_77sqn")
+SloveneNameNormal = ExtResource("19_ggsjr")
+SloveneNameDisabled = ExtResource("18_a7hlf")
+SloveneNameCorrect = ExtResource("17_sdm8g")
+EnglishNameNormal = ExtResource("10_p310c")
+EnglishNameDisabled = ExtResource("9_wxd4t")
+EnglishNameCorrect = ExtResource("8_wlr7n")
+SloveneGroupNormal = ExtResource("16_0hwmu")
+SloveneGroupDisabled = ExtResource("15_fnv21")
+SloveneGroupCorrect = ExtResource("14_fv8g1")
+EnglishGroupNormal = ExtResource("7_fm5o1")
+EnglishGroupDisabled = ExtResource("6_n0v07")
+EnglishGroupCorrect = ExtResource("5_e7a4g")
+PeriodicGroupNormal = ExtResource("13_igcfo")
+PeriodicGroupDisabled = ExtResource("12_wbe5a")
+PeriodicGroupCorrect = ExtResource("11_8sj1l")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

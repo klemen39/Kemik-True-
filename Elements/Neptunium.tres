@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://xd5pc0wrg6ty"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_t3cdj"]
+
+[resource]
+script = ExtResource("1_t3cdj")
+SLOelementName = "Neptunij"
+ENGelementName = "Neptunium"
+Symbol = "Np"
+AtomicNumber = 93
+NeutronCount = 144
+Mass = 237
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 22
+Perioda6 = 9
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

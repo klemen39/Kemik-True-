@@ -1,0 +1,484 @@
+{
+  "template_group": "carbonates",
+  "template_count": 9,
+  "templates": [
+    {
+      "formula": "CO3^2-",
+      "aliases": [
+        "CO3-2",
+        "CO3--",
+        "[CO3]2-"
+      ],
+      "name": "Carbonate ion",
+      "type": "polyatomic_ion",
+      "overall_charge": -2,
+      "show_brackets": true,
+      "layout": "trigonal_planar",
+      "geometry": {
+        "electron_domain_geometry": "trigonal_planar",
+        "molecular_geometry": "trigonal_planar",
+        "ideal_bond_angle": 120
+      },
+      "resonance": true,
+      "preferred_resonance_form": 0,
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": -2.4,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "x": -2.1,
+          "y": 1.2,
+          "lone_pairs": 3,
+          "formal_charge": -1
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "x": 2.1,
+          "y": 1.2,
+          "lone_pairs": 3,
+          "formal_charge": -1
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "O1",
+          "order": 2
+        },
+        {
+          "from": "C1",
+          "to": "O2",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "O3",
+          "order": 1
+        }
+      ],
+      "resonance_forms": [
+        {
+          "id": 0,
+          "bonds": [
+            {
+              "from": "C1",
+              "to": "O1",
+              "order": 2
+            },
+            {
+              "from": "C1",
+              "to": "O2",
+              "order": 1
+            },
+            {
+              "from": "C1",
+              "to": "O3",
+              "order": 1
+            }
+          ],
+          "formal_charges": {
+            "C1": 0,
+            "O1": 0,
+            "O2": -1,
+            "O3": -1
+          },
+          "lone_pairs": {
+            "C1": 0,
+            "O1": 2,
+            "O2": 3,
+            "O3": 3
+          }
+        },
+        {
+          "id": 1,
+          "bonds": [
+            {
+              "from": "C1",
+              "to": "O1",
+              "order": 1
+            },
+            {
+              "from": "C1",
+              "to": "O2",
+              "order": 2
+            },
+            {
+              "from": "C1",
+              "to": "O3",
+              "order": 1
+            }
+          ],
+          "formal_charges": {
+            "C1": 0,
+            "O1": -1,
+            "O2": 0,
+            "O3": -1
+          },
+          "lone_pairs": {
+            "C1": 0,
+            "O1": 3,
+            "O2": 2,
+            "O3": 3
+          }
+        },
+        {
+          "id": 2,
+          "bonds": [
+            {
+              "from": "C1",
+              "to": "O1",
+              "order": 1
+            },
+            {
+              "from": "C1",
+              "to": "O2",
+              "order": 1
+            },
+            {
+              "from": "C1",
+              "to": "O3",
+              "order": 2
+            }
+          ],
+          "formal_charges": {
+            "C1": 0,
+            "O1": -1,
+            "O2": -1,
+            "O3": 0
+          },
+          "lone_pairs": {
+            "C1": 0,
+            "O1": 3,
+            "O2": 3,
+            "O3": 2
+          }
+        }
+      ],
+      "resonance_render_rule": {
+        "double_bond_count": 1,
+        "single_bond_count": 2,
+        "double_bonded_oxygen": {
+          "formal_charge": 0,
+          "lone_pairs": 2
+        },
+        "single_bonded_oxygen": {
+          "formal_charge": -1,
+          "lone_pairs": 3
+        },
+        "carbon": {
+          "formal_charge": 0,
+          "lone_pairs": 0
+        }
+      },
+      "electron_count": {
+        "total_valence_electrons": 24,
+        "calculation": "4 + 3(6) + 2"
+      },
+      "notes": [
+        "Carbon obeys the octet rule and cannot expand its octet.",
+        "The carbonate ion has three equivalent resonance structures.",
+        "The displayed double bond can be placed on any oxygen atom.",
+        "The average carbon-oxygen bond order is approximately 1.33."
+      ]
+    },
+    {
+      "formula": "Na2CO3",
+      "name": "Sodium carbonate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Na_group",
+          "formula": "Na",
+          "element": "Na",
+          "charge": 1,
+          "coefficient": 2,
+          "x": -4.5,
+          "y": 0,
+          "instance_spacing": 1.8,
+          "show_brackets": true
+        },
+        {
+          "id": "CO3_1",
+          "formula": "CO3",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "CO3^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "K2CO3",
+      "name": "Potassium carbonate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "K_group",
+          "formula": "K",
+          "element": "K",
+          "charge": 1,
+          "coefficient": 2,
+          "x": -4.5,
+          "y": 0,
+          "instance_spacing": 1.8,
+          "show_brackets": true
+        },
+        {
+          "id": "CO3_1",
+          "formula": "CO3",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "CO3^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "Li2CO3",
+      "name": "Lithium carbonate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Li_group",
+          "formula": "Li",
+          "element": "Li",
+          "charge": 1,
+          "coefficient": 2,
+          "x": -4.5,
+          "y": 0,
+          "instance_spacing": 1.8,
+          "show_brackets": true
+        },
+        {
+          "id": "CO3_1",
+          "formula": "CO3",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "CO3^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "CaCO3",
+      "name": "Calcium carbonate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Ca1",
+          "formula": "Ca",
+          "element": "Ca",
+          "charge": 2,
+          "coefficient": 1,
+          "x": -3.5,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "CO3_1",
+          "formula": "CO3",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "CO3^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "MgCO3",
+      "name": "Magnesium carbonate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Mg1",
+          "formula": "Mg",
+          "element": "Mg",
+          "charge": 2,
+          "coefficient": 1,
+          "x": -3.5,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "CO3_1",
+          "formula": "CO3",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "CO3^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "FeCO3",
+      "name": "Iron(II) carbonate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Fe1",
+          "formula": "Fe",
+          "element": "Fe",
+          "charge": 2,
+          "coefficient": 1,
+          "oxidation_state": 2,
+          "x": -3.5,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "CO3_1",
+          "formula": "CO3",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "CO3^2-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "(NH4)2CO3",
+      "name": "Ammonium carbonate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "NH4_group",
+          "formula": "NH4",
+          "charge": 1,
+          "coefficient": 2,
+          "template_reference": "NH4+",
+          "x": -5,
+          "y": 0,
+          "instance_spacing": 3.5
+        },
+        {
+          "id": "CO3_1",
+          "formula": "CO3",
+          "charge": -2,
+          "coefficient": 1,
+          "template_reference": "CO3^2-",
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "Al2(CO3)3",
+      "name": "Aluminium carbonate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Al_group",
+          "formula": "Al",
+          "element": "Al",
+          "charge": 3,
+          "coefficient": 2,
+          "x": -6,
+          "y": 0,
+          "instance_spacing": 2,
+          "show_brackets": true
+        },
+        {
+          "id": "CO3_group",
+          "formula": "CO3",
+          "charge": -2,
+          "coefficient": 3,
+          "template_reference": "CO3^2-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 4.5
+        }
+      ]
+    }
+  ],
+  "generic_rule": {
+    "id": "carbonate_salt_rule",
+    "group_name": "carbonate",
+    "anion_template": "CO3^2-",
+    "anion_formula": "CO3",
+    "anion_charge": -2,
+    "compound_type": "ionic",
+    "charge_balance": {
+      "method": "least_common_multiple",
+      "cation_count": "lcm(abs(cation_charge), 2) / abs(cation_charge)",
+      "carbonate_count": "lcm(abs(cation_charge), 2) / 2"
+    },
+    "formula_formatting": {
+      "use_parentheses_when_anion_count_above_one": true,
+      "omit_subscript_one": true,
+      "examples": [
+        {
+          "cation": "Na",
+          "cation_charge": 1,
+          "cation_count": 2,
+          "carbonate_count": 1,
+          "result": "Na2CO3"
+        },
+        {
+          "cation": "Ca",
+          "cation_charge": 2,
+          "cation_count": 1,
+          "carbonate_count": 1,
+          "result": "CaCO3"
+        },
+        {
+          "cation": "Al",
+          "cation_charge": 3,
+          "cation_count": 2,
+          "carbonate_count": 3,
+          "result": "Al2(CO3)3"
+        }
+      ]
+    }
+  },
+  "renderer_rules": {
+    "polyatomic_ion": {
+      "render_atoms_inside_brackets": true,
+      "render_overall_charge_outside_brackets": true,
+      "charge_position": "top_right",
+      "render_formal_charges": true,
+      "render_lone_pairs": true
+    },
+    "ionic_compound": {
+      "draw_bonds_between_ions": false,
+      "render_each_ion_separately": true,
+      "repeat_ions_using_coefficient": true,
+      "preserve_polyatomic_group_structure": true
+    },
+    "resonance": {
+      "default_display": "preferred_form",
+      "allow_cycle_between_forms": true,
+      "show_resonance_arrows": false,
+      "equivalent_forms": true
+    }
+  }
+}

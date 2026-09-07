@@ -1,0 +1,1652 @@
+[
+  {
+    "id": 51,
+    "name": {
+      "en": "Zinc displaces copper",
+      "sl": "Cink izpodrine baker"
+    },
+    "equation": "Zn + CuSO4 -> ZnSO4 + Cu",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Zn",
+        "coefficient": 1
+      },
+      {
+        "formula": "CuSO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cu",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Activity-series reaction.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 52,
+    "name": {
+      "en": "Iron displaces copper",
+      "sl": "Železo izpodrine baker"
+    },
+    "equation": "Fe + CuSO4 -> FeSO4 + Cu",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Fe",
+        "coefficient": 1
+      },
+      {
+        "formula": "CuSO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "FeSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cu",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Activity-series reaction.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 53,
+    "name": {
+      "en": "Magnesium with hydrochloric acid",
+      "sl": "Magnezij s klorovodikovo kislino"
+    },
+    "equation": "Mg + 2 HCl -> MgCl2 + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-acid reaction",
+    "reactants": [
+      {
+        "formula": "Mg",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Hydrogen gas evolves.",
+    "tags": [
+      "single_displacement",
+      "metal-acid_reaction"
+    ]
+  },
+  {
+    "id": 54,
+    "name": {
+      "en": "Zinc with hydrochloric acid",
+      "sl": "Cink s klorovodikovo kislino"
+    },
+    "equation": "Zn + 2 HCl -> ZnCl2 + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-acid reaction",
+    "reactants": [
+      {
+        "formula": "Zn",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Hydrogen gas evolves.",
+    "tags": [
+      "single_displacement",
+      "metal-acid_reaction"
+    ]
+  },
+  {
+    "id": 55,
+    "name": {
+      "en": "Iron with hydrochloric acid",
+      "sl": "Železo s klorovodikovo kislino"
+    },
+    "equation": "Fe + 2 HCl -> FeCl2 + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-acid reaction",
+    "reactants": [
+      {
+        "formula": "Fe",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "FeCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces iron(II) chloride.",
+    "tags": [
+      "single_displacement",
+      "metal-acid_reaction"
+    ]
+  },
+  {
+    "id": 56,
+    "name": {
+      "en": "Aluminium with hydrochloric acid",
+      "sl": "Aluminij s klorovodikovo kislino"
+    },
+    "equation": "2 Al + 6 HCl -> 2 AlCl3 + 3 H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-acid reaction",
+    "reactants": [
+      {
+        "formula": "Al",
+        "coefficient": 2
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "formula": "AlCl3",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Oxide layer may delay reaction.",
+    "tags": [
+      "single_displacement",
+      "metal-acid_reaction"
+    ]
+  },
+  {
+    "id": 57,
+    "name": {
+      "en": "Calcium with water",
+      "sl": "Kalcij z vodo"
+    },
+    "equation": "Ca + 2 H2O -> Ca(OH)2 + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-water reaction",
+    "reactants": [
+      {
+        "formula": "Ca",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ca(OH)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Hydrogen evolves.",
+    "tags": [
+      "single_displacement",
+      "metal-water_reaction"
+    ]
+  },
+  {
+    "id": 58,
+    "name": {
+      "en": "Sodium with water",
+      "sl": "Natrij z vodo"
+    },
+    "equation": "2 Na + 2 H2O -> 2 NaOH + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-water reaction",
+    "reactants": [
+      {
+        "formula": "Na",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Vigorous reaction.",
+    "tags": [
+      "single_displacement",
+      "metal-water_reaction"
+    ]
+  },
+  {
+    "id": 59,
+    "name": {
+      "en": "Potassium with water",
+      "sl": "Kalij z vodo"
+    },
+    "equation": "2 K + 2 H2O -> 2 KOH + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-water reaction",
+    "reactants": [
+      {
+        "formula": "K",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "KOH",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Very vigorous reaction.",
+    "tags": [
+      "single_displacement",
+      "metal-water_reaction"
+    ]
+  },
+  {
+    "id": 60,
+    "name": {
+      "en": "Magnesium displaces copper",
+      "sl": "Magnezij izpodrine baker"
+    },
+    "equation": "Mg + CuCl2 -> MgCl2 + Cu",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Mg",
+        "coefficient": 1
+      },
+      {
+        "formula": "CuCl2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cu",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Activity-series reaction.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 61,
+    "name": {
+      "en": "Iron displaces silver",
+      "sl": "Železo izpodrine srebro"
+    },
+    "equation": "Fe + 2 AgNO3 -> Fe(NO3)2 + 2 Ag",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Fe",
+        "coefficient": 1
+      },
+      {
+        "formula": "AgNO3",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Ag",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Silver deposits.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 62,
+    "name": {
+      "en": "Zinc displaces lead",
+      "sl": "Cink izpodrine svinec"
+    },
+    "equation": "Zn + Pb(NO3)2 -> Zn(NO3)2 + Pb",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Zn",
+        "coefficient": 1
+      },
+      {
+        "formula": "Pb(NO3)2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Zn(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Pb",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Activity-series reaction.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 63,
+    "name": {
+      "en": "Copper displaces silver",
+      "sl": "Baker izpodrine srebro"
+    },
+    "equation": "Cu + 2 AgNO3 -> Cu(NO3)2 + 2 Ag",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Cu",
+        "coefficient": 1
+      },
+      {
+        "formula": "AgNO3",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cu(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Ag",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Classic silver crystal demonstration.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 64,
+    "name": {
+      "en": "Chlorine displaces iodine",
+      "sl": "Klor izpodrine jod"
+    },
+    "equation": "Cl2 + 2 KI -> 2 KCl + I2",
+    "reaction_type": "single_displacement",
+    "subcategory": "halogen displacement",
+    "reactants": [
+      {
+        "formula": "Cl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "KI",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "KCl",
+        "coefficient": 2
+      },
+      {
+        "formula": "I2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Halogen activity-series reaction.",
+    "tags": [
+      "single_displacement",
+      "halogen_displacement"
+    ]
+  },
+  {
+    "id": 65,
+    "name": {
+      "en": "Bromine displaces iodine",
+      "sl": "Brom izpodrine jod"
+    },
+    "equation": "Br2 + 2 KI -> 2 KBr + I2",
+    "reaction_type": "single_displacement",
+    "subcategory": "halogen displacement",
+    "reactants": [
+      {
+        "formula": "Br2",
+        "coefficient": 1
+      },
+      {
+        "formula": "KI",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "KBr",
+        "coefficient": 2
+      },
+      {
+        "formula": "I2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Halogen activity-series reaction.",
+    "tags": [
+      "single_displacement",
+      "halogen_displacement"
+    ]
+  },
+  {
+    "id": 66,
+    "name": {
+      "en": "Chlorine displaces bromine",
+      "sl": "Klor izpodrine brom"
+    },
+    "equation": "Cl2 + 2 KBr -> 2 KCl + Br2",
+    "reaction_type": "single_displacement",
+    "subcategory": "halogen displacement",
+    "reactants": [
+      {
+        "formula": "Cl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "KBr",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "KCl",
+        "coefficient": 2
+      },
+      {
+        "formula": "Br2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Halogen activity-series reaction.",
+    "tags": [
+      "single_displacement",
+      "halogen_displacement"
+    ]
+  },
+  {
+    "id": 67,
+    "name": {
+      "en": "Magnesium displaces iron",
+      "sl": "Magnezij izpodrine železo"
+    },
+    "equation": "Mg + FeSO4 -> MgSO4 + Fe",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Mg",
+        "coefficient": 1
+      },
+      {
+        "formula": "FeSO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Fe",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Activity-series reaction.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 68,
+    "name": {
+      "en": "Thermite reaction",
+      "sl": "Termitna reakcija"
+    },
+    "equation": "2 Al + Fe2O3 -> Al2O3 + 2 Fe",
+    "reaction_type": "single_displacement",
+    "subcategory": "metallothermic displacement",
+    "reactants": [
+      {
+        "formula": "Al",
+        "coefficient": 2
+      },
+      {
+        "formula": "Fe2O3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Al2O3",
+        "coefficient": 1
+      },
+      {
+        "formula": "Fe",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Extremely exothermic.",
+    "tags": [
+      "single_displacement",
+      "metallothermic_displacement"
+    ]
+  },
+  {
+    "id": 69,
+    "name": {
+      "en": "Zinc with sulfuric acid",
+      "sl": "Cink z žveplovo kislino"
+    },
+    "equation": "Zn + H2SO4 -> ZnSO4 + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-acid reaction",
+    "reactants": [
+      {
+        "formula": "Zn",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2SO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Dilute sulfuric acid.",
+    "tags": [
+      "single_displacement",
+      "metal-acid_reaction"
+    ]
+  },
+  {
+    "id": 70,
+    "name": {
+      "en": "Iron with sulfuric acid",
+      "sl": "Železo z žveplovo kislino"
+    },
+    "equation": "Fe + H2SO4 -> FeSO4 + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-acid reaction",
+    "reactants": [
+      {
+        "formula": "Fe",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2SO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "FeSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Dilute sulfuric acid.",
+    "tags": [
+      "single_displacement",
+      "metal-acid_reaction"
+    ]
+  },
+  {
+    "id": 71,
+    "name": {
+      "en": "Calcium with hydrochloric acid",
+      "sl": "Kalcij s klorovodikovo kislino"
+    },
+    "equation": "Ca + 2 HCl -> CaCl2 + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-acid reaction",
+    "reactants": [
+      {
+        "formula": "Ca",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Rapid hydrogen evolution.",
+    "tags": [
+      "single_displacement",
+      "metal-acid_reaction"
+    ]
+  },
+  {
+    "id": 72,
+    "name": {
+      "en": "Magnesium with hydrobromic acid",
+      "sl": "Magnezij z bromovodikovo kislino"
+    },
+    "equation": "Mg + 2 HBr -> MgBr2 + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-acid reaction",
+    "reactants": [
+      {
+        "formula": "Mg",
+        "coefficient": 1
+      },
+      {
+        "formula": "HBr",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgBr2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Hydrogen evolves.",
+    "tags": [
+      "single_displacement",
+      "metal-acid_reaction"
+    ]
+  },
+  {
+    "id": 73,
+    "name": {
+      "en": "Zinc with hydroiodic acid",
+      "sl": "Cink z jodovodikovo kislino"
+    },
+    "equation": "Zn + 2 HI -> ZnI2 + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-acid reaction",
+    "reactants": [
+      {
+        "formula": "Zn",
+        "coefficient": 1
+      },
+      {
+        "formula": "HI",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnI2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Hydrogen evolves.",
+    "tags": [
+      "single_displacement",
+      "metal-acid_reaction"
+    ]
+  },
+  {
+    "id": 74,
+    "name": {
+      "en": "Tin displaces copper",
+      "sl": "Kositer izpodrine baker"
+    },
+    "equation": "Sn + CuSO4 -> SnSO4 + Cu",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Sn",
+        "coefficient": 1
+      },
+      {
+        "formula": "CuSO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "SnSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cu",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Tin is more active than copper.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 75,
+    "name": {
+      "en": "Lead displaces copper",
+      "sl": "Svinec izpodrine baker"
+    },
+    "equation": "Pb + Cu(NO3)2 -> Pb(NO3)2 + Cu",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Pb",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cu(NO3)2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Pb(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cu",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "May be slowed by surface films.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 76,
+    "name": {
+      "en": "Iron displaces nickel",
+      "sl": "Železo izpodrine nikelj"
+    },
+    "equation": "Fe + NiSO4 -> FeSO4 + Ni",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Fe",
+        "coefficient": 1
+      },
+      {
+        "formula": "NiSO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "FeSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Ni",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Activity-series reaction.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 77,
+    "name": {
+      "en": "Magnesium displaces zinc",
+      "sl": "Magnezij izpodrine cink"
+    },
+    "equation": "Mg + ZnSO4 -> MgSO4 + Zn",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Mg",
+        "coefficient": 1
+      },
+      {
+        "formula": "ZnSO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Zn",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Activity-series reaction.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  },
+  {
+    "id": 78,
+    "name": {
+      "en": "Lithium with water",
+      "sl": "Litij z vodo"
+    },
+    "equation": "2 Li + 2 H2O -> 2 LiOH + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-water reaction",
+    "reactants": [
+      {
+        "formula": "Li",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "LiOH",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Less vigorous than sodium.",
+    "tags": [
+      "single_displacement",
+      "metal-water_reaction"
+    ]
+  },
+  {
+    "id": 79,
+    "name": {
+      "en": "Barium with water",
+      "sl": "Barij z vodo"
+    },
+    "equation": "Ba + 2 H2O -> Ba(OH)2 + H2",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal-water reaction",
+    "reactants": [
+      {
+        "formula": "Ba",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ba(OH)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Hydrogen evolves.",
+    "tags": [
+      "single_displacement",
+      "metal-water_reaction"
+    ]
+  },
+  {
+    "id": 80,
+    "name": {
+      "en": "Aluminium displaces copper",
+      "sl": "Aluminij izpodrine baker"
+    },
+    "equation": "2 Al + 3 CuCl2 -> 2 AlCl3 + 3 Cu",
+    "reaction_type": "single_displacement",
+    "subcategory": "metal displacement",
+    "reactants": [
+      {
+        "formula": "Al",
+        "coefficient": 2
+      },
+      {
+        "formula": "CuCl2",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "AlCl3",
+        "coefficient": 2
+      },
+      {
+        "formula": "Cu",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Often initiated after oxide removal.",
+    "tags": [
+      "single_displacement",
+      "metal_displacement"
+    ]
+  }
+]

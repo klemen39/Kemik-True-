@@ -1,0 +1,858 @@
+{
+  "template_group": "common_ionic_compounds",
+  "template_count": 18,
+  "description": "Reusable Lewis-style templates for common binary ionic compounds and simple ionic salts.",
+  "templates": [
+    {
+      "formula": "NaCl",
+      "name": "Sodium chloride",
+      "type": "ionic",
+      "layout": "ionic_pair",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Na1",
+          "formula": "Na",
+          "element": "Na",
+          "ion_type": "monatomic_cation",
+          "charge": 1,
+          "coefficient": 1,
+          "electron_configuration": "2,8",
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -2,
+          "y": 0
+        },
+        {
+          "id": "Cl1",
+          "formula": "Cl",
+          "element": "Cl",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "electron_transfer": {
+        "donor": "Na1",
+        "acceptor": "Cl1",
+        "electrons_transferred": 1
+      }
+    },
+    {
+      "formula": "KCl",
+      "name": "Potassium chloride",
+      "type": "ionic",
+      "layout": "ionic_pair",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "K1",
+          "formula": "K",
+          "element": "K",
+          "ion_type": "monatomic_cation",
+          "charge": 1,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -2,
+          "y": 0
+        },
+        {
+          "id": "Cl1",
+          "formula": "Cl",
+          "element": "Cl",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "electron_transfer": {
+        "donor": "K1",
+        "acceptor": "Cl1",
+        "electrons_transferred": 1
+      }
+    },
+    {
+      "formula": "LiF",
+      "name": "Lithium fluoride",
+      "type": "ionic",
+      "layout": "ionic_pair",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Li1",
+          "formula": "Li",
+          "element": "Li",
+          "ion_type": "monatomic_cation",
+          "charge": 1,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -2,
+          "y": 0
+        },
+        {
+          "id": "F1",
+          "formula": "F",
+          "element": "F",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "electron_transfer": {
+        "donor": "Li1",
+        "acceptor": "F1",
+        "electrons_transferred": 1
+      }
+    },
+    {
+      "formula": "Na2O",
+      "name": "Sodium oxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Na_group",
+          "formula": "Na",
+          "element": "Na",
+          "ion_type": "monatomic_cation",
+          "charge": 1,
+          "coefficient": 2,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -3,
+          "y": 0,
+          "instance_spacing": 2
+        },
+        {
+          "id": "O1",
+          "formula": "O",
+          "element": "O",
+          "ion_type": "monatomic_anion",
+          "charge": -2,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "electron_transfer": {
+        "donor": "Na_group",
+        "acceptor": "O1",
+        "total_electrons_transferred": 2
+      }
+    },
+    {
+      "formula": "K2O",
+      "name": "Potassium oxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "K_group",
+          "formula": "K",
+          "element": "K",
+          "ion_type": "monatomic_cation",
+          "charge": 1,
+          "coefficient": 2,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -3,
+          "y": 0,
+          "instance_spacing": 2
+        },
+        {
+          "id": "O1",
+          "formula": "O",
+          "element": "O",
+          "ion_type": "monatomic_anion",
+          "charge": -2,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "MgO",
+      "name": "Magnesium oxide",
+      "type": "ionic",
+      "layout": "ionic_pair",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Mg1",
+          "formula": "Mg",
+          "element": "Mg",
+          "ion_type": "monatomic_cation",
+          "charge": 2,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -2,
+          "y": 0
+        },
+        {
+          "id": "O1",
+          "formula": "O",
+          "element": "O",
+          "ion_type": "monatomic_anion",
+          "charge": -2,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "electron_transfer": {
+        "donor": "Mg1",
+        "acceptor": "O1",
+        "electrons_transferred": 2
+      }
+    },
+    {
+      "formula": "CaO",
+      "name": "Calcium oxide",
+      "type": "ionic",
+      "layout": "ionic_pair",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Ca1",
+          "formula": "Ca",
+          "element": "Ca",
+          "ion_type": "monatomic_cation",
+          "charge": 2,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -2,
+          "y": 0
+        },
+        {
+          "id": "O1",
+          "formula": "O",
+          "element": "O",
+          "ion_type": "monatomic_anion",
+          "charge": -2,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "MgCl2",
+      "name": "Magnesium chloride",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Mg1",
+          "formula": "Mg",
+          "element": "Mg",
+          "ion_type": "monatomic_cation",
+          "charge": 2,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -3,
+          "y": 0
+        },
+        {
+          "id": "Cl_group",
+          "formula": "Cl",
+          "element": "Cl",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 2,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 1,
+          "y": 0,
+          "instance_spacing": 2.5
+        }
+      ]
+    },
+    {
+      "formula": "CaCl2",
+      "name": "Calcium chloride",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Ca1",
+          "formula": "Ca",
+          "element": "Ca",
+          "ion_type": "monatomic_cation",
+          "charge": 2,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -3,
+          "y": 0
+        },
+        {
+          "id": "Cl_group",
+          "formula": "Cl",
+          "element": "Cl",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 2,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 1,
+          "y": 0,
+          "instance_spacing": 2.5
+        }
+      ]
+    },
+    {
+      "formula": "Al2O3",
+      "name": "Aluminium oxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Al_group",
+          "formula": "Al",
+          "element": "Al",
+          "ion_type": "monatomic_cation",
+          "charge": 3,
+          "coefficient": 2,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -4,
+          "y": 0,
+          "instance_spacing": 2.5
+        },
+        {
+          "id": "O_group",
+          "formula": "O",
+          "element": "O",
+          "ion_type": "monatomic_anion",
+          "charge": -2,
+          "coefficient": 3,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 1,
+          "y": 0,
+          "instance_spacing": 2.5
+        }
+      ],
+      "electron_transfer": {
+        "donor": "Al_group",
+        "acceptor": "O_group",
+        "total_electrons_transferred": 6
+      }
+    },
+    {
+      "formula": "AlCl3",
+      "name": "Aluminium chloride",
+      "type": "ionic_simplification",
+      "layout": "ionic_groups",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Al1",
+          "formula": "Al",
+          "element": "Al",
+          "ion_type": "monatomic_cation",
+          "charge": 3,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -4,
+          "y": 0
+        },
+        {
+          "id": "Cl_group",
+          "formula": "Cl",
+          "element": "Cl",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 3,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 2.5
+        }
+      ],
+      "notes": [
+        "This is a simplified ionic representation.",
+        "Anhydrous aluminium chloride has significant covalent character."
+      ]
+    },
+    {
+      "formula": "Na2S",
+      "name": "Sodium sulfide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Na_group",
+          "formula": "Na",
+          "element": "Na",
+          "ion_type": "monatomic_cation",
+          "charge": 1,
+          "coefficient": 2,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -3,
+          "y": 0,
+          "instance_spacing": 2
+        },
+        {
+          "id": "S1",
+          "formula": "S",
+          "element": "S",
+          "ion_type": "monatomic_anion",
+          "charge": -2,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "MgS",
+      "name": "Magnesium sulfide",
+      "type": "ionic",
+      "layout": "ionic_pair",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Mg1",
+          "formula": "Mg",
+          "element": "Mg",
+          "ion_type": "monatomic_cation",
+          "charge": 2,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -2,
+          "y": 0
+        },
+        {
+          "id": "S1",
+          "formula": "S",
+          "element": "S",
+          "ion_type": "monatomic_anion",
+          "charge": -2,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "CaF2",
+      "name": "Calcium fluoride",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Ca1",
+          "formula": "Ca",
+          "element": "Ca",
+          "ion_type": "monatomic_cation",
+          "charge": 2,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -3,
+          "y": 0
+        },
+        {
+          "id": "F_group",
+          "formula": "F",
+          "element": "F",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 2,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 1,
+          "y": 0,
+          "instance_spacing": 2.5
+        }
+      ]
+    },
+    {
+      "formula": "NaBr",
+      "name": "Sodium bromide",
+      "type": "ionic",
+      "layout": "ionic_pair",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Na1",
+          "formula": "Na",
+          "element": "Na",
+          "ion_type": "monatomic_cation",
+          "charge": 1,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -2,
+          "y": 0
+        },
+        {
+          "id": "Br1",
+          "formula": "Br",
+          "element": "Br",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "KI",
+      "name": "Potassium iodide",
+      "type": "ionic",
+      "layout": "ionic_pair",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "K1",
+          "formula": "K",
+          "element": "K",
+          "ion_type": "monatomic_cation",
+          "charge": 1,
+          "coefficient": 1,
+          "lone_pairs": 0,
+          "show_brackets": true,
+          "x": -2,
+          "y": 0
+        },
+        {
+          "id": "I1",
+          "formula": "I",
+          "element": "I",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 1,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "FeCl2",
+      "name": "Iron(II) chloride",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Fe1",
+          "formula": "Fe",
+          "element": "Fe",
+          "ion_type": "transition_metal_cation",
+          "charge": 2,
+          "oxidation_state": 2,
+          "coefficient": 1,
+          "show_brackets": true,
+          "x": -3,
+          "y": 0
+        },
+        {
+          "id": "Cl_group",
+          "formula": "Cl",
+          "element": "Cl",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 2,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 1,
+          "y": 0,
+          "instance_spacing": 2.5
+        }
+      ]
+    },
+    {
+      "formula": "FeCl3",
+      "name": "Iron(III) chloride",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "overall_charge": 0,
+      "ions": [
+        {
+          "id": "Fe1",
+          "formula": "Fe",
+          "element": "Fe",
+          "ion_type": "transition_metal_cation",
+          "charge": 3,
+          "oxidation_state": 3,
+          "coefficient": 1,
+          "show_brackets": true,
+          "x": -4,
+          "y": 0
+        },
+        {
+          "id": "Cl_group",
+          "formula": "Cl",
+          "element": "Cl",
+          "ion_type": "monatomic_anion",
+          "charge": -1,
+          "coefficient": 3,
+          "lone_pairs": 4,
+          "show_brackets": true,
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 2.5
+        }
+      ]
+    }
+  ],
+  "monatomic_ion_templates": {
+    "cations": [
+      {
+        "element": "Li",
+        "common_charges": [1],
+        "display_lone_pairs": 0
+      },
+      {
+        "element": "Na",
+        "common_charges": [1],
+        "display_lone_pairs": 0
+      },
+      {
+        "element": "K",
+        "common_charges": [1],
+        "display_lone_pairs": 0
+      },
+      {
+        "element": "Mg",
+        "common_charges": [2],
+        "display_lone_pairs": 0
+      },
+      {
+        "element": "Ca",
+        "common_charges": [2],
+        "display_lone_pairs": 0
+      },
+      {
+        "element": "Al",
+        "common_charges": [3],
+        "display_lone_pairs": 0
+      },
+      {
+        "element": "Fe",
+        "common_charges": [2, 3],
+        "display_lone_pairs": 0
+      },
+      {
+        "element": "Cu",
+        "common_charges": [1, 2],
+        "display_lone_pairs": 0
+      }
+    ],
+    "anions": [
+      {
+        "element": "F",
+        "common_charges": [-1],
+        "display_lone_pairs": 4
+      },
+      {
+        "element": "Cl",
+        "common_charges": [-1],
+        "display_lone_pairs": 4
+      },
+      {
+        "element": "Br",
+        "common_charges": [-1],
+        "display_lone_pairs": 4
+      },
+      {
+        "element": "I",
+        "common_charges": [-1],
+        "display_lone_pairs": 4
+      },
+      {
+        "element": "O",
+        "common_charges": [-2],
+        "display_lone_pairs": 4
+      },
+      {
+        "element": "S",
+        "common_charges": [-2],
+        "display_lone_pairs": 4
+      },
+      {
+        "element": "N",
+        "common_charges": [-3],
+        "display_lone_pairs": 4
+      },
+      {
+        "element": "P",
+        "common_charges": [-3],
+        "display_lone_pairs": 4
+      }
+    ]
+  },
+  "generic_rules": {
+    "binary_ionic_compound_rule": {
+      "id": "binary_ionic_compound",
+      "description": "Create a neutral ionic formula using one cation and one anion.",
+      "compound_type": "ionic",
+      "charge_balance": {
+        "method": "least_common_multiple",
+        "cation_count": "lcm(abs(cation_charge), abs(anion_charge)) / abs(cation_charge)",
+        "anion_count": "lcm(abs(cation_charge), abs(anion_charge)) / abs(anion_charge)",
+        "simplify_ratio": true
+      },
+      "formula_order": [
+        "cation",
+        "anion"
+      ],
+      "examples": [
+        {
+          "cation": "Na",
+          "cation_charge": 1,
+          "anion": "Cl",
+          "anion_charge": -1,
+          "result": "NaCl"
+        },
+        {
+          "cation": "Mg",
+          "cation_charge": 2,
+          "anion": "Cl",
+          "anion_charge": -1,
+          "result": "MgCl2"
+        },
+        {
+          "cation": "Al",
+          "cation_charge": 3,
+          "anion": "O",
+          "anion_charge": -2,
+          "result": "Al2O3"
+        }
+      ]
+    },
+    "polyatomic_ionic_compound_rule": {
+      "id": "polyatomic_ionic_compound",
+      "description": "Combine monatomic or polyatomic ions while preserving reusable polyatomic templates.",
+      "available_template_references": [
+        "NH4+",
+        "OH^-",
+        "NO3^-",
+        "SO4^2-",
+        "CO3^2-",
+        "PO4^3-"
+      ],
+      "use_parentheses_when_polyatomic_coefficient_above_one": true,
+      "examples": [
+        {
+          "cation_template": "NH4+",
+          "cation_count": 2,
+          "anion_template": "SO4^2-",
+          "anion_count": 1,
+          "result": "(NH4)2SO4"
+        },
+        {
+          "cation": "Ca",
+          "cation_charge": 2,
+          "anion_template": "OH^-",
+          "anion_count": 2,
+          "result": "Ca(OH)2"
+        },
+        {
+          "cation": "Al",
+          "cation_charge": 3,
+          "anion_template": "PO4^3-",
+          "anion_count": 1,
+          "result": "AlPO4"
+        }
+      ]
+    }
+  },
+  "renderer_rules": {
+    "ionic_compound": {
+      "draw_bonds_between_ions": false,
+      "render_each_ion_separately": true,
+      "render_ions_inside_brackets": true,
+      "render_charge_outside_brackets": true,
+      "charge_position": "top_right",
+      "repeat_ions_using_coefficient": true,
+      "preserve_polyatomic_group_structure": true,
+      "show_cation_electrons": false,
+      "show_anion_complete_octet": true,
+      "show_electron_transfer_arrows": false,
+      "show_formula_unit_only": true
+    },
+    "monatomic_cation": {
+      "render_lone_pairs": false,
+      "render_empty_valence_shell": true,
+      "render_charge": true
+    },
+    "monatomic_anion": {
+      "render_lone_pairs": true,
+      "default_lone_pair_count": 4,
+      "render_charge": true
+    },
+    "polyatomic_ion": {
+      "use_template_reference": true,
+      "render_internal_covalent_bonds": true,
+      "render_formal_charges": true,
+      "render_overall_charge": true
+    },
+    "layout": {
+      "default": "horizontal",
+      "cation_position": "left",
+      "anion_position": "right",
+      "minimum_ion_spacing": 2,
+      "instance_spacing": 2.5,
+      "maximum_ions_per_row": 5,
+      "wrap_large_compounds": true,
+      "center_compound": true
+    }
+  },
+  "validation_rules": {
+    "require_neutral_total_charge": true,
+    "total_charge_formula": "sum(ion_charge * coefficient)",
+    "allow_variable_oxidation_states": true,
+    "require_oxidation_state_for_transition_metals": true,
+    "do_not_draw_covalent_bond_between_separate_ions": true,
+    "require_parentheses_for_repeated_polyatomic_ions": true
+  }
+}

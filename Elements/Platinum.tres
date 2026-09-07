@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://dtog8y8w4bu8t"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_5gess"]
+
+[resource]
+script = ExtResource("1_5gess")
+SLOelementName = "Platina"
+ENGelementName = "Platinum"
+Symbol = "Pt"
+AtomicNumber = 78
+NeutronCount = 117
+Mass = 195
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 17
+Perioda6 = 1
+Skupina = 10
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

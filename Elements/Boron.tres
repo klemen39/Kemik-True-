@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://jxynl4vcf2r"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_jhdgp"]
+
+[resource]
+script = ExtResource("1_jhdgp")
+SLOelementName = "Bor"
+ENGelementName = "Boron"
+Symbol = "B"
+AtomicNumber = 5
+NeutronCount = 6
+Mass = 11
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 3
+Skupina = 13
+Blok = 1
+Tip = 2
+Subtip = 4
+metadata/_custom_type_script = "uid://3th8onmepgfc"

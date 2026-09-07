@@ -1,0 +1,183 @@
+[gd_scene format=3 uid="uid://bsk7aa72870lv"]
+
+[ext_resource type="Script" uid="uid://cuhq58sjtcmf1" path="res://Scripts/QuizPreparedController.cs" id="1_abjh2"]
+[ext_resource type="Script" uid="uid://c006pe2qt46v7" path="res://Scripts/SafeAreaMarginContainer.cs" id="1_erx4i"]
+[ext_resource type="Resource" uid="uid://drddby82uxlgj" path="res://QuizVisuals/Visual.tres" id="2_bfrcc"]
+[ext_resource type="Texture2D" uid="uid://clca0bj5f8nak" path="res://Sprites/smoll.png" id="2_xrigj"]
+[ext_resource type="Texture2D" uid="uid://dyladkhymwbmt" path="res://Sprites/Actinoids_Normal.png" id="3_5o0q0"]
+[ext_resource type="Texture2D" uid="uid://dy4mhtl3pwccd" path="res://Sprites/Lanthanoids_Shadow.png" id="4_abjh2"]
+[ext_resource type="Texture2D" uid="uid://bee6gkaqkat6n" path="res://Sprites/Actinoids_Chosen.png" id="5_bfrcc"]
+[ext_resource type="Texture2D" uid="uid://c86djm52541ma" path="res://Sprites/Visual_Tabs/Cross_blue.png" id="6_rv0qq"]
+[ext_resource type="Script" uid="uid://daloqjejtv2in" path="res://Scripts/QuizElementLayout.cs" id="8_xrigj"]
+[ext_resource type="Texture2D" uid="uid://dnxdsvsu52603" path="res://Sprites/Visual_Tabs/Cross.png" id="9_cross"]
+[ext_resource type="Texture2D" uid="uid://b0v1tsdx85pjf" path="res://Sprites/Visual_Tabs/settings_true.png" id="10_settings"]
+[ext_resource type="Texture2D" uid="uid://xoio7pptherq" path="res://Sprites/Visual_Tabs/settings_true_blue.png" id="11_settings_blue"]
+
+[node name="QuizPrepared" type="Control" unique_id=2137065272 node_paths=PackedStringArray("ElementLayout", "NameButton", "AtomicNumberButton", "GroupButton")]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_abjh2")
+ElementLayout = NodePath("MarginContainer/CanvasLayer2/ElementLayoutArea")
+NameButton = NodePath("MarginContainer/CanvasLayer2/Ime")
+AtomicNumberButton = NodePath("MarginContainer/CanvasLayer2/Atomic_Number")
+GroupButton = NodePath("MarginContainer/CanvasLayer2/Vrsta")
+ButtonVisuals = ExtResource("2_bfrcc")
+metadata/_edit_horizontal_guides_ = [1200.0, 1500.0, 1800.0, 2108.0, 540.0]
+metadata/_edit_vertical_guides_ = [540.0]
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1697251310]
+layout_mode = 0
+script = ExtResource("1_erx4i")
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer" unique_id=1926427979]
+position = Vector2(533, 554)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("2_xrigj")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="MarginContainer" unique_id=1182040406]
+
+[node name="CloseButton" type="TextureButton" parent="MarginContainer/CanvasLayer2" unique_id=11357673]
+z_index = 100
+offset_left = 94.0
+offset_top = 98.0
+offset_right = 230.0
+offset_bottom = 234.0
+texture_normal = ExtResource("9_cross")
+texture_pressed = ExtResource("6_rv0qq")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="SettingsButton" type="TextureButton" parent="MarginContainer/CanvasLayer2" unique_id=1722934229]
+z_index = 100
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -247.0
+offset_top = 88.0
+offset_right = -89.0
+offset_bottom = 246.0
+grow_horizontal = 0
+texture_normal = ExtResource("10_settings")
+texture_pressed = ExtResource("11_settings_blue")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Atomic_Number" type="TextureButton" parent="MarginContainer/CanvasLayer2" unique_id=1436356930]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.668
+anchor_right = 0.5
+anchor_bottom = 0.668
+offset_left = -300.0
+offset_top = -100.29999
+offset_right = 300.0
+offset_bottom = 100.29999
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 0
+texture_normal = ExtResource("3_5o0q0")
+texture_pressed = ExtResource("4_abjh2")
+texture_disabled = ExtResource("5_bfrcc")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Ime" type="TextureButton" parent="MarginContainer/CanvasLayer2" unique_id=656879292]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.541
+anchor_right = 0.5
+anchor_bottom = 0.541
+offset_left = -300.0
+offset_top = -100.0249
+offset_right = 300.0
+offset_bottom = 100.0249
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(0, 120)
+size_flags_horizontal = 6
+size_flags_vertical = 0
+texture_normal = ExtResource("3_5o0q0")
+texture_pressed = ExtResource("4_abjh2")
+texture_disabled = ExtResource("5_bfrcc")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Vrsta" type="TextureButton" parent="MarginContainer/CanvasLayer2" unique_id=438767621]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.791
+anchor_right = 0.5
+anchor_bottom = 0.791
+offset_left = -300.0
+offset_top = -100.400024
+offset_right = 300.0
+offset_bottom = 100.400024
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 0
+texture_normal = ExtResource("3_5o0q0")
+texture_pressed = ExtResource("4_abjh2")
+texture_disabled = ExtResource("5_bfrcc")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="ElementLayoutArea" type="Control" parent="MarginContainer/CanvasLayer2" unique_id=772504886]
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 0.5
+mouse_filter = 2
+script = ExtResource("8_xrigj")
+Slot1Path = NodePath("TextureButton")
+Slot2Path = NodePath("TextureButton2")
+Slot3Path = NodePath("TextureButton3")
+Slot4Path = NodePath("TextureButton4")
+Slot5Path = NodePath("TextureButton5")
+
+[node name="TextureButton" type="TextureButton" parent="MarginContainer/CanvasLayer2/ElementLayoutArea" unique_id=1469424452]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureButton2" type="TextureButton" parent="MarginContainer/CanvasLayer2/ElementLayoutArea" unique_id=1619711484]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureButton3" type="TextureButton" parent="MarginContainer/CanvasLayer2/ElementLayoutArea" unique_id=1618346147]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureButton4" type="TextureButton" parent="MarginContainer/CanvasLayer2/ElementLayoutArea" unique_id=1020938395]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureButton5" type="TextureButton" parent="MarginContainer/CanvasLayer2/ElementLayoutArea" unique_id=171362606]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ImeControl" type="Control" parent="MarginContainer/CanvasLayer2" unique_id=2084837551]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/CanvasLayer2" unique_id=378821301]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -359.0
+offset_top = -661.0
+offset_right = -3.0
+offset_bottom = -310.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/CloseButton" to="." method="OpenStartScreen"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/SettingsButton" to="." method="OpenSettingsScene"]

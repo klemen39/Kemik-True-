@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://dxdeq8gtqphbm"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_kpdck"]
+
+[resource]
+script = ExtResource("1_kpdck")
+SLOelementName = "Aluminij"
+ENGelementName = "Aluminium"
+Symbol = "Al"
+AtomicNumber = 13
+NeutronCount = 14
+Mass = 27
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 3
+Skupina = 13
+Blok = 1
+Subtip = 3
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://dx4d2rclcg6te"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_da363"]
+
+[resource]
+script = ExtResource("1_da363")
+SLOelementName = "Uran"
+ENGelementName = "Uranium"
+Symbol = "U"
+AtomicNumber = 92
+NeutronCount = 146
+Mass = 238
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 21
+Perioda6 = 9
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

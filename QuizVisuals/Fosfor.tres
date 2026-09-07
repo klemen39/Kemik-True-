@@ -1,0 +1,54 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://dpxcdhmu6gv00"]
+
+[ext_resource type="Texture2D" uid="uid://cl8eulr834p3p" path="res://Sprites/Numbers_Correct/15_True.png" id="1_ltk34"]
+[ext_resource type="Texture2D" uid="uid://ckafah3nkslgy" path="res://Sprites/Numbers_Wrong/15_Wrong.png" id="2_rdb5w"]
+[ext_resource type="Texture2D" uid="uid://kos8oqqel36" path="res://Sprites/Numbers_Regular/15_Regular.png" id="3_mhhvt"]
+[ext_resource type="Texture2D" uid="uid://t24fan2ntlpq" path="res://Sprites/Quiz_Periodic/15_Periodic.png" id="4_hgm5i"]
+[ext_resource type="Resource" uid="uid://bkrtab7cjpdtc" path="res://Elements/Phosphorus.tres" id="5_7oxxb"]
+[ext_resource type="Texture2D" uid="uid://drj1od14nub81" path="res://Sprites/Quiz_Groups/Nonmetal_correct.png" id="6_clbto"]
+[ext_resource type="Texture2D" uid="uid://dx577xonooky7" path="res://Sprites/Quiz_Groups/Nonmetal_wrong.png" id="7_lnrbh"]
+[ext_resource type="Texture2D" uid="uid://2v0a2p6jb2nl" path="res://Sprites/Quiz_Groups/Nonmetal_regular.png" id="8_3obc3"]
+[ext_resource type="Texture2D" uid="uid://u2yck2upg0kp" path="res://Sprites/Quiz_Names/Phosphorus_Name.png" id="9_33h68"]
+[ext_resource type="Texture2D" uid="uid://mgiyi5ohpnm3" path="res://Sprites/Quiz_Names/Phosphorus_Wrong.png" id="10_1bdu1"]
+[ext_resource type="Texture2D" uid="uid://cju33osbukl0" path="res://Sprites/Quiz_Names/Phosphorus_Neutral.png" id="11_mq81h"]
+[ext_resource type="Texture2D" uid="uid://dk7d546unlnbb" path="res://Sprites/Quiz_Periodic/3_Periodic.png" id="12_tg3e0"]
+[ext_resource type="Texture2D" uid="uid://dwpga2crbyf7t" path="res://Sprites/Numbers_Wrong/3_Wrong.png" id="13_avobv"]
+[ext_resource type="Texture2D" uid="uid://dty8881kv4mp0" path="res://Sprites/Numbers_Regular/3_Regular.png" id="14_ssfe7"]
+[ext_resource type="Texture2D" uid="uid://b4u7jqbaiqf57" path="res://Sprites/Quiz_Groups/nekovine_correct.png" id="15_u33bq"]
+[ext_resource type="Texture2D" uid="uid://d075ou5utp5om" path="res://Sprites/Quiz_Groups/nekovine_wrong.png" id="16_3uud0"]
+[ext_resource type="Texture2D" uid="uid://bs3b1ubwalhj3" path="res://Sprites/Quiz_Groups/nekovine_regular.png" id="17_dlnlf"]
+[ext_resource type="Texture2D" uid="uid://db3blxjdl1jpg" path="res://Sprites/Quiz_Names/Fosfor_Name.png" id="18_umvvb"]
+[ext_resource type="Texture2D" uid="uid://3qxb6u7f4a4b" path="res://Sprites/Quiz_Names/Fosfor_Wrong.png" id="19_uceko"]
+[ext_resource type="Texture2D" uid="uid://hfdk6wkr5mb5" path="res://Sprites/Quiz_Names/Fosfor_Neutral.png" id="20_q8fbu"]
+[ext_resource type="Texture2D" uid="uid://wabqef6jcvky" path="res://Sprites/Quiz_Symbol/Phosphorus_ShadowNameless.png" id="21_h8bfi"]
+[ext_resource type="Texture2D" uid="uid://deohlevrq721j" path="res://Sprites/Quiz_Symbol/Phosphorus_Nameless.png" id="22_h1t8i"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="23_xvw3k"]
+
+[resource]
+script = ExtResource("23_xvw3k")
+ElementData = ExtResource("5_7oxxb")
+SymbolNormal = ExtResource("22_h1t8i")
+SymbolDisabled = ExtResource("21_h8bfi")
+SymbolCorrect = ExtResource("21_h8bfi")
+AtomicNumberNormal = ExtResource("3_mhhvt")
+AtomicNumberDisabled = ExtResource("2_rdb5w")
+AtomicNumberCorrect = ExtResource("1_ltk34")
+SloveneNameNormal = ExtResource("20_q8fbu")
+SloveneNameDisabled = ExtResource("19_uceko")
+SloveneNameCorrect = ExtResource("18_umvvb")
+EnglishNameNormal = ExtResource("11_mq81h")
+EnglishNameDisabled = ExtResource("10_1bdu1")
+EnglishNameCorrect = ExtResource("9_33h68")
+SloveneGroupNormal = ExtResource("17_dlnlf")
+SloveneGroupDisabled = ExtResource("16_3uud0")
+SloveneGroupCorrect = ExtResource("15_u33bq")
+EnglishGroupNormal = ExtResource("8_3obc3")
+EnglishGroupDisabled = ExtResource("7_lnrbh")
+EnglishGroupCorrect = ExtResource("6_clbto")
+PeriodicGroupNormal = ExtResource("14_ssfe7")
+PeriodicGroupDisabled = ExtResource("13_avobv")
+PeriodicGroupCorrect = ExtResource("12_tg3e0")
+ColumnNormal = ExtResource("3_mhhvt")
+ColumnDisabled = ExtResource("2_rdb5w")
+ColumnCorrect = ExtResource("4_hgm5i")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

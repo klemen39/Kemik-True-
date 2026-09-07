@@ -1,0 +1,54 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://dx33g60jp77eq"]
+
+[ext_resource type="Texture2D" uid="uid://5ndp2p34b4f6" path="res://Sprites/Numbers_Correct/16_True.png" id="1_207qn"]
+[ext_resource type="Texture2D" uid="uid://cxdbqdir3fq21" path="res://Sprites/Numbers_Wrong/16_Wrong.png" id="2_1gb1b"]
+[ext_resource type="Texture2D" uid="uid://bklflddgj7vkm" path="res://Sprites/Numbers_Regular/16_Regular.png" id="3_jghnk"]
+[ext_resource type="Texture2D" uid="uid://bgwgfkvrvnhcf" path="res://Sprites/Quiz_Periodic/16_Periodic.png" id="4_8aw6w"]
+[ext_resource type="Resource" uid="uid://66wlobuo0q34" path="res://Elements/Sulfur.tres" id="5_n3ybs"]
+[ext_resource type="Texture2D" uid="uid://drj1od14nub81" path="res://Sprites/Quiz_Groups/Nonmetal_correct.png" id="6_qrw23"]
+[ext_resource type="Texture2D" uid="uid://dx577xonooky7" path="res://Sprites/Quiz_Groups/Nonmetal_wrong.png" id="7_wlfvd"]
+[ext_resource type="Texture2D" uid="uid://2v0a2p6jb2nl" path="res://Sprites/Quiz_Groups/Nonmetal_regular.png" id="8_fs1ea"]
+[ext_resource type="Texture2D" uid="uid://52r560lqu15l" path="res://Sprites/Quiz_Names/Sulfur_Name.png" id="9_a6mbx"]
+[ext_resource type="Texture2D" uid="uid://crt7kh0bsi1yy" path="res://Sprites/Quiz_Names/Sulfur_Wrong.png" id="10_2qbov"]
+[ext_resource type="Texture2D" uid="uid://ixxd7gvv8iq1" path="res://Sprites/Quiz_Names/Sulfur_Neutral.png" id="11_8f6y7"]
+[ext_resource type="Texture2D" uid="uid://dk7d546unlnbb" path="res://Sprites/Quiz_Periodic/3_Periodic.png" id="12_cj2uy"]
+[ext_resource type="Texture2D" uid="uid://dwpga2crbyf7t" path="res://Sprites/Numbers_Wrong/3_Wrong.png" id="13_3aetj"]
+[ext_resource type="Texture2D" uid="uid://dty8881kv4mp0" path="res://Sprites/Numbers_Regular/3_Regular.png" id="14_6u7tx"]
+[ext_resource type="Texture2D" uid="uid://b4u7jqbaiqf57" path="res://Sprites/Quiz_Groups/nekovine_correct.png" id="15_1iwxb"]
+[ext_resource type="Texture2D" uid="uid://d075ou5utp5om" path="res://Sprites/Quiz_Groups/nekovine_wrong.png" id="16_dx48d"]
+[ext_resource type="Texture2D" uid="uid://bs3b1ubwalhj3" path="res://Sprites/Quiz_Groups/nekovine_regular.png" id="17_mspsa"]
+[ext_resource type="Texture2D" uid="uid://megi0jb6stdi" path="res://Sprites/Quiz_Names/Žveplo_Name.png" id="18_adv7y"]
+[ext_resource type="Texture2D" uid="uid://bt2ur2dlmfk3l" path="res://Sprites/Quiz_Names/Žveplo_Wrong.png" id="19_leuvv"]
+[ext_resource type="Texture2D" uid="uid://b52mhsottq8a3" path="res://Sprites/Quiz_Names/Žveplo_Neutral.png" id="20_e7mau"]
+[ext_resource type="Texture2D" uid="uid://8fsyh8mxrtgf" path="res://Sprites/Quiz_Symbol/Sulfur_ShadowNameless.png" id="21_ohaap"]
+[ext_resource type="Texture2D" uid="uid://elygcm33h6f0" path="res://Sprites/Quiz_Symbol/Sulfur_Nameless.png" id="22_d0u4n"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="23_on472"]
+
+[resource]
+script = ExtResource("23_on472")
+ElementData = ExtResource("5_n3ybs")
+SymbolNormal = ExtResource("22_d0u4n")
+SymbolDisabled = ExtResource("21_ohaap")
+SymbolCorrect = ExtResource("21_ohaap")
+AtomicNumberNormal = ExtResource("3_jghnk")
+AtomicNumberDisabled = ExtResource("2_1gb1b")
+AtomicNumberCorrect = ExtResource("1_207qn")
+SloveneNameNormal = ExtResource("20_e7mau")
+SloveneNameDisabled = ExtResource("19_leuvv")
+SloveneNameCorrect = ExtResource("18_adv7y")
+EnglishNameNormal = ExtResource("11_8f6y7")
+EnglishNameDisabled = ExtResource("10_2qbov")
+EnglishNameCorrect = ExtResource("9_a6mbx")
+SloveneGroupNormal = ExtResource("17_mspsa")
+SloveneGroupDisabled = ExtResource("16_dx48d")
+SloveneGroupCorrect = ExtResource("15_1iwxb")
+EnglishGroupNormal = ExtResource("8_fs1ea")
+EnglishGroupDisabled = ExtResource("7_wlfvd")
+EnglishGroupCorrect = ExtResource("6_qrw23")
+PeriodicGroupNormal = ExtResource("14_6u7tx")
+PeriodicGroupDisabled = ExtResource("13_3aetj")
+PeriodicGroupCorrect = ExtResource("12_cj2uy")
+ColumnNormal = ExtResource("3_jghnk")
+ColumnDisabled = ExtResource("2_1gb1b")
+ColumnCorrect = ExtResource("4_8aw6w")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

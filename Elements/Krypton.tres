@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://d0qcogeko4kij"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_jlc4a"]
+
+[resource]
+script = ExtResource("1_jlc4a")
+SLOelementName = "Kripton"
+ENGelementName = "Krypton"
+Symbol = "Kr"
+AtomicNumber = 36
+NeutronCount = 48
+Mass = 84
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+metadata/_custom_type_script = "uid://3th8onmepgfc"

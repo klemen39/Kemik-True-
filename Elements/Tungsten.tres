@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://cbdoj7b8gfkm"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_slayl"]
+
+[resource]
+script = ExtResource("1_slayl")
+SLOelementName = "Volfram"
+ENGelementName = "Tungsten"
+Symbol = "W"
+AtomicNumber = 74
+NeutronCount = 110
+Mass = 184
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 12
+Perioda6 = 2
+Skupina = 6
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="QuizPreparedButtonVisuals" format=3 uid="uid://drddby82uxlgj"]
+
+[ext_resource type="Texture2D" uid="uid://du4q3a70fpkah" path="res://Sprites/Quiz_Periodic/Atomic_disabled.png" id="1_drukd"]
+[ext_resource type="Script" uid="uid://ddbroenqhl33k" path="res://Scripts/QuizPreparedButtonVisuals.cs" id="1_sgr3s"]
+[ext_resource type="Texture2D" uid="uid://bld1vlr0dbnlv" path="res://Sprites/Quiz_Periodic/Atomic_regular.png" id="2_lhv1r"]
+[ext_resource type="Texture2D" uid="uid://dnee60r3dqoki" path="res://Sprites/Quiz_Periodic/elementtype_disabled.png" id="3_hmhfy"]
+[ext_resource type="Texture2D" uid="uid://dahmf8oh8byr8" path="res://Sprites/Quiz_Periodic/elementtype_regular.png" id="4_usn2d"]
+[ext_resource type="Texture2D" uid="uid://c8ccdwri4ljht" path="res://Sprites/Quiz_Periodic/elementname_disabled.png" id="5_echif"]
+[ext_resource type="Texture2D" uid="uid://cb8bga43vkn1y" path="res://Sprites/Quiz_Periodic/elementname_regular.png" id="6_7bifv"]
+[ext_resource type="Texture2D" uid="uid://phxoj33fefu6" path="res://Sprites/Quiz_Periodic/Atomsko_disabled.png" id="7_sv24m"]
+[ext_resource type="Texture2D" uid="uid://cru2f16am3215" path="res://Sprites/Quiz_Periodic/Atomsko_regular.png" id="8_txers"]
+[ext_resource type="Texture2D" uid="uid://d6586yhs4exh" path="res://Sprites/Quiz_Periodic/vrstaelemetna_disabled.png" id="9_g3jfj"]
+[ext_resource type="Texture2D" uid="uid://cbx2ipspf1rqe" path="res://Sprites/Quiz_Periodic/vrstaelemetna_regular.png" id="10_1oyd7"]
+[ext_resource type="Texture2D" uid="uid://ulod018xke55" path="res://Sprites/Quiz_Periodic/ime_disabled.png" id="11_n8dxc"]
+[ext_resource type="Texture2D" uid="uid://dbq2hvscx3lcb" path="res://Sprites/Quiz_Periodic/ime_regular.png" id="12_1e6h6"]
+
+[resource]
+script = ExtResource("1_sgr3s")
+SloveneNameNormal = ExtResource("12_1e6h6")
+SloveneNameDisabled = ExtResource("11_n8dxc")
+EnglishNameNormal = ExtResource("6_7bifv")
+EnglishNameDisabled = ExtResource("5_echif")
+SloveneAtomicNumberNormal = ExtResource("8_txers")
+SloveneAtomicNumberDisabled = ExtResource("7_sv24m")
+EnglishAtomicNumberNormal = ExtResource("2_lhv1r")
+EnglishAtomicNumberDisabled = ExtResource("1_drukd")
+SloveneGroupNormal = ExtResource("10_1oyd7")
+SloveneGroupDisabled = ExtResource("9_g3jfj")
+EnglishGroupNormal = ExtResource("4_usn2d")
+EnglishGroupDisabled = ExtResource("3_hmhfy")
+metadata/_custom_type_script = "uid://ddbroenqhl33k"

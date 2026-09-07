@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://cns7ggqrtho8k"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_tj7s2"]
+
+[resource]
+script = ExtResource("1_tj7s2")
+SLOelementName = "Tantal"
+ENGelementName = "Tantalum"
+Symbol = "Ta"
+AtomicNumber = 73
+NeutronCount = 108
+Mass = 181
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 11
+Perioda6 = 2
+Skupina = 5
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://bsv3nm2mwh1eu"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_afqmx"]
+
+[resource]
+script = ExtResource("1_afqmx")
+SLOelementName = "Zlato"
+ENGelementName = "Gold"
+Symbol = "Au"
+AtomicNumber = 79
+NeutronCount = 118
+Mass = 197
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 1
+Skupina = 11
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

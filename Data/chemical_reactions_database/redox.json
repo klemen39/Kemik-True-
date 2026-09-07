@@ -1,0 +1,1170 @@
+[
+  {
+    "id": 161,
+    "name": {
+      "en": "Reduction of iron(III) oxide by carbon monoxide",
+      "sl": "Redukcija železovega(III) oksida z ogljikovim monoksidom"
+    },
+    "equation": "Fe2O3 + 3 CO -> 2 Fe + 3 CO2",
+    "reaction_type": "redox",
+    "subcategory": "metallurgical reduction",
+    "reactants": [
+      {
+        "formula": "Fe2O3",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe",
+        "coefficient": 2
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Blast-furnace step.",
+    "tags": [
+      "redox",
+      "metallurgical_reduction"
+    ]
+  },
+  {
+    "id": 162,
+    "name": {
+      "en": "Reduction of copper(II) oxide by hydrogen",
+      "sl": "Redukcija bakrovega(II) oksida z vodikom"
+    },
+    "equation": "CuO + H2 -> Cu + H2O",
+    "reaction_type": "redox",
+    "subcategory": "metal oxide reduction",
+    "reactants": [
+      {
+        "formula": "CuO",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cu",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Copper metal forms.",
+    "tags": [
+      "redox",
+      "metal_oxide_reduction"
+    ]
+  },
+  {
+    "id": 163,
+    "name": {
+      "en": "Oxidation of chloride by manganese dioxide",
+      "sl": "Oksidacija klorida z manganovim dioksidom"
+    },
+    "equation": "MnO2 + 4 HCl -> MnCl2 + Cl2 + 2 H2O",
+    "reaction_type": "redox",
+    "subcategory": "halogen preparation",
+    "reactants": [
+      {
+        "formula": "MnO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "HCl",
+        "coefficient": 4
+      }
+    ],
+    "products": [
+      {
+        "formula": "MnCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Produces chlorine gas.",
+    "tags": [
+      "redox",
+      "halogen_preparation"
+    ]
+  },
+  {
+    "id": 164,
+    "name": {
+      "en": "Permanganate oxidation of iron(II)",
+      "sl": "Permanganatna oksidacija železa(II)"
+    },
+    "equation": "MnO4^- + 5 Fe^2+ + 8 H+ -> Mn^2+ + 5 Fe^3+ + 4 H2O",
+    "reaction_type": "redox",
+    "subcategory": "aqueous redox",
+    "reactants": [
+      {
+        "formula": "MnO4^-",
+        "coefficient": 1
+      },
+      {
+        "formula": "Fe^2+",
+        "coefficient": 5
+      },
+      {
+        "formula": "H+",
+        "coefficient": 8
+      }
+    ],
+    "products": [
+      {
+        "formula": "Mn^2+",
+        "coefficient": 1
+      },
+      {
+        "formula": "Fe^3+",
+        "coefficient": 5
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 4
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Acidic solution.",
+    "tags": [
+      "redox",
+      "aqueous_redox"
+    ]
+  },
+  {
+    "id": 165,
+    "name": {
+      "en": "Dichromate oxidation of iron(II)",
+      "sl": "Dikromatna oksidacija železa(II)"
+    },
+    "equation": "Cr2O7^2- + 6 Fe^2+ + 14 H+ -> 2 Cr^3+ + 6 Fe^3+ + 7 H2O",
+    "reaction_type": "redox",
+    "subcategory": "aqueous redox",
+    "reactants": [
+      {
+        "formula": "Cr2O7^2-",
+        "coefficient": 1
+      },
+      {
+        "formula": "Fe^2+",
+        "coefficient": 6
+      },
+      {
+        "formula": "H+",
+        "coefficient": 14
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cr^3+",
+        "coefficient": 2
+      },
+      {
+        "formula": "Fe^3+",
+        "coefficient": 6
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 7
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Acidic solution.",
+    "tags": [
+      "redox",
+      "aqueous_redox"
+    ]
+  },
+  {
+    "id": 166,
+    "name": {
+      "en": "Zinc-copper ion redox",
+      "sl": "Redoks med cinkom in bakrovimi ioni"
+    },
+    "equation": "Zn + Cu^2+ -> Zn^2+ + Cu",
+    "reaction_type": "redox",
+    "subcategory": "metal-ion redox",
+    "reactants": [
+      {
+        "formula": "Zn",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cu^2+",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Zn^2+",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cu",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Daniell-cell chemistry.",
+    "tags": [
+      "redox",
+      "metal-ion_redox"
+    ]
+  },
+  {
+    "id": 167,
+    "name": {
+      "en": "Iron(II)-cerium(IV) redox",
+      "sl": "Redoks železo(II)-cerij(IV)"
+    },
+    "equation": "Fe^2+ + Ce^4+ -> Fe^3+ + Ce^3+",
+    "reaction_type": "redox",
+    "subcategory": "electron transfer",
+    "reactants": [
+      {
+        "formula": "Fe^2+",
+        "coefficient": 1
+      },
+      {
+        "formula": "Ce^4+",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe^3+",
+        "coefficient": 1
+      },
+      {
+        "formula": "Ce^3+",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "One-electron redox reaction.",
+    "tags": [
+      "redox",
+      "electron_transfer"
+    ]
+  },
+  {
+    "id": 168,
+    "name": {
+      "en": "Disproportionation of chlorine in cold alkali",
+      "sl": "Disproporcionacija klora v hladni bazi"
+    },
+    "equation": "Cl2 + 2 NaOH -> NaCl + NaClO + H2O",
+    "reaction_type": "redox",
+    "subcategory": "disproportionation",
+    "reactants": [
+      {
+        "formula": "Cl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaClO",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Cold dilute alkali.",
+    "tags": [
+      "redox",
+      "disproportionation"
+    ]
+  },
+  {
+    "id": 169,
+    "name": {
+      "en": "Hydrogen peroxide oxidizes iodide",
+      "sl": "Vodikov peroksid oksidira jodid"
+    },
+    "equation": "H2O2 + 2 I^- + 2 H+ -> I2 + 2 H2O",
+    "reaction_type": "redox",
+    "subcategory": "peroxide redox",
+    "reactants": [
+      {
+        "formula": "H2O2",
+        "coefficient": 1
+      },
+      {
+        "formula": "I^-",
+        "coefficient": 2
+      },
+      {
+        "formula": "H+",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "I2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Acidic solution.",
+    "tags": [
+      "redox",
+      "peroxide_redox"
+    ]
+  },
+  {
+    "id": 170,
+    "name": {
+      "en": "Thiosulfate reduction of iodine",
+      "sl": "Tiosulfatna redukcija joda"
+    },
+    "equation": "2 S2O3^2- + I2 -> S4O6^2- + 2 I^-",
+    "reaction_type": "redox",
+    "subcategory": "iodometry",
+    "reactants": [
+      {
+        "formula": "S2O3^2-",
+        "coefficient": 2
+      },
+      {
+        "formula": "I2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "S4O6^2-",
+        "coefficient": 1
+      },
+      {
+        "formula": "I^-",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Used in titrations.",
+    "tags": [
+      "redox",
+      "iodometry"
+    ]
+  },
+  {
+    "id": 171,
+    "name": {
+      "en": "Permanganate oxidation of oxalate",
+      "sl": "Permanganatna oksidacija oksalata"
+    },
+    "equation": "2 MnO4^- + 5 C2O4^2- + 16 H+ -> 2 Mn^2+ + 10 CO2 + 8 H2O",
+    "reaction_type": "redox",
+    "subcategory": "aqueous redox",
+    "reactants": [
+      {
+        "formula": "MnO4^-",
+        "coefficient": 2
+      },
+      {
+        "formula": "C2O4^2-",
+        "coefficient": 5
+      },
+      {
+        "formula": "H+",
+        "coefficient": 16
+      }
+    ],
+    "products": [
+      {
+        "formula": "Mn^2+",
+        "coefficient": 2
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 10
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 8
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Acidic and often warmed.",
+    "tags": [
+      "redox",
+      "aqueous_redox"
+    ]
+  },
+  {
+    "id": 172,
+    "name": {
+      "en": "Dichromate oxidation of ethanol",
+      "sl": "Dikromatna oksidacija etanola"
+    },
+    "equation": "3 C2H5OH + 2 Cr2O7^2- + 16 H+ -> 3 CH3COOH + 4 Cr^3+ + 11 H2O",
+    "reaction_type": "redox",
+    "subcategory": "organic redox",
+    "reactants": [
+      {
+        "formula": "C2H5OH",
+        "coefficient": 3
+      },
+      {
+        "formula": "Cr2O7^2-",
+        "coefficient": 2
+      },
+      {
+        "formula": "H+",
+        "coefficient": 16
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3COOH",
+        "coefficient": 3
+      },
+      {
+        "formula": "Cr^3+",
+        "coefficient": 4
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 11
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Strong oxidation to acetic acid.",
+    "tags": [
+      "redox",
+      "organic_redox"
+    ]
+  },
+  {
+    "id": 173,
+    "name": {
+      "en": "Copper and concentrated nitric acid",
+      "sl": "Baker in koncentrirana dušikova kislina"
+    },
+    "equation": "Cu + 4 HNO3 -> Cu(NO3)2 + 2 NO2 + 2 H2O",
+    "reaction_type": "redox",
+    "subcategory": "metal-acid redox",
+    "reactants": [
+      {
+        "formula": "Cu",
+        "coefficient": 1
+      },
+      {
+        "formula": "HNO3",
+        "coefficient": 4
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cu(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NO2",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Produces brown NO2.",
+    "tags": [
+      "redox",
+      "metal-acid_redox"
+    ]
+  },
+  {
+    "id": 174,
+    "name": {
+      "en": "Copper and dilute nitric acid",
+      "sl": "Baker in razredčena dušikova kislina"
+    },
+    "equation": "3 Cu + 8 HNO3 -> 3 Cu(NO3)2 + 2 NO + 4 H2O",
+    "reaction_type": "redox",
+    "subcategory": "metal-acid redox",
+    "reactants": [
+      {
+        "formula": "Cu",
+        "coefficient": 3
+      },
+      {
+        "formula": "HNO3",
+        "coefficient": 8
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cu(NO3)2",
+        "coefficient": 3
+      },
+      {
+        "formula": "NO",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 4
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Produces colorless NO.",
+    "tags": [
+      "redox",
+      "metal-acid_redox"
+    ]
+  },
+  {
+    "id": 175,
+    "name": {
+      "en": "Oxidation of sulfite by permanganate",
+      "sl": "Oksidacija sulfita s permanganatom"
+    },
+    "equation": "2 MnO4^- + 5 SO3^2- + 6 H+ -> 2 Mn^2+ + 5 SO4^2- + 3 H2O",
+    "reaction_type": "redox",
+    "subcategory": "aqueous redox",
+    "reactants": [
+      {
+        "formula": "MnO4^-",
+        "coefficient": 2
+      },
+      {
+        "formula": "SO3^2-",
+        "coefficient": 5
+      },
+      {
+        "formula": "H+",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "formula": "Mn^2+",
+        "coefficient": 2
+      },
+      {
+        "formula": "SO4^2-",
+        "coefficient": 5
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Acidic solution.",
+    "tags": [
+      "redox",
+      "aqueous_redox"
+    ]
+  },
+  {
+    "id": 176,
+    "name": {
+      "en": "Chlorine oxidizes iron(II)",
+      "sl": "Klor oksidira železo(II)"
+    },
+    "equation": "Cl2 + 2 Fe^2+ -> 2 Cl^- + 2 Fe^3+",
+    "reaction_type": "redox",
+    "subcategory": "halogen redox",
+    "reactants": [
+      {
+        "formula": "Cl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Fe^2+",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cl^-",
+        "coefficient": 2
+      },
+      {
+        "formula": "Fe^3+",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Chlorine acts as oxidant.",
+    "tags": [
+      "redox",
+      "halogen_redox"
+    ]
+  },
+  {
+    "id": 177,
+    "name": {
+      "en": "Bromine oxidizes iodide",
+      "sl": "Brom oksidira jodid"
+    },
+    "equation": "Br2 + 2 I^- -> 2 Br^- + I2",
+    "reaction_type": "redox",
+    "subcategory": "halogen redox",
+    "reactants": [
+      {
+        "formula": "Br2",
+        "coefficient": 1
+      },
+      {
+        "formula": "I^-",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Br^-",
+        "coefficient": 2
+      },
+      {
+        "formula": "I2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Activity-series reaction.",
+    "tags": [
+      "redox",
+      "halogen_redox"
+    ]
+  },
+  {
+    "id": 178,
+    "name": {
+      "en": "Hydrogen peroxide disproportionation",
+      "sl": "Disproporcionacija vodikovega peroksida"
+    },
+    "equation": "2 H2O2 -> 2 H2O + O2",
+    "reaction_type": "redox",
+    "subcategory": "disproportionation",
+    "reactants": [
+      {
+        "formula": "H2O2",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Oxygen is both oxidized and reduced.",
+    "tags": [
+      "redox",
+      "disproportionation"
+    ]
+  },
+  {
+    "id": 179,
+    "name": {
+      "en": "Potassium permanganate and hydrogen peroxide",
+      "sl": "Kalijev permanganat in vodikov peroksid"
+    },
+    "equation": "2 MnO4^- + 5 H2O2 + 6 H+ -> 2 Mn^2+ + 5 O2 + 8 H2O",
+    "reaction_type": "redox",
+    "subcategory": "aqueous redox",
+    "reactants": [
+      {
+        "formula": "MnO4^-",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O2",
+        "coefficient": 5
+      },
+      {
+        "formula": "H+",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "formula": "Mn^2+",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 5
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 8
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Acidic solution.",
+    "tags": [
+      "redox",
+      "aqueous_redox"
+    ]
+  },
+  {
+    "id": 180,
+    "name": {
+      "en": "Iodate-iodide reaction",
+      "sl": "Reakcija jodata in jodida"
+    },
+    "equation": "IO3^- + 5 I^- + 6 H+ -> 3 I2 + 3 H2O",
+    "reaction_type": "redox",
+    "subcategory": "aqueous redox",
+    "reactants": [
+      {
+        "formula": "IO3^-",
+        "coefficient": 1
+      },
+      {
+        "formula": "I^-",
+        "coefficient": 5
+      },
+      {
+        "formula": "H+",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "formula": "I2",
+        "coefficient": 3
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": true,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "medium",
+    "notes": "Used in iodine-clock chemistry.",
+    "tags": [
+      "redox",
+      "aqueous_redox"
+    ]
+  }
+]

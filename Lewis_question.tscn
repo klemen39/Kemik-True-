@@ -1,0 +1,120 @@
+[gd_scene load_steps=11 format=3 uid="uid://71xrut7rve2u"]
+
+[ext_resource type="Script" path="res://Scripts/LewisQuestionController.cs" id="1_lewis_question"]
+[ext_resource type="Script" uid="uid://c006pe2qt46v7" path="res://Scripts/SafeAreaMarginContainer.cs" id="2_safe"]
+[ext_resource type="Texture2D" uid="uid://clca0bj5f8nak" path="res://Sprites/smoll.png" id="3_bg"]
+[ext_resource type="Texture2D" uid="uid://dnxdsvsu52603" path="res://Sprites/Visual_Tabs/Cross.png" id="4_cross"]
+[ext_resource type="Texture2D" uid="uid://c86djm52541ma" path="res://Sprites/Visual_Tabs/Cross_blue.png" id="5_cross_blue"]
+[ext_resource type="Texture2D" uid="uid://b0v1tsdx85pjf" path="res://Sprites/Visual_Tabs/settings_true.png" id="6_settings"]
+[ext_resource type="Texture2D" uid="uid://xoio7pptherq" path="res://Sprites/Visual_Tabs/settings_true_blue.png" id="7_settings_blue"]
+[ext_resource type="Texture2D" uid="uid://cryj54p4t3xol" path="res://Sprites/Visual_Tabs/regular_cross.png" id="8_wrong"]
+[ext_resource type="Texture2D" uid="uid://dv1kwno56symr" path="res://Sprites/Visual_Tabs/correctss_regular.png" id="9_correct"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+bg_color = Color(0.0705882, 0.101961, 0.113725, 1)
+border_width_left = 6
+border_width_top = 6
+border_width_right = 6
+border_width_bottom = 6
+border_color = Color(0.2, 0.27451, 0.301961, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="LewisQuestion" type="Control" node_paths=PackedStringArray("CompoundPromptLabel", "StructureArea")]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_lewis_question")
+CompoundPromptLabel = NodePath("MarginContainer/CanvasLayer2/CompoundPromptLabel")
+StructureArea = NodePath("MarginContainer/CanvasLayer2/StructureArea")
+metadata/_edit_horizontal_guides_ = [166.0, 372.0, 535.0, 735.0, 1565.0, 1770.0, 2020.0]
+metadata/_edit_vertical_guides_ = [540.0, 72.0, 1008.0]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+script = ExtResource("2_safe")
+
+[node name="Background" type="Sprite2D" parent="MarginContainer"]
+position = Vector2(540, 1200)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("3_bg")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="MarginContainer"]
+
+[node name="CloseButton" type="TextureButton" parent="MarginContainer/CanvasLayer2"]
+z_index = 100
+offset_left = 94.0
+offset_top = 98.0
+offset_right = 230.0
+offset_bottom = 234.0
+texture_normal = ExtResource("4_cross")
+texture_pressed = ExtResource("5_cross_blue")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="SettingsButton" type="TextureButton" parent="MarginContainer/CanvasLayer2"]
+z_index = 100
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -247.0
+offset_top = 88.0
+offset_right = -89.0
+offset_bottom = 246.0
+grow_horizontal = 0
+texture_normal = ExtResource("6_settings")
+texture_pressed = ExtResource("7_settings_blue")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="CompoundPromptLabel" type="Label" parent="MarginContainer/CanvasLayer2"]
+offset_left = 64.0
+offset_top = 520.0
+offset_right = 1016.0
+offset_bottom = 670.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_panel")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="StructureFrame" type="Panel" parent="MarginContainer/CanvasLayer2"]
+offset_left = 56.0
+offset_top = 750.0
+offset_right = 1024.0
+offset_bottom = 1565.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="StructureArea" type="Control" parent="MarginContainer/CanvasLayer2"]
+offset_left = 56.0
+offset_top = 750.0
+offset_right = 1024.0
+offset_bottom = 1565.0
+mouse_filter = 2
+
+[node name="WrongButton" type="TextureButton" parent="MarginContainer/CanvasLayer2"]
+offset_left = 313.0
+offset_top = 1990.0
+offset_right = 463.0
+offset_bottom = 2140.0
+texture_normal = ExtResource("8_wrong")
+texture_pressed = ExtResource("8_wrong")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="CorrectButton" type="TextureButton" parent="MarginContainer/CanvasLayer2"]
+offset_left = 617.0
+offset_top = 1990.0
+offset_right = 767.0
+offset_bottom = 2140.0
+texture_normal = ExtResource("9_correct")
+texture_pressed = ExtResource("9_correct")
+ignore_texture_size = true
+stretch_mode = 5
+
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/CloseButton" to="." method="OpenStartScreen"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/SettingsButton" to="." method="OpenSettingsScene"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/WrongButton" to="." method="OnWrongPressed"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/CorrectButton" to="." method="OnCorrectPressed"]

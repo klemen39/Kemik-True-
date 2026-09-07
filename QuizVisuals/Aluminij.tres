@@ -1,0 +1,54 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://u83mseanepho"]
+
+[ext_resource type="Texture2D" uid="uid://dgy2w4r83y8ui" path="res://Sprites/Numbers_Correct/13_True.png" id="1_yo46q"]
+[ext_resource type="Texture2D" uid="uid://bc2obq3uxsrd7" path="res://Sprites/Numbers_Wrong/13_Wrong.png" id="2_680q8"]
+[ext_resource type="Texture2D" uid="uid://c3wfibfaqo2b" path="res://Sprites/Numbers_Regular/13_Regular.png" id="3_ixqqd"]
+[ext_resource type="Texture2D" uid="uid://df6mtgb4dqacu" path="res://Sprites/Quiz_Periodic/13_Periodic.png" id="4_t3tq2"]
+[ext_resource type="Resource" uid="uid://dxdeq8gtqphbm" path="res://Elements/Aluminium.tres" id="5_520vt"]
+[ext_resource type="Texture2D" uid="uid://cv6dr6vhrf6fi" path="res://Sprites/Quiz_Groups/pt_correct.png" id="6_t3ik4"]
+[ext_resource type="Texture2D" uid="uid://b68yvri8h1nyo" path="res://Sprites/Quiz_Groups/pt_wrong.png" id="7_ci0pt"]
+[ext_resource type="Texture2D" uid="uid://xt48hrreyaqi" path="res://Sprites/Quiz_Groups/pt_regular.png" id="8_ynalh"]
+[ext_resource type="Texture2D" uid="uid://c6i6vk7m42ysk" path="res://Sprites/Quiz_Names/Aluminium_Name.png" id="9_wkh0b"]
+[ext_resource type="Texture2D" uid="uid://ctt8cu0in5dug" path="res://Sprites/Quiz_Names/Aluminium_Wrong.png" id="10_3ttra"]
+[ext_resource type="Texture2D" uid="uid://c7wdfcsmq02y8" path="res://Sprites/Quiz_Names/Aluminium_Neutral.png" id="11_mqose"]
+[ext_resource type="Texture2D" uid="uid://dk7d546unlnbb" path="res://Sprites/Quiz_Periodic/3_Periodic.png" id="12_jv338"]
+[ext_resource type="Texture2D" uid="uid://dwpga2crbyf7t" path="res://Sprites/Numbers_Wrong/3_Wrong.png" id="13_7lrt6"]
+[ext_resource type="Texture2D" uid="uid://dty8881kv4mp0" path="res://Sprites/Numbers_Regular/3_Regular.png" id="14_ldvgl"]
+[ext_resource type="Texture2D" uid="uid://snimtv1ftgjy" path="res://Sprites/Quiz_Groups/šibka_correct.png" id="15_kbo7j"]
+[ext_resource type="Texture2D" uid="uid://blxuij5sfobyn" path="res://Sprites/Quiz_Groups/šibka_wrong.png" id="16_eocio"]
+[ext_resource type="Texture2D" uid="uid://txt6tn3kctqo" path="res://Sprites/Quiz_Groups/šibka_regular.png" id="17_akac6"]
+[ext_resource type="Texture2D" uid="uid://dpvhgv6us6y63" path="res://Sprites/Quiz_Names/Aluminij_Name.png" id="18_iamrd"]
+[ext_resource type="Texture2D" uid="uid://c8xfwswkkkdhe" path="res://Sprites/Quiz_Names/Aluminij_Wrong.png" id="19_8jqhq"]
+[ext_resource type="Texture2D" uid="uid://dax3hb4psl7th" path="res://Sprites/Quiz_Names/Aluminij_Neutral.png" id="20_cbd3u"]
+[ext_resource type="Texture2D" uid="uid://rh405jhh2o7v" path="res://Sprites/Quiz_Symbol/Aluminium_ShadowNameless.png" id="21_ffkxh"]
+[ext_resource type="Texture2D" uid="uid://hv881h6nolvn" path="res://Sprites/Quiz_Symbol/Aluminium_Nameless.png" id="22_i3688"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="23_jmk2y"]
+
+[resource]
+script = ExtResource("23_jmk2y")
+ElementData = ExtResource("5_520vt")
+SymbolNormal = ExtResource("22_i3688")
+SymbolDisabled = ExtResource("21_ffkxh")
+SymbolCorrect = ExtResource("21_ffkxh")
+AtomicNumberNormal = ExtResource("3_ixqqd")
+AtomicNumberDisabled = ExtResource("2_680q8")
+AtomicNumberCorrect = ExtResource("1_yo46q")
+SloveneNameNormal = ExtResource("20_cbd3u")
+SloveneNameDisabled = ExtResource("19_8jqhq")
+SloveneNameCorrect = ExtResource("18_iamrd")
+EnglishNameNormal = ExtResource("11_mqose")
+EnglishNameDisabled = ExtResource("10_3ttra")
+EnglishNameCorrect = ExtResource("9_wkh0b")
+SloveneGroupNormal = ExtResource("17_akac6")
+SloveneGroupDisabled = ExtResource("16_eocio")
+SloveneGroupCorrect = ExtResource("15_kbo7j")
+EnglishGroupNormal = ExtResource("8_ynalh")
+EnglishGroupDisabled = ExtResource("7_ci0pt")
+EnglishGroupCorrect = ExtResource("6_t3ik4")
+PeriodicGroupNormal = ExtResource("14_ldvgl")
+PeriodicGroupDisabled = ExtResource("13_7lrt6")
+PeriodicGroupCorrect = ExtResource("12_jv338")
+ColumnNormal = ExtResource("3_ixqqd")
+ColumnDisabled = ExtResource("2_680q8")
+ColumnCorrect = ExtResource("4_t3tq2")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

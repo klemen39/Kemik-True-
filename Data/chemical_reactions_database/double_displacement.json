@@ -1,0 +1,1652 @@
+[
+  {
+    "id": 81,
+    "name": {
+      "en": "Silver chloride precipitation",
+      "sl": "Obarjanje srebrovega klorida"
+    },
+    "equation": "AgNO3 + NaCl -> AgCl + NaNO3",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "AgNO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "AgCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaNO3",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "AgCl is a white precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 82,
+    "name": {
+      "en": "Barium sulfate precipitation",
+      "sl": "Obarjanje barijevega sulfata"
+    },
+    "equation": "BaCl2 + Na2SO4 -> BaSO4 + 2 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "BaCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2SO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "BaSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "BaSO4 is a white precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 83,
+    "name": {
+      "en": "Lead(II) iodide precipitation",
+      "sl": "Obarjanje svinčevega(II) jodida"
+    },
+    "equation": "Pb(NO3)2 + 2 KI -> PbI2 + 2 KNO3",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "Pb(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "KI",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "PbI2",
+        "coefficient": 1
+      },
+      {
+        "formula": "KNO3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "PbI2 is a yellow precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 84,
+    "name": {
+      "en": "Calcium carbonate precipitation",
+      "sl": "Obarjanje kalcijevega karbonata"
+    },
+    "equation": "CaCl2 + Na2CO3 -> CaCO3 + 2 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "CaCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2CO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaCO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "CaCO3 is a white precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 85,
+    "name": {
+      "en": "Copper(II) hydroxide precipitation",
+      "sl": "Obarjanje bakrovega(II) hidroksida"
+    },
+    "equation": "CuSO4 + 2 NaOH -> Cu(OH)2 + Na2SO4",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "CuSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cu(OH)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2SO4",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Blue precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 86,
+    "name": {
+      "en": "Iron(III) hydroxide precipitation",
+      "sl": "Obarjanje železovega(III) hidroksida"
+    },
+    "equation": "FeCl3 + 3 NaOH -> Fe(OH)3 + 3 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "FeCl3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe(OH)3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Reddish-brown precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 87,
+    "name": {
+      "en": "Zinc carbonate precipitation",
+      "sl": "Obarjanje cinkovega karbonata"
+    },
+    "equation": "ZnSO4 + Na2CO3 -> ZnCO3 + Na2SO4",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "ZnSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2CO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnCO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2SO4",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "White precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 88,
+    "name": {
+      "en": "Magnesium hydroxide precipitation",
+      "sl": "Obarjanje magnezijevega hidroksida"
+    },
+    "equation": "MgCl2 + 2 NaOH -> Mg(OH)2 + 2 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "MgCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Mg(OH)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "White precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 89,
+    "name": {
+      "en": "Silver bromide precipitation",
+      "sl": "Obarjanje srebrovega bromida"
+    },
+    "equation": "AgNO3 + KBr -> AgBr + KNO3",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "AgNO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "KBr",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "AgBr",
+        "coefficient": 1
+      },
+      {
+        "formula": "KNO3",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Cream precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 90,
+    "name": {
+      "en": "Silver iodide precipitation",
+      "sl": "Obarjanje srebrovega jodida"
+    },
+    "equation": "AgNO3 + KI -> AgI + KNO3",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "AgNO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "KI",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "AgI",
+        "coefficient": 1
+      },
+      {
+        "formula": "KNO3",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Yellow precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 91,
+    "name": {
+      "en": "Barium carbonate precipitation",
+      "sl": "Obarjanje barijevega karbonata"
+    },
+    "equation": "Ba(NO3)2 + Na2CO3 -> BaCO3 + 2 NaNO3",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "Ba(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2CO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "BaCO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaNO3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "White precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 92,
+    "name": {
+      "en": "Calcium sulfate precipitation",
+      "sl": "Obarjanje kalcijevega sulfata"
+    },
+    "equation": "Ca(NO3)2 + Na2SO4 -> CaSO4 + 2 NaNO3",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "Ca(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2SO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaNO3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Sparingly soluble solid.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 93,
+    "name": {
+      "en": "Lead(II) sulfate precipitation",
+      "sl": "Obarjanje svinčevega(II) sulfata"
+    },
+    "equation": "Pb(NO3)2 + Na2SO4 -> PbSO4 + 2 NaNO3",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "Pb(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2SO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "PbSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaNO3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "White precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 94,
+    "name": {
+      "en": "Strontium carbonate precipitation",
+      "sl": "Obarjanje stroncijevega karbonata"
+    },
+    "equation": "SrCl2 + Na2CO3 -> SrCO3 + 2 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "SrCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2CO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "SrCO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "White precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 95,
+    "name": {
+      "en": "Iron(II) hydroxide precipitation",
+      "sl": "Obarjanje železovega(II) hidroksida"
+    },
+    "equation": "FeSO4 + 2 NaOH -> Fe(OH)2 + Na2SO4",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "FeSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe(OH)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2SO4",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Green precipitate that oxidizes in air.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 96,
+    "name": {
+      "en": "Nickel(II) hydroxide precipitation",
+      "sl": "Obarjanje nikljevega(II) hidroksida"
+    },
+    "equation": "NiCl2 + 2 NaOH -> Ni(OH)2 + 2 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "NiCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ni(OH)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Green precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 97,
+    "name": {
+      "en": "Cobalt(II) hydroxide precipitation",
+      "sl": "Obarjanje kobaltovega(II) hidroksida"
+    },
+    "equation": "CoCl2 + 2 NaOH -> Co(OH)2 + 2 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "CoCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Co(OH)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Blue to pink precipitate depending on conditions.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 98,
+    "name": {
+      "en": "Aluminium hydroxide precipitation",
+      "sl": "Obarjanje aluminijevega hidroksida"
+    },
+    "equation": "AlCl3 + 3 NaOH -> Al(OH)3 + 3 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "AlCl3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "Al(OH)3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "White gelatinous precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 99,
+    "name": {
+      "en": "Chromium(III) hydroxide precipitation",
+      "sl": "Obarjanje kromovega(III) hidroksida"
+    },
+    "equation": "CrCl3 + 3 NaOH -> Cr(OH)3 + 3 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "CrCl3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cr(OH)3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Gray-green precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 100,
+    "name": {
+      "en": "Manganese(II) hydroxide precipitation",
+      "sl": "Obarjanje manganovega(II) hidroksida"
+    },
+    "equation": "MnSO4 + 2 NaOH -> Mn(OH)2 + Na2SO4",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "MnSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Mn(OH)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2SO4",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Pale precipitate that darkens in air.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 101,
+    "name": {
+      "en": "Silver carbonate precipitation",
+      "sl": "Obarjanje srebrovega karbonata"
+    },
+    "equation": "2 AgNO3 + Na2CO3 -> Ag2CO3 + 2 NaNO3",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "AgNO3",
+        "coefficient": 2
+      },
+      {
+        "formula": "Na2CO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ag2CO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaNO3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Pale yellow precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 102,
+    "name": {
+      "en": "Copper(II) carbonate precipitation",
+      "sl": "Obarjanje bakrovega(II) karbonata"
+    },
+    "equation": "CuCl2 + Na2CO3 -> CuCO3 + 2 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "CuCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2CO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CuCO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Simplified equation; basic carbonate often forms.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 103,
+    "name": {
+      "en": "Barium chromate precipitation",
+      "sl": "Obarjanje barijevega kromata"
+    },
+    "equation": "BaCl2 + K2CrO4 -> BaCrO4 + 2 KCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "BaCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "K2CrO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "BaCrO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "KCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Yellow precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 104,
+    "name": {
+      "en": "Lead(II) chromate precipitation",
+      "sl": "Obarjanje svinčevega(II) kromata"
+    },
+    "equation": "Pb(NO3)2 + K2CrO4 -> PbCrO4 + 2 KNO3",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "Pb(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "K2CrO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "PbCrO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "KNO3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Yellow precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 105,
+    "name": {
+      "en": "Calcium phosphate precipitation",
+      "sl": "Obarjanje kalcijevega fosfata"
+    },
+    "equation": "3 CaCl2 + 2 Na3PO4 -> Ca3(PO4)2 + 6 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "CaCl2",
+        "coefficient": 3
+      },
+      {
+        "formula": "Na3PO4",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ca3(PO4)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 6
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "White precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 106,
+    "name": {
+      "en": "Magnesium phosphate precipitation",
+      "sl": "Obarjanje magnezijevega fosfata"
+    },
+    "equation": "3 MgCl2 + 2 Na3PO4 -> Mg3(PO4)2 + 6 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "MgCl2",
+        "coefficient": 3
+      },
+      {
+        "formula": "Na3PO4",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Mg3(PO4)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 6
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "White precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 107,
+    "name": {
+      "en": "Iron(III) phosphate precipitation",
+      "sl": "Obarjanje železovega(III) fosfata"
+    },
+    "equation": "FeCl3 + Na3PO4 -> FePO4 + 3 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "FeCl3",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na3PO4",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "FePO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Solid iron(III) phosphate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 108,
+    "name": {
+      "en": "Copper(II) sulfide precipitation",
+      "sl": "Obarjanje bakrovega(II) sulfida"
+    },
+    "equation": "CuSO4 + Na2S -> CuS + Na2SO4",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "CuSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2S",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CuS",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2SO4",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Black precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 109,
+    "name": {
+      "en": "Zinc sulfide precipitation",
+      "sl": "Obarjanje cinkovega sulfida"
+    },
+    "equation": "ZnCl2 + Na2S -> ZnS + 2 NaCl",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "ZnCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2S",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnS",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "White precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  },
+  {
+    "id": 110,
+    "name": {
+      "en": "Cadmium sulfide precipitation",
+      "sl": "Obarjanje kadmijevega sulfida"
+    },
+    "equation": "Cd(NO3)2 + Na2S -> CdS + 2 NaNO3",
+    "reaction_type": "double_displacement",
+    "subcategory": "precipitation",
+    "reactants": [
+      {
+        "formula": "Cd(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Na2S",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CdS",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaNO3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": true,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Yellow precipitate.",
+    "tags": [
+      "double_displacement",
+      "precipitation"
+    ]
+  }
+]

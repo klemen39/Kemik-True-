@@ -1,0 +1,54 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://dvbkkv3071yac"]
+
+[ext_resource type="Texture2D" uid="uid://cu4gprrrkk3u2" path="res://Sprites/Numbers_Correct/14_True.png" id="1_ji2db"]
+[ext_resource type="Texture2D" uid="uid://cmr16h6fey7xj" path="res://Sprites/Numbers_Wrong/14_Wrong.png" id="2_23iqa"]
+[ext_resource type="Texture2D" uid="uid://hvogdbmdrrh8" path="res://Sprites/Numbers_Regular/14_Regular.png" id="3_hw1ll"]
+[ext_resource type="Texture2D" uid="uid://1bo6qjaylmd7" path="res://Sprites/Quiz_Periodic/14_Periodic.png" id="4_fv6lj"]
+[ext_resource type="Resource" uid="uid://csc7wk6mgfgnd" path="res://Elements/Silicon.tres" id="5_b7oqs"]
+[ext_resource type="Texture2D" uid="uid://tcpc5rq548i7" path="res://Sprites/Quiz_Groups/Metalloid_correct.png" id="6_0v8mx"]
+[ext_resource type="Texture2D" uid="uid://dqkoscp56xsrh" path="res://Sprites/Quiz_Groups/Metalloid_wrong.png" id="7_l184f"]
+[ext_resource type="Texture2D" uid="uid://d1bucowrounrr" path="res://Sprites/Quiz_Groups/Metalloid_regular.png" id="8_ih8p7"]
+[ext_resource type="Texture2D" uid="uid://pkxhl74xundr" path="res://Sprites/Quiz_Names/Silicon_Name.png" id="9_fb3b4"]
+[ext_resource type="Texture2D" uid="uid://dpuofexsgtisr" path="res://Sprites/Quiz_Names/Silicon_Wrong.png" id="10_a1xc3"]
+[ext_resource type="Texture2D" uid="uid://dyhg3ck7fcmux" path="res://Sprites/Quiz_Names/Silicon_Neutral.png" id="11_qkbet"]
+[ext_resource type="Texture2D" uid="uid://dk7d546unlnbb" path="res://Sprites/Quiz_Periodic/3_Periodic.png" id="12_qdpy0"]
+[ext_resource type="Texture2D" uid="uid://dwpga2crbyf7t" path="res://Sprites/Numbers_Wrong/3_Wrong.png" id="13_taptm"]
+[ext_resource type="Texture2D" uid="uid://dty8881kv4mp0" path="res://Sprites/Numbers_Regular/3_Regular.png" id="14_07ags"]
+[ext_resource type="Texture2D" uid="uid://dfc0esmib66m8" path="res://Sprites/Quiz_Groups/polkovine_correct.png" id="15_xc30m"]
+[ext_resource type="Texture2D" uid="uid://c22n87uoh4sh" path="res://Sprites/Quiz_Groups/polkovine_wrong.png" id="16_g5txf"]
+[ext_resource type="Texture2D" uid="uid://bn3syu2waq10n" path="res://Sprites/Quiz_Groups/polkovine_regular.png" id="17_nofc7"]
+[ext_resource type="Texture2D" uid="uid://bj5w48nfa01by" path="res://Sprites/Quiz_Names/Silicij_Name.png" id="18_gjmt7"]
+[ext_resource type="Texture2D" uid="uid://gtdnmy1xak06" path="res://Sprites/Quiz_Names/Silicij_Wrong.png" id="19_dm2pb"]
+[ext_resource type="Texture2D" uid="uid://bdg3n5ixiu3qt" path="res://Sprites/Quiz_Names/Silicij_Neutral.png" id="20_xiamo"]
+[ext_resource type="Texture2D" uid="uid://bq2grxg3f1mnx" path="res://Sprites/Quiz_Symbol/Silicon_ShadowNameless.png" id="21_7ohnw"]
+[ext_resource type="Texture2D" uid="uid://bmxbnqwe1mq4q" path="res://Sprites/Quiz_Symbol/Silicon_Nameless.png" id="22_45fgs"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="23_h0llq"]
+
+[resource]
+script = ExtResource("23_h0llq")
+ElementData = ExtResource("5_b7oqs")
+SymbolNormal = ExtResource("22_45fgs")
+SymbolDisabled = ExtResource("21_7ohnw")
+SymbolCorrect = ExtResource("21_7ohnw")
+AtomicNumberNormal = ExtResource("3_hw1ll")
+AtomicNumberDisabled = ExtResource("2_23iqa")
+AtomicNumberCorrect = ExtResource("1_ji2db")
+SloveneNameNormal = ExtResource("20_xiamo")
+SloveneNameDisabled = ExtResource("19_dm2pb")
+SloveneNameCorrect = ExtResource("18_gjmt7")
+EnglishNameNormal = ExtResource("11_qkbet")
+EnglishNameDisabled = ExtResource("10_a1xc3")
+EnglishNameCorrect = ExtResource("9_fb3b4")
+SloveneGroupNormal = ExtResource("17_nofc7")
+SloveneGroupDisabled = ExtResource("16_g5txf")
+SloveneGroupCorrect = ExtResource("15_xc30m")
+EnglishGroupNormal = ExtResource("8_ih8p7")
+EnglishGroupDisabled = ExtResource("7_l184f")
+EnglishGroupCorrect = ExtResource("6_0v8mx")
+PeriodicGroupNormal = ExtResource("14_07ags")
+PeriodicGroupDisabled = ExtResource("13_taptm")
+PeriodicGroupCorrect = ExtResource("12_qdpy0")
+ColumnNormal = ExtResource("3_hw1ll")
+ColumnDisabled = ExtResource("2_23iqa")
+ColumnCorrect = ExtResource("4_fv6lj")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

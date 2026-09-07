@@ -1,0 +1,1211 @@
+{
+  "template_group": "common_simple_molecules",
+  "template_count": 18,
+  "templates": [
+    {
+      "formula": "H2",
+      "name": "Hydrogen",
+      "type": "covalent",
+      "layout": "linear",
+      "geometry": {
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "atoms": [
+        {
+          "id": "H1",
+          "element": "H",
+          "x": -1,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": 1,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "H1",
+          "to": "H2",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 2,
+        "calculation": "2(1)"
+      }
+    },
+    {
+      "formula": "O2",
+      "name": "Oxygen",
+      "type": "covalent",
+      "layout": "linear",
+      "geometry": {
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "atoms": [
+        {
+          "id": "O1",
+          "element": "O",
+          "x": -1.3,
+          "y": 0,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "x": 1.3,
+          "y": 0,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "O1",
+          "to": "O2",
+          "order": 2
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 12,
+        "calculation": "2(6)"
+      }
+    },
+    {
+      "formula": "N2",
+      "name": "Nitrogen",
+      "type": "covalent",
+      "layout": "linear",
+      "geometry": {
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "atoms": [
+        {
+          "id": "N1",
+          "element": "N",
+          "x": -1.3,
+          "y": 0,
+          "lone_pairs": 1,
+          "formal_charge": 0
+        },
+        {
+          "id": "N2",
+          "element": "N",
+          "x": 1.3,
+          "y": 0,
+          "lone_pairs": 1,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "N1",
+          "to": "N2",
+          "order": 3
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 10,
+        "calculation": "2(5)"
+      }
+    },
+    {
+      "formula": "F2",
+      "name": "Fluorine",
+      "type": "covalent",
+      "layout": "linear",
+      "geometry": {
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "atoms": [
+        {
+          "id": "F1",
+          "element": "F",
+          "x": -1.3,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "F2",
+          "element": "F",
+          "x": 1.3,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "F1",
+          "to": "F2",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 14,
+        "calculation": "2(7)"
+      }
+    },
+    {
+      "formula": "Cl2",
+      "name": "Chlorine",
+      "type": "covalent",
+      "layout": "linear",
+      "geometry": {
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "atoms": [
+        {
+          "id": "Cl1",
+          "element": "Cl",
+          "x": -1.3,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "Cl2",
+          "element": "Cl",
+          "x": 1.3,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "Cl1",
+          "to": "Cl2",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 14,
+        "calculation": "2(7)"
+      }
+    },
+    {
+      "formula": "HCl",
+      "name": "Hydrogen chloride",
+      "type": "covalent",
+      "layout": "linear",
+      "geometry": {
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "atoms": [
+        {
+          "id": "H1",
+          "element": "H",
+          "x": -1.2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "Cl1",
+          "element": "Cl",
+          "x": 1.2,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "H1",
+          "to": "Cl1",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 8,
+        "calculation": "1 + 7"
+      }
+    },
+    {
+      "formula": "HF",
+      "name": "Hydrogen fluoride",
+      "type": "covalent",
+      "layout": "linear",
+      "geometry": {
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "atoms": [
+        {
+          "id": "H1",
+          "element": "H",
+          "x": -1.2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "F1",
+          "element": "F",
+          "x": 1.2,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "H1",
+          "to": "F1",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 8,
+        "calculation": "1 + 7"
+      }
+    },
+    {
+      "formula": "H2O",
+      "name": "Water",
+      "type": "covalent",
+      "layout": "bent",
+      "geometry": {
+        "electron_domain_geometry": "tetrahedral",
+        "molecular_geometry": "bent",
+        "bond_angle": 104.5
+      },
+      "atoms": [
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": -1.6,
+          "y": 1.2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": 1.6,
+          "y": 1.2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "O1",
+          "to": "H1",
+          "order": 1
+        },
+        {
+          "from": "O1",
+          "to": "H2",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 8,
+        "calculation": "6 + 2(1)"
+      }
+    },
+    {
+      "formula": "CO2",
+      "name": "Carbon dioxide",
+      "type": "covalent",
+      "layout": "linear",
+      "geometry": {
+        "electron_domain_geometry": "linear",
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "atoms": [
+        {
+          "id": "O1",
+          "element": "O",
+          "x": -2.2,
+          "y": 0,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "x": 2.2,
+          "y": 0,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "O1",
+          "order": 2
+        },
+        {
+          "from": "C1",
+          "to": "O2",
+          "order": 2
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 16,
+        "calculation": "4 + 2(6)"
+      }
+    },
+    {
+      "formula": "CH4",
+      "name": "Methane",
+      "type": "covalent",
+      "layout": "tetrahedral",
+      "geometry": {
+        "electron_domain_geometry": "tetrahedral",
+        "molecular_geometry": "tetrahedral",
+        "bond_angle": 109.5
+      },
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 0,
+          "y": -2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": 2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H3",
+          "element": "H",
+          "x": 0,
+          "y": 2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H4",
+          "element": "H",
+          "x": -2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "H1",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "H2",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "H3",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "H4",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 8,
+        "calculation": "4 + 4(1)"
+      }
+    },
+    {
+      "formula": "NH3",
+      "name": "Ammonia",
+      "type": "covalent",
+      "layout": "trigonal_pyramidal",
+      "geometry": {
+        "electron_domain_geometry": "tetrahedral",
+        "molecular_geometry": "trigonal_pyramidal",
+        "bond_angle": 107
+      },
+      "atoms": [
+        {
+          "id": "N1",
+          "element": "N",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 1,
+          "formal_charge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 0,
+          "y": -2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": -1.8,
+          "y": 1.2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H3",
+          "element": "H",
+          "x": 1.8,
+          "y": 1.2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "N1",
+          "to": "H1",
+          "order": 1
+        },
+        {
+          "from": "N1",
+          "to": "H2",
+          "order": 1
+        },
+        {
+          "from": "N1",
+          "to": "H3",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 8,
+        "calculation": "5 + 3(1)"
+      }
+    },
+    {
+      "formula": "HCN",
+      "name": "Hydrogen cyanide",
+      "type": "covalent",
+      "layout": "linear",
+      "geometry": {
+        "electron_domain_geometry": "linear",
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "atoms": [
+        {
+          "id": "H1",
+          "element": "H",
+          "x": -2.4,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "C1",
+          "element": "C",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "N1",
+          "element": "N",
+          "x": 2.4,
+          "y": 0,
+          "lone_pairs": 1,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "H1",
+          "to": "C1",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "N1",
+          "order": 3
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 10,
+        "calculation": "1 + 4 + 5"
+      }
+    },
+    {
+      "formula": "C2H2",
+      "name": "Ethyne",
+      "type": "covalent",
+      "layout": "linear_chain",
+      "geometry": {
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "atoms": [
+        {
+          "id": "H1",
+          "element": "H",
+          "x": -3.5,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "C1",
+          "element": "C",
+          "x": -1.2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "x": 1.2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": 3.5,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "H1",
+          "to": "C1",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "C2",
+          "order": 3
+        },
+        {
+          "from": "C2",
+          "to": "H2",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 10,
+        "calculation": "2(4) + 2(1)"
+      }
+    },
+    {
+      "formula": "C2H4",
+      "name": "Ethene",
+      "type": "covalent",
+      "layout": "planar_chain",
+      "geometry": {
+        "molecular_geometry": "trigonal_planar_around_each_carbon",
+        "bond_angle": 120
+      },
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "x": -1.3,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "x": 1.3,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": -2.5,
+          "y": -1.5,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": -2.5,
+          "y": 1.5,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H3",
+          "element": "H",
+          "x": 2.5,
+          "y": -1.5,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H4",
+          "element": "H",
+          "x": 2.5,
+          "y": 1.5,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "C1",
+          "to": "C2",
+          "order": 2
+        },
+        {
+          "from": "C1",
+          "to": "H1",
+          "order": 1
+        },
+        {
+          "from": "C1",
+          "to": "H2",
+          "order": 1
+        },
+        {
+          "from": "C2",
+          "to": "H3",
+          "order": 1
+        },
+        {
+          "from": "C2",
+          "to": "H4",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 12,
+        "calculation": "2(4) + 4(1)"
+      }
+    },
+    {
+      "formula": "BF3",
+      "name": "Boron trifluoride",
+      "type": "covalent",
+      "layout": "trigonal_planar",
+      "geometry": {
+        "electron_domain_geometry": "trigonal_planar",
+        "molecular_geometry": "trigonal_planar",
+        "bond_angle": 120
+      },
+      "octet_exception": {
+        "type": "incomplete_octet",
+        "atom": "B1",
+        "electrons_around_atom": 6
+      },
+      "atoms": [
+        {
+          "id": "B1",
+          "element": "B",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "F1",
+          "element": "F",
+          "x": 0,
+          "y": -2.4,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "F2",
+          "element": "F",
+          "x": -2.1,
+          "y": 1.2,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "F3",
+          "element": "F",
+          "x": 2.1,
+          "y": 1.2,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "B1",
+          "to": "F1",
+          "order": 1
+        },
+        {
+          "from": "B1",
+          "to": "F2",
+          "order": 1
+        },
+        {
+          "from": "B1",
+          "to": "F3",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 24,
+        "calculation": "3 + 3(7)"
+      }
+    },
+    {
+      "formula": "BeCl2",
+      "name": "Beryllium chloride",
+      "type": "covalent",
+      "layout": "linear",
+      "geometry": {
+        "electron_domain_geometry": "linear",
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "octet_exception": {
+        "type": "incomplete_octet",
+        "atom": "Be1",
+        "electrons_around_atom": 4
+      },
+      "atoms": [
+        {
+          "id": "Cl1",
+          "element": "Cl",
+          "x": -2.2,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "Be1",
+          "element": "Be",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "Cl2",
+          "element": "Cl",
+          "x": 2.2,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "Be1",
+          "to": "Cl1",
+          "order": 1
+        },
+        {
+          "from": "Be1",
+          "to": "Cl2",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 16,
+        "calculation": "2 + 2(7)"
+      }
+    },
+    {
+      "formula": "PCl5",
+      "name": "Phosphorus pentachloride",
+      "type": "covalent",
+      "layout": "trigonal_bipyramidal",
+      "geometry": {
+        "electron_domain_geometry": "trigonal_bipyramidal",
+        "molecular_geometry": "trigonal_bipyramidal",
+        "bond_angles": [
+          90,
+          120,
+          180
+        ]
+      },
+      "octet_exception": {
+        "type": "expanded_octet",
+        "atom": "P1",
+        "electrons_around_atom": 10
+      },
+      "atoms": [
+        {
+          "id": "P1",
+          "element": "P",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "Cl1",
+          "element": "Cl",
+          "x": 0,
+          "y": -2.6,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "Cl2",
+          "element": "Cl",
+          "x": 0,
+          "y": 2.6,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "Cl3",
+          "element": "Cl",
+          "x": -2.5,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "Cl4",
+          "element": "Cl",
+          "x": 1.3,
+          "y": -1.5,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "Cl5",
+          "element": "Cl",
+          "x": 1.3,
+          "y": 1.5,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "P1",
+          "to": "Cl1",
+          "order": 1
+        },
+        {
+          "from": "P1",
+          "to": "Cl2",
+          "order": 1
+        },
+        {
+          "from": "P1",
+          "to": "Cl3",
+          "order": 1
+        },
+        {
+          "from": "P1",
+          "to": "Cl4",
+          "order": 1
+        },
+        {
+          "from": "P1",
+          "to": "Cl5",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 40,
+        "calculation": "5 + 5(7)"
+      }
+    },
+    {
+      "formula": "SF6",
+      "name": "Sulfur hexafluoride",
+      "type": "covalent",
+      "layout": "octahedral",
+      "geometry": {
+        "electron_domain_geometry": "octahedral",
+        "molecular_geometry": "octahedral",
+        "bond_angles": [
+          90,
+          180
+        ]
+      },
+      "octet_exception": {
+        "type": "expanded_octet",
+        "atom": "S1",
+        "electrons_around_atom": 12
+      },
+      "atoms": [
+        {
+          "id": "S1",
+          "element": "S",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "F1",
+          "element": "F",
+          "x": 0,
+          "y": -2.6,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "F2",
+          "element": "F",
+          "x": 0,
+          "y": 2.6,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "F3",
+          "element": "F",
+          "x": -2.6,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "F4",
+          "element": "F",
+          "x": 2.6,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "F5",
+          "element": "F",
+          "x": -1.5,
+          "y": -1.5,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        },
+        {
+          "id": "F6",
+          "element": "F",
+          "x": 1.5,
+          "y": 1.5,
+          "lone_pairs": 3,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "S1",
+          "to": "F1",
+          "order": 1
+        },
+        {
+          "from": "S1",
+          "to": "F2",
+          "order": 1
+        },
+        {
+          "from": "S1",
+          "to": "F3",
+          "order": 1
+        },
+        {
+          "from": "S1",
+          "to": "F4",
+          "order": 1
+        },
+        {
+          "from": "S1",
+          "to": "F5",
+          "order": 1
+        },
+        {
+          "from": "S1",
+          "to": "F6",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 48,
+        "calculation": "6 + 6(7)"
+      }
+    },
+    {
+      "formula": "NO",
+      "name": "Nitric oxide",
+      "type": "radical",
+      "layout": "linear",
+      "geometry": {
+        "molecular_geometry": "linear",
+        "bond_angle": 180
+      },
+      "octet_exception": {
+        "type": "odd_electron",
+        "unpaired_electron_atom": "N1"
+      },
+      "atoms": [
+        {
+          "id": "N1",
+          "element": "N",
+          "x": -1.3,
+          "y": 0,
+          "lone_pairs": 1,
+          "unpaired_electrons": 1,
+          "formal_charge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 1.3,
+          "y": 0,
+          "lone_pairs": 2,
+          "unpaired_electrons": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "N1",
+          "to": "O1",
+          "order": 2
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 11,
+        "calculation": "5 + 6"
+      }
+    }
+  ],
+  "generic_rules": {
+    "diatomic_elements": {
+      "formulas": [
+        "H2",
+        "N2",
+        "O2",
+        "F2",
+        "Cl2",
+        "Br2",
+        "I2"
+      ],
+      "layout": "linear"
+    },
+    "hydrogen_rule": {
+      "maximum_bonds": 1,
+      "target_electron_count": 2,
+      "allow_central_atom": false
+    },
+    "period_2_rule": {
+      "elements": [
+        "C",
+        "N",
+        "O",
+        "F"
+      ],
+      "maximum_electrons_around_atom": 8,
+      "allow_expanded_octet": false
+    },
+    "incomplete_octet_elements": [
+      {
+        "element": "Be",
+        "common_bond_count": 2,
+        "common_electron_count": 4
+      },
+      {
+        "element": "B",
+        "common_bond_count": 3,
+        "common_electron_count": 6
+      }
+    ],
+    "expanded_octet_elements": [
+      "P",
+      "S",
+      "Cl",
+      "Br",
+      "I",
+      "Xe"
+    ]
+  },
+  "renderer_rules": {
+    "covalent_molecule": {
+      "render_formal_charges": true,
+      "render_lone_pairs": true,
+      "render_unpaired_electrons": true,
+      "draw_bond_orders": true,
+      "center_molecule": true
+    },
+    "bond_styles": {
+      "single": {
+        "order": 1,
+        "line_count": 1
+      },
+      "double": {
+        "order": 2,
+        "line_count": 2
+      },
+      "triple": {
+        "order": 3,
+        "line_count": 3
+      }
+    },
+    "octet_exceptions": {
+      "show_warning": false,
+      "allow_incomplete_octet": true,
+      "allow_expanded_octet": true,
+      "allow_odd_electron_species": true
+    },
+    "layout": {
+      "scale_coordinates_automatically": true,
+      "minimum_atom_spacing": 1.5,
+      "center_on_canvas": true,
+      "rotate_to_best_fit": true
+    }
+  }
+}

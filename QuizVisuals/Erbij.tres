@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://3ykfb41wpybs"]
+
+[ext_resource type="Texture2D" uid="uid://bvoxgp71otp80" path="res://Sprites/Numbers_Correct/68_True.png" id="1_gxq0k"]
+[ext_resource type="Texture2D" uid="uid://db1qksnitskhq" path="res://Sprites/Numbers_Wrong/68_Wrong.png" id="2_aohtl"]
+[ext_resource type="Texture2D" uid="uid://i8uk83tosry0" path="res://Sprites/Numbers_Regular/68_Regular.png" id="3_iwose"]
+[ext_resource type="Resource" uid="uid://bsiiunh5j7qwa" path="res://Elements/Erbium.tres" id="4_52bfr"]
+[ext_resource type="Texture2D" uid="uid://c1t842q5mgjsf" path="res://Sprites/Quiz_Groups/Lanthanide_correct.png" id="5_i26vl"]
+[ext_resource type="Texture2D" uid="uid://bh1oac0hdoe63" path="res://Sprites/Quiz_Groups/Lanthanide_wrong.png" id="6_mo67a"]
+[ext_resource type="Texture2D" uid="uid://p1bn1k6vxwso" path="res://Sprites/Quiz_Groups/Lanthanide_regular.png" id="7_cmuol"]
+[ext_resource type="Texture2D" uid="uid://b34fycrfpf6rl" path="res://Sprites/Quiz_Names/Erbium_Name.png" id="8_fafvd"]
+[ext_resource type="Texture2D" uid="uid://b2nawji3m334l" path="res://Sprites/Quiz_Names/Erbium_Wrong.png" id="9_4wyo4"]
+[ext_resource type="Texture2D" uid="uid://bxu886x7hxo0b" path="res://Sprites/Quiz_Names/Erbium_Neutral.png" id="10_vdvxe"]
+[ext_resource type="Texture2D" uid="uid://b10kkuxavs3yv" path="res://Sprites/Quiz_Periodic/6_Periodic.png" id="11_g01ij"]
+[ext_resource type="Texture2D" uid="uid://d30tye3m6nmtk" path="res://Sprites/Numbers_Wrong/6_Wrong.png" id="12_cwj8y"]
+[ext_resource type="Texture2D" uid="uid://b77a7knvxj08c" path="res://Sprites/Numbers_Regular/6_Regular.png" id="13_3dm1u"]
+[ext_resource type="Texture2D" uid="uid://tyat8np5m833" path="res://Sprites/Quiz_Groups/Lantanoid_correct.png" id="14_lwrcx"]
+[ext_resource type="Texture2D" uid="uid://bnxy0hvnlj2qd" path="res://Sprites/Quiz_Groups/Lantanoid_wrong.png" id="15_7eaiy"]
+[ext_resource type="Texture2D" uid="uid://skyhpicpgpl7" path="res://Sprites/Quiz_Groups/Lantanoid_regular.png" id="16_ftx6w"]
+[ext_resource type="Texture2D" uid="uid://br1i2bo58r8m6" path="res://Sprites/Quiz_Names/Erbij_Name.png" id="17_xafsw"]
+[ext_resource type="Texture2D" uid="uid://dp2vmoxpw0l22" path="res://Sprites/Quiz_Names/Erbij_Wrong.png" id="18_7uc0g"]
+[ext_resource type="Texture2D" uid="uid://3hyviokomq3m" path="res://Sprites/Quiz_Names/Erbij_Neutral.png" id="19_4fukf"]
+[ext_resource type="Texture2D" uid="uid://dv25m0x266yxa" path="res://Sprites/Quiz_Symbol/Erbium_ShadowNameless.png" id="20_vo5ab"]
+[ext_resource type="Texture2D" uid="uid://n73ndea06dct" path="res://Sprites/Quiz_Symbol/Erbium_Nameless.png" id="21_by45s"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="22_d2mev"]
+
+[resource]
+script = ExtResource("22_d2mev")
+ElementData = ExtResource("4_52bfr")
+SymbolNormal = ExtResource("21_by45s")
+SymbolDisabled = ExtResource("20_vo5ab")
+SymbolCorrect = ExtResource("20_vo5ab")
+AtomicNumberNormal = ExtResource("3_iwose")
+AtomicNumberDisabled = ExtResource("2_aohtl")
+AtomicNumberCorrect = ExtResource("1_gxq0k")
+SloveneNameNormal = ExtResource("19_4fukf")
+SloveneNameDisabled = ExtResource("18_7uc0g")
+SloveneNameCorrect = ExtResource("17_xafsw")
+EnglishNameNormal = ExtResource("10_vdvxe")
+EnglishNameDisabled = ExtResource("9_4wyo4")
+EnglishNameCorrect = ExtResource("8_fafvd")
+SloveneGroupNormal = ExtResource("16_ftx6w")
+SloveneGroupDisabled = ExtResource("15_7eaiy")
+SloveneGroupCorrect = ExtResource("14_lwrcx")
+EnglishGroupNormal = ExtResource("7_cmuol")
+EnglishGroupDisabled = ExtResource("6_mo67a")
+EnglishGroupCorrect = ExtResource("5_i26vl")
+PeriodicGroupNormal = ExtResource("13_3dm1u")
+PeriodicGroupDisabled = ExtResource("12_cwj8y")
+PeriodicGroupCorrect = ExtResource("11_g01ij")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

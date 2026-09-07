@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://cffeesy5l3ibf"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_gknpx"]
+
+[resource]
+script = ExtResource("1_gknpx")
+SLOelementName = "Rutenij"
+ENGelementName = "Ruthenium"
+Symbol = "Ru"
+AtomicNumber = 44
+NeutronCount = 58
+Mass = 102
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 15
+Perioda5 = 1
+Skupina = 8
+Blok = 2
+Subtip = 2
+metadata/_custom_type_script = "uid://3th8onmepgfc"

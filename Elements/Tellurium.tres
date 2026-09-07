@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://cqbuwgrv2552n"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_nu7rh"]
+
+[resource]
+script = ExtResource("1_nu7rh")
+SLOelementName = "Telur"
+ENGelementName = "Tellurium"
+Symbol = "Te"
+AtomicNumber = 52
+NeutronCount = 78
+Mass = 130
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 6
+Skupina = 16
+Blok = 1
+Tip = 2
+Subtip = 4
+metadata/_custom_type_script = "uid://3th8onmepgfc"

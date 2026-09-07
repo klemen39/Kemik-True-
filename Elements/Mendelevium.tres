@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://bu2sm6hy61rui"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_fo5o8"]
+
+[resource]
+script = ExtResource("1_fo5o8")
+SLOelementName = "Mendelevij"
+ENGelementName = "Mendelevium"
+Symbol = "Md"
+AtomicNumber = 101
+NeutronCount = 157
+Mass = 258
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 31
+Perioda6 = 8
+Perioda7 = 2
+Skupina = 20
+Blok = 3
+Subtip = 9
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

@@ -1,0 +1,36 @@
+config_version=5
+
+[application]
+
+config/name="Diplomska"
+run/main_scene="res://Start_Screen.tscn"
+config/features=PackedStringArray("4.6", "C#", "Mobile")
+config/icon="res://icon.svg"
+
+[autoload]
+
+GlobalElementData="*uid://dc3te36ujtg0d"
+DailyPlayState="*res://Scripts/DailyPlayState.cs"
+
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=2400
+window/size/initial_position_type=0
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=6
+
+[dotnet]
+
+project/assembly_name="Yaru"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

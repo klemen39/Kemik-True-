@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://mavtyr0ygq5d"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_mp2bs"]
+
+[resource]
+script = ExtResource("1_mp2bs")
+SLOelementName = "Oganeson"
+ENGelementName = "Oganesson"
+Symbol = "Og"
+AtomicNumber = 118
+NeutronCount = 176
+Mass = 294
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

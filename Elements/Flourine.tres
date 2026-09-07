@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://c0y4wnvlodeya"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_kbqys"]
+
+[resource]
+script = ExtResource("1_kbqys")
+SLOelementName = "Fluor"
+ENGelementName = "Fluorine"
+Symbol = "F"
+AtomicNumber = 9
+NeutronCount = 10
+Mass = 19
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 7
+Skupina = 17
+Blok = 1
+Tip = 1
+Subtip = 6
+metadata/_custom_type_script = "uid://3th8onmepgfc"

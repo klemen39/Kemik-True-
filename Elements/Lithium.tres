@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://drkcbhvo1visb"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_3c271"]
+
+[resource]
+script = ExtResource("1_3c271")
+SLOelementName = "Litij"
+ENGelementName = "Lithium"
+Symbol = "Li"
+AtomicNumber = 3
+NeutronCount = 4
+Mass = 7
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 1
+Skupina = 1
+metadata/_custom_type_script = "uid://3th8onmepgfc"

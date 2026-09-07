@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://dymhn42h2v2sq"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_vjvva"]
+
+[resource]
+script = ExtResource("1_vjvva")
+SLOelementName = "Stroncij"
+ENGelementName = "Strontium"
+Symbol = "Sr"
+AtomicNumber = 38
+NeutronCount = 50
+Mass = 88
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 8
+Perioda5 = 2
+Skupina = 2
+Subtip = 1
+metadata/_custom_type_script = "uid://3th8onmepgfc"

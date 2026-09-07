@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://be4wac5pkfji8"]
+
+[ext_resource type="Texture2D" uid="uid://chdmqp3mdyl3f" path="res://Sprites/Numbers_Correct/99_True.png" id="1_4j31p"]
+[ext_resource type="Texture2D" uid="uid://d0k6fdst2def" path="res://Sprites/Numbers_Wrong/99_Wrong.png" id="2_rchdu"]
+[ext_resource type="Texture2D" uid="uid://cus7naj1r5jw5" path="res://Sprites/Numbers_Regular/99_Regular.png" id="3_t866s"]
+[ext_resource type="Resource" uid="uid://damkkjb8fis5w" path="res://Elements/Einsteinium.tres" id="4_3hi35"]
+[ext_resource type="Texture2D" uid="uid://vqbjlq7vdsmc" path="res://Sprites/Quiz_Groups/Actinide.png" id="5_27xq6"]
+[ext_resource type="Texture2D" uid="uid://caqcoohnpbqhq" path="res://Sprites/Quiz_Groups/Actinide_wrong.png" id="6_sqskf"]
+[ext_resource type="Texture2D" uid="uid://rdktxoe4ulx3" path="res://Sprites/Quiz_Groups/Actinide_regular.png" id="7_kchrm"]
+[ext_resource type="Texture2D" uid="uid://b78q3d33goik1" path="res://Sprites/Quiz_Names/Einsteinium_Name.png" id="8_a4x2v"]
+[ext_resource type="Texture2D" uid="uid://cxicy0vmduwjc" path="res://Sprites/Quiz_Names/Einsteinium_Wrong.png" id="9_xjwmr"]
+[ext_resource type="Texture2D" uid="uid://cgw5lwo8pmmct" path="res://Sprites/Quiz_Names/Einsteinium_Neutral.png" id="10_nh14t"]
+[ext_resource type="Texture2D" uid="uid://dk2o7wfspr2bb" path="res://Sprites/Quiz_Periodic/7_Periodic.png" id="11_fy0ty"]
+[ext_resource type="Texture2D" uid="uid://dc82x7ptqy6pk" path="res://Sprites/Numbers_Wrong/7_Wrong.png" id="12_on63f"]
+[ext_resource type="Texture2D" uid="uid://qwpsmy5c6wmg" path="res://Sprites/Numbers_Regular/7_Regular.png" id="13_4pvhc"]
+[ext_resource type="Texture2D" uid="uid://csyqhtrjjasgr" path="res://Sprites/Quiz_Groups/Aktinoid_correct.png" id="14_6aa4b"]
+[ext_resource type="Texture2D" uid="uid://e350qr3n577m" path="res://Sprites/Quiz_Groups/Aktinoid_wrong.png" id="15_4ssgr"]
+[ext_resource type="Texture2D" uid="uid://djcxhxbbo2ie8" path="res://Sprites/Quiz_Groups/Aktinoid_regular.png" id="16_iqe5f"]
+[ext_resource type="Texture2D" uid="uid://ci7booo4vqr20" path="res://Sprites/Quiz_Names/Ajnštajnij_Name.png" id="17_xhffi"]
+[ext_resource type="Texture2D" uid="uid://cnp574a0er78v" path="res://Sprites/Quiz_Names/Ajnštajnij_Wrong.png" id="18_0mp4v"]
+[ext_resource type="Texture2D" uid="uid://blfkmys7bclg3" path="res://Sprites/Quiz_Names/Ajnštajnij_Neutral.png" id="19_fc52g"]
+[ext_resource type="Texture2D" uid="uid://bil7ys3mf7fmi" path="res://Sprites/Quiz_Symbol/Einsteinium_ShadowNameless.png" id="20_rx3y4"]
+[ext_resource type="Texture2D" uid="uid://b65j5ipagj4el" path="res://Sprites/Quiz_Symbol/Einsteinium_Nameless.png" id="21_wt4gf"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="22_ebiii"]
+
+[resource]
+script = ExtResource("22_ebiii")
+ElementData = ExtResource("4_3hi35")
+SymbolNormal = ExtResource("21_wt4gf")
+SymbolDisabled = ExtResource("20_rx3y4")
+SymbolCorrect = ExtResource("20_rx3y4")
+AtomicNumberNormal = ExtResource("3_t866s")
+AtomicNumberDisabled = ExtResource("2_rchdu")
+AtomicNumberCorrect = ExtResource("1_4j31p")
+SloveneNameNormal = ExtResource("19_fc52g")
+SloveneNameDisabled = ExtResource("18_0mp4v")
+SloveneNameCorrect = ExtResource("17_xhffi")
+EnglishNameNormal = ExtResource("10_nh14t")
+EnglishNameDisabled = ExtResource("9_xjwmr")
+EnglishNameCorrect = ExtResource("8_a4x2v")
+SloveneGroupNormal = ExtResource("16_iqe5f")
+SloveneGroupDisabled = ExtResource("15_4ssgr")
+SloveneGroupCorrect = ExtResource("14_6aa4b")
+EnglishGroupNormal = ExtResource("7_kchrm")
+EnglishGroupDisabled = ExtResource("6_sqskf")
+EnglishGroupCorrect = ExtResource("5_27xq6")
+PeriodicGroupNormal = ExtResource("13_4pvhc")
+PeriodicGroupDisabled = ExtResource("12_on63f")
+PeriodicGroupCorrect = ExtResource("11_fy0ty")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

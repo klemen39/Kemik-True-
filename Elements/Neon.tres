@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://c6ybt3cicq1uk"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_265oo"]
+
+[resource]
+script = ExtResource("1_265oo")
+SLOelementName = "Neon"
+ENGelementName = "Neon"
+Symbol = "Ne"
+AtomicNumber = 10
+NeutronCount = 10
+Mass = 20
+Perioda = 2
+Perioda1 = 2
+Perioda2 = 8
+Skupina = 18
+Blok = 1
+Tip = 1
+Subtip = 7
+metadata/_custom_type_script = "uid://3th8onmepgfc"

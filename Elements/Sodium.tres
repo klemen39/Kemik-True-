@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://du4puicoon0if"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_g0i4y"]
+
+[resource]
+script = ExtResource("1_g0i4y")
+SLOelementName = "Natrij"
+ENGelementName = "Sodium"
+Symbol = "Na"
+AtomicNumber = 11
+NeutronCount = 12
+Mass = 23
+Perioda = 3
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 1
+Skupina = 1
+metadata/_custom_type_script = "uid://3th8onmepgfc"

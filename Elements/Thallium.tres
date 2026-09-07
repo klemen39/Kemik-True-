@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://cxoeuef5nbcg3"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_syteo"]
+
+[resource]
+script = ExtResource("1_syteo")
+SLOelementName = "Talij"
+ENGelementName = "Thallium"
+Symbol = "Tl"
+AtomicNumber = 81
+NeutronCount = 124
+Mass = 205
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 3
+Skupina = 13
+Blok = 1
+Subtip = 3
+metadata/_custom_type_script = "uid://3th8onmepgfc"

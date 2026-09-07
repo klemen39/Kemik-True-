@@ -1,0 +1,224 @@
+[gd_scene format=3 uid="uid://bwnmpnlwmblb7"]
+
+[ext_resource type="Texture2D" uid="uid://clca0bj5f8nak" path="res://Sprites/smoll.png" id="1_spp4l"]
+[ext_resource type="Script" uid="uid://c006pe2qt46v7" path="res://Scripts/SafeAreaMarginContainer.cs" id="1_xcqs1"]
+[ext_resource type="Script" uid="uid://bxlhpxuhk4m56" path="res://Scripts/AtomicViewer.cs" id="2_v6ayq"]
+[ext_resource type="Texture2D" uid="uid://c4f66jus3hpvf" path="res://Sprites/blue.png" id="3_55hhh"]
+[ext_resource type="Texture2D" uid="uid://dfyxd78ec6qjw" path="res://Sprites/green.png" id="4_lqsq4"]
+[ext_resource type="Texture2D" uid="uid://srar7vdnju36" path="res://Sprites/red.png" id="5_iso6y"]
+[ext_resource type="Texture2D" uid="uid://cst17u687ruy5" path="res://Sprites/Visual_Tabs/settings_default.png" id="9_aufm6"]
+[ext_resource type="Texture2D" uid="uid://dcytkbjru7ogw" path="res://Sprites/Visual_Tabs/Atom1.png" id="12_g0wiw"]
+[ext_resource type="Script" uid="uid://53jwq627jgyd" path="res://Scripts/AtomSceneController.cs" id="13_controller"]
+[ext_resource type="Texture2D" uid="uid://dnxdsvsu52603" path="res://Sprites/Visual_Tabs/Cross.png" id="14_cross"]
+[ext_resource type="Texture2D" uid="uid://c86djm52541ma" path="res://Sprites/Visual_Tabs/Cross_blue.png" id="15_cross_blue"]
+[ext_resource type="Texture2D" uid="uid://b0v1tsdx85pjf" path="res://Sprites/Visual_Tabs/settings_true.png" id="15_settings"]
+[ext_resource type="Texture2D" uid="uid://xoio7pptherq" path="res://Sprites/Visual_Tabs/settings_true_blue.png" id="15_settings_blue"]
+[ext_resource type="Texture2D" uid="uid://b78qldscvjgjd" path="res://Sprites/Visual_Tabs/arrow_left.png" id="16_arrow_left"]
+[ext_resource type="Texture2D" path="res://Sprites/Visual_Tabs/arrow_left_blue.png" id="16_arrow_left_blue"]
+[ext_resource type="Texture2D" uid="uid://byw78hs8d3pgk" path="res://Sprites/Visual_Tabs/arrow_right.png" id="17_arrow_right"]
+[ext_resource type="Texture2D" path="res://Sprites/Visual_Tabs/arrow_right_blue.png" id="17_arrow_right_blue"]
+[ext_resource type="Texture2D" uid="uid://cf63j4b6dosp8" path="res://Sprites/Visual_Tabs/empty_space.png" id="18_empty_space"]
+
+[node name="Node2D" type="Control" unique_id=1456025813]
+layout_mode = 3
+anchors_preset = 0
+metadata/_edit_horizontal_guides_ = [5006.0, 2409.0, 1198.0, 167.0, 643.0]
+metadata/_edit_vertical_guides_ = [1080.0, 93.0, 987.0]
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1162503055]
+layout_mode = 1
+script = ExtResource("1_xcqs1")
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer" unique_id=1710322622]
+position = Vector2(528, 554)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("1_spp4l")
+
+[node name="RootUI" type="Node" parent="MarginContainer" unique_id=1622860295]
+script = ExtResource("13_controller")
+
+[node name="Backround" type="Sprite2D" parent="MarginContainer/RootUI" unique_id=407502032]
+visible = false
+position = Vector2(1290, 2272.0002)
+scale = Vector2(32.5, 58.079998)
+texture = ExtResource("1_spp4l")
+
+[node name="AtomShower" type="Control" parent="MarginContainer/RootUI" unique_id=1662790401]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_v6ayq")
+AtomCenterOffset = Vector2(0, 150)
+ProtonTexture = ExtResource("3_55hhh")
+NeutronTexture = ExtResource("4_lqsq4")
+ElectronTexture = ExtResource("5_iso6y")
+OrbitLineWidth = 6.0
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="MarginContainer/RootUI" unique_id=684470146]
+
+[node name="ElementName" type="TextureRect" parent="MarginContainer/RootUI/CanvasLayer2" unique_id=311506487]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -170.0
+offset_top = 75.0
+offset_right = 170.0
+offset_bottom = 180.0
+grow_horizontal = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ElementNameFallback" type="Label" parent="MarginContainer/RootUI/CanvasLayer2" unique_id=1946148751]
+visible = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -170.0
+offset_top = 75.0
+offset_right = 170.0
+offset_bottom = 180.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 42
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SettingsButton" type="TextureButton" parent="MarginContainer/RootUI/CanvasLayer2" unique_id=1655253177]
+z_index = 100
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -225.0
+offset_top = 70.0
+offset_right = -80.0
+offset_bottom = 215.0
+grow_horizontal = 0
+texture_normal = ExtResource("15_settings")
+texture_pressed = ExtResource("15_settings_blue")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="CloseButton" type="TextureButton" parent="MarginContainer/RootUI/CanvasLayer2" unique_id=29161081]
+z_index = 100
+offset_left = 94.0
+offset_top = 84.0
+offset_right = 214.0
+offset_bottom = 204.0
+texture_normal = ExtResource("14_cross")
+texture_pressed = ExtResource("15_cross_blue")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="ElementSymbol" type="TextureRect" parent="MarginContainer/RootUI/CanvasLayer2" unique_id=427407581]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -225.0
+offset_top = 365.0
+offset_right = 225.0
+offset_bottom = 815.0
+grow_horizontal = 2
+expand_mode = 1
+stretch_mode = 4
+
+[node name="PreviousElementButton" type="TextureButton" parent="MarginContainer/RootUI/CanvasLayer2" unique_id=1834711824]
+offset_left = 45.0
+offset_top = 490.0
+offset_right = 270.0
+offset_bottom = 690.0
+texture_normal = ExtResource("16_arrow_left")
+texture_pressed = ExtResource("16_arrow_left_blue")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="NextElementButton" type="TextureButton" parent="MarginContainer/RootUI/CanvasLayer2" unique_id=562421692]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -270.0
+offset_top = 490.0
+offset_right = -45.0
+offset_bottom = 690.0
+grow_horizontal = 0
+texture_normal = ExtResource("17_arrow_right")
+texture_pressed = ExtResource("17_arrow_right_blue")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="AtomInfoButton" type="TextureButton" parent="MarginContainer/RootUI/CanvasLayer2" unique_id=733238349]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -175.0
+offset_top = -530.0
+offset_right = 175.0
+offset_bottom = -180.0
+grow_horizontal = 2
+grow_vertical = 0
+texture_normal = ExtResource("12_g0wiw")
+texture_pressed = ExtResource("12_g0wiw")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="AtomPopup" type="Control" parent="MarginContainer/RootUI/CanvasLayer2" unique_id=1640483191]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -420.0
+offset_right = 400.0
+offset_bottom = 420.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PopupBackground" type="TextureRect" parent="MarginContainer/RootUI/CanvasLayer2/AtomPopup"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("18_empty_space")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PopupCloseButton" type="TextureButton" parent="MarginContainer/RootUI/CanvasLayer2/AtomPopup"]
+layout_mode = 0
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -112.0
+offset_top = 46.0
+offset_right = -30.0
+offset_bottom = 128.0
+grow_horizontal = 0
+texture_normal = ExtResource("14_cross")
+texture_pressed = ExtResource("14_cross")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="PopupTitle" type="TextureRect" parent="MarginContainer/RootUI/CanvasLayer2/AtomPopup"]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 60.0
+offset_right = 650.0
+offset_bottom = 150.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PopupDetails" type="Label" parent="MarginContainer/RootUI/CanvasLayer2/AtomPopup"]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 180.0
+offset_right = 700.0
+offset_bottom = 700.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 34
+vertical_alignment = 1

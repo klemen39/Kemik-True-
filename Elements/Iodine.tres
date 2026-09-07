@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://d1oftmkfum3fa"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_5e33r"]
+
+[resource]
+script = ExtResource("1_5e33r")
+SLOelementName = "Jod"
+ENGelementName = "Iodine"
+Symbol = "I"
+AtomicNumber = 53
+NeutronCount = 74
+Mass = 127
+Perioda = 5
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 18
+Perioda5 = 7
+Skupina = 17
+Blok = 1
+Tip = 1
+Subtip = 6
+metadata/_custom_type_script = "uid://3th8onmepgfc"

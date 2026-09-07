@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://ceidxhqs43l0p"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_3c271"]
+
+[resource]
+script = ExtResource("1_3c271")
+SLOelementName = "Vodik"
+ENGelementName = "Hydrogen"
+Symbol = "H"
+AtomicNumber = 1
+NeutronCount = 0
+Mass = 1
+Perioda = 1
+Perioda1 = 1
+Skupina = 1
+Tip = 1
+Subtip = 5
+metadata/_custom_type_script = "uid://3th8onmepgfc"

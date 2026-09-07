@@ -1,0 +1,493 @@
+{
+  "template_group": "phosphates",
+  "template_count": 10,
+  "templates": [
+    {
+      "formula": "PO4^3-",
+      "aliases": [
+        "PO4-3",
+        "PO4---",
+        "[PO4]3-"
+      ],
+      "name": "Phosphate ion",
+      "type": "polyatomic_ion",
+      "overall_charge": -3,
+      "show_brackets": true,
+      "layout": "tetrahedral",
+      "geometry": {
+        "electron_domain_geometry": "tetrahedral",
+        "molecular_geometry": "tetrahedral",
+        "ideal_bond_angle": 109.5
+      },
+      "resonance": true,
+      "preferred_resonance_form": 0,
+      "atoms": [
+        {
+          "id": "P1",
+          "element": "P",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "x": 0,
+          "y": -2.5,
+          "lone_pairs": 2,
+          "formal_charge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "x": 0,
+          "y": 2.5,
+          "lone_pairs": 3,
+          "formal_charge": -1
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "x": -2.5,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": -1
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "x": 2.5,
+          "y": 0,
+          "lone_pairs": 3,
+          "formal_charge": -1
+        }
+      ],
+      "bonds": [
+        {
+          "from": "P1",
+          "to": "O1",
+          "order": 2
+        },
+        {
+          "from": "P1",
+          "to": "O2",
+          "order": 1
+        },
+        {
+          "from": "P1",
+          "to": "O3",
+          "order": 1
+        },
+        {
+          "from": "P1",
+          "to": "O4",
+          "order": 1
+        }
+      ],
+      "resonance_forms": [
+        {
+          "id": 0,
+          "double_bonded_oxygens": [
+            "O1"
+          ],
+          "single_bonded_oxygens": [
+            "O2",
+            "O3",
+            "O4"
+          ]
+        },
+        {
+          "id": 1,
+          "double_bonded_oxygens": [
+            "O2"
+          ],
+          "single_bonded_oxygens": [
+            "O1",
+            "O3",
+            "O4"
+          ]
+        },
+        {
+          "id": 2,
+          "double_bonded_oxygens": [
+            "O3"
+          ],
+          "single_bonded_oxygens": [
+            "O1",
+            "O2",
+            "O4"
+          ]
+        },
+        {
+          "id": 3,
+          "double_bonded_oxygens": [
+            "O4"
+          ],
+          "single_bonded_oxygens": [
+            "O1",
+            "O2",
+            "O3"
+          ]
+        }
+      ],
+      "resonance_render_rule": {
+        "double_bond_count": 1,
+        "single_bond_count": 3,
+        "double_bonded_oxygen": {
+          "formal_charge": 0,
+          "lone_pairs": 2
+        },
+        "single_bonded_oxygen": {
+          "formal_charge": -1,
+          "lone_pairs": 3
+        },
+        "phosphorus": {
+          "formal_charge": 0,
+          "lone_pairs": 0
+        }
+      },
+      "electron_count": {
+        "total_valence_electrons": 32,
+        "calculation": "5 + 4(6) + 3"
+      },
+      "notes": [
+        "The displayed Lewis structure uses one phosphorus-oxygen double bond and three single bonds.",
+        "The three single-bonded oxygen atoms each carry a formal charge of -1.",
+        "The phosphate ion has four equivalent resonance forms.",
+        "The overall charge of the ion is -3.",
+        "Phosphorus is a period 3 element and may have an expanded octet in a Lewis structure."
+      ]
+    },
+    {
+      "formula": "Na3PO4",
+      "name": "Sodium phosphate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Na_group",
+          "formula": "Na",
+          "element": "Na",
+          "charge": 1,
+          "coefficient": 3,
+          "x": -6,
+          "y": 0,
+          "instance_spacing": 1.8,
+          "show_brackets": true
+        },
+        {
+          "id": "PO4_1",
+          "formula": "PO4",
+          "charge": -3,
+          "coefficient": 1,
+          "template_reference": "PO4^3-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "K3PO4",
+      "name": "Potassium phosphate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "K_group",
+          "formula": "K",
+          "element": "K",
+          "charge": 1,
+          "coefficient": 3,
+          "x": -6,
+          "y": 0,
+          "instance_spacing": 1.8,
+          "show_brackets": true
+        },
+        {
+          "id": "PO4_1",
+          "formula": "PO4",
+          "charge": -3,
+          "coefficient": 1,
+          "template_reference": "PO4^3-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "Li3PO4",
+      "name": "Lithium phosphate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Li_group",
+          "formula": "Li",
+          "element": "Li",
+          "charge": 1,
+          "coefficient": 3,
+          "x": -6,
+          "y": 0,
+          "instance_spacing": 1.8,
+          "show_brackets": true
+        },
+        {
+          "id": "PO4_1",
+          "formula": "PO4",
+          "charge": -3,
+          "coefficient": 1,
+          "template_reference": "PO4^3-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "Ca3(PO4)2",
+      "name": "Calcium phosphate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Ca_group",
+          "formula": "Ca",
+          "element": "Ca",
+          "charge": 2,
+          "coefficient": 3,
+          "x": -7,
+          "y": 0,
+          "instance_spacing": 2,
+          "show_brackets": true
+        },
+        {
+          "id": "PO4_group",
+          "formula": "PO4",
+          "charge": -3,
+          "coefficient": 2,
+          "template_reference": "PO4^3-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 5
+        }
+      ]
+    },
+    {
+      "formula": "Mg3(PO4)2",
+      "name": "Magnesium phosphate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Mg_group",
+          "formula": "Mg",
+          "element": "Mg",
+          "charge": 2,
+          "coefficient": 3,
+          "x": -7,
+          "y": 0,
+          "instance_spacing": 2,
+          "show_brackets": true
+        },
+        {
+          "id": "PO4_group",
+          "formula": "PO4",
+          "charge": -3,
+          "coefficient": 2,
+          "template_reference": "PO4^3-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 5
+        }
+      ]
+    },
+    {
+      "formula": "AlPO4",
+      "name": "Aluminium phosphate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Al1",
+          "formula": "Al",
+          "element": "Al",
+          "charge": 3,
+          "coefficient": 1,
+          "x": -3.5,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "PO4_1",
+          "formula": "PO4",
+          "charge": -3,
+          "coefficient": 1,
+          "template_reference": "PO4^3-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "FePO4",
+      "name": "Iron(III) phosphate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Fe1",
+          "formula": "Fe",
+          "element": "Fe",
+          "charge": 3,
+          "oxidation_state": 3,
+          "coefficient": 1,
+          "x": -3.5,
+          "y": 0,
+          "show_brackets": true
+        },
+        {
+          "id": "PO4_1",
+          "formula": "PO4",
+          "charge": -3,
+          "coefficient": 1,
+          "template_reference": "PO4^3-",
+          "x": 1.5,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "(NH4)3PO4",
+      "name": "Ammonium phosphate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "NH4_group",
+          "formula": "NH4",
+          "charge": 1,
+          "coefficient": 3,
+          "template_reference": "NH4+",
+          "x": -7,
+          "y": 0,
+          "instance_spacing": 3.5
+        },
+        {
+          "id": "PO4_1",
+          "formula": "PO4",
+          "charge": -3,
+          "coefficient": 1,
+          "template_reference": "PO4^3-",
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "formula": "Cu3(PO4)2",
+      "name": "Copper(II) phosphate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "id": "Cu_group",
+          "formula": "Cu",
+          "element": "Cu",
+          "charge": 2,
+          "oxidation_state": 2,
+          "coefficient": 3,
+          "x": -7,
+          "y": 0,
+          "instance_spacing": 2,
+          "show_brackets": true
+        },
+        {
+          "id": "PO4_group",
+          "formula": "PO4",
+          "charge": -3,
+          "coefficient": 2,
+          "template_reference": "PO4^3-",
+          "x": 0,
+          "y": 0,
+          "instance_spacing": 5
+        }
+      ]
+    }
+  ],
+  "generic_rule": {
+    "id": "phosphate_salt_rule",
+    "group_name": "phosphate",
+    "anion_template": "PO4^3-",
+    "anion_formula": "PO4",
+    "anion_charge": -3,
+    "compound_type": "ionic",
+    "charge_balance": {
+      "method": "least_common_multiple",
+      "cation_count": "lcm(abs(cation_charge), 3) / abs(cation_charge)",
+      "phosphate_count": "lcm(abs(cation_charge), 3) / 3"
+    },
+    "formula_formatting": {
+      "use_parentheses_when_anion_count_above_one": true,
+      "use_parentheses_for_polyatomic_cations_when_count_above_one": true,
+      "omit_subscript_one": true,
+      "examples": [
+        {
+          "cation": "Na",
+          "cation_charge": 1,
+          "cation_count": 3,
+          "phosphate_count": 1,
+          "result": "Na3PO4"
+        },
+        {
+          "cation": "Ca",
+          "cation_charge": 2,
+          "cation_count": 3,
+          "phosphate_count": 2,
+          "result": "Ca3(PO4)2"
+        },
+        {
+          "cation": "Al",
+          "cation_charge": 3,
+          "cation_count": 1,
+          "phosphate_count": 1,
+          "result": "AlPO4"
+        },
+        {
+          "cation": "NH4",
+          "cation_charge": 1,
+          "cation_count": 3,
+          "phosphate_count": 1,
+          "result": "(NH4)3PO4"
+        }
+      ]
+    }
+  },
+  "renderer_rules": {
+    "polyatomic_ion": {
+      "render_atoms_inside_brackets": true,
+      "render_overall_charge_outside_brackets": true,
+      "charge_position": "top_right",
+      "render_formal_charges": true,
+      "render_lone_pairs": true
+    },
+    "ionic_compound": {
+      "draw_bonds_between_ions": false,
+      "render_each_ion_separately": true,
+      "repeat_ions_using_coefficient": true,
+      "preserve_polyatomic_group_structure": true,
+      "show_cation_charge": true,
+      "show_anion_charge": true
+    },
+    "resonance": {
+      "default_display": "preferred_form",
+      "allow_cycle_between_forms": true,
+      "show_resonance_arrows": false,
+      "equivalent_forms": true
+    },
+    "layout": {
+      "maximum_ions_per_row": 4,
+      "wrap_large_ionic_compounds": true,
+      "center_polyatomic_groups": true
+    }
+  }
+}

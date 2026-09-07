@@ -1,0 +1,261 @@
+{
+  "template_group": "ammonium",
+  "template_count": 9,
+  "templates": [
+    {
+      "formula": "NH4+",
+      "aliases": [
+        "NH4^+",
+        "[NH4]+"
+      ],
+      "name": "Ammonium ion",
+      "type": "polyatomic_cation",
+      "overall_charge": 1,
+      "show_brackets": true,
+      "layout": "tetrahedral",
+      "geometry": {
+        "electron_domain_geometry": "tetrahedral",
+        "molecular_geometry": "tetrahedral",
+        "ideal_bond_angle": 109.5
+      },
+      "resonance": false,
+      "atoms": [
+        {
+          "id": "N1",
+          "element": "N",
+          "x": 0,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 1
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "x": 0,
+          "y": -2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "x": 2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H3",
+          "element": "H",
+          "x": 0,
+          "y": 2,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        },
+        {
+          "id": "H4",
+          "element": "H",
+          "x": -2,
+          "y": 0,
+          "lone_pairs": 0,
+          "formal_charge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "from": "N1",
+          "to": "H1",
+          "order": 1
+        },
+        {
+          "from": "N1",
+          "to": "H2",
+          "order": 1
+        },
+        {
+          "from": "N1",
+          "to": "H3",
+          "order": 1
+        },
+        {
+          "from": "N1",
+          "to": "H4",
+          "order": 1
+        }
+      ],
+      "electron_count": {
+        "total_valence_electrons": 8,
+        "calculation": "5 + 4(1) - 1"
+      },
+      "notes": [
+        "Ammonium is formed when ammonia accepts H+.",
+        "Nitrogen has four single bonds.",
+        "Nitrogen has no lone pairs.",
+        "The nitrogen atom carries a formal charge of +1.",
+        "Overall ion charge is +1."
+      ]
+    },
+
+    {
+      "formula": "NH4Cl",
+      "name": "Ammonium chloride",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "template_reference": "NH4+",
+          "coefficient": 1
+        },
+        {
+          "formula": "Cl",
+          "charge": -1,
+          "coefficient": 1
+        }
+      ]
+    },
+
+    {
+      "formula": "NH4NO3",
+      "name": "Ammonium nitrate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "template_reference": "NH4+",
+          "coefficient": 1
+        },
+        {
+          "template_reference": "NO3-",
+          "coefficient": 1
+        }
+      ]
+    },
+
+    {
+      "formula": "(NH4)2SO4",
+      "name": "Ammonium sulfate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "template_reference": "NH4+",
+          "coefficient": 2
+        },
+        {
+          "template_reference": "SO4^2-",
+          "coefficient": 1
+        }
+      ]
+    },
+
+    {
+      "formula": "(NH4)2CO3",
+      "name": "Ammonium carbonate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "template_reference": "NH4+",
+          "coefficient": 2
+        },
+        {
+          "template_reference": "CO3^2-",
+          "coefficient": 1
+        }
+      ]
+    },
+
+    {
+      "formula": "(NH4)3PO4",
+      "name": "Ammonium phosphate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "template_reference": "NH4+",
+          "coefficient": 3
+        },
+        {
+          "template_reference": "PO4^3-",
+          "coefficient": 1
+        }
+      ]
+    },
+
+    {
+      "formula": "NH4OH",
+      "name": "Ammonium hydroxide",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "template_reference": "NH4+",
+          "coefficient": 1
+        },
+        {
+          "template_reference": "OH^-",
+          "coefficient": 1
+        }
+      ]
+    },
+
+    {
+      "formula": "(NH4)2Cr2O7",
+      "name": "Ammonium dichromate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "template_reference": "NH4+",
+          "coefficient": 2
+        },
+        {
+          "template_reference": "Cr2O7^2-",
+          "coefficient": 1
+        }
+      ]
+    },
+
+    {
+      "formula": "NH4HCO3",
+      "name": "Ammonium bicarbonate",
+      "type": "ionic",
+      "layout": "ionic_groups",
+      "ions": [
+        {
+          "template_reference": "NH4+",
+          "coefficient": 1
+        },
+        {
+          "template_reference": "HCO3^-",
+          "coefficient": 1
+        }
+      ]
+    }
+  ],
+
+  "generic_rule": {
+    "id": "ammonium_salt_rule",
+    "cation_template": "NH4+",
+    "cation_charge": 1,
+    "compound_type": "ionic",
+    "description": "Any ionic compound containing NH4+ uses the ammonium template as the cation."
+  },
+
+  "renderer_rules": {
+    "polyatomic_cation": {
+      "render_atoms_inside_brackets": true,
+      "render_overall_charge_outside_brackets": true,
+      "charge_position": "top_right",
+      "render_formal_charges": true,
+      "render_lone_pairs": true
+    },
+
+    "ionic_compound": {
+      "draw_bonds_between_ions": false,
+      "render_each_ion_separately": true,
+      "repeat_ions_using_coefficient": true,
+      "preserve_polyatomic_group_structure": true
+    }
+  }
+}

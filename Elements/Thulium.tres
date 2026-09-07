@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://do7neeqk0dx5e"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_x4k1v"]
+
+[resource]
+script = ExtResource("1_x4k1v")
+SLOelementName = "Tulij"
+ENGelementName = "Thulium"
+Symbol = "Tm"
+AtomicNumber = 69
+NeutronCount = 100
+Mass = 169
+Perioda = 6
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 31
+Perioda5 = 8
+Perioda6 = 2
+Skupina = 19
+Blok = 3
+Subtip = 8
+metadata/_custom_type_script = "uid://3th8onmepgfc"

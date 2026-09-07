@@ -1,0 +1,299 @@
+{
+  "dataset": "Lewis-supported compounds from 200 common and simple chemical compounds",
+  "source": "res://Data/200_common_chemical_compounds_en_sl.json",
+  "languages": [
+    "en",
+    "sl"
+  ],
+  "formula_notation": "Plain-text chemical formulas. These are the compounds currently considered suitable for the simple Lewis structure renderer.",
+  "compound_count": 41,
+  "compounds": [
+    {
+      "id": 3,
+      "formula": "CO",
+      "english_name": "Carbon monoxide",
+      "slovene_name": "Ogljikov monoksid",
+      "category": "oxide"
+    },
+    {
+      "id": 26,
+      "formula": "HF",
+      "english_name": "Hydrofluoric acid",
+      "slovene_name": "Fluorovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 28,
+      "formula": "HI",
+      "english_name": "Hydroiodic acid",
+      "slovene_name": "Jodovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 7,
+      "formula": "NO",
+      "english_name": "Nitrogen monoxide",
+      "slovene_name": "Dušikov monoksid",
+      "category": "oxide"
+    },
+    {
+      "id": 175,
+      "formula": "O3",
+      "english_name": "Ozone",
+      "slovene_name": "Ozon",
+      "category": "elemental molecule"
+    },
+    {
+      "id": 123,
+      "formula": "CH4",
+      "english_name": "Methane",
+      "slovene_name": "Metan",
+      "category": "alkane"
+    },
+    {
+      "id": 4,
+      "formula": "CO2",
+      "english_name": "Carbon dioxide",
+      "slovene_name": "Ogljikov dioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 179,
+      "formula": "CS2",
+      "english_name": "Carbon disulfide",
+      "slovene_name": "Ogljikov disulfid",
+      "category": "sulfide"
+    },
+    {
+      "id": 1,
+      "formula": "H2O",
+      "english_name": "Water",
+      "slovene_name": "Voda",
+      "category": "oxide"
+    },
+    {
+      "id": 35,
+      "formula": "H2S",
+      "english_name": "Hydrosulfuric acid",
+      "slovene_name": "Žveplovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 27,
+      "formula": "HBr",
+      "english_name": "Hydrobromic acid",
+      "slovene_name": "Bromovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 25,
+      "formula": "HCl",
+      "english_name": "Hydrochloric acid",
+      "slovene_name": "Klorovodikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 9,
+      "formula": "N2O",
+      "english_name": "Dinitrogen monoxide",
+      "slovene_name": "Didušikov monoksid",
+      "category": "oxide"
+    },
+    {
+      "id": 60,
+      "formula": "NH3",
+      "english_name": "Ammonia",
+      "slovene_name": "Amoniak",
+      "category": "base"
+    },
+    {
+      "id": 8,
+      "formula": "NO2",
+      "english_name": "Nitrogen dioxide",
+      "slovene_name": "Dušikov dioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 176,
+      "formula": "PH3",
+      "english_name": "Phosphine",
+      "slovene_name": "Fosfin",
+      "category": "hydride"
+    },
+    {
+      "id": 5,
+      "formula": "SO2",
+      "english_name": "Sulfur dioxide",
+      "slovene_name": "Žveplov dioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 6,
+      "formula": "SO3",
+      "english_name": "Sulfur trioxide",
+      "slovene_name": "Žveplov trioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 178,
+      "formula": "B2H6",
+      "english_name": "Diborane",
+      "slovene_name": "Diboran",
+      "category": "hydride"
+    },
+    {
+      "id": 136,
+      "formula": "C2H2",
+      "english_name": "Ethyne",
+      "slovene_name": "Etin",
+      "category": "alkyne"
+    },
+    {
+      "id": 133,
+      "formula": "C2H4",
+      "english_name": "Ethene",
+      "slovene_name": "Eten",
+      "category": "alkene"
+    },
+    {
+      "id": 124,
+      "formula": "C2H6",
+      "english_name": "Ethane",
+      "slovene_name": "Etan",
+      "category": "alkane"
+    },
+    {
+      "id": 134,
+      "formula": "C3H6",
+      "english_name": "Propene",
+      "slovene_name": "Propen",
+      "category": "alkene"
+    },
+    {
+      "id": 125,
+      "formula": "C3H8",
+      "english_name": "Propane",
+      "slovene_name": "Propan",
+      "category": "alkane"
+    },
+    {
+      "id": 135,
+      "formula": "C4H8",
+      "english_name": "Butene",
+      "slovene_name": "Buten",
+      "category": "alkene"
+    },
+    {
+      "id": 2,
+      "formula": "H2O2",
+      "english_name": "Hydrogen peroxide",
+      "slovene_name": "Vodikov peroksid",
+      "category": "peroxide"
+    },
+    {
+      "id": 36,
+      "formula": "HClO",
+      "english_name": "Hypochlorous acid",
+      "slovene_name": "Hipoklorasta kislina",
+      "category": "acid"
+    },
+    {
+      "id": 32,
+      "formula": "HNO2",
+      "english_name": "Nitrous acid",
+      "slovene_name": "Dušikasta kislina",
+      "category": "acid"
+    },
+    {
+      "id": 31,
+      "formula": "HNO3",
+      "english_name": "Nitric acid",
+      "slovene_name": "Dušikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 177,
+      "formula": "SiH4",
+      "english_name": "Silane",
+      "slovene_name": "Silan",
+      "category": "hydride"
+    },
+    {
+      "id": 10,
+      "formula": "SiO2",
+      "english_name": "Silicon dioxide",
+      "slovene_name": "Silicijev dioksid",
+      "category": "oxide"
+    },
+    {
+      "id": 11,
+      "formula": "Al2O3",
+      "english_name": "Aluminium oxide",
+      "slovene_name": "Aluminijev oksid",
+      "category": "oxide"
+    },
+    {
+      "id": 34,
+      "formula": "H2CO3",
+      "english_name": "Carbonic acid",
+      "slovene_name": "Ogljikova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 30,
+      "formula": "H2SO3",
+      "english_name": "Sulfurous acid",
+      "slovene_name": "Žveplasta kislina",
+      "category": "acid"
+    },
+    {
+      "id": 29,
+      "formula": "H2SO4",
+      "english_name": "Sulfuric acid",
+      "slovene_name": "Žveplova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 39,
+      "formula": "H3BO3",
+      "english_name": "Boric acid",
+      "slovene_name": "Borova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 33,
+      "formula": "H3PO4",
+      "english_name": "Phosphoric acid",
+      "slovene_name": "Fosforjeva kislina",
+      "category": "acid"
+    },
+    {
+      "id": 37,
+      "formula": "HClO3",
+      "english_name": "Chloric acid",
+      "slovene_name": "Klorova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 38,
+      "formula": "HClO4",
+      "english_name": "Perchloric acid",
+      "slovene_name": "Perklorova kislina",
+      "category": "acid"
+    },
+    {
+      "id": 61,
+      "formula": "NH4OH",
+      "english_name": "Ammonium hydroxide",
+      "slovene_name": "Amonijev hidroksid",
+      "category": "base"
+    },
+    {
+      "id": 56,
+      "formula": "Al(OH)3",
+      "english_name": "Aluminium hydroxide",
+      "slovene_name": "Aluminijev hidroksid",
+      "category": "base"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://bghafp1x07k73"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_us5iy"]
+
+[resource]
+script = ExtResource("1_us5iy")
+SLOelementName = "Brom"
+ENGelementName = "Bromine"
+Symbol = "Br"
+AtomicNumber = 35
+NeutronCount = 44
+Mass = 79
+Perioda = 4
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 7
+Skupina = 17
+Blok = 1
+Tip = 1
+Subtip = 6
+metadata/_custom_type_script = "uid://3th8onmepgfc"

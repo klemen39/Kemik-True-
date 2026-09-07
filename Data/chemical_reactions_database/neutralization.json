@@ -1,0 +1,1373 @@
+[
+  {
+    "id": 111,
+    "name": {
+      "en": "Hydrochloric acid and sodium hydroxide",
+      "sl": "Klorovodikova kislina in natrijev hidroksid"
+    },
+    "equation": "HCl + NaOH -> NaCl + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "strong acid-strong base",
+    "reactants": [
+      {
+        "formula": "HCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Classic neutralization.",
+    "tags": [
+      "neutralization",
+      "strong_acid-strong_base"
+    ]
+  },
+  {
+    "id": 112,
+    "name": {
+      "en": "Hydrochloric acid and potassium hydroxide",
+      "sl": "Klorovodikova kislina in kalijev hidroksid"
+    },
+    "equation": "HCl + KOH -> KCl + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "strong acid-strong base",
+    "reactants": [
+      {
+        "formula": "HCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "KOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "KCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Classic neutralization.",
+    "tags": [
+      "neutralization",
+      "strong_acid-strong_base"
+    ]
+  },
+  {
+    "id": 113,
+    "name": {
+      "en": "Sulfuric acid and sodium hydroxide",
+      "sl": "Žveplova kislina in natrijev hidroksid"
+    },
+    "equation": "H2SO4 + 2 NaOH -> Na2SO4 + 2 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "diprotic acid neutralization",
+    "reactants": [
+      {
+        "formula": "H2SO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na2SO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Complete neutralization.",
+    "tags": [
+      "neutralization",
+      "diprotic_acid_neutralization"
+    ]
+  },
+  {
+    "id": 114,
+    "name": {
+      "en": "Nitric acid and sodium hydroxide",
+      "sl": "Dušikova kislina in natrijev hidroksid"
+    },
+    "equation": "HNO3 + NaOH -> NaNO3 + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "strong acid-strong base",
+    "reactants": [
+      {
+        "formula": "HNO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaNO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Classic neutralization.",
+    "tags": [
+      "neutralization",
+      "strong_acid-strong_base"
+    ]
+  },
+  {
+    "id": 115,
+    "name": {
+      "en": "Acetic acid and sodium hydroxide",
+      "sl": "Ocetna kislina in natrijev hidroksid"
+    },
+    "equation": "CH3COOH + NaOH -> CH3COONa + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "weak acid-strong base",
+    "reactants": [
+      {
+        "formula": "CH3COOH",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3COONa",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces sodium acetate.",
+    "tags": [
+      "neutralization",
+      "weak_acid-strong_base"
+    ]
+  },
+  {
+    "id": 116,
+    "name": {
+      "en": "Hydrofluoric acid and potassium hydroxide",
+      "sl": "Fluorovodikova kislina in kalijev hidroksid"
+    },
+    "equation": "HF + KOH -> KF + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "weak acid-strong base",
+    "reactants": [
+      {
+        "formula": "HF",
+        "coefficient": 1
+      },
+      {
+        "formula": "KOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "KF",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces potassium fluoride.",
+    "tags": [
+      "neutralization",
+      "weak_acid-strong_base"
+    ]
+  },
+  {
+    "id": 117,
+    "name": {
+      "en": "Carbonic acid and calcium hydroxide",
+      "sl": "Ogljikova kislina in kalcijev hidroksid"
+    },
+    "equation": "H2CO3 + Ca(OH)2 -> CaCO3 + 2 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "acid-base with precipitation",
+    "reactants": [
+      {
+        "formula": "H2CO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "Ca(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaCO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces calcium carbonate.",
+    "tags": [
+      "neutralization",
+      "acid-base_with_precipitation"
+    ]
+  },
+  {
+    "id": 118,
+    "name": {
+      "en": "Phosphoric acid and sodium hydroxide",
+      "sl": "Fosforjeva kislina in natrijev hidroksid"
+    },
+    "equation": "H3PO4 + 3 NaOH -> Na3PO4 + 3 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "triprotic acid neutralization",
+    "reactants": [
+      {
+        "formula": "H3PO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na3PO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Complete neutralization.",
+    "tags": [
+      "neutralization",
+      "triprotic_acid_neutralization"
+    ]
+  },
+  {
+    "id": 119,
+    "name": {
+      "en": "Sulfuric acid and magnesium hydroxide",
+      "sl": "Žveplova kislina in magnezijev hidroksid"
+    },
+    "equation": "H2SO4 + Mg(OH)2 -> MgSO4 + 2 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "acid-base neutralization",
+    "reactants": [
+      {
+        "formula": "H2SO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Mg(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Antacid-type chemistry.",
+    "tags": [
+      "neutralization",
+      "acid-base_neutralization"
+    ]
+  },
+  {
+    "id": 120,
+    "name": {
+      "en": "Hydrochloric acid and ammonia",
+      "sl": "Klorovodikova kislina in amonijak"
+    },
+    "equation": "HCl + NH3 -> NH4Cl",
+    "reaction_type": "neutralization",
+    "subcategory": "acid-base salt formation",
+    "reactants": [
+      {
+        "formula": "HCl",
+        "coefficient": 1
+      },
+      {
+        "formula": "NH3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NH4Cl",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "No water in the net reaction.",
+    "tags": [
+      "neutralization",
+      "acid-base_salt_formation"
+    ]
+  },
+  {
+    "id": 121,
+    "name": {
+      "en": "Nitric acid and potassium hydroxide",
+      "sl": "Dušikova kislina in kalijev hidroksid"
+    },
+    "equation": "HNO3 + KOH -> KNO3 + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "strong acid-strong base",
+    "reactants": [
+      {
+        "formula": "HNO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "KOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "KNO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces potassium nitrate.",
+    "tags": [
+      "neutralization",
+      "strong_acid-strong_base"
+    ]
+  },
+  {
+    "id": 122,
+    "name": {
+      "en": "Hydrobromic acid and lithium hydroxide",
+      "sl": "Bromovodikova kislina in litijev hidroksid"
+    },
+    "equation": "HBr + LiOH -> LiBr + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "strong acid-strong base",
+    "reactants": [
+      {
+        "formula": "HBr",
+        "coefficient": 1
+      },
+      {
+        "formula": "LiOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "LiBr",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces lithium bromide.",
+    "tags": [
+      "neutralization",
+      "strong_acid-strong_base"
+    ]
+  },
+  {
+    "id": 123,
+    "name": {
+      "en": "Hydroiodic acid and sodium hydroxide",
+      "sl": "Jodovodikova kislina in natrijev hidroksid"
+    },
+    "equation": "HI + NaOH -> NaI + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "strong acid-strong base",
+    "reactants": [
+      {
+        "formula": "HI",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaI",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces sodium iodide.",
+    "tags": [
+      "neutralization",
+      "strong_acid-strong_base"
+    ]
+  },
+  {
+    "id": 124,
+    "name": {
+      "en": "Sulfuric acid and potassium hydroxide",
+      "sl": "Žveplova kislina in kalijev hidroksid"
+    },
+    "equation": "H2SO4 + 2 KOH -> K2SO4 + 2 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "diprotic acid neutralization",
+    "reactants": [
+      {
+        "formula": "H2SO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "KOH",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "K2SO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Complete neutralization.",
+    "tags": [
+      "neutralization",
+      "diprotic_acid_neutralization"
+    ]
+  },
+  {
+    "id": 125,
+    "name": {
+      "en": "Sulfuric acid and barium hydroxide",
+      "sl": "Žveplova kislina in barijev hidroksid"
+    },
+    "equation": "H2SO4 + Ba(OH)2 -> BaSO4 + 2 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "neutralization with precipitation",
+    "reactants": [
+      {
+        "formula": "H2SO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "Ba(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "BaSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "BaSO4 precipitates.",
+    "tags": [
+      "neutralization",
+      "neutralization_with_precipitation"
+    ]
+  },
+  {
+    "id": 126,
+    "name": {
+      "en": "Hydrochloric acid and calcium hydroxide",
+      "sl": "Klorovodikova kislina in kalcijev hidroksid"
+    },
+    "equation": "2 HCl + Ca(OH)2 -> CaCl2 + 2 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "acid-base neutralization",
+    "reactants": [
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      },
+      {
+        "formula": "Ca(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Complete neutralization.",
+    "tags": [
+      "neutralization",
+      "acid-base_neutralization"
+    ]
+  },
+  {
+    "id": 127,
+    "name": {
+      "en": "Nitric acid and calcium hydroxide",
+      "sl": "Dušikova kislina in kalcijev hidroksid"
+    },
+    "equation": "2 HNO3 + Ca(OH)2 -> Ca(NO3)2 + 2 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "acid-base neutralization",
+    "reactants": [
+      {
+        "formula": "HNO3",
+        "coefficient": 2
+      },
+      {
+        "formula": "Ca(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ca(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces calcium nitrate.",
+    "tags": [
+      "neutralization",
+      "acid-base_neutralization"
+    ]
+  },
+  {
+    "id": 128,
+    "name": {
+      "en": "Acetic acid and potassium hydroxide",
+      "sl": "Ocetna kislina in kalijev hidroksid"
+    },
+    "equation": "CH3COOH + KOH -> CH3COOK + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "weak acid-strong base",
+    "reactants": [
+      {
+        "formula": "CH3COOH",
+        "coefficient": 1
+      },
+      {
+        "formula": "KOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CH3COOK",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces potassium acetate.",
+    "tags": [
+      "neutralization",
+      "weak_acid-strong_base"
+    ]
+  },
+  {
+    "id": 129,
+    "name": {
+      "en": "Formic acid and sodium hydroxide",
+      "sl": "Mravljična kislina in natrijev hidroksid"
+    },
+    "equation": "HCOOH + NaOH -> HCOONa + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "weak acid-strong base",
+    "reactants": [
+      {
+        "formula": "HCOOH",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "HCOONa",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces sodium formate.",
+    "tags": [
+      "neutralization",
+      "weak_acid-strong_base"
+    ]
+  },
+  {
+    "id": 130,
+    "name": {
+      "en": "Oxalic acid and sodium hydroxide",
+      "sl": "Oksalna kislina in natrijev hidroksid"
+    },
+    "equation": "H2C2O4 + 2 NaOH -> Na2C2O4 + 2 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "diprotic acid neutralization",
+    "reactants": [
+      {
+        "formula": "H2C2O4",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na2C2O4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Complete neutralization.",
+    "tags": [
+      "neutralization",
+      "diprotic_acid_neutralization"
+    ]
+  },
+  {
+    "id": 131,
+    "name": {
+      "en": "Citric acid and sodium hydroxide",
+      "sl": "Citronska kislina in natrijev hidroksid"
+    },
+    "equation": "C6H8O7 + 3 NaOH -> Na3C6H5O7 + 3 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "triprotic acid neutralization",
+    "reactants": [
+      {
+        "formula": "C6H8O7",
+        "coefficient": 1
+      },
+      {
+        "formula": "NaOH",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na3C6H5O7",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces sodium citrate.",
+    "tags": [
+      "neutralization",
+      "triprotic_acid_neutralization"
+    ]
+  },
+  {
+    "id": 132,
+    "name": {
+      "en": "Hydrochloric acid and aluminium hydroxide",
+      "sl": "Klorovodikova kislina in aluminijev hidroksid"
+    },
+    "equation": "3 HCl + Al(OH)3 -> AlCl3 + 3 H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "acid-base neutralization",
+    "reactants": [
+      {
+        "formula": "HCl",
+        "coefficient": 3
+      },
+      {
+        "formula": "Al(OH)3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "AlCl3",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Dissolves amphoteric hydroxide.",
+    "tags": [
+      "neutralization",
+      "acid-base_neutralization"
+    ]
+  },
+  {
+    "id": 133,
+    "name": {
+      "en": "Nitric acid and copper(II) oxide",
+      "sl": "Dušikova kislina in bakrov(II) oksid"
+    },
+    "equation": "2 HNO3 + CuO -> Cu(NO3)2 + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "acid-basic oxide",
+    "reactants": [
+      {
+        "formula": "HNO3",
+        "coefficient": 2
+      },
+      {
+        "formula": "CuO",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Cu(NO3)2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Blue copper nitrate solution.",
+    "tags": [
+      "neutralization",
+      "acid-basic_oxide"
+    ]
+  },
+  {
+    "id": 134,
+    "name": {
+      "en": "Sulfuric acid and copper(II) oxide",
+      "sl": "Žveplova kislina in bakrov(II) oksid"
+    },
+    "equation": "H2SO4 + CuO -> CuSO4 + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "acid-basic oxide",
+    "reactants": [
+      {
+        "formula": "H2SO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "CuO",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CuSO4",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces copper sulfate.",
+    "tags": [
+      "neutralization",
+      "acid-basic_oxide"
+    ]
+  },
+  {
+    "id": 135,
+    "name": {
+      "en": "Hydrochloric acid and magnesium oxide",
+      "sl": "Klorovodikova kislina in magnezijev oksid"
+    },
+    "equation": "2 HCl + MgO -> MgCl2 + H2O",
+    "reaction_type": "neutralization",
+    "subcategory": "acid-basic oxide",
+    "reactants": [
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      },
+      {
+        "formula": "MgO",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgCl2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": true,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces magnesium chloride.",
+    "tags": [
+      "neutralization",
+      "acid-basic_oxide"
+    ]
+  }
+]

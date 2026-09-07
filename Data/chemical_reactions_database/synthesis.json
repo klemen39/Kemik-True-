@@ -1,0 +1,1277 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "en": "Formation of water",
+      "sl": "Nastanek vode"
+    },
+    "equation": "2 H2 + O2 -> 2 H2O",
+    "reaction_type": "synthesis",
+    "subcategory": "element combination",
+    "reactants": [
+      {
+        "formula": "H2",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Hydrogen burns in oxygen.",
+    "tags": [
+      "synthesis",
+      "element_combination"
+    ]
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Haber ammonia synthesis",
+      "sl": "Haberjeva sinteza amonijaka"
+    },
+    "equation": "N2 + 3 H2 -> 2 NH3",
+    "reaction_type": "synthesis",
+    "subcategory": "industrial synthesis",
+    "reactants": [
+      {
+        "formula": "N2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "NH3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Reversible industrial reaction; iron catalyst.",
+    "tags": [
+      "synthesis",
+      "industrial_synthesis"
+    ]
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "Formation of sodium chloride",
+      "sl": "Nastanek natrijevega klorida"
+    },
+    "equation": "2 Na + Cl2 -> 2 NaCl",
+    "reaction_type": "synthesis",
+    "subcategory": "metal-halogen combination",
+    "reactants": [
+      {
+        "formula": "Na",
+        "coefficient": 2
+      },
+      {
+        "formula": "Cl2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Highly exothermic.",
+    "tags": [
+      "synthesis",
+      "metal-halogen_combination"
+    ]
+  },
+  {
+    "id": 4,
+    "name": {
+      "en": "Formation of magnesium oxide",
+      "sl": "Nastanek magnezijevega oksida"
+    },
+    "equation": "2 Mg + O2 -> 2 MgO",
+    "reaction_type": "synthesis",
+    "subcategory": "metal oxidation",
+    "reactants": [
+      {
+        "formula": "Mg",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgO",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Bright white flame.",
+    "tags": [
+      "synthesis",
+      "metal_oxidation"
+    ]
+  },
+  {
+    "id": 5,
+    "name": {
+      "en": "Formation of aluminium oxide",
+      "sl": "Nastanek aluminijevega oksida"
+    },
+    "equation": "4 Al + 3 O2 -> 2 Al2O3",
+    "reaction_type": "synthesis",
+    "subcategory": "metal oxidation",
+    "reactants": [
+      {
+        "formula": "Al",
+        "coefficient": 4
+      },
+      {
+        "formula": "O2",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "Al2O3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Forms a protective oxide layer.",
+    "tags": [
+      "synthesis",
+      "metal_oxidation"
+    ]
+  },
+  {
+    "id": 6,
+    "name": {
+      "en": "Formation of iron(II) sulfide",
+      "sl": "Nastanek železovega(II) sulfida"
+    },
+    "equation": "Fe + S -> FeS",
+    "reaction_type": "synthesis",
+    "subcategory": "element combination",
+    "reactants": [
+      {
+        "formula": "Fe",
+        "coefficient": 1
+      },
+      {
+        "formula": "S",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "FeS",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Direct combination on heating.",
+    "tags": [
+      "synthesis",
+      "element_combination"
+    ]
+  },
+  {
+    "id": 7,
+    "name": {
+      "en": "Formation of calcium carbonate",
+      "sl": "Nastanek kalcijevega karbonata"
+    },
+    "equation": "CaO + CO2 -> CaCO3",
+    "reaction_type": "synthesis",
+    "subcategory": "oxide combination",
+    "reactants": [
+      {
+        "formula": "CaO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaCO3",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Carbonation of lime.",
+    "tags": [
+      "synthesis",
+      "oxide_combination"
+    ]
+  },
+  {
+    "id": 8,
+    "name": {
+      "en": "Formation of sulfuric acid",
+      "sl": "Nastanek žveplove kisline"
+    },
+    "equation": "SO3 + H2O -> H2SO4",
+    "reaction_type": "synthesis",
+    "subcategory": "acid anhydride hydration",
+    "reactants": [
+      {
+        "formula": "SO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2SO4",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Strongly exothermic.",
+    "tags": [
+      "synthesis",
+      "acid_anhydride_hydration"
+    ]
+  },
+  {
+    "id": 9,
+    "name": {
+      "en": "Formation of carbonic acid",
+      "sl": "Nastanek ogljikove kisline"
+    },
+    "equation": "CO2 + H2O <-> H2CO3",
+    "reaction_type": "synthesis",
+    "subcategory": "acid anhydride hydration",
+    "reactants": [
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2CO3",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": true,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": true,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Reversible in aqueous solution.",
+    "tags": [
+      "synthesis",
+      "acid_anhydride_hydration"
+    ]
+  },
+  {
+    "id": 10,
+    "name": {
+      "en": "Formation of phosphorus(V) oxide",
+      "sl": "Nastanek fosforjevega(V) oksida"
+    },
+    "equation": "P4 + 5 O2 -> P4O10",
+    "reaction_type": "synthesis",
+    "subcategory": "nonmetal oxidation",
+    "reactants": [
+      {
+        "formula": "P4",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 5
+      }
+    ],
+    "products": [
+      {
+        "formula": "P4O10",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "White phosphorus combustion.",
+    "tags": [
+      "synthesis",
+      "nonmetal_oxidation"
+    ]
+  },
+  {
+    "id": 11,
+    "name": {
+      "en": "Formation of calcium chloride",
+      "sl": "Nastanek kalcijevega klorida"
+    },
+    "equation": "Ca + Cl2 -> CaCl2",
+    "reaction_type": "synthesis",
+    "subcategory": "metal-halogen combination",
+    "reactants": [
+      {
+        "formula": "Ca",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cl2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaCl2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Direct synthesis.",
+    "tags": [
+      "synthesis",
+      "metal-halogen_combination"
+    ]
+  },
+  {
+    "id": 12,
+    "name": {
+      "en": "Formation of zinc sulfide",
+      "sl": "Nastanek cinkovega sulfida"
+    },
+    "equation": "Zn + S -> ZnS",
+    "reaction_type": "synthesis",
+    "subcategory": "element combination",
+    "reactants": [
+      {
+        "formula": "Zn",
+        "coefficient": 1
+      },
+      {
+        "formula": "S",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnS",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Direct synthesis on heating.",
+    "tags": [
+      "synthesis",
+      "element_combination"
+    ]
+  },
+  {
+    "id": 13,
+    "name": {
+      "en": "Formation of silicon dioxide",
+      "sl": "Nastanek silicijevega dioksida"
+    },
+    "equation": "Si + O2 -> SiO2",
+    "reaction_type": "synthesis",
+    "subcategory": "nonmetal oxidation",
+    "reactants": [
+      {
+        "formula": "Si",
+        "coefficient": 1
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "SiO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Produces silica.",
+    "tags": [
+      "synthesis",
+      "nonmetal_oxidation"
+    ]
+  },
+  {
+    "id": 14,
+    "name": {
+      "en": "Formation of potassium bromide",
+      "sl": "Nastanek kalijevega bromida"
+    },
+    "equation": "2 K + Br2 -> 2 KBr",
+    "reaction_type": "synthesis",
+    "subcategory": "metal-halogen combination",
+    "reactants": [
+      {
+        "formula": "K",
+        "coefficient": 2
+      },
+      {
+        "formula": "Br2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "KBr",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Direct synthesis.",
+    "tags": [
+      "synthesis",
+      "metal-halogen_combination"
+    ]
+  },
+  {
+    "id": 15,
+    "name": {
+      "en": "Formation of lithium fluoride",
+      "sl": "Nastanek litijevega fluorida"
+    },
+    "equation": "2 Li + F2 -> 2 LiF",
+    "reaction_type": "synthesis",
+    "subcategory": "metal-halogen combination",
+    "reactants": [
+      {
+        "formula": "Li",
+        "coefficient": 2
+      },
+      {
+        "formula": "F2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "LiF",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Very exothermic.",
+    "tags": [
+      "synthesis",
+      "metal-halogen_combination"
+    ]
+  },
+  {
+    "id": 16,
+    "name": {
+      "en": "Formation of barium oxide",
+      "sl": "Nastanek barijevega oksida"
+    },
+    "equation": "2 Ba + O2 -> 2 BaO",
+    "reaction_type": "synthesis",
+    "subcategory": "metal oxidation",
+    "reactants": [
+      {
+        "formula": "Ba",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "BaO",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Limited oxygen.",
+    "tags": [
+      "synthesis",
+      "metal_oxidation"
+    ]
+  },
+  {
+    "id": 17,
+    "name": {
+      "en": "Formation of copper(II) oxide",
+      "sl": "Nastanek bakrovega(II) oksida"
+    },
+    "equation": "2 Cu + O2 -> 2 CuO",
+    "reaction_type": "synthesis",
+    "subcategory": "metal oxidation",
+    "reactants": [
+      {
+        "formula": "Cu",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CuO",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Copper blackens on heating.",
+    "tags": [
+      "synthesis",
+      "metal_oxidation"
+    ]
+  },
+  {
+    "id": 18,
+    "name": {
+      "en": "Oxidation of nitric oxide",
+      "sl": "Oksidacija dušikovega monoksida"
+    },
+    "equation": "2 NO + O2 -> 2 NO2",
+    "reaction_type": "synthesis",
+    "subcategory": "gas-phase oxidation",
+    "reactants": [
+      {
+        "formula": "NO",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NO2",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Forms brown nitrogen dioxide.",
+    "tags": [
+      "synthesis",
+      "gas-phase_oxidation"
+    ]
+  },
+  {
+    "id": 19,
+    "name": {
+      "en": "Slaking of lime",
+      "sl": "Gašenje apna"
+    },
+    "equation": "CaO + H2O -> Ca(OH)2",
+    "reaction_type": "synthesis",
+    "subcategory": "oxide hydration",
+    "reactants": [
+      {
+        "formula": "CaO",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ca(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Strongly exothermic.",
+    "tags": [
+      "synthesis",
+      "oxide_hydration"
+    ]
+  },
+  {
+    "id": 20,
+    "name": {
+      "en": "Formation of sodium hydroxide",
+      "sl": "Nastanek natrijevega hidroksida"
+    },
+    "equation": "Na2O + H2O -> 2 NaOH",
+    "reaction_type": "synthesis",
+    "subcategory": "basic oxide hydration",
+    "reactants": [
+      {
+        "formula": "Na2O",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NaOH",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Forms a strong base.",
+    "tags": [
+      "synthesis",
+      "basic_oxide_hydration"
+    ]
+  },
+  {
+    "id": 21,
+    "name": {
+      "en": "Formation of potassium hydroxide",
+      "sl": "Nastanek kalijevega hidroksida"
+    },
+    "equation": "K2O + H2O -> 2 KOH",
+    "reaction_type": "synthesis",
+    "subcategory": "basic oxide hydration",
+    "reactants": [
+      {
+        "formula": "K2O",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "KOH",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Forms a strong base.",
+    "tags": [
+      "synthesis",
+      "basic_oxide_hydration"
+    ]
+  },
+  {
+    "id": 22,
+    "name": {
+      "en": "Formation of magnesium hydroxide",
+      "sl": "Nastanek magnezijevega hidroksida"
+    },
+    "equation": "MgO + H2O -> Mg(OH)2",
+    "reaction_type": "synthesis",
+    "subcategory": "basic oxide hydration",
+    "reactants": [
+      {
+        "formula": "MgO",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Mg(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Slow hydration.",
+    "tags": [
+      "synthesis",
+      "basic_oxide_hydration"
+    ]
+  },
+  {
+    "id": 23,
+    "name": {
+      "en": "Oxidation of sulfur dioxide",
+      "sl": "Oksidacija žveplovega dioksida"
+    },
+    "equation": "2 SO2 + O2 <-> 2 SO3",
+    "reaction_type": "synthesis",
+    "subcategory": "industrial oxidation",
+    "reactants": [
+      {
+        "formula": "SO2",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "SO3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": true,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": true,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Vanadium(V) oxide catalyst in the contact process.",
+    "tags": [
+      "synthesis",
+      "industrial_oxidation"
+    ]
+  },
+  {
+    "id": 24,
+    "name": {
+      "en": "Formation of iron(III) oxide",
+      "sl": "Nastanek železovega(III) oksida"
+    },
+    "equation": "4 Fe + 3 O2 -> 2 Fe2O3",
+    "reaction_type": "synthesis",
+    "subcategory": "metal oxidation",
+    "reactants": [
+      {
+        "formula": "Fe",
+        "coefficient": 4
+      },
+      {
+        "formula": "O2",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe2O3",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Rust-related oxidation.",
+    "tags": [
+      "synthesis",
+      "metal_oxidation"
+    ]
+  },
+  {
+    "id": 25,
+    "name": {
+      "en": "Formation of hydrogen chloride",
+      "sl": "Nastanek vodikovega klorida"
+    },
+    "equation": "H2 + Cl2 -> 2 HCl",
+    "reaction_type": "synthesis",
+    "subcategory": "element combination",
+    "reactants": [
+      {
+        "formula": "H2",
+        "coefficient": 1
+      },
+      {
+        "formula": "Cl2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "HCl",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Photochemical or thermal initiation.",
+    "tags": [
+      "synthesis",
+      "element_combination"
+    ]
+  }
+]

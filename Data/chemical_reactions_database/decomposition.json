@@ -1,0 +1,1289 @@
+[
+  {
+    "id": 26,
+    "name": {
+      "en": "Decomposition of hydrogen peroxide",
+      "sl": "Razpad vodikovega peroksida"
+    },
+    "equation": "2 H2O2 -> 2 H2O + O2",
+    "reaction_type": "decomposition",
+    "subcategory": "catalytic decomposition",
+    "reactants": [
+      {
+        "formula": "H2O2",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Often catalyzed by MnO2.",
+    "tags": [
+      "decomposition",
+      "catalytic_decomposition"
+    ]
+  },
+  {
+    "id": 27,
+    "name": {
+      "en": "Thermal decomposition of calcium carbonate",
+      "sl": "Termični razpad kalcijevega karbonata"
+    },
+    "equation": "CaCO3 -> CaO + CO2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "CaCO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Limestone calcination.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  },
+  {
+    "id": 28,
+    "name": {
+      "en": "Decomposition of potassium chlorate",
+      "sl": "Razpad kalijevega klorata"
+    },
+    "equation": "2 KClO3 -> 2 KCl + 3 O2",
+    "reaction_type": "decomposition",
+    "subcategory": "oxygen preparation",
+    "reactants": [
+      {
+        "formula": "KClO3",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "KCl",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Often catalyzed by MnO2.",
+    "tags": [
+      "decomposition",
+      "oxygen_preparation"
+    ]
+  },
+  {
+    "id": 29,
+    "name": {
+      "en": "Decomposition of ammonium nitrate",
+      "sl": "Razpad amonijevega nitrata"
+    },
+    "equation": "NH4NO3 -> N2O + 2 H2O",
+    "reaction_type": "decomposition",
+    "subcategory": "thermal decomposition",
+    "reactants": [
+      {
+        "formula": "NH4NO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "N2O",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 2
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Controlled heating produces nitrous oxide.",
+    "tags": [
+      "decomposition",
+      "thermal_decomposition"
+    ]
+  },
+  {
+    "id": 30,
+    "name": {
+      "en": "Decomposition of mercury(II) oxide",
+      "sl": "Razpad živosrebrovega(II) oksida"
+    },
+    "equation": "2 HgO -> 2 Hg + O2",
+    "reaction_type": "decomposition",
+    "subcategory": "metal oxide decomposition",
+    "reactants": [
+      {
+        "formula": "HgO",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Hg",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Classic oxygen discovery reaction.",
+    "tags": [
+      "decomposition",
+      "metal_oxide_decomposition"
+    ]
+  },
+  {
+    "id": 31,
+    "name": {
+      "en": "Thermal decomposition of sodium bicarbonate",
+      "sl": "Termični razpad natrijevega hidrogenkarbonata"
+    },
+    "equation": "2 NaHCO3 -> Na2CO3 + CO2 + H2O",
+    "reaction_type": "decomposition",
+    "subcategory": "bicarbonate decomposition",
+    "reactants": [
+      {
+        "formula": "NaHCO3",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na2CO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Baking soda decomposition.",
+    "tags": [
+      "decomposition",
+      "bicarbonate_decomposition"
+    ]
+  },
+  {
+    "id": 32,
+    "name": {
+      "en": "Decomposition of carbonic acid",
+      "sl": "Razpad ogljikove kisline"
+    },
+    "equation": "H2CO3 -> CO2 + H2O",
+    "reaction_type": "decomposition",
+    "subcategory": "unstable acid decomposition",
+    "reactants": [
+      {
+        "formula": "H2CO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Occurs readily.",
+    "tags": [
+      "decomposition",
+      "unstable_acid_decomposition"
+    ]
+  },
+  {
+    "id": 33,
+    "name": {
+      "en": "Decomposition of magnesium carbonate",
+      "sl": "Razpad magnezijevega karbonata"
+    },
+    "equation": "MgCO3 -> MgO + CO2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "MgCO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "MgO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Thermal decomposition.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  },
+  {
+    "id": 34,
+    "name": {
+      "en": "Decomposition of zinc carbonate",
+      "sl": "Razpad cinkovega karbonata"
+    },
+    "equation": "ZnCO3 -> ZnO + CO2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "ZnCO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "ZnO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Thermal decomposition.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  },
+  {
+    "id": 35,
+    "name": {
+      "en": "Decomposition of copper(II) carbonate",
+      "sl": "Razpad bakrovega(II) karbonata"
+    },
+    "equation": "CuCO3 -> CuO + CO2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "CuCO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CuO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Green carbonate forms black CuO.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  },
+  {
+    "id": 36,
+    "name": {
+      "en": "Dehydration of iron(III) hydroxide",
+      "sl": "Dehidracija železovega(III) hidroksida"
+    },
+    "equation": "2 Fe(OH)3 -> Fe2O3 + 3 H2O",
+    "reaction_type": "decomposition",
+    "subcategory": "hydroxide decomposition",
+    "reactants": [
+      {
+        "formula": "Fe(OH)3",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Fe2O3",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 3
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Occurs on heating.",
+    "tags": [
+      "decomposition",
+      "hydroxide_decomposition"
+    ]
+  },
+  {
+    "id": 37,
+    "name": {
+      "en": "Decomposition of copper(II) hydroxide",
+      "sl": "Razpad bakrovega(II) hidroksida"
+    },
+    "equation": "Cu(OH)2 -> CuO + H2O",
+    "reaction_type": "decomposition",
+    "subcategory": "hydroxide decomposition",
+    "reactants": [
+      {
+        "formula": "Cu(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CuO",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Blue solid turns black.",
+    "tags": [
+      "decomposition",
+      "hydroxide_decomposition"
+    ]
+  },
+  {
+    "id": 38,
+    "name": {
+      "en": "Decomposition of silver(I) oxide",
+      "sl": "Razpad srebrovega(I) oksida"
+    },
+    "equation": "2 Ag2O -> 4 Ag + O2",
+    "reaction_type": "decomposition",
+    "subcategory": "metal oxide decomposition",
+    "reactants": [
+      {
+        "formula": "Ag2O",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ag",
+        "coefficient": 4
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Light or heat sensitive.",
+    "tags": [
+      "decomposition",
+      "metal_oxide_decomposition"
+    ]
+  },
+  {
+    "id": 39,
+    "name": {
+      "en": "Decomposition of lead(II) carbonate",
+      "sl": "Razpad svinčevega(II) karbonata"
+    },
+    "equation": "PbCO3 -> PbO + CO2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "PbCO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "PbO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Thermal decomposition.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  },
+  {
+    "id": 40,
+    "name": {
+      "en": "Decomposition of ammonium hydroxide",
+      "sl": "Razpad amonijevega hidroksida"
+    },
+    "equation": "NH4OH -> NH3 + H2O",
+    "reaction_type": "decomposition",
+    "subcategory": "weak base decomposition",
+    "reactants": [
+      {
+        "formula": "NH4OH",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NH3",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Formal representation in aqueous ammonia.",
+    "tags": [
+      "decomposition",
+      "weak_base_decomposition"
+    ]
+  },
+  {
+    "id": 41,
+    "name": {
+      "en": "Decomposition of sulfurous acid",
+      "sl": "Razpad žveplaste kisline"
+    },
+    "equation": "H2SO3 -> SO2 + H2O",
+    "reaction_type": "decomposition",
+    "subcategory": "unstable acid decomposition",
+    "reactants": [
+      {
+        "formula": "H2SO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "SO2",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Occurs readily.",
+    "tags": [
+      "decomposition",
+      "unstable_acid_decomposition"
+    ]
+  },
+  {
+    "id": 42,
+    "name": {
+      "en": "Disproportionation of nitrous acid",
+      "sl": "Disproporcionacija dušikaste kisline"
+    },
+    "equation": "3 HNO2 -> HNO3 + 2 NO + H2O",
+    "reaction_type": "decomposition",
+    "subcategory": "acid decomposition",
+    "reactants": [
+      {
+        "formula": "HNO2",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "formula": "HNO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "NO",
+        "coefficient": 2
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Redox decomposition.",
+    "tags": [
+      "decomposition",
+      "acid_decomposition"
+    ]
+  },
+  {
+    "id": 43,
+    "name": {
+      "en": "Dehydration of washing soda",
+      "sl": "Dehidracija kristalne sode"
+    },
+    "equation": "Na2CO3.10H2O -> Na2CO3 + 10 H2O",
+    "reaction_type": "decomposition",
+    "subcategory": "hydrate dehydration",
+    "reactants": [
+      {
+        "formula": "Na2CO3.10H2O",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "Na2CO3",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 10
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Loss of water of crystallization.",
+    "tags": [
+      "decomposition",
+      "hydrate_dehydration"
+    ]
+  },
+  {
+    "id": 44,
+    "name": {
+      "en": "Decomposition of calcium hydroxide",
+      "sl": "Razpad kalcijevega hidroksida"
+    },
+    "equation": "Ca(OH)2 -> CaO + H2O",
+    "reaction_type": "decomposition",
+    "subcategory": "hydroxide decomposition",
+    "reactants": [
+      {
+        "formula": "Ca(OH)2",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "CaO",
+        "coefficient": 1
+      },
+      {
+        "formula": "H2O",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Requires strong heating.",
+    "tags": [
+      "decomposition",
+      "hydroxide_decomposition"
+    ]
+  },
+  {
+    "id": 45,
+    "name": {
+      "en": "Decomposition of iron(II) carbonate",
+      "sl": "Razpad železovega(II) karbonata"
+    },
+    "equation": "FeCO3 -> FeO + CO2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "FeCO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "FeO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Thermal decomposition without oxygen.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  },
+  {
+    "id": 46,
+    "name": {
+      "en": "Decomposition of nickel(II) carbonate",
+      "sl": "Razpad nikljevega(II) karbonata"
+    },
+    "equation": "NiCO3 -> NiO + CO2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "NiCO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "NiO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Thermal decomposition.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  },
+  {
+    "id": 47,
+    "name": {
+      "en": "Decomposition of manganese(II) carbonate",
+      "sl": "Razpad manganovega(II) karbonata"
+    },
+    "equation": "MnCO3 -> MnO + CO2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "MnCO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "MnO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Thermal decomposition.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  },
+  {
+    "id": 48,
+    "name": {
+      "en": "Decomposition of strontium carbonate",
+      "sl": "Razpad stroncijevega karbonata"
+    },
+    "equation": "SrCO3 -> SrO + CO2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "SrCO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "SrO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "High-temperature decomposition.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  },
+  {
+    "id": 49,
+    "name": {
+      "en": "Decomposition of barium carbonate",
+      "sl": "Razpad barijevega karbonata"
+    },
+    "equation": "BaCO3 -> BaO + CO2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "BaCO3",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "formula": "BaO",
+        "coefficient": 1
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "High-temperature decomposition.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  },
+  {
+    "id": 50,
+    "name": {
+      "en": "Decomposition of silver carbonate",
+      "sl": "Razpad srebrovega karbonata"
+    },
+    "equation": "2 Ag2CO3 -> 4 Ag + 2 CO2 + O2",
+    "reaction_type": "decomposition",
+    "subcategory": "carbonate decomposition",
+    "reactants": [
+      {
+        "formula": "Ag2CO3",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "formula": "Ag",
+        "coefficient": 4
+      },
+      {
+        "formula": "CO2",
+        "coefficient": 2
+      },
+      {
+        "formula": "O2",
+        "coefficient": 1
+      }
+    ],
+    "balanced": true,
+    "reversible": false,
+    "conditions": {
+      "temperature": null,
+      "pressure": null,
+      "catalyst": null
+    },
+    "ionic_equation": null,
+    "net_ionic_equation": null,
+    "oxidation_numbers": {},
+    "is_redox": false,
+    "is_precipitation": false,
+    "is_combustion": false,
+    "is_neutralization": false,
+    "is_gas_evolution": false,
+    "is_reversible": false,
+    "precipitate": null,
+    "gas": null,
+    "energy": "unknown",
+    "difficulty": "easy",
+    "notes": "Light-sensitive decomposition.",
+    "tags": [
+      "decomposition",
+      "carbonate_decomposition"
+    ]
+  }
+]

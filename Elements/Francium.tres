@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://cvbopo32p5vt3"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_440uc"]
+
+[resource]
+script = ExtResource("1_440uc")
+SLOelementName = "Francij"
+ENGelementName = "Francium"
+Symbol = "Fr"
+AtomicNumber = 87
+NeutronCount = 136
+Mass = 223
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 18
+Perioda6 = 8
+Perioda7 = 1
+Skupina = 1
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"

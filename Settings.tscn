@@ -1,0 +1,118 @@
+[gd_scene format=3 uid="uid://bqkg6s3woc18n"]
+
+[ext_resource type="Script" uid="uid://c47hww33jyxun" path="res://Scripts/SettingsController.cs" id="1_settings"]
+[ext_resource type="Texture2D" uid="uid://clca0bj5f8nak" path="res://Sprites/smoll.png" id="2_bg"]
+[ext_resource type="Texture2D" uid="uid://dnxdsvsu52603" path="res://Sprites/Visual_Tabs/Cross.png" id="3_cross"]
+[ext_resource type="Texture2D" uid="uid://q1fnu1ljv4jy" path="res://Sprites/Visual_Tabs/home_true.png" id="5_8uskx"]
+[ext_resource type="Texture2D" uid="uid://bro4344wjwamx" path="res://Sprites/Visual_Tabs/settings_slo_button.png" id="5_title"]
+[ext_resource type="Texture2D" uid="uid://ck1bjqedhyh4i" path="res://Sprites/Visual_Tabs/English.png" id="6_english"]
+[ext_resource type="Texture2D" uid="uid://qkuf4aombgcr" path="res://Sprites/Visual_Tabs/home_blue_true.png" id="6_xffxv"]
+[ext_resource type="Texture2D" uid="uid://dx6w7nmxlx34i" path="res://Sprites/Visual_Tabs/Slovenian.png" id="7_slovene"]
+[ext_resource type="Texture2D" uid="uid://blev768kkkp40" path="res://Sprites/Visual_Tabs/Line.png" id="8_line"]
+
+[node name="Settings" type="Control" unique_id=136108248]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_settings")
+metadata/_edit_horizontal_guides_ = [231.0]
+metadata/_edit_vertical_guides_ = [980.0]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1625384898]
+position = Vector2(540, 1200)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("2_bg")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=305637037]
+
+[node name="CloseButton" type="TextureButton" parent="CanvasLayer2" unique_id=356574262]
+offset_left = 94.0
+offset_top = 98.0
+offset_right = 230.0
+offset_bottom = 234.0
+texture_normal = ExtResource("3_cross")
+texture_pressed = ExtResource("3_cross")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Title" type="TextureRect" parent="CanvasLayer2" unique_id=109380472]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -235.0
+offset_top = 104.0
+offset_right = 235.0
+offset_bottom = 232.0
+grow_horizontal = 2
+texture = ExtResource("5_title")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="HomeButton" type="TextureButton" parent="CanvasLayer2" unique_id=2031720471]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -241.0
+offset_top = 89.0
+offset_right = -94.0
+offset_bottom = 236.0
+grow_horizontal = 0
+texture_normal = ExtResource("5_8uskx")
+texture_pressed = ExtResource("6_xffxv")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TopLine" type="TextureRect" parent="CanvasLayer2" unique_id=1201046087]
+offset_top = 320.0
+offset_right = 1080.0
+offset_bottom = 340.0
+texture = ExtResource("8_line")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="EnglishButton" type="TextureButton" parent="CanvasLayer2" unique_id=12482640]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -330.0
+offset_top = 430.0
+offset_right = 330.0
+offset_bottom = 658.0
+grow_horizontal = 2
+texture_normal = ExtResource("6_english")
+texture_pressed = ExtResource("6_english")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="MiddleLine" type="TextureRect" parent="CanvasLayer2" unique_id=351328941]
+offset_top = 770.0
+offset_right = 1080.0
+offset_bottom = 790.0
+texture = ExtResource("8_line")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="SloveneButton" type="TextureButton" parent="CanvasLayer2" unique_id=262336761]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -330.0
+offset_top = 870.0
+offset_right = 330.0
+offset_bottom = 1098.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_slovene")
+texture_pressed = ExtResource("7_slovene")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="BottomLine" type="TextureRect" parent="CanvasLayer2" unique_id=1216194273]
+offset_top = 1210.0
+offset_right = 1080.0
+offset_bottom = 1230.0
+texture = ExtResource("8_line")
+expand_mode = 1
+stretch_mode = 1

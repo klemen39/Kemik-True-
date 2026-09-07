@@ -1,0 +1,54 @@
+[gd_resource type="Resource" script_class="QuizElementVisuals" format=3 uid="uid://ctphtv8du4pym"]
+
+[ext_resource type="Texture2D" uid="uid://bvxcqi43hiq7k" path="res://Sprites/Numbers_Correct/17_True.png" id="1_6330g"]
+[ext_resource type="Texture2D" uid="uid://b072f50a30p10" path="res://Sprites/Numbers_Wrong/17_Wrong.png" id="2_d41qr"]
+[ext_resource type="Texture2D" uid="uid://cvb42ami5ac0i" path="res://Sprites/Numbers_Regular/17_Regular.png" id="3_w7u8g"]
+[ext_resource type="Texture2D" uid="uid://idkkmasitp74" path="res://Sprites/Quiz_Periodic/17_Periodic.png" id="4_qeyg4"]
+[ext_resource type="Resource" uid="uid://gjgcikhs5j5q" path="res://Elements/Chlorine.tres" id="5_gesda"]
+[ext_resource type="Texture2D" uid="uid://cdh5raj6usk2j" path="res://Sprites/Quiz_Groups/Halogen_correct.png" id="6_0642x"]
+[ext_resource type="Texture2D" uid="uid://bspqlngc6nrqr" path="res://Sprites/Quiz_Groups/Halogen_wrong.png" id="7_t4fdu"]
+[ext_resource type="Texture2D" uid="uid://drdgyshalhheq" path="res://Sprites/Quiz_Groups/Halogen_regular.png" id="8_uiuh4"]
+[ext_resource type="Texture2D" uid="uid://ba5xvpxtpsgq" path="res://Sprites/Quiz_Names/Chlorine_Name.png" id="9_hwg6q"]
+[ext_resource type="Texture2D" uid="uid://tofnqdk02iuv" path="res://Sprites/Quiz_Names/Chlorine_Wrong.png" id="10_a8tph"]
+[ext_resource type="Texture2D" uid="uid://cnmgu5o41ebes" path="res://Sprites/Quiz_Names/Chlorine_Neutral.png" id="11_cgyb1"]
+[ext_resource type="Texture2D" uid="uid://dk7d546unlnbb" path="res://Sprites/Quiz_Periodic/3_Periodic.png" id="12_1uq15"]
+[ext_resource type="Texture2D" uid="uid://dwpga2crbyf7t" path="res://Sprites/Numbers_Wrong/3_Wrong.png" id="13_bxrof"]
+[ext_resource type="Texture2D" uid="uid://dty8881kv4mp0" path="res://Sprites/Numbers_Regular/3_Regular.png" id="14_itq0p"]
+[ext_resource type="Texture2D" uid="uid://rt0xcuckvkxa" path="res://Sprites/Quiz_Groups/Halogeni_correct.png" id="15_2gcij"]
+[ext_resource type="Texture2D" uid="uid://jf4xfr7ox3cb" path="res://Sprites/Quiz_Groups/Halogeni_wrong.png" id="16_2eth7"]
+[ext_resource type="Texture2D" uid="uid://chf2dx4n6mb26" path="res://Sprites/Quiz_Groups/Halogeni_regular.png" id="17_tdrg1"]
+[ext_resource type="Texture2D" uid="uid://b0lfwncla753x" path="res://Sprites/Quiz_Names/Klor_Name.png" id="18_2l1nb"]
+[ext_resource type="Texture2D" uid="uid://dyfn03fnvd0fs" path="res://Sprites/Quiz_Names/Klor_Wrong.png" id="19_mh7mp"]
+[ext_resource type="Texture2D" uid="uid://i8y1ip8ahvyr" path="res://Sprites/Quiz_Names/Klor_Neutral.png" id="20_huopm"]
+[ext_resource type="Texture2D" uid="uid://boqqy01f0jvtm" path="res://Sprites/Quiz_Symbol/Chlorine_ShadowNameless.png" id="21_g7gi0"]
+[ext_resource type="Texture2D" uid="uid://cqvqxwx0usifo" path="res://Sprites/Quiz_Symbol/Chlorine_Nameless.png" id="22_rbror"]
+[ext_resource type="Script" uid="uid://chdci5mhm4owb" path="res://Scripts/QuizElementVisuals.cs" id="23_pvuqu"]
+
+[resource]
+script = ExtResource("23_pvuqu")
+ElementData = ExtResource("5_gesda")
+SymbolNormal = ExtResource("22_rbror")
+SymbolDisabled = ExtResource("21_g7gi0")
+SymbolCorrect = ExtResource("21_g7gi0")
+AtomicNumberNormal = ExtResource("3_w7u8g")
+AtomicNumberDisabled = ExtResource("2_d41qr")
+AtomicNumberCorrect = ExtResource("1_6330g")
+SloveneNameNormal = ExtResource("20_huopm")
+SloveneNameDisabled = ExtResource("19_mh7mp")
+SloveneNameCorrect = ExtResource("18_2l1nb")
+EnglishNameNormal = ExtResource("11_cgyb1")
+EnglishNameDisabled = ExtResource("10_a8tph")
+EnglishNameCorrect = ExtResource("9_hwg6q")
+SloveneGroupNormal = ExtResource("17_tdrg1")
+SloveneGroupDisabled = ExtResource("16_2eth7")
+SloveneGroupCorrect = ExtResource("15_2gcij")
+EnglishGroupNormal = ExtResource("8_uiuh4")
+EnglishGroupDisabled = ExtResource("7_t4fdu")
+EnglishGroupCorrect = ExtResource("6_0642x")
+PeriodicGroupNormal = ExtResource("14_itq0p")
+PeriodicGroupDisabled = ExtResource("13_bxrof")
+PeriodicGroupCorrect = ExtResource("12_1uq15")
+ColumnNormal = ExtResource("3_w7u8g")
+ColumnDisabled = ExtResource("2_d41qr")
+ColumnCorrect = ExtResource("4_qeyg4")
+metadata/_custom_type_script = "uid://chdci5mhm4owb"

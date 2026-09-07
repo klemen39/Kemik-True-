@@ -1,0 +1,126 @@
+[gd_scene load_steps=8 format=3 uid="uid://i8y5uqghf757"]
+
+[ext_resource type="Script" path="res://Scripts/LewisStructureController.cs" id="1_lewis"]
+[ext_resource type="Script" uid="uid://c006pe2qt46v7" path="res://Scripts/SafeAreaMarginContainer.cs" id="2_safe"]
+[ext_resource type="Texture2D" uid="uid://clca0bj5f8nak" path="res://Sprites/smoll.png" id="3_bg"]
+[ext_resource type="Texture2D" uid="uid://dnxdsvsu52603" path="res://Sprites/Visual_Tabs/Cross.png" id="4_cross"]
+[ext_resource type="Texture2D" uid="uid://cst17u687ruy5" path="res://Sprites/Visual_Tabs/settings_default.png" id="5_settings"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_input"]
+bg_color = Color(0.0705882, 0.101961, 0.113725, 1)
+border_width_left = 7
+border_width_top = 7
+border_width_right = 7
+border_width_bottom = 7
+border_color = Color(0.2, 0.27451, 0.301961, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_label"]
+bg_color = Color(0.0705882, 0.101961, 0.113725, 1)
+border_width_left = 7
+border_width_top = 7
+border_width_right = 7
+border_width_bottom = 7
+border_color = Color(0.2, 0.27451, 0.301961, 1)
+
+[node name="LewisStructure" type="Control" node_paths=PackedStringArray("FormulaInput", "StructureArea", "CompoundNameLabel", "CompoundCategoryLabel")]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_lewis")
+FormulaInput = NodePath("MarginContainer/CanvasLayer2/FormulaInput")
+StructureArea = NodePath("MarginContainer/CanvasLayer2/StructureArea")
+CompoundNameLabel = NodePath("MarginContainer/CanvasLayer2/CompoundNameLabel")
+CompoundCategoryLabel = NodePath("MarginContainer/CanvasLayer2/CompoundCategoryLabel")
+metadata/_edit_horizontal_guides_ = [1080.0, 166.0, 345.0, 865.0]
+metadata/_edit_vertical_guides_ = [2400.0, 330.0, 2070.0, 770.0, 1630.0]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+script = ExtResource("2_safe")
+
+[node name="Background" type="Sprite2D" parent="MarginContainer"]
+position = Vector2(565, 692)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("3_bg")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="MarginContainer"]
+offset = Vector2(1080, 0)
+rotation = 1.5708
+
+[node name="CloseButton" type="TextureButton" parent="MarginContainer/CanvasLayer2"]
+z_index = 100
+offset_left = 94.0
+offset_top = 98.0
+offset_right = 230.0
+offset_bottom = 234.0
+texture_normal = ExtResource("4_cross")
+texture_pressed = ExtResource("4_cross")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="SettingsButton" type="TextureButton" parent="MarginContainer/CanvasLayer2"]
+z_index = 100
+offset_left = 2170.0
+offset_top = 43.0
+offset_right = 2368.0
+offset_bottom = 301.0
+texture_normal = ExtResource("5_settings")
+texture_pressed = ExtResource("5_settings")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="FormulaInput" type="LineEdit" parent="MarginContainer/CanvasLayer2"]
+offset_left = 770.0
+offset_top = 110.0
+offset_right = 1630.0
+offset_bottom = 240.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_placeholder_color = Color(0.55, 0.62, 0.66, 1)
+theme_override_font_sizes/font_size = 58
+theme_override_styles/normal = SubResource("StyleBoxFlat_input")
+theme_override_styles/focus = SubResource("StyleBoxFlat_input")
+placeholder_text = "H2O"
+alignment = 1
+caret_blink = true
+
+[node name="StructureFrame" type="Panel" parent="MarginContainer/CanvasLayer2"]
+offset_left = 330.0
+offset_top = 345.0
+offset_right = 2070.0
+offset_bottom = 865.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_label")
+
+[node name="StructureArea" type="Control" parent="MarginContainer/CanvasLayer2"]
+offset_left = 330.0
+offset_top = 345.0
+offset_right = 2070.0
+offset_bottom = 865.0
+mouse_filter = 2
+
+[node name="CompoundNameLabel" type="Label" parent="MarginContainer/CanvasLayer2"]
+offset_left = 330.0
+offset_top = 890.0
+offset_right = 1170.0
+offset_bottom = 1010.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+theme_override_styles/normal = SubResource("StyleBoxFlat_label")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CompoundCategoryLabel" type="Label" parent="MarginContainer/CanvasLayer2"]
+offset_left = 1230.0
+offset_top = 890.0
+offset_right = 2070.0
+offset_bottom = 1010.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+theme_override_styles/normal = SubResource("StyleBoxFlat_label")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/CloseButton" to="." method="OpenStartScreen"]
+[connection signal="pressed" from="MarginContainer/CanvasLayer2/SettingsButton" to="." method="OpenSettingsScene"]

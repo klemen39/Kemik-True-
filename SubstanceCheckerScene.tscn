@@ -1,0 +1,120 @@
+[gd_scene format=3 uid="uid://dkly3vq6mlwtn"]
+
+[ext_resource type="Script" uid="uid://xdq0mbfgt0eh" path="res://Scripts/SubstanceCheckerController.cs" id="1_checker"]
+[ext_resource type="Script" uid="uid://c006pe2qt46v7" path="res://Scripts/SafeAreaMarginContainer.cs" id="2_safe"]
+[ext_resource type="Texture2D" uid="uid://clca0bj5f8nak" path="res://Sprites/smoll.png" id="3_bg"]
+
+[node name="SubstanceCheckerScene" type="Control" unique_id=1144769067 node_paths=PackedStringArray("FormulaInput", "CheckButton", "NameLabel", "ResultLabel")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_checker")
+FormulaInput = NodePath("MarginContainer/CanvasLayer2/FormulaInput")
+CheckButton = NodePath("MarginContainer/CanvasLayer2/CheckButton")
+NameLabel = NodePath("MarginContainer/CanvasLayer2/NameLabel")
+ResultLabel = NodePath("MarginContainer/CanvasLayer2/ResultLabel")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=571553762]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_safe")
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer" unique_id=1449768130]
+position = Vector2(528, 554)
+scale = Vector2(4304, 2610.9998)
+texture = ExtResource("3_bg")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="MarginContainer" unique_id=1191888300]
+
+[node name="TitleLabel" type="Label" parent="MarginContainer/CanvasLayer2" unique_id=1487284565]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.13
+anchor_right = 0.5
+anchor_bottom = 0.13
+offset_left = -420.0
+offset_top = -60.0
+offset_right = 420.0
+offset_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 58
+text = "Compound Check"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="FormulaInput" type="LineEdit" parent="MarginContainer/CanvasLayer2" unique_id=654359858]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.31
+anchor_right = 0.5
+anchor_bottom = 0.31
+offset_left = -390.0
+offset_top = -58.0
+offset_right = 390.0
+offset_bottom = 58.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 48
+placeholder_text = "H2O"
+alignment = 1
+
+[node name="NameLabel" type="Label" parent="MarginContainer/CanvasLayer2" unique_id=1040820104]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.405
+anchor_right = 0.5
+anchor_bottom = 0.405
+offset_left = -430.0
+offset_top = -48.0
+offset_right = 430.0
+offset_bottom = 70.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 34
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="CheckButton" type="Button" parent="MarginContainer/CanvasLayer2" unique_id=1827967627]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.53
+anchor_right = 0.5
+anchor_bottom = 0.53
+offset_left = -230.0
+offset_top = -55.0
+offset_right = 230.0
+offset_bottom = 55.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 38
+text = "Check"
+
+[node name="ResultLabel" type="Label" parent="MarginContainer/CanvasLayer2" unique_id=1249114822]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.65
+anchor_right = 0.5
+anchor_bottom = 0.65
+offset_left = -430.0
+offset_top = -60.0
+offset_right = 430.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 38
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2

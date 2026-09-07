@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Element" format=3 uid="uid://bodb1hmm5lrek"]
+
+[ext_resource type="Script" uid="uid://3th8onmepgfc" path="res://Scripts/Element.cs" id="1_iyips"]
+
+[resource]
+script = ExtResource("1_iyips")
+SLOelementName = "Flerovij"
+ENGelementName = "Flerovium"
+Symbol = "Fl"
+AtomicNumber = 114
+NeutronCount = 175
+Mass = 289
+Perioda = 7
+Perioda1 = 2
+Perioda2 = 8
+Perioda3 = 18
+Perioda4 = 32
+Perioda5 = 32
+Perioda6 = 18
+Perioda7 = 4
+Skupina = 14
+Blok = 1
+Subtip = 3
+Radioactivity = true
+metadata/_custom_type_script = "uid://3th8onmepgfc"
