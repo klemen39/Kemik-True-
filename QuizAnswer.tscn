@@ -11,11 +11,10 @@
 [ext_resource type="Texture2D" uid="uid://cgnkeoigwlb83" path="res://Sprites/Tin_Chosen.png" id="9_tc10a"]
 [ext_resource type="Texture2D" uid="uid://dnxdsvsu52603" path="res://Sprites/Visual_Tabs/Cross.png" id="10_cross"]
 
-[node name="Answer Control" type="Control" unique_id=157415527 node_paths=PackedStringArray("ElementLayout", "ElementImage", "AnswerButtons")]
+[node name="Answer Control" type="Control" unique_id=157415527 node_paths=PackedStringArray("ElementImage", "AnswerButtons")]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_vivq3")
-ElementLayout = NodePath("MarginContainer/CanvasLayer2/elementsprite")
 ElementImage = NodePath("MarginContainer/CanvasLayer2/elementsprite")
 AnswerButtons = [NodePath("MarginContainer/CanvasLayer2/Answer"), NodePath("MarginContainer/CanvasLayer2/Answer2"), NodePath("MarginContainer/CanvasLayer2/Answer3"), NodePath("MarginContainer/CanvasLayer2/Answer4"), NodePath("MarginContainer/CanvasLayer2/Answer5"), NodePath("MarginContainer/CanvasLayer2/Answer6"), NodePath("MarginContainer/CanvasLayer2/Answer7"), NodePath("MarginContainer/CanvasLayer2/Answer8")]
 PreparedScene = ExtResource("2_7dwkf")
